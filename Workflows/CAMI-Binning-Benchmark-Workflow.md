@@ -4,10 +4,9 @@
 
 * https://usegalaxy.eu/u/santinof/w/copy-of-mags-taxonomic-binning-evaluation
 
-## Subworkflows
+## Contained subworkflow
 
 * https://usegalaxy.eu/u/santinof/w/fairymags-gtdb-tk-subworkflow
-* https://usegalaxy.eu/u/santinof/w/gtdb2ncbi-taxid-sub-workflow
 
 ## Meta Data Checklist
 
@@ -36,5 +35,5 @@
 ## Change log
 
 ### Version 1.0
-* Currently for Binette the CheckM2 DB need to be manually inputed since DM is not working in Galaxy
+* Currently for Binette the CheckM2 DB need to be manually inputted since DM is not working in Galaxy
 * Rear error can happen in a GTDB-Tk run (happen only once yet)

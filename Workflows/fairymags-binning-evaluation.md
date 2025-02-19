@@ -30,3 +30,4 @@
 ### Version 1.0
 * Currently for Binette the CheckM2 DB need to be manually inputted since DM is not working in Galaxy
 * Rear error can happen in a GTDB-Tk run (happen only once yet)
+* Same workflow of fairymags-taxonomic-binning-evaluation.md but without the taxonomic classification befor binning

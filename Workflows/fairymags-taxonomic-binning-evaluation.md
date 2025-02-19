@@ -30,7 +30,7 @@
 * [x] Compare result of Binette and DAS Tool
 * [x] Compare result of both Maxbin2 (had different coverage table inputs)
 * [x] Add Maxbin2 to DAS Tools and/or Binette 
-* [ ] Copy Workflow and remove taxonomic binning part to have a binning benchmark workflow 
+* [x] Copy Workflow and remove taxonomic binning part to have a binning benchmark workflow 
 * [ ] Change Binette to use DM when DB was downloaded
 * [ ] Change SemiBin2 DB when new DM was pushed (when there is a PR -> currently looking at it)
 

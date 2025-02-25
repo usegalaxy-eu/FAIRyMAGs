@@ -31,3 +31,4 @@
 ### Version 1.1
 
 * Rear error can happen in a GTDB-Tk run (happen only once yet)
+* Same workflow of fairymags-taxonomic-binning-evaluation.md but without the taxonomic classification befor binning

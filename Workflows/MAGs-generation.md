@@ -1,4 +1,4 @@
-# MAGs individual assembly workflow
+# MAGs generation
 
 ## Note
 

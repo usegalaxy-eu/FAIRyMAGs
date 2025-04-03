@@ -2,7 +2,7 @@
 
 ## Note
 
-This workflow requires raw paried end reads and performes QC using fastp.
+This workflow requires raw paired end reads and performs QC using fastp.
 
 ## Public Link
 
@@ -28,6 +28,6 @@ This workflow requires raw paried end reads and performes QC using fastp.
 
 ## Change log
 
-### Version 1.19
+### Version 1.20
 
 Uses fastp for QC and falco for QC stats as well as multiQC to show quality before and after QC.

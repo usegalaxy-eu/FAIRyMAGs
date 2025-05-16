@@ -2,8 +2,7 @@
 
 ## Public Link
 
-* https://usegalaxy.eu/u/santinof/w/fairymags-binning-evaluation
-
+* https://usegalaxy.eu/u/santinof/w/fairymags-binning-evaluation-v11
 ## Contained subworkflow
 
 ## Meta Data Checklist
@@ -22,12 +21,14 @@
 
 ## TODO
 
-* [ ] Change Binette to use DM when DB was downloaded
+* [x] Change Binette to use DM when DB was downloaded
 * [ ] Change SemiBin2 DB when new DM was pushed (when there is a PR -> currently looking at it)
 
 ## Change log
 
-### Version 1.0
-* Currently for Binette the CheckM2 DB need to be manually inputted since DM is not working in Galaxy
+* Change Binette DB used to DM since DM is fixed
+
+### Version 1.1
+
 * Rear error can happen in a GTDB-Tk run (happen only once yet)
 * Same workflow of fairymags-taxonomic-binning-evaluation.md but without the taxonomic classification befor binning

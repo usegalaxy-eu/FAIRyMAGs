@@ -22,8 +22,8 @@
 
 ## Benchmark Data
 
-* [cami II marine (Pooled)](https://usegalaxy.eu/u/santinof/h/fairymags-taxonomic-binning-evaluation-pooled) (v1.0)
-* [cami II marine (not Pooled)](https://usegalaxy.eu/u/santinof/h/fairymags-taxonomic-binning-evaluation-not-pooled) (v1.0)
+* [cami II marine (Pooled)](https://usegalaxy.eu/u/santinof/h/fairymags-taxonomic-binning-evaluation-v1-2-pooled) (v1.2)
+* [cami II marine (not Pooled)](https://usegalaxy.eu/u/santinof/h/fairymags-taxonomic-binning-evaluation-v1-2-not-pooled) (v1.2)
 
 ## TODO
 

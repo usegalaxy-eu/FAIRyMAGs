@@ -2,7 +2,7 @@
 
 ## Public Link
 
-* https://usegalaxy.eu/u/santinof/w/fairymags-gtdb-tk-subworkflow
+* https://usegalaxy.eu/u/santinof/w/fairymags-gtdb-tk-subworkflow-1-2
 
 ## Contained subworkflow
 

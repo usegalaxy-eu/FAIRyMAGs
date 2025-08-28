@@ -15,7 +15,7 @@
 
 ## IWC PR / Link
 
-* [] TODO
+* [PR OPEN](https://github.com/galaxyproject/iwc/pull/924)
 
 ## Benchmark Data
 
@@ -26,9 +26,11 @@
 
 ## Change log
 
-* Change Binette DB used to DM since DM is fixed
+# 1.1 -> 1.2
 
-### Version 1.1
+* Add more inputs for to each binner to get more user control
+
+### Version 1.2
 
 * Rear error can happen in a GTDB-Tk run (happen only once yet)
 * Same workflow of fairymags-taxonomic-binning-evaluation.md but without the taxonomic classification befor binning

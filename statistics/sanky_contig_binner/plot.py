@@ -67,6 +67,8 @@ def plot_sanky(df):
             )
         )])
 
+        fig.update_layout(title_text="Contig Fate Sankey", font_size=10)
+
         fig.write_html("sankey_plot.html")
 
 if __name__ == "__main__":

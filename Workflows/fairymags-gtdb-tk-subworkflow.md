@@ -6,7 +6,7 @@
 
 ## Contained subworkflow
 
-* https://usegalaxy.eu/u/santinof/w/gtdb2ncbi-taxid-sub-workflow
+* https://usegalaxy.eu/u/santinof/w/gtdb2ncbi-taxid-subworkflow
 
 ## Meta Data Checklist
 

@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+# optional but recommended for model comparison
+xgboost

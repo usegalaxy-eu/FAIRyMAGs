@@ -488,7 +488,6 @@ class HPCMemoryEvaluator:
         ax.set_ylabel("Density")
         ax.set_title(
             f"Monte Carlo distribution — {pretty.get(metric, metric)}\n"
-            f"View clipped to [{int(lo_q*100)}–{int(hi_q*100)}]th pct ({clipped_pct:.1f}% trimmed)"
         )
         ax.grid(True, linestyle="--", alpha=0.3)
 

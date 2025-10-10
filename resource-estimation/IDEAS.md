@@ -2,6 +2,7 @@
 
 ## Training
 - Trainig objective function should have cost
+- Explore variance of MEM*time between diffeent assembly 0.0.X versions
 # For evaluation
 it should take into account:
 - Time used memory

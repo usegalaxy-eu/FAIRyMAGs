@@ -2,11 +2,11 @@
 
 ## Public Link
 
-* https://usegalaxy.eu/u/santinof/w/fairymags-gtdb-tk-subworkflow-1-2
+* https://usegalaxy.eu/u/santinof/w/fairymags-gtdb-tk-subworkflow-v1
 
 ## Contained subworkflow
 
-* https://usegalaxy.eu/u/santinof/w/gtdb2ncbi-taxid-sub-workflow
+* https://usegalaxy.eu/u/santinof/w/gtdb2ncbi-taxid-subworkflow
 
 ## Meta Data Checklist
 

@@ -1,0 +1,135 @@
+# MGnify Genomes Generation Pipeline
+
+Repo: [https://github.com/EBI-Metagenomics/genomes-generation](https://github.com/EBI-Metagenomics/genomes-generation)
+
+## Resource Usage
+
+Nextflow trace file with the resource usage - [execution_trace_2025-10-08_13-58-06.txt](execution_trace_2025-10-08_13-58-06.txt)
+
+## Taxonomy
+
+GGP uses **GTDBtk** to assign taxonomy and converts the GTDB taxonomy into NCBI format (suitable for submission to ENA). See the [NCBI taxonomy assignment file](ncbi_taxonomy.txt).
+
+## MAGs Checkm2 Stats
+
+These checkm2 stats for the MAGs that GGP was able to reconstruct for the CAMI dataset - [the Plant Associated - Short Reads Data Set](https://frl.publisso.de/data/frl:6425521/plant_associated/short_read).
+
+Data: [ggp_checkm2.csv](ggp_checkm2.csv)
+
+| **genome**                            | **completeness** | **contamination** |
+| :------------------------------------ | :--------------: | :---------------: |
+| sample_runs_0_binner123_Refined_30.fa |      99.99       |       0.18        |
+| sample_runs_0_binner123_Refined_41.fa |      100.0       |       0.09        |
+| sample_runs_0_binner12_Refined_13.fa  |      99.98       |       0.31        |
+| sample_runs_0_binner12_Refined_41.fa  |      68.69       |        0.7        |
+| sample_runs_0_binner13_Refined_1.fa   |      88.06       |       0.01        |
+| sample_runs_0_binner23_Refined_1.fa   |      100.0       |       0.88        |
+| sample_runs_0_concoct_2.fa            |      99.99       |       0.26        |
+| sample_runs_0_concoct_33.fa           |      65.07       |       1.29        |
+| sample_runs_0_concoct_62.fa           |      100.0       |       1.46        |
+| sample_runs_0_maxbin2_4.fa            |      99.99       |       0.06        |
+| sample_runs_0_maxbin2_6.fa            |      99.97       |       1.38        |
+| sample_runs_0_metabat2_29.fa          |      95.41       |       1.38        |
+| sample_runs_1_binner123_Refined_1.fa  |      100.0       |        0.3        |
+| sample_runs_1_binner123_Refined_24.fa |      99.98       |       0.08        |
+| sample_runs_1_binner123_Refined_25.fa |      100.0       |       0.88        |
+| sample_runs_1_binner123_Refined_30.fa |      100.0       |       0.06        |
+| sample_runs_1_binner13_Refined_21.fa  |      100.0       |        0.1        |
+| sample_runs_1_binner13_Refined_6.fa   |      87.57       |       1.38        |
+| sample_runs_1_binner23_Refined_25.fa  |      99.74       |       0.27        |
+| sample_runs_1_concoct_19.fa           |      95.59       |       0.09        |
+| sample_runs_1_concoct_29.fa           |      100.0       |       1.46        |
+| sample_runs_1_concoct_38.fa           |      98.18       |       0.55        |
+| sample_runs_1_maxbin2_4.fa            |      99.99       |       0.18        |
+| sample_runs_1_metabat2_15.fa          |      75.89       |       0.56        |
+| sample_runs_1_metabat2_17.fa          |      95.18       |       0.38        |
+| sample_runs_1_metabat2_4.fa           |      86.85       |       1.05        |
+| sample_runs_2_binner123_Refined_1.fa  |      100.0       |       0.31        |
+| sample_runs_2_binner123_Refined_22.fa |      99.96       |       0.02        |
+| sample_runs_2_binner123_Refined_23.fa |      100.0       |        0.1        |
+| sample_runs_2_binner123_Refined_27.fa |      99.99       |       0.18        |
+| sample_runs_2_binner13_Refined_15.fa  |      99.98       |       1.91        |
+| sample_runs_2_binner13_Refined_2.fa   |      100.0       |        0.0        |
+| sample_runs_2_binner13_Refined_26.fa  |      99.99       |       0.26        |
+| sample_runs_2_binner23_Refined_1.fa   |      100.0       |       0.88        |
+| sample_runs_2_binner23_Refined_32.fa  |      97.78       |       1.38        |
+| sample_runs_2_concoct_31.fa           |      66.99       |       1.66        |
+| sample_runs_2_concoct_58.fa           |      100.0       |        1.5        |
+| sample_runs_2_concoct_61.fa           |      88.36       |       1.75        |
+| sample_runs_2_maxbin2_42.fa           |      56.98       |       0.88        |
+| sample_runs_2_metabat2_10.fa          |      99.75       |       0.27        |
+| sample_runs_3_binner123_Refined_10.fa |      100.0       |       0.88        |
+| sample_runs_3_binner123_Refined_35.fa |      99.98       |       0.05        |
+| sample_runs_3_binner123_Refined_37.fa |      100.0       |        0.1        |
+| sample_runs_3_binner12_Refined_26.fa  |      56.68       |       0.41        |
+| sample_runs_3_binner13_Refined_15.fa  |      99.94       |       0.05        |
+| sample_runs_3_binner13_Refined_20.fa  |      82.71       |        0.4        |
+| sample_runs_3_binner13_Refined_26.fa  |      86.98       |        2.1        |
+| sample_runs_3_binner13_Refined_9.fa   |      98.03       |        1.6        |
+| sample_runs_3_concoct_14.fa           |      63.42       |        1.9        |
+| sample_runs_3_concoct_34.fa           |      100.0       |       1.46        |
+| sample_runs_3_concoct_54.fa           |      93.97       |       0.05        |
+| sample_runs_3_concoct_71.fa           |      62.23       |        0.0        |
+| sample_runs_3_maxbin2_2.fa            |      99.98       |       0.17        |
+| sample_runs_3_maxbin2_3.fa            |      99.86       |       0.27        |
+| sample_runs_3_metabat2_5.fa           |      99.98       |       0.18        |
+| sample_runs_4_binner123_Refined_14.fa |      100.0       |       0.06        |
+| sample_runs_4_binner123_Refined_15.fa |      99.98       |       0.18        |
+| sample_runs_4_binner123_Refined_17.fa |      100.0       |        0.1        |
+| sample_runs_4_binner123_Refined_19.fa |      100.0       |        0.3        |
+| sample_runs_4_binner123_Refined_22.fa |      100.0       |       1.51        |
+| sample_runs_4_binner123_Refined_29.fa |      99.97       |       0.08        |
+| sample_runs_4_binner123_Refined_31.fa |      100.0       |       0.81        |
+| sample_runs_4_binner123_Refined_35.fa |      99.99       |       0.26        |
+| sample_runs_4_binner12_Refined_39.fa  |      98.87       |        1.4        |
+| sample_runs_4_binner23_Refined_6.fa   |      75.06       |        1.4        |
+| sample_runs_4_concoct_53.fa           |      69.32       |       2.19        |
+| sample_runs_4_metabat2_10.fa          |      93.88       |       0.43        |
+| sample_runs_4_metabat2_12.fa          |      85.64       |       2.44        |
+| sample_runs_4_metabat2_8.fa           |      99.74       |       0.27        |
+| sample_runs_5_binner123_Refined_11.fa |      99.98       |       0.18        |
+| sample_runs_5_binner123_Refined_16.fa |      100.0       |       0.06        |
+| sample_runs_5_binner123_Refined_25.fa |      100.0       |       0.88        |
+| sample_runs_5_binner12_Refined_48.fa  |      95.42       |       3.42        |
+| sample_runs_5_binner13_Refined_14.fa  |      100.0       |        0.0        |
+| sample_runs_5_binner23_Refined_9.fa   |      91.82       |        2.7        |
+| sample_runs_5_concoct_14.fa           |      100.0       |        1.5        |
+| sample_runs_5_concoct_34.fa           |      67.53       |       0.74        |
+| sample_runs_5_concoct_41.fa           |      99.99       |       0.72        |
+| sample_runs_5_concoct_54.fa           |      88.15       |       0.19        |
+| sample_runs_5_concoct_66.fa           |      77.64       |       1.13        |
+| sample_runs_5_maxbin2_2.fa            |      100.0       |       0.25        |
+| sample_runs_5_metabat2_22.fa          |      80.86       |       1.18        |
+| sample_runs_5_metabat2_28.fa          |      75.38       |       3.09        |
+| sample_runs_6_binner123_Refined_23.fa |      99.98       |       0.11        |
+| sample_runs_6_binner123_Refined_24.fa |      99.97       |       0.02        |
+| sample_runs_6_binner123_Refined_6.fa  |      100.0       |       1.51        |
+| sample_runs_6_binner123_Refined_8.fa  |      100.0       |       0.88        |
+| sample_runs_6_binner123_Refined_9.fa  |      100.0       |        0.1        |
+| sample_runs_6_binner12_Refined_19.fa  |      100.0       |       0.05        |
+| sample_runs_6_binner23_Refined_27.fa  |      100.0       |       2.76        |
+| sample_runs_6_concoct_3.fa            |      85.91       |       0.14        |
+| sample_runs_6_concoct_55.fa           |      93.81       |       1.62        |
+| sample_runs_6_concoct_8.fa            |      99.79       |       0.37        |
+| sample_runs_6_metabat2_17.fa          |      89.65       |       1.51        |
+| sample_runs_6_metabat2_3.fa           |      90.53       |       0.35        |
+| sample_runs_7_binner123_Refined_1.fa  |      99.18       |       0.24        |
+| sample_runs_7_binner123_Refined_33.fa |      100.0       |       0.88        |
+| sample_runs_7_binner123_Refined_5.fa  |      99.98       |       0.18        |
+| sample_runs_7_binner23_Refined_21.fa  |      100.0       |       0.78        |
+| sample_runs_7_concoct_3.fa            |      77.33       |       0.13        |
+| sample_runs_7_concoct_55.fa           |       79.8       |       1.18        |
+| sample_runs_7_maxbin2_2.fa            |      99.86       |       2.92        |
+| sample_runs_7_maxbin2_3.fa            |      99.95       |       0.02        |
+| sample_runs_7_maxbin2_4.fa            |      100.0       |       0.67        |
+| sample_runs_7_metabat2_18.fa          |      93.17       |       0.08        |
+| sample_runs_8_binner123_Refined_17.fa |      100.0       |        0.1        |
+| sample_runs_8_binner123_Refined_2.fa  |      100.0       |       0.07        |
+| sample_runs_8_binner123_Refined_20.fa |      99.94       |       0.12        |
+| sample_runs_8_binner12_Refined_18.fa  |      99.97       |       0.03        |
+| sample_runs_8_binner12_Refined_4.fa   |      79.51       |       1.96        |
+| sample_runs_8_binner13_Refined_20.fa  |      100.0       |       0.04        |
+| sample_runs_8_binner13_Refined_4.fa   |      98.71       |       0.93        |
+| sample_runs_8_binner13_Refined_5.fa   |      99.19       |        0.0        |
+| sample_runs_8_concoct_3.fa            |      85.42       |       0.24        |
+| sample_runs_8_metabat2_21.fa          |      96.95       |       0.39        |

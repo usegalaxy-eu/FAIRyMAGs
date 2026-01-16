@@ -1,0 +1,131 @@
+Name	Species-level MAG count	Completeness	Contamination	Genome Size	GC Content	Domain	Phylum	Class	Order	Family	Genus	Species
+SRR22878281.fastq_bin_1223417	1	78.38	1.78	3168983	0.36	Bacteria	Acidobacteriota	Blastocatellia	Pyrinomonadales	Pyrinomonadaceae	Aridibacter	
+SRR22878281.fastq_bin_1734399	1	94.69	1.07	3803620	0.41	Bacteria	Acidobacteriota	Blastocatellia	Pyrinomonadales	Pyrinomonadaceae	Aridibacter	
+SRR22878281.fastq_bin_1069559	1	88.96	1.52	3943993	0.62	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	SHLQ01	SHLQ01	
+SRR22878281.fastq_bin_1177133	1	91.53	1.3	3267700	0.6	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	SHLQ01	SHLQ01	
+SRR22878281.fastq_bin_1030637	1	94.29	1.3	4867065	0.62	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	SZUA-35	CALEWY01	
+SRR22878281.fastq_bin_47153	1	95.33	7.73	5945377	0.68	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	SZUA-35	JAHELU01	
+SRR22878281.fastq_bin_1070024	1	88.62	2.32	5282451	0.62	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	UBA10347	UBA10347	
+SRR22878281.fastq_bin_6555	1	82.72	6.6	5111251	0.6	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	UBA10347	UBA10347	
+SRR22878281.fastq_bin_952057	1	93.17	0.9	5062684	0.62	Bacteria	Actinomycetota	Acidimicrobiia	Acidimicrobiales	UBA10347	UBA10347	
+SRR22878281.fastq_bin_843222	1	98.37	0.03	2493871	0.35	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	JAHQVX01	JAHQVX01	
+SRR22878283.fastq_bin_626659	1	96.67	0.95	3426055	0.38	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae		
+SRR22878282.fastq_bin_335615	2	78.89	2.67	2953807	0.4	Bacteria	Bacteroidota	Bacteroidia	Chitinophagales	Saprospiraceae	GYS-P2D	
+SRR22878282.fastq_bin_649781	1	89.43	0.23	5157110	0.4	Bacteria	Bacteroidota	Bacteroidia	Cytophagales	Cyclobacteriaceae	CANLOE01	
+SRR22878281.fastq_bin_770942	1	98.64	0.01	3223627	0.39	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae		
+SRR22878283.fastq_bin_599096	2	89.32	0.9	3002354	0.32	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae		
+SRR22878281.fastq_bin_681284	1	81.88	0.95	2540319	0.31	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	AU392	
+SRR22878281.fastq_bin_2104421	1	82.71	0.2	2542180	0.31	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Aquimarina	
+SRR22878282.fastq_bin_289431	1	79.38	0.91	2638237	0.32	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Aquimarina	
+SRR22878282.fastq_bin_596555	2	95.35	0.32	5737126	0.33	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Aquimarina	
+SRR22878283.fastq_bin_361576	1	92.58	0.64	3371644	0.33	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Aquimarina	
+SRR22878283.fastq_bin_563799	1	90.31	0.26	3116776	0.33	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Aquimarina	
+SRR22878283.fastq_bin_758824	1	96.89	2.07	5469760	0.33	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Aquimarina	
+SRR22878282.fastq_bin_2024	2	84.49	0.61	3144490	0.32	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	CALKXS01	
+SRR22878283.fastq_bin_374669	3	93.9	0.08	3817054	0.32	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	CALKXS01	
+SRR22878281.fastq_bin_1944003	1	85.36	1.44	3738231	0.36	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	CANMSI01	
+SRR22878282.fastq_bin_590945	3	99.58	0.36	3567089	0.32	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Cellulophaga	Cellulophaga lytica
+SRR22878283.fastq_bin_357648	1	76.62	18.46	4169537	0.34	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Croceitalea	
+SRR22878283.fastq_bin_681399	1	86.91	4.21	3109036	0.34	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Croceitalea	
+SRR22878281.fastq_bin_1348881	1	76.66	5.27	3298540	0.37	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Dokdonia	Dokdonia sp000355805
+SRR22878282.fastq_bin_901601	3	92.06	1.48	3103308	0.38	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Dokdonia	Dokdonia sp947496725
+SRR22878281.fastq_bin_2694	2	93.54	1.84	2904154	0.31	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Lacinutrix	Lacinutrix sp000211855
+SRR22878282.fastq_bin_894258	2	93.78	1.52	4051604	0.36	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Maribacter	Maribacter litoralis
+SRR22878281.fastq_bin_1355362	1	81.25	1.69	2398137	0.31	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Maribacter_B	Maribacter_B vaceletii
+SRR22878281.fastq_bin_1524409	1	89.28	0.39	3378960	0.36	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Maribacter_C	
+SRR22878282.fastq_bin_610670	1	97.58	0.63	3614142	0.36	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Maribacter_C	
+SRR22878283.fastq_bin_262641	1	77.26	6.44	2503240	0.33	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Ochrovirga	
+SRR22878281.fastq_bin_1315445	1	91.52	1.34	3088916	0.31	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Olleya	Olleya sediminilitoris
+SRR22878282.fastq_bin_870593	1	89.64	2.87	3378969	0.3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Polaribacter	
+SRR22878281.fastq_bin_2159216	2	86.46	2.56	2248886	0.3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Polaribacter	Polaribacter sp002005425
+SRR22878281.fastq_bin_760565	2	89.11	2.28	4582822	0.29	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Tenacibaculum	
+SRR22878283.fastq_bin_7858	1	84.34	4.36	2863580	0.3	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Wenyingzhuangia	
+SRR22878283.fastq_bin_8829	1	94.52	2.02	2955559	0.31	Bacteria	Bacteroidota	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Wenyingzhuangia	
+SRR22878283.fastq_bin_640648	1	86.22	3.6	2007155	0.37	Bacteria	Bdellovibrionota	Bacteriovoracia	Bacteriovoracales	Bacteriovoracaceae		
+SRR22878282.fastq_bin_892974	1	89.17	1.21	2919671	0.33	Bacteria	Bdellovibrionota	Bacteriovoracia	Bacteriovoracales	Bacteriovoracaceae	CAKZJW01	
+SRR22878283.fastq_bin_286550	1	98.78	0.9	3056717	0.32	Bacteria	Bdellovibrionota	Bacteriovoracia	Bacteriovoracales	Bacteriovoracaceae	CAKZJW01	
+SRR22878281.fastq_bin_1641228	1	95.77	1.02	3480346	0.43	Bacteria	Bdellovibrionota	UBA2361	UBA2361	J046		
+SRR22878283.fastq_bin_492641	2	86.98	1.97	5517440	0.48	Bacteria	Chloroflexota	Anaerolineae	Promineifilales	Promineifilaceae	WTJY01	
+SRR22878282.fastq_bin_892601	1	99.93	0.05	6126132	0.39	Bacteria	Cyanobacteriota	Cyanobacteriia	Cyanobacteriales	Spirulinaceae		
+SRR22878281.fastq_bin_1874621	1	85.93	0.31	3877762	0.39	Bacteria	Cyanobacteriota	Cyanobacteriia	Cyanobacteriales	Xenococcaceae	Hyella	
+SRR22878281.fastq_bin_1078928	1	88.1	2.75	4908150	0.37	Bacteria	Cyanobacteriota	Cyanobacteriia	Cyanobacteriales	Xenococcaceae	Waterburya	
+SRR22878281.fastq_bin_1837401	1	96.67	0.95	6043327	0.38	Bacteria	Cyanobacteriota	Cyanobacteriia	Cyanobacteriales	Xenococcaceae	Waterburya	
+SRR22878282.fastq_bin_11756	1	99.25	1.27	4584276	0.39	Bacteria	Cyanobacteriota	Cyanobacteriia	Cyanobacteriales	Xenococcaceae	Waterburya	
+SRR22878282.fastq_bin_885747	1	99.32	0.92	5561567	0.65	Bacteria	Myxococcota	Polyangia	Polyangiales	Polyangiaceae	SZUA-265	
+SRR22878281.fastq_bin_1406449	1	94.23	1.58	4736166	0.68	Bacteria	Myxococcota_A	UBA9160	UBA9160	SMWR01	CALDCK01	
+SRR22878281.fastq_bin_1505020	1	94.86	0.25	3575065	0.63	Bacteria	Myxococcota_A	UBA9160	UBA9160	SMWR01	CALDCK01	
+SRR22878281.fastq_bin_1272423	1	84.41	3.88	2719894	0.6	Bacteria	Myxococcota_A	UBA9160	UBA9160	UBA4427	UBA4427	
+SRR22878281.fastq_bin_742824	1	95.87	1.99	4376436	0.6	Bacteria	Myxococcota_A	UBA9160	UBA9160	UBA4427	UBA4427	
+SRR22878283.fastq_bin_617109	1	78.66	13.49	926899	0.43	Bacteria	Patescibacteria	Gracilibacteria	UBA4473	UBA4473	JAHDBZ01	
+SRR22878281.fastq_bin_1964116	2	88.35	0.1	1217276	0.26	Bacteria	Patescibacteria	JAEDAM01	BD1-5	UBA6164	CAJXJP01	
+SRR22878281.fastq_bin_2115589	1	98.23	0.29	1155611	0.46	Bacteria	Patescibacteria	Saccharimonadia	Saccharimonadales	CALFBO01		
+SRR22878281.fastq_bin_1299134	1	77.09	7.21	4561391	0.55	Bacteria	Planctomycetota	Planctomycetia	Pirellulales	Pirellulaceae		
+SRR22878281.fastq_bin_786708	1	99.99	0.01	3001157	0.57	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	CALLCD01	
+SRR22878283.fastq_bin_597359	1	78.24	13.6	2696810	0.56	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	CALLCD01	
+SRR22878283.fastq_bin_270555	1	94.42	0.1	2358580	0.53	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	CAKZTE01	
+SRR22878283.fastq_bin_495986	1	97.83	1.62	2840074	0.51	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	CALFVT01	
+SRR22878283.fastq_bin_770595	1	95.93	0.51	2674098	0.49	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	CALFVT01	
+SRR22878281.fastq_bin_1360208	1	89.29	2.45	2372219	0.48	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	Hellea	
+SRR22878281.fastq_bin_1532639	1	84.63	4.27	2581184	0.49	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	Hellea	Hellea sp020629875
+SRR22878281.fastq_bin_1633526	1	90.72	4.27	2957249	0.5	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	JACOMS01	
+SRR22878283.fastq_bin_27333	1	84.46	5.75	2674534	0.5	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	Litorimonas	
+SRR22878283.fastq_bin_442058	1	99.0	11.64	3370057	0.5	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	Litorimonas	
+SRR22878281.fastq_bin_34384	1	91.8	7.5	2988272	0.49	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Maricaulaceae	Robiginitomaculum_A	
+SRR22878281.fastq_bin_2069221	1	83.08	0.31	3317590	0.49	Bacteria	Pseudomonadota	Alphaproteobacteria	Caulobacterales	Parvularculaceae		
+SRR22878283.fastq_bin_299277	1	90.24	0.58	2722517	0.57	Bacteria	Pseudomonadota	Alphaproteobacteria	Geminicoccales	Geminicoccaceae		
+SRR22878283.fastq_bin_469571	1	99.62	0.04	3540428	0.54	Bacteria	Pseudomonadota	Alphaproteobacteria	Geminicoccales	Geminicoccaceae		
+SRR22878281.fastq_bin_1327645	1	99.54	1.48	6081689	0.6	Bacteria	Pseudomonadota	Alphaproteobacteria	Geminicoccales	Geminicoccaceae	JANQPX01	
+SRR22878281.fastq_bin_1506086	1	96.37	3.18	3723407	0.56	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	CALHAX01	CALHAX01	
+SRR22878281.fastq_bin_870174	1	86.41	3.19	3383468	0.58	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	CALHAX01	CALHAX01	
+SRR22878281.fastq_bin_1318659	1	100.0	0.08	4590481	0.57	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	CAJQQK01	
+SRR22878281.fastq_bin_2009255	1	76.88	2.03	3326077	0.56	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Hyphomicrobiaceae	CAJQQK01	
+SRR22878281.fastq_bin_976162	1	83.73	6.34	2975065	0.45	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	JAALLB01	
+SRR22878283.fastq_bin_19238	1	88.75	0.7	2972941	0.42	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	JAALLB01	
+SRR22878283.fastq_bin_319289	1	99.79	0.05	3758108	0.47	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	JAALLB01	
+SRR22878281.fastq_bin_2091047	1	90.12	1.11	2421442	0.45	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhizobiales	Rhizobiaceae	Lentilitoribacter	Lentilitoribacter sp020628775
+SRR22878283.fastq_bin_631081	1	88.0	17.87	5032269	0.55	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Aliishimia	
+SRR22878281.fastq_bin_2131671	1	92.36	2.88	3888192	0.55	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	CALKXV01	
+SRR22878281.fastq_bin_1047037	1	88.85	0.9	3654981	0.6	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Pseudophaeobacter	
+SRR22878281.fastq_bin_2019818	1	100.0	1.92	3263350	0.56	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Sulfitobacter	
+SRR22878281.fastq_bin_725349	1	76.63	1.99	3979343	0.57	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Sulfitobacter	
+SRR22878283.fastq_bin_450015	1	79.47	3.14	3299023	0.62	Bacteria	Pseudomonadota	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Tateyamaria	
+SRR22878281.fastq_bin_1190068	1	89.71	1.73	2922806	0.57	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Erythrobacter	
+SRR22878283.fastq_bin_766374	1	94.55	0.69	3517508	0.56	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Erythrobacter	
+SRR22878281.fastq_bin_2147531	1	93.9	2.05	3400018	0.51	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Parasphingorhabdus	
+SRR22878281.fastq_bin_7512	1	94.36	0.02	3134850	0.51	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Parasphingorhabdus	
+SRR22878281.fastq_bin_1415033	1	99.02	0.03	2137595	0.54	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingorhabdus_B	
+SRR22878283.fastq_bin_455268	1	96.22	2.9	2512388	0.43	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingorhabdus_B	
+SRR22878283.fastq_bin_468788	1	99.85	0.0	2599649	0.44	Bacteria	Pseudomonadota	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingorhabdus_B	
+SRR22878281.fastq_bin_1048668	1	99.62	0.07	2677092	0.43	Bacteria	Pseudomonadota	Gammaproteobacteria	Arenicellales	Arenicellaceae	Arenicella	
+SRR22878281.fastq_bin_1330403	1	99.02	0.07	2653612	0.46	Bacteria	Pseudomonadota	Gammaproteobacteria	Arenicellales	Arenicellaceae	Arenicella	
+SRR22878281.fastq_bin_682652	1	96.85	0.96	2235463	0.44	Bacteria	Pseudomonadota	Gammaproteobacteria	Arenicellales	Arenicellaceae	Arenicella	
+SRR22878282.fastq_bin_484164	1	96.11	0.97	4086077	0.46	Bacteria	Pseudomonadota	Gammaproteobacteria	Arenicellales	Arenicellaceae	Arenicella	
+SRR22878282.fastq_bin_836214	2	92.15	0.42	3766948	0.44	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Alteromonadaceae	Alteromonas	
+SRR22878281.fastq_bin_1885024	1	92.94	2.19	4118197	0.41	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Alteromonadaceae	Pseudoalteromonas	Pseudoalteromonas atlantica
+SRR22878281.fastq_bin_770814	2	84.7	0.81	3436356	0.4	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Alteromonadaceae	Pseudoalteromonas	Pseudoalteromonas marina
+SRR22878283.fastq_bin_484169	1	98.6	5.13	3278880	0.42	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Alteromonadaceae	Psychrosphaera	
+SRR22878283.fastq_bin_617325	1	100.0	2.95	3992849	0.38	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Alteromonadaceae	Thalassotalea_F	
+SRR22878282.fastq_bin_370776	2	90.42	10.64	5221653	0.44	Bacteria	Pseudomonadota	Gammaproteobacteria	Enterobacterales	Vibrionaceae	Vibrio	Vibrio cyclitrophicus
+SRR22878283.fastq_bin_452711	1	100.0	1.56	7148864	0.57	Bacteria	Pseudomonadota	Gammaproteobacteria	Granulosicoccales	Granulosicoccaceae	CAKZSB01	
+SRR22878281.fastq_bin_1483024	1	83.91	6.04	6668004	0.47	Bacteria	Pseudomonadota	Gammaproteobacteria	Granulosicoccales	Granulosicoccaceae	CAKZUP01	
+SRR22878281.fastq_bin_1437311	1	96.57	0.56	4251695	0.5	Bacteria	Pseudomonadota	Gammaproteobacteria	Granulosicoccales	Granulosicoccaceae	CALFCE01	
+SRR22878283.fastq_bin_670273	1	100.0	2.53	6691166	0.52	Bacteria	Pseudomonadota	Gammaproteobacteria	Granulosicoccales	Granulosicoccaceae	GCA-1730015	
+SRR22878281.fastq_bin_1479957	1	99.13	3.72	3496563	0.5	Bacteria	Pseudomonadota	Gammaproteobacteria	Granulosicoccales	Granulosicoccaceae	Granulosicoccus	
+SRR22878283.fastq_bin_309632	1	100.0	1.25	5073252	0.48	Bacteria	Pseudomonadota	Gammaproteobacteria	Granulosicoccales	Granulosicoccaceae	Granulosicoccus	
+SRR22878281.fastq_bin_2040905	1	96.28	1.49	4781456	0.55	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Azotimanducaceae_A	CALHVX01	
+SRR22878283.fastq_bin_293487	1	88.93	1.95	5013626	0.56	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Azotimanducaceae_A	JALZVT01	
+SRR22878282.fastq_bin_754860	1	99.94	0.09	4804107	0.41	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae		
+SRR22878282.fastq_bin_692197	1	100.0	1.86	5178681	0.45	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Agarilytica	
+SRR22878283.fastq_bin_220	1	99.18	0.18	3599547	0.41	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	CANLBN01	
+SRR22878282.fastq_bin_575448	1	92.69	0.0	4121463	0.4	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	GCA-2746115	
+SRR22878283.fastq_bin_464441	1	82.92	5.39	3249151	0.48	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Marinagarivorans	
+SRR22878283.fastq_bin_389652	1	99.92	4.59	4085326	0.45	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Marinagarivorans	Marinagarivorans algicola
+SRR22878281.fastq_bin_861208	2	100.0	0.14	3928887	0.46	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Cellvibrionaceae	Marinagarivorans	Marinagarivorans sp947494095
+SRR22878281.fastq_bin_1875330	1	100.0	0.89	3039467	0.44	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	DSM-21967		
+SRR22878282.fastq_bin_332620	1	96.5	0.56	2393338	0.48	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	GM7GCV1		
+SRR22878282.fastq_bin_446643	1	79.58	2.47	1645677	0.49	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	GM7GCV1		
+SRR22878281.fastq_bin_1475309	1	99.99	0.12	3230427	0.43	Bacteria	Pseudomonadota	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Psychrobacter	Psychrobacter sp002377945
+SRR22878281.fastq_bin_3891	2	91.67	0.39	2283108	0.39	Bacteria	Pseudomonadota	Gammaproteobacteria	UBA4575	UBA4575	JABDMD01	
+SRR22878281.fastq_bin_1700770	1	81.36	8.04	3277101	0.46	Bacteria	Pseudomonadota	Gammaproteobacteria	UWMA-0217	UWMA-0217	CALIRD01	
+SRR22878281.fastq_bin_1380972	1	87.76	3.1	4962372	0.55	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	DEV007		
+SRR22878281.fastq_bin_1065179	1	87.59	0.36	5913631	0.64	Bacteria	Verrucomicrobiota	Verrucomicrobiae	Verrucomicrobiales	DEV007	JAUIGD01	

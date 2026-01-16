@@ -2,6 +2,7 @@
 FAIRyMAGs - BFSP Project Management
 
 # Step-by-step MAGs generation
+
 ## Input 
 Paired short reads (e.g.: https://zenodo.org/records/15089018)
 

@@ -1,0 +1,109 @@
+ 82.73	115	115	U	0	unclassified
+ 17.27	24	0	R	1	root
+ 17.27	24	2	R1	131567	  cellular organisms
+  9.35	13	5	D	2	    Bacteria
+  2.88	4	0	D1	1783272	      Terrabacteria group
+  2.16	3	1	P	201174	        Actinomycetota
+  1.44	2	0	C	1760	          Actinomycetes
+  0.72	1	0	O	85007	            Mycobacteriales
+  0.72	1	0	F	1653	              Corynebacteriaceae
+  0.72	1	0	G	1716	                Corynebacterium
+  0.72	1	0	S	160386	                  Corynebacterium casei
+  0.72	1	1	S1	1285583	                    Corynebacterium casei LMG S-19264
+  0.72	1	0	O	85011	            Kitasatosporales
+  0.72	1	0	F	2062	              Streptomycetaceae
+  0.72	1	1	G	1883	                Streptomyces
+  0.72	1	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  0.72	1	0	P	1117	          Cyanobacteriota
+  0.72	1	0	C	3028117	            Cyanophyceae
+  0.72	1	0	O	1890424	              Synechococcales
+  0.72	1	0	F	1890426	                Synechococcaceae
+  0.72	1	0	G	1129	                  Synechococcus
+  0.72	1	0	G1	2626047	                    unclassified Synechococcus
+  0.72	1	1	S	1050635	                      Synechococcus sp. A15-24
+  2.88	4	0	P	1224	      Pseudomonadota
+  1.44	2	0	C	1236	        Gammaproteobacteria
+  0.72	1	0	O	72274	          Pseudomonadales
+  0.72	1	0	F	135621	            Pseudomonadaceae
+  0.72	1	0	G	286	              Pseudomonas
+  0.72	1	0	G1	196821	                unclassified Pseudomonas
+  0.72	1	1	S	2895496	                  Pseudomonas sp. B21-059
+  0.72	1	0	O	135619	          Oceanospirillales
+  0.72	1	0	F	224379	            Hahellaceae
+  0.72	1	0	G	158481	              Hahella
+  0.72	1	0	S	158327	                Hahella chejuensis
+  0.72	1	1	S1	349521	                  Hahella chejuensis KCTC 2396
+  0.72	1	0	C	28211	        Alphaproteobacteria
+  0.72	1	0	O	356	          Hyphomicrobiales
+  0.72	1	0	F	69277	            Phyllobacteriaceae
+  0.72	1	1	G	31988	              Aminobacter
+  0.72	1	0	C	28216	        Betaproteobacteria
+  0.72	1	0	O	80840	          Burkholderiales
+  0.72	1	0	F	119060	            Burkholderiaceae
+  0.72	1	0	G	32008	              Burkholderia
+  0.72	1	0	G1	2613784	                unclassified Burkholderia
+  0.72	1	1	S	1740163	                  Burkholderia sp. Bp7605
+  6.47	9	0	D	2759	    Eukaryota
+  6.47	9	0	D1	33154	      Opisthokonta
+  3.60	5	0	K	33208	        Metazoa
+  3.60	5	0	K1	6072	          Eumetazoa
+  3.60	5	0	K2	33213	            Bilateria
+  3.60	5	0	K3	33511	              Deuterostomia
+  3.60	5	0	P	7711	                Chordata
+  3.60	5	0	P1	89593	                  Craniata
+  3.60	5	0	P2	7742	                    Vertebrata
+  3.60	5	0	P3	7776	                      Gnathostomata
+  3.60	5	0	P4	117570	                        Teleostomi
+  3.60	5	0	P5	117571	                          Euteleostomi
+  3.60	5	0	P6	8287	                            Sarcopterygii
+  3.60	5	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.60	5	0	P8	32523	                                Tetrapoda
+  3.60	5	0	P9	32524	                                  Amniota
+  3.60	5	0	C	40674	                                    Mammalia
+  3.60	5	0	C1	32525	                                      Theria
+  3.60	5	0	C2	9347	                                        Eutheria
+  3.60	5	0	C3	1437010	                                          Boreoeutheria
+  3.60	5	0	C4	314146	                                            Euarchontoglires
+  3.60	5	0	O	9443	                                              Primates
+  3.60	5	0	O1	376913	                                                Haplorrhini
+  3.60	5	0	O2	314293	                                                  Simiiformes
+  3.60	5	0	O3	9526	                                                    Catarrhini
+  3.60	5	0	O4	314295	                                                      Hominoidea
+  3.60	5	0	F	9604	                                                        Hominidae
+  3.60	5	0	F1	207598	                                                          Homininae
+  3.60	5	0	G	9605	                                                            Homo
+  3.60	5	5	S	9606	                                                              Homo sapiens
+  2.88	4	0	K	4751	        Fungi
+  2.88	4	0	K1	451864	          Dikarya
+  2.16	3	0	P	4890	            Ascomycota
+  2.16	3	0	P1	716545	              saccharomyceta
+  2.16	3	0	P2	147538	                Pezizomycotina
+  2.16	3	0	P3	716546	                  leotiomyceta
+  2.16	3	0	P4	715989	                    sordariomyceta
+  1.44	2	0	C	147550	                      Sordariomycetes
+  0.72	1	0	C1	222543	                        Hypocreomycetidae
+  0.72	1	0	O	5125	                          Hypocreales
+  0.72	1	0	F	110618	                            Nectriaceae
+  0.72	1	0	G	5506	                              Fusarium
+  0.72	1	0	G1	569360	                                Fusarium sambucinum species complex
+  0.72	1	1	S	36050	                                  Fusarium poae
+  0.72	1	0	C1	222544	                        Sordariomycetidae
+  0.72	1	0	O	639021	                          Magnaporthales
+  0.72	1	0	F	2528436	                            Pyriculariaceae
+  0.72	1	0	G	48558	                              Pyricularia
+  0.72	1	1	S	1578925	                                Pyricularia pennisetigena
+  0.72	1	0	C	147548	                      Leotiomycetes
+  0.72	1	0	O	5178	                        Helotiales
+  0.72	1	0	F	28983	                          Sclerotiniaceae
+  0.72	1	0	G	33196	                            Botrytis
+  0.72	1	0	S	40559	                              Botrytis cinerea
+  0.72	1	1	S1	332648	                                Botrytis cinerea B05.10
+  0.72	1	0	P	5204	            Basidiomycota
+  0.72	1	0	P1	5302	              Agaricomycotina
+  0.72	1	0	C	155619	                Agaricomycetes
+  0.72	1	0	C1	452333	                  Agaricomycetidae
+  0.72	1	0	O	5338	                    Agaricales
+  0.72	1	0	O1	2982305	                      Agaricineae
+  0.72	1	0	F	40562	                        Strophariaceae
+  0.72	1	0	G	71950	                          Psilocybe
+  0.72	1	1	S	181762	                            Psilocybe cubensis

@@ -1,0 +1,67 @@
+ 42.62	26	26	U	0	unclassified
+ 57.38	35	0	R	1	root
+ 57.38	35	2	R1	131567	  cellular organisms
+ 45.90	28	0	D	2759	    Eukaryota
+ 44.26	27	0	D1	33154	      Opisthokonta
+ 44.26	27	0	K	33208	        Metazoa
+ 44.26	27	0	K1	6072	          Eumetazoa
+ 44.26	27	0	K2	33213	            Bilateria
+ 44.26	27	0	K3	33511	              Deuterostomia
+ 44.26	27	0	P	7711	                Chordata
+ 44.26	27	0	P1	89593	                  Craniata
+ 44.26	27	0	P2	7742	                    Vertebrata
+ 44.26	27	0	P3	7776	                      Gnathostomata
+ 44.26	27	0	P4	117570	                        Teleostomi
+ 44.26	27	0	P5	117571	                          Euteleostomi
+ 44.26	27	0	P6	8287	                            Sarcopterygii
+ 44.26	27	0	P7	1338369	                              Dipnotetrapodomorpha
+ 44.26	27	0	P8	32523	                                Tetrapoda
+ 44.26	27	0	P9	32524	                                  Amniota
+ 44.26	27	0	C	40674	                                    Mammalia
+ 44.26	27	0	C1	32525	                                      Theria
+ 44.26	27	0	C2	9347	                                        Eutheria
+ 44.26	27	0	C3	1437010	                                          Boreoeutheria
+ 44.26	27	0	C4	314146	                                            Euarchontoglires
+ 44.26	27	0	O	9443	                                              Primates
+ 44.26	27	0	O1	376913	                                                Haplorrhini
+ 44.26	27	0	O2	314293	                                                  Simiiformes
+ 44.26	27	0	O3	9526	                                                    Catarrhini
+ 44.26	27	0	O4	314295	                                                      Hominoidea
+ 44.26	27	0	F	9604	                                                        Hominidae
+ 44.26	27	0	F1	207598	                                                          Homininae
+ 44.26	27	0	G	9605	                                                            Homo
+ 44.26	27	27	S	9606	                                                              Homo sapiens
+  1.64	1	0	D1	2611341	      Metamonada
+  1.64	1	0	P	5719	        Parabasalia
+  1.64	1	0	O	37104	          Trichomonadida
+  1.64	1	0	F	181550	            Trichomonadidae
+  1.64	1	0	G	5721	              Trichomonas
+  1.64	1	0	S	5722	                Trichomonas vaginalis
+  1.64	1	1	S1	412133	                  Trichomonas vaginalis G3
+  8.20	5	0	D	2	    Bacteria
+  4.92	3	0	D1	1783272	      Terrabacteria group
+  3.28	2	0	P	1239	        Bacillota
+  1.64	1	0	C	91061	          Bacilli
+  1.64	1	0	O	1385	            Bacillales
+  1.64	1	0	F	90964	              Staphylococcaceae
+  1.64	1	0	G	1279	                Staphylococcus
+  1.64	1	1	S	1280	                  Staphylococcus aureus
+  1.64	1	0	C	526524	          Erysipelotrichia
+  1.64	1	0	O	526525	            Erysipelotrichales
+  1.64	1	0	F	2810280	              Coprobacillaceae
+  1.64	1	0	G	3025755	                Thomasclavelia
+  1.64	1	1	S	1547	                  Thomasclavelia ramosa
+  1.64	1	0	P	201174	        Actinomycetota
+  1.64	1	0	C	1760	          Actinomycetes
+  1.64	1	0	O	85008	            Micromonosporales
+  1.64	1	0	F	28056	              Micromonosporaceae
+  1.64	1	0	G	1873	                Micromonospora
+  1.64	1	1	S	1914461	                  Micromonospora terminaliae
+  3.28	2	0	P	1224	      Pseudomonadota
+  3.28	2	0	C	1236	        Gammaproteobacteria
+  3.28	2	0	O	91347	          Enterobacterales
+  1.64	1	0	F	543	            Enterobacteriaceae
+  1.64	1	0	G	702	              Plesiomonas
+  1.64	1	1	S	703	                Plesiomonas shigelloides
+  1.64	1	0	F	1903414	            Morganellaceae
+  1.64	1	1	G	586	              Providencia

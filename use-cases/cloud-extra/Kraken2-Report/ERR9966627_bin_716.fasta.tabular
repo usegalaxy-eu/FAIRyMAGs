@@ -1,0 +1,71 @@
+ 84.72	61	61	U	0	unclassified
+ 15.28	11	0	R	1	root
+ 15.28	11	1	R1	131567	  cellular organisms
+ 11.11	8	0	D	2759	    Eukaryota
+ 11.11	8	0	D1	33154	      Opisthokonta
+  6.94	5	0	K	4751	        Fungi
+  6.94	5	0	K1	451864	          Dikarya
+  5.56	4	0	P	5204	            Basidiomycota
+  4.17	3	0	P1	5302	              Agaricomycotina
+  4.17	3	0	C	155619	                Agaricomycetes
+  4.17	3	0	C1	452333	                  Agaricomycetidae
+  4.17	3	0	O	5338	                    Agaricales
+  4.17	3	0	O1	2982305	                      Agaricineae
+  4.17	3	0	F	40562	                        Strophariaceae
+  4.17	3	0	G	71950	                          Psilocybe
+  4.17	3	3	S	181762	                            Psilocybe cubensis
+  1.39	1	0	P1	29000	              Pucciniomycotina
+  1.39	1	0	C	162484	                Pucciniomycetes
+  1.39	1	0	O	5258	                  Pucciniales
+  1.39	1	0	F	5262	                    Pucciniaceae
+  1.39	1	0	G	5296	                      Puccinia
+  1.39	1	0	S	27350	                        Puccinia striiformis
+  1.39	1	1	S1	168172	                          Puccinia striiformis f. sp. tritici
+  1.39	1	0	P	4890	            Ascomycota
+  1.39	1	0	P1	716545	              saccharomyceta
+  1.39	1	0	P2	147538	                Pezizomycotina
+  1.39	1	0	P3	716546	                  leotiomyceta
+  1.39	1	0	P4	715989	                    sordariomyceta
+  1.39	1	0	C	147550	                      Sordariomycetes
+  1.39	1	0	C1	222543	                        Hypocreomycetidae
+  1.39	1	0	O	1028384	                          Glomerellales
+  1.39	1	0	F	681950	                            Glomerellaceae
+  1.39	1	0	G	5455	                              Colletotrichum
+  1.39	1	0	G1	2707350	                                Colletotrichum destructivum species complex
+  1.39	1	0	S	80884	                                  Colletotrichum higginsianum
+  1.39	1	1	S1	759273	                                    Colletotrichum higginsianum IMI 349063
+  4.17	3	0	K	33208	        Metazoa
+  4.17	3	0	K1	6072	          Eumetazoa
+  4.17	3	0	K2	33213	            Bilateria
+  4.17	3	0	K3	33511	              Deuterostomia
+  4.17	3	0	P	7711	                Chordata
+  4.17	3	0	P1	89593	                  Craniata
+  4.17	3	0	P2	7742	                    Vertebrata
+  4.17	3	0	P3	7776	                      Gnathostomata
+  4.17	3	0	P4	117570	                        Teleostomi
+  4.17	3	0	P5	117571	                          Euteleostomi
+  4.17	3	0	P6	8287	                            Sarcopterygii
+  4.17	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  4.17	3	0	P8	32523	                                Tetrapoda
+  4.17	3	0	P9	32524	                                  Amniota
+  4.17	3	0	C	40674	                                    Mammalia
+  4.17	3	0	C1	32525	                                      Theria
+  4.17	3	0	C2	9347	                                        Eutheria
+  4.17	3	0	C3	1437010	                                          Boreoeutheria
+  4.17	3	0	C4	314146	                                            Euarchontoglires
+  4.17	3	0	O	9443	                                              Primates
+  4.17	3	0	O1	376913	                                                Haplorrhini
+  4.17	3	0	O2	314293	                                                  Simiiformes
+  4.17	3	0	O3	9526	                                                    Catarrhini
+  4.17	3	0	O4	314295	                                                      Hominoidea
+  4.17	3	0	F	9604	                                                        Hominidae
+  4.17	3	0	F1	207598	                                                          Homininae
+  4.17	3	0	G	9605	                                                            Homo
+  4.17	3	3	S	9606	                                                              Homo sapiens
+  2.78	2	1	D	2	    Bacteria
+  1.39	1	0	P	1224	      Pseudomonadota
+  1.39	1	0	C	1236	        Gammaproteobacteria
+  1.39	1	0	O	135623	          Vibrionales
+  1.39	1	0	F	641	            Vibrionaceae
+  1.39	1	0	G	662	              Vibrio
+  1.39	1	1	S	990268	                Vibrio maritimus

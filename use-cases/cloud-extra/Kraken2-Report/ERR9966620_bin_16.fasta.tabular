@@ -1,0 +1,59 @@
+ 67.31	35	35	U	0	unclassified
+ 32.69	17	0	R	1	root
+ 32.69	17	0	R1	131567	  cellular organisms
+ 21.15	11	1	D	2759	    Eukaryota
+ 19.23	10	0	D1	33154	      Opisthokonta
+ 19.23	10	0	K	33208	        Metazoa
+ 19.23	10	0	K1	6072	          Eumetazoa
+ 19.23	10	0	K2	33213	            Bilateria
+ 19.23	10	0	K3	33511	              Deuterostomia
+ 19.23	10	0	P	7711	                Chordata
+ 19.23	10	0	P1	89593	                  Craniata
+ 19.23	10	0	P2	7742	                    Vertebrata
+ 19.23	10	0	P3	7776	                      Gnathostomata
+ 19.23	10	0	P4	117570	                        Teleostomi
+ 19.23	10	0	P5	117571	                          Euteleostomi
+ 19.23	10	0	P6	8287	                            Sarcopterygii
+ 19.23	10	0	P7	1338369	                              Dipnotetrapodomorpha
+ 19.23	10	0	P8	32523	                                Tetrapoda
+ 19.23	10	0	P9	32524	                                  Amniota
+ 19.23	10	0	C	40674	                                    Mammalia
+ 19.23	10	0	C1	32525	                                      Theria
+ 19.23	10	0	C2	9347	                                        Eutheria
+ 19.23	10	0	C3	1437010	                                          Boreoeutheria
+ 19.23	10	0	C4	314146	                                            Euarchontoglires
+ 19.23	10	0	O	9443	                                              Primates
+ 19.23	10	0	O1	376913	                                                Haplorrhini
+ 19.23	10	0	O2	314293	                                                  Simiiformes
+ 19.23	10	0	O3	9526	                                                    Catarrhini
+ 19.23	10	0	O4	314295	                                                      Hominoidea
+ 19.23	10	0	F	9604	                                                        Hominidae
+ 19.23	10	0	F1	207598	                                                          Homininae
+ 19.23	10	0	G	9605	                                                            Homo
+ 19.23	10	10	S	9606	                                                              Homo sapiens
+ 11.54	6	2	D	2	    Bacteria
+  3.85	2	0	D1	1783272	      Terrabacteria group
+  3.85	2	0	P	1239	        Bacillota
+  1.92	1	0	C	91061	          Bacilli
+  1.92	1	0	O	1385	            Bacillales
+  1.92	1	0	F	186817	              Bacillaceae
+  1.92	1	0	G	2800373	                Priestia
+  1.92	1	1	S	1404	                  Priestia megaterium
+  1.92	1	0	C	186801	          Clostridia
+  1.92	1	0	O	3071001	            Caldicellulosiruptorales
+  1.92	1	0	F	3071002	              Caldicellulosiruptoraceae
+  1.92	1	1	G	44000	                Caldicellulosiruptor
+  3.85	2	0	D1	1783270	      FCB group
+  3.85	2	0	D2	68336	        Bacteroidota/Chlorobiota group
+  3.85	2	0	P	976	          Bacteroidota
+  1.92	1	0	C	117743	            Flavobacteriia
+  1.92	1	0	O	200644	              Flavobacteriales
+  1.92	1	0	F	2762318	                Weeksellaceae
+  1.92	1	0	F1	2782232	                  Chryseobacterium group
+  1.92	1	1	G	59732	                    Chryseobacterium
+  1.92	1	0	C	200643	            Bacteroidia
+  1.92	1	0	O	1970189	              Marinilabiliales
+  1.92	1	0	F	1471398	                Prolixibacteraceae
+  1.92	1	0	G	1471399	                  Draconibacterium
+  1.92	1	0	G1	1573822	                    environmental samples
+  1.92	1	1	S	1573823	                      uncultured Draconibacterium sp.

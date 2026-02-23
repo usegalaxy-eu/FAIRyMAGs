@@ -1,0 +1,94 @@
+ 74.00	37	37	U	0	unclassified
+ 26.00	13	0	R	1	root
+ 26.00	13	0	R1	131567	  cellular organisms
+ 18.00	9	0	D	2759	    Eukaryota
+ 18.00	9	0	D1	33154	      Opisthokonta
+ 14.00	7	0	K	4751	        Fungi
+ 14.00	7	0	K1	451864	          Dikarya
+ 12.00	6	0	P	5204	            Basidiomycota
+ 12.00	6	0	P1	5302	              Agaricomycotina
+ 10.00	5	0	C	155619	                Agaricomycetes
+  6.00	3	0	C1	452333	                  Agaricomycetidae
+  6.00	3	0	O	5338	                    Agaricales
+  6.00	3	0	O1	2982305	                      Agaricineae
+  6.00	3	0	F	40562	                        Strophariaceae
+  6.00	3	0	G	71950	                          Psilocybe
+  6.00	3	3	S	181762	                            Psilocybe cubensis
+  4.00	2	0	C1	355688	                  Agaricomycetes incertae sedis
+  4.00	2	0	O	36064	                    Cantharellales
+  4.00	2	0	F	5250	                      Ceratobasidiaceae
+  4.00	2	0	G	1322061	                        Rhizoctonia
+  4.00	2	2	S	456999	                          Rhizoctonia solani
+  2.00	1	0	C	155616	                Tremellomycetes
+  2.00	1	0	O	5234	                  Tremellales
+  2.00	1	0	F	1884633	                    Cryptococcaceae
+  2.00	1	0	G	5206	                      Cryptococcus
+  2.00	1	0	G1	1897064	                        Cryptococcus neoformans species complex
+  2.00	1	0	S	5207	                          Cryptococcus neoformans
+  2.00	1	0	S1	178876	                            Cryptococcus neoformans var. grubii
+  2.00	1	1	S2	235443	                              Cryptococcus neoformans var. grubii H99
+  2.00	1	0	P	4890	            Ascomycota
+  2.00	1	0	P1	716545	              saccharomyceta
+  2.00	1	0	P2	147538	                Pezizomycotina
+  2.00	1	0	P3	716546	                  leotiomyceta
+  2.00	1	0	P4	715989	                    sordariomyceta
+  2.00	1	0	C	147550	                      Sordariomycetes
+  2.00	1	0	C1	222543	                        Hypocreomycetidae
+  2.00	1	0	O	5125	                          Hypocreales
+  2.00	1	0	F	110618	                            Nectriaceae
+  2.00	1	0	G	5506	                              Fusarium
+  2.00	1	0	G1	569360	                                Fusarium sambucinum species complex
+  2.00	1	1	S	36050	                                  Fusarium poae
+  4.00	2	0	K	33208	        Metazoa
+  4.00	2	0	K1	6072	          Eumetazoa
+  4.00	2	0	K2	33213	            Bilateria
+  4.00	2	0	K3	33511	              Deuterostomia
+  4.00	2	0	P	7711	                Chordata
+  4.00	2	0	P1	89593	                  Craniata
+  4.00	2	0	P2	7742	                    Vertebrata
+  4.00	2	0	P3	7776	                      Gnathostomata
+  4.00	2	0	P4	117570	                        Teleostomi
+  4.00	2	0	P5	117571	                          Euteleostomi
+  4.00	2	0	P6	8287	                            Sarcopterygii
+  4.00	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  4.00	2	0	P8	32523	                                Tetrapoda
+  4.00	2	0	P9	32524	                                  Amniota
+  4.00	2	0	C	40674	                                    Mammalia
+  4.00	2	0	C1	32525	                                      Theria
+  4.00	2	0	C2	9347	                                        Eutheria
+  4.00	2	0	C3	1437010	                                          Boreoeutheria
+  4.00	2	0	C4	314146	                                            Euarchontoglires
+  4.00	2	0	O	9443	                                              Primates
+  4.00	2	0	O1	376913	                                                Haplorrhini
+  4.00	2	0	O2	314293	                                                  Simiiformes
+  4.00	2	0	O3	9526	                                                    Catarrhini
+  4.00	2	0	O4	314295	                                                      Hominoidea
+  4.00	2	0	F	9604	                                                        Hominidae
+  4.00	2	0	F1	207598	                                                          Homininae
+  4.00	2	0	G	9605	                                                            Homo
+  4.00	2	2	S	9606	                                                              Homo sapiens
+  8.00	4	0	D	2	    Bacteria
+  4.00	2	0	P	1224	      Pseudomonadota
+  4.00	2	0	C	28211	        Alphaproteobacteria
+  2.00	1	0	O	356	          Hyphomicrobiales
+  2.00	1	0	F	655351	            Cohaesibacteraceae
+  2.00	1	0	G	655352	              Cohaesibacter
+  2.00	1	0	G1	1002545	                environmental samples
+  2.00	1	1	S	1002546	                  uncultured Cohaesibacter sp.
+  2.00	1	1	O	204455	          Rhodobacterales
+  2.00	1	0	D1	1783272	      Terrabacteria group
+  2.00	1	0	P	1239	        Bacillota
+  2.00	1	0	C	91061	          Bacilli
+  2.00	1	0	O	1385	            Bacillales
+  2.00	1	0	F	186822	              Paenibacillaceae
+  2.00	1	0	G	44249	                Paenibacillus
+  2.00	1	1	S	521520	                  Paenibacillus urinalis
+  2.00	1	0	D1	1783270	      FCB group
+  2.00	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.00	1	0	P	976	          Bacteroidota
+  2.00	1	0	C	117743	            Flavobacteriia
+  2.00	1	0	O	200644	              Flavobacteriales
+  2.00	1	0	F	2762318	                Weeksellaceae
+  2.00	1	0	F1	2782232	                  Chryseobacterium group
+  2.00	1	0	G	59732	                    Chryseobacterium
+  2.00	1	1	S	2898076	                      Chryseobacterium turcicum

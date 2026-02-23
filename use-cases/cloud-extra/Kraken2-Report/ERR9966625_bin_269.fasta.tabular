@@ -1,0 +1,17 @@
+ 89.47	17	17	U	0	unclassified
+ 10.53	2	0	R	1	root
+ 10.53	2	0	R1	131567	  cellular organisms
+  5.26	1	0	D	2	    Bacteria
+  5.26	1	0	D1	1783272	      Terrabacteria group
+  5.26	1	0	P	201174	        Actinomycetota
+  5.26	1	0	C	1760	          Actinomycetes
+  5.26	1	0	O	85007	            Mycobacteriales
+  5.26	1	0	F	1653	              Corynebacteriaceae
+  5.26	1	0	G	1716	                Corynebacterium
+  5.26	1	1	S	394964	                  Corynebacterium hansenii
+  5.26	1	0	D	2759	    Eukaryota
+  5.26	1	0	D1	33154	      Opisthokonta
+  5.26	1	0	K	4751	        Fungi
+  5.26	1	0	K1	451864	          Dikarya
+  5.26	1	0	P	4890	            Ascomycota
+  5.26	1	1	P1	716545	              saccharomyceta

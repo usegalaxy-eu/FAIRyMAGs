@@ -15,6 +15,7 @@ from dataclasses import dataclass
 from typing import Callable, Dict, Tuple, Optional, List
 import numpy as np
 import pandas as pd
+from adjustText import adjust_text
 
 # ----------------------------
 # Config + Result dataclasses
@@ -505,11 +506,15 @@ class HPCMemoryEvaluator:
         plt.show()
 
     def plot_tradeoff(self) -> None:
-        """Pareto-ish scatter: failure rate vs waste (mean estimates) with wrapped labels and light jitter to reduce overlaps."""
+        """Pareto-ish scatter: failure rate vs waste (mean estimates)
+        with non-overlapping labels and arrows.
+        """
         if self.summary_df is None:
             raise RuntimeError("Run evaluate() first.")
+
         import numpy as np
         import matplotlib.pyplot as plt
+        from adjustText import adjust_text
 
         df = self.summary_df.copy()
         x = df["wall_per_1000_mean"].values
@@ -517,30 +522,37 @@ class HPCMemoryEvaluator:
         labels = df["predictor"].astype(str).tolist()
 
         fig_w, fig_h = _auto_figsize(len(labels), "vertical")
-        plt.figure(figsize=(fig_w, fig_h))
-        ax = plt.gca()
-        ax.scatter(x, y)
+        fig, ax = plt.subplots(figsize=(fig_w, fig_h))
 
-        # Light, deterministic jitter to reduce text overlap (no randomness across runs)
-        def _jitter(val, idx, scale):
-            return val + scale * (((hash(labels[idx]) % 997) / 997.0) - 0.5)
+        ax.scatter(x, y, s=50)
 
+        texts = []
         for i, lab in enumerate(labels):
-            ax.annotate(
+            txt = ax.text(
+                x[i],
+                y[i],
                 _wrap_labels([lab], width=22)[0],
-                (x[i], y[i]),
-                xytext=(_jitter(x[i], i, 0.01), _jitter(y[i], i, 0.01)),
-                textcoords="data",
                 fontsize=9,
-                ha="left",
-                va="bottom"
             )
+            texts.append(txt)
+
+        # Automatically adjust text positions and add arrows
+        adjust_text(
+            texts,
+            arrowprops=dict(
+                arrowstyle="->",
+                color="gray",
+                lw=0.8,
+            ),
+            ax=ax
+        )
 
         ax.set_xlabel("Total time per 1000 jobs (mean)")
-        ax.set_ylabel("Total waste per 1000 jobs (GB*hours)) (mean)")
+        ax.set_ylabel("Total waste per 1000 jobs (GB·hours) (mean)")
         ax.yaxis.set_major_formatter(_fmt_thousands())
         ax.grid(True, linestyle="--", alpha=0.4)
         ax.set_title("Trade-off: Time vs Waste (weighted MC means)")
+
         plt.tight_layout()
         plt.show()
 

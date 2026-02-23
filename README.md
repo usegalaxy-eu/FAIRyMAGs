@@ -30,3 +30,11 @@ Paired short reads (e.g.: https://zenodo.org/records/15089018)
 # MAGs Workflows
 * Note: Until the workflows are published on IWC the latest version of the workflows as published on usegalaxy.eu should be documented here: [Workflows](Workflows)
 * Please Tag related workflows with: `#FAIRyMAGs`
+
+# Run analysis scripts
+
+Install conda.
+
+```
+conda create -n fairymags_env -c conda-forge -c bioconda numpy pandas matplotlib seaborn scikit-learn tqdm ipykernel tabulate adjusttext -y
+```

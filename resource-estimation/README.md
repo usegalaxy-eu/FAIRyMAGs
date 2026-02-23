@@ -63,14 +63,17 @@ A better evaluation should reflect the true cost per job, not just error magnitu
 That cost includes wasted allocations, retry attempts, and the duaration of asked allocations.
 
 Considering these factors, we defined a cost function:
+
 $$
-C(y; a_0) = 
+C(y, a_0) = 
 \underbrace{\sum_{r=0}^{R-1} C_{\text{fail}}(y, a_r)}_{\text{cost of retries}} 
 + 
 \underbrace{C_{\text{over}}(y, a_R)}_{\text{waste on the successful attempt}}
 $$
+
 Where:
-\[
+
+$$
 \begin{aligned}
 y &:\ \text{true peak memory use} \\
 a_0 &:\ \text{initial memory allocation} \\
@@ -80,7 +83,7 @@ a_R &:\ \text{allocation on successful attempt} \\
 C_{\text{fail}}(y, a_r) &:\ \text{cost incurred when a job fails due to under-allocation} \\
 C_{\text{over}}(y, a_R) &:\ \text{cost incurred from over-allocation on the successful attempt}
 \end{aligned}
-\]
+$$
 
 Using this function we can simulate the total cost of running jobs under different prediction models and allocation strategies.
 

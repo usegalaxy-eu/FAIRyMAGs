@@ -1,0 +1,12 @@
+ 97.37	37	37	U	0	unclassified
+  2.63	1	0	R	1	root
+  2.63	1	0	R1	131567	  cellular organisms
+  2.63	1	0	D	2	    Bacteria
+  2.63	1	0	D1	1783270	      FCB group
+  2.63	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.63	1	0	P	976	          Bacteroidota
+  2.63	1	0	C	768503	            Cytophagia
+  2.63	1	0	O	768507	              Cytophagales
+  2.63	1	0	F	2896860	                Spirosomataceae
+  2.63	1	0	G	120831	                  Dyadobacter
+  2.63	1	1	S	2906456	                    Dyadobacter chenwenxiniae

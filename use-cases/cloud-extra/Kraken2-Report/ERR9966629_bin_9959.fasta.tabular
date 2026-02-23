@@ -1,0 +1,40 @@
+ 96.83	61	61	U	0	unclassified
+  3.17	2	0	R	1	root
+  3.17	2	0	R1	131567	  cellular organisms
+  1.59	1	0	D	2	    Bacteria
+  1.59	1	0	P	1224	      Pseudomonadota
+  1.59	1	0	C	1236	        Gammaproteobacteria
+  1.59	1	0	O	91347	          Enterobacterales
+  1.59	1	0	F	543	            Enterobacteriaceae
+  1.59	1	0	G	561	              Escherichia
+  1.59	1	1	S	562	                Escherichia coli
+  1.59	1	0	D	2759	    Eukaryota
+  1.59	1	0	D1	33154	      Opisthokonta
+  1.59	1	0	K	33208	        Metazoa
+  1.59	1	0	K1	6072	          Eumetazoa
+  1.59	1	0	K2	33213	            Bilateria
+  1.59	1	0	K3	33511	              Deuterostomia
+  1.59	1	0	P	7711	                Chordata
+  1.59	1	0	P1	89593	                  Craniata
+  1.59	1	0	P2	7742	                    Vertebrata
+  1.59	1	0	P3	7776	                      Gnathostomata
+  1.59	1	0	P4	117570	                        Teleostomi
+  1.59	1	0	P5	117571	                          Euteleostomi
+  1.59	1	0	P6	8287	                            Sarcopterygii
+  1.59	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.59	1	0	P8	32523	                                Tetrapoda
+  1.59	1	0	P9	32524	                                  Amniota
+  1.59	1	0	C	40674	                                    Mammalia
+  1.59	1	0	C1	32525	                                      Theria
+  1.59	1	0	C2	9347	                                        Eutheria
+  1.59	1	0	C3	1437010	                                          Boreoeutheria
+  1.59	1	0	C4	314146	                                            Euarchontoglires
+  1.59	1	0	O	9443	                                              Primates
+  1.59	1	0	O1	376913	                                                Haplorrhini
+  1.59	1	0	O2	314293	                                                  Simiiformes
+  1.59	1	0	O3	9526	                                                    Catarrhini
+  1.59	1	0	O4	314295	                                                      Hominoidea
+  1.59	1	0	F	9604	                                                        Hominidae
+  1.59	1	0	F1	207598	                                                          Homininae
+  1.59	1	0	G	9605	                                                            Homo
+  1.59	1	1	S	9606	                                                              Homo sapiens

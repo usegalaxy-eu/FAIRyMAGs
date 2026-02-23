@@ -1,0 +1,89 @@
+ 72.22	52	52	U	0	unclassified
+ 27.78	20	0	R	1	root
+ 27.78	20	1	R1	131567	  cellular organisms
+ 15.28	11	0	D	2759	    Eukaryota
+ 15.28	11	0	D1	33154	      Opisthokonta
+ 15.28	11	0	K	4751	        Fungi
+ 15.28	11	1	K1	451864	          Dikarya
+ 11.11	8	0	P	5204	            Basidiomycota
+  8.33	6	0	P1	5302	              Agaricomycotina
+  8.33	6	0	C	155619	                Agaricomycetes
+  6.94	5	0	C1	452333	                  Agaricomycetidae
+  6.94	5	0	O	5338	                    Agaricales
+  5.56	4	0	O1	2982305	                      Agaricineae
+  5.56	4	0	F	40562	                        Strophariaceae
+  5.56	4	0	G	71950	                          Psilocybe
+  5.56	4	4	S	181762	                            Psilocybe cubensis
+  1.39	1	0	O1	2982316	                      Marasmiineae
+  1.39	1	0	F	654128	                        Marasmiaceae
+  1.39	1	0	G	34448	                          Marasmius
+  1.39	1	1	S	181124	                            Marasmius oreades
+  1.39	1	0	C1	355688	                  Agaricomycetes incertae sedis
+  1.39	1	0	O	36064	                    Cantharellales
+  1.39	1	0	F	5250	                      Ceratobasidiaceae
+  1.39	1	0	G	1322061	                        Rhizoctonia
+  1.39	1	1	S	456999	                          Rhizoctonia solani
+  2.78	2	0	P1	452284	              Ustilaginomycotina
+  1.39	1	0	C	5257	                Ustilaginomycetes
+  1.39	1	0	O	5267	                  Ustilaginales
+  1.39	1	0	F	5268	                    Ustilaginaceae
+  1.39	1	0	G	5269	                      Ustilago
+  1.39	1	0	S	5270	                        Ustilago maydis
+  1.39	1	1	S1	237631	                          Ustilago maydis 521
+  1.39	1	0	C	1538075	                Malasseziomycetes
+  1.39	1	0	O	162474	                  Malasseziales
+  1.39	1	0	F	742845	                    Malasseziaceae
+  1.39	1	0	G	55193	                      Malassezia
+  1.39	1	1	S	76775	                        Malassezia restricta
+  2.78	2	0	P	4890	            Ascomycota
+  1.39	1	0	P1	451866	              Taphrinomycotina
+  1.39	1	0	C	147554	                Schizosaccharomycetes
+  1.39	1	0	O	34346	                  Schizosaccharomycetales
+  1.39	1	0	F	4894	                    Schizosaccharomycetaceae
+  1.39	1	0	G	4895	                      Schizosaccharomyces
+  1.39	1	1	S	2545709	                        Schizosaccharomyces osmophilus
+  1.39	1	0	P1	716545	              saccharomyceta
+  1.39	1	0	P2	147538	                Pezizomycotina
+  1.39	1	0	P3	716546	                  leotiomyceta
+  1.39	1	0	P4	715962	                    dothideomyceta
+  1.39	1	0	C	147541	                      Dothideomycetes
+  1.39	1	0	C1	451867	                        Dothideomycetidae
+  1.39	1	0	O	2726947	                          Mycosphaerellales
+  1.39	1	0	F	93133	                            Mycosphaerellaceae
+  1.39	1	0	G	2897311	                              Fulvia
+  1.39	1	1	S	5499	                                Fulvia fulva
+ 11.11	8	2	D	2	    Bacteria
+  4.17	3	0	P	1224	      Pseudomonadota
+  2.78	2	0	C	28211	        Alphaproteobacteria
+  1.39	1	0	O	766	          Rickettsiales
+  1.39	1	0	F	775	            Rickettsiaceae
+  1.39	1	0	F1	33988	              Rickettsieae
+  1.39	1	0	G	780	                Rickettsia
+  1.39	1	0	G1	114277	                  spotted fever group
+  1.39	1	0	S	781	                    Rickettsia conorii
+  1.39	1	1	S1	226665	                      Rickettsia conorii subsp. heilongjiangensis
+  1.39	1	0	O	356	          Hyphomicrobiales
+  1.39	1	0	F	82115	            Rhizobiaceae
+  1.39	1	0	F1	227290	              Rhizobium/Agrobacterium group
+  1.39	1	0	G	379	                Rhizobium
+  1.39	1	1	S	396	                  Rhizobium phaseoli
+  1.39	1	0	C	28216	        Betaproteobacteria
+  1.39	1	0	O	80840	          Burkholderiales
+  1.39	1	0	F	80864	            Comamonadaceae
+  1.39	1	0	G	283	              Comamonas
+  1.39	1	0	S	32013	                Comamonas terrigena
+  1.39	1	1	S1	1219032	                  Comamonas terrigena NBRC 13299
+  2.78	2	1	D1	1783272	      Terrabacteria group
+  1.39	1	0	P	201174	        Actinomycetota
+  1.39	1	0	C	1760	          Actinomycetes
+  1.39	1	0	O	85006	            Micrococcales
+  1.39	1	0	F	85023	              Microbacteriaceae
+  1.39	1	0	G	33882	                Microbacterium
+  1.39	1	1	S	69367	                  Microbacterium luteolum
+  1.39	1	0	P	3018035	      Bdellovibrionota
+  1.39	1	0	C	3031418	        Bdellovibrionia
+  1.39	1	0	O	213481	          Bdellovibrionales
+  1.39	1	0	F	213483	            Pseudobdellovibrionaceae
+  1.39	1	0	G	958	              Bdellovibrio
+  1.39	1	0	G1	2633795	                unclassified Bdellovibrio
+  1.39	1	1	S	2220073	                  Bdellovibrio sp. NC01

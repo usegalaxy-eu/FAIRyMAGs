@@ -1,0 +1,109 @@
+ 79.03	49	49	U	0	unclassified
+ 20.97	13	0	R	1	root
+ 20.97	13	0	R1	131567	  cellular organisms
+ 12.90	8	0	D	2759	    Eukaryota
+ 12.90	8	0	D1	33154	      Opisthokonta
+ 11.29	7	0	K	4751	        Fungi
+ 11.29	7	0	K1	451864	          Dikarya
+  6.45	4	0	P	4890	            Ascomycota
+  6.45	4	0	P1	716545	              saccharomyceta
+  6.45	4	0	P2	147538	                Pezizomycotina
+  6.45	4	0	P3	716546	                  leotiomyceta
+  3.23	2	0	P4	715962	                    dothideomyceta
+  3.23	2	0	C	147541	                      Dothideomycetes
+  3.23	2	0	C1	451868	                        Pleosporomycetidae
+  3.23	2	0	O	92860	                          Pleosporales
+  3.23	2	0	O1	715340	                            Pleosporineae
+  3.23	2	0	F	683158	                              Didymellaceae
+  3.23	2	0	G	5453	                                Ascochyta
+  3.23	2	2	S	5454	                                  Ascochyta rabiei
+  3.23	2	0	P4	715989	                    sordariomyceta
+  3.23	2	0	C	147550	                      Sordariomycetes
+  1.61	1	0	C1	222543	                        Hypocreomycetidae
+  1.61	1	0	O	5125	                          Hypocreales
+  1.61	1	0	F	110618	                            Nectriaceae
+  1.61	1	0	G	5506	                              Fusarium
+  1.61	1	1	G1	569360	                                Fusarium sambucinum species complex
+  1.61	1	0	C1	222544	                        Sordariomycetidae
+  1.61	1	0	O	5139	                          Sordariales
+  1.61	1	0	F	5148	                            Sordariaceae
+  1.61	1	0	G	5140	                              Neurospora
+  1.61	1	0	S	5141	                                Neurospora crassa
+  1.61	1	1	S1	367110	                                  Neurospora crassa OR74A
+  4.84	3	0	P	5204	            Basidiomycota
+  3.23	2	0	P1	5302	              Agaricomycotina
+  3.23	2	0	C	155619	                Agaricomycetes
+  3.23	2	0	C1	452333	                  Agaricomycetidae
+  3.23	2	1	O	5338	                    Agaricales
+  1.61	1	0	O1	2982316	                      Marasmiineae
+  1.61	1	0	F	654128	                        Marasmiaceae
+  1.61	1	0	G	34448	                          Marasmius
+  1.61	1	1	S	181124	                            Marasmius oreades
+  1.61	1	0	P1	452284	              Ustilaginomycotina
+  1.61	1	0	C	5257	                Ustilaginomycetes
+  1.61	1	0	O	5267	                  Ustilaginales
+  1.61	1	0	F	5268	                    Ustilaginaceae
+  1.61	1	0	G	63265	                      Sporisorium
+  1.61	1	1	S	280036	                        Sporisorium graminicola
+  1.61	1	0	K	33208	        Metazoa
+  1.61	1	0	K1	6072	          Eumetazoa
+  1.61	1	0	K2	33213	            Bilateria
+  1.61	1	0	K3	33511	              Deuterostomia
+  1.61	1	0	P	7711	                Chordata
+  1.61	1	0	P1	89593	                  Craniata
+  1.61	1	0	P2	7742	                    Vertebrata
+  1.61	1	0	P3	7776	                      Gnathostomata
+  1.61	1	0	P4	117570	                        Teleostomi
+  1.61	1	0	P5	117571	                          Euteleostomi
+  1.61	1	0	P6	8287	                            Sarcopterygii
+  1.61	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.61	1	0	P8	32523	                                Tetrapoda
+  1.61	1	0	P9	32524	                                  Amniota
+  1.61	1	0	C	40674	                                    Mammalia
+  1.61	1	0	C1	32525	                                      Theria
+  1.61	1	0	C2	9347	                                        Eutheria
+  1.61	1	0	C3	1437010	                                          Boreoeutheria
+  1.61	1	0	C4	314146	                                            Euarchontoglires
+  1.61	1	0	O	9443	                                              Primates
+  1.61	1	0	O1	376913	                                                Haplorrhini
+  1.61	1	0	O2	314293	                                                  Simiiformes
+  1.61	1	0	O3	9526	                                                    Catarrhini
+  1.61	1	0	O4	314295	                                                      Hominoidea
+  1.61	1	0	F	9604	                                                        Hominidae
+  1.61	1	0	F1	207598	                                                          Homininae
+  1.61	1	0	G	9605	                                                            Homo
+  1.61	1	1	S	9606	                                                              Homo sapiens
+  8.06	5	0	D	2	    Bacteria
+  4.84	3	0	D1	1783272	      Terrabacteria group
+  3.23	2	0	P	1239	        Bacillota
+  1.61	1	0	C	91061	          Bacilli
+  1.61	1	0	O	1385	            Bacillales
+  1.61	1	0	F	186822	              Paenibacillaceae
+  1.61	1	0	F1	85151	                Aneurinibacillus group
+  1.61	1	0	G	55079	                  Aneurinibacillus
+  1.61	1	1	S	143495	                    Aneurinibacillus thermoaerophilus
+  1.61	1	0	C	186801	          Clostridia
+  1.61	1	0	O	3071001	            Caldicellulosiruptorales
+  1.61	1	0	F	3071002	              Caldicellulosiruptoraceae
+  1.61	1	0	G	44000	                Caldicellulosiruptor
+  1.61	1	1	S	1222016	                  Caldicellulosiruptor changbaiensis
+  1.61	1	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  1.61	1	0	P	1117	          Cyanobacteriota
+  1.61	1	0	C	3028117	            Cyanophyceae
+  1.61	1	0	O	1161	              Nostocales
+  1.61	1	0	F	1185	                Rivulariaceae
+  1.61	1	0	G	373984	                  Rivularia
+  1.61	1	0	G1	2676603	                    unclassified Rivularia (in: cyanobacteria)
+  1.61	1	1	S	373994	                      Rivularia sp. PCC 7116
+  3.23	2	0	P	1224	      Pseudomonadota
+  1.61	1	0	C	1236	        Gammaproteobacteria
+  1.61	1	0	O	135623	          Vibrionales
+  1.61	1	0	F	641	            Vibrionaceae
+  1.61	1	0	G	662	              Vibrio
+  1.61	1	1	S	29495	                Vibrio navarrensis
+  1.61	1	0	C	28216	        Betaproteobacteria
+  1.61	1	0	O	80840	          Burkholderiales
+  1.61	1	0	F	119060	            Burkholderiaceae
+  1.61	1	0	G	2018044	              Vallotia
+  1.61	1	0	G1	2735707	                unclassified Candidatus Vallotia
+  1.61	1	1	S	2864217	                  Candidatus Vallotia sp. (ex Adelges kitamiensis)

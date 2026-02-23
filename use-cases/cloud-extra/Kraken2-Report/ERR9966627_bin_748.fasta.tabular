@@ -1,0 +1,65 @@
+ 79.55	35	35	U	0	unclassified
+ 20.45	9	0	R	1	root
+ 20.45	9	1	R1	131567	  cellular organisms
+ 13.64	6	0	D	2759	    Eukaryota
+ 11.36	5	0	D1	33154	      Opisthokonta
+ 11.36	5	0	K	4751	        Fungi
+ 11.36	5	0	K1	451864	          Dikarya
+  6.82	3	0	P	4890	            Ascomycota
+  6.82	3	0	P1	716545	              saccharomyceta
+  4.55	2	0	P2	147537	                Saccharomycotina
+  4.55	2	0	C	4891	                  Saccharomycetes
+  4.55	2	0	O	4892	                    Saccharomycetales
+  2.27	1	0	F	4893	                      Saccharomycetaceae
+  2.27	1	0	G	33170	                        Eremothecium
+  2.27	1	0	S	33169	                          Eremothecium gossypii
+  2.27	1	1	S1	284811	                            Eremothecium gossypii ATCC 10895
+  2.27	1	0	F	1156497	                      Pichiaceae
+  2.27	1	0	G	4919	                        Pichia
+  2.27	1	1	S	4909	                          Pichia kudriavzevii
+  2.27	1	0	P2	147538	                Pezizomycotina
+  2.27	1	0	P3	716546	                  leotiomyceta
+  2.27	1	0	C	147545	                    Eurotiomycetes
+  2.27	1	0	C1	451871	                      Eurotiomycetidae
+  2.27	1	0	O	5042	                        Eurotiales
+  2.27	1	0	F	1131492	                          Aspergillaceae
+  2.27	1	0	G	5052	                            Aspergillus
+  2.27	1	0	G1	2720872	                              Aspergillus subgen. Fumigati
+  2.27	1	0	S	746128	                                Aspergillus fumigatus
+  2.27	1	1	S1	330879	                                  Aspergillus fumigatus Af293
+  4.55	2	0	P	5204	            Basidiomycota
+  4.55	2	0	P1	5302	              Agaricomycotina
+  4.55	2	0	C	155616	                Tremellomycetes
+  4.55	2	0	O	5234	                  Tremellales
+  4.55	2	0	F	1884633	                    Cryptococcaceae
+  4.55	2	0	G	5206	                      Cryptococcus
+  4.55	2	0	G1	1897064	                        Cryptococcus neoformans species complex
+  4.55	2	0	S	5207	                          Cryptococcus neoformans
+  4.55	2	1	S1	40410	                            Cryptococcus neoformans var. neoformans
+  2.27	1	1	S2	214684	                              Cryptococcus neoformans var. neoformans JEC21
+  2.27	1	0	D1	2698737	      Sar
+  2.27	1	0	D2	33630	        Alveolata
+  2.27	1	0	P	5794	          Apicomplexa
+  2.27	1	0	C	1280412	            Conoidasida
+  2.27	1	0	C1	5796	              Coccidia
+  2.27	1	0	O	75739	                Eucoccidiorida
+  2.27	1	0	O1	423054	                  Eimeriorina
+  2.27	1	0	F	5809	                    Sarcocystidae
+  2.27	1	0	G	94642	                      Besnoitia
+  2.27	1	1	S	94643	                        Besnoitia besnoiti
+  2.27	1	0	D	2	    Bacteria
+  2.27	1	0	P	1224	      Pseudomonadota
+  2.27	1	0	C	28216	        Betaproteobacteria
+  2.27	1	0	O	80840	          Burkholderiales
+  2.27	1	0	F	119060	            Burkholderiaceae
+  2.27	1	0	G	1822464	              Paraburkholderia
+  2.27	1	1	S	311230	                Paraburkholderia terrae
+  2.27	1	0	D	2157	    Archaea
+  2.27	1	0	P	28890	      Euryarchaeota
+  2.27	1	0	P1	2290931	        Stenosarchaea group
+  2.27	1	0	C	183963	          Halobacteria
+  2.27	1	0	O	1644055	            Haloferacales
+  2.27	1	0	F	1963271	              Halorubraceae
+  2.27	1	0	G	56688	                Halorubrum
+  2.27	1	0	S	2247	                  Halorubrum lacusprofundi
+  2.27	1	1	S1	416348	                    Halorubrum lacusprofundi ATCC 49239

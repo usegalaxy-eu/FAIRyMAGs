@@ -1,0 +1,112 @@
+ 51.72	30	30	U	0	unclassified
+ 48.28	28	0	R	1	root
+ 48.28	28	3	R1	131567	  cellular organisms
+ 31.03	18	4	D	2	    Bacteria
+ 15.52	9	1	P	1224	      Pseudomonadota
+  6.90	4	0	C	28211	        Alphaproteobacteria
+  5.17	3	0	O	356	          Hyphomicrobiales
+  1.72	1	0	F	41294	            Nitrobacteraceae
+  1.72	1	0	G	1073	              Rhodopseudomonas
+  1.72	1	1	S	1076	                Rhodopseudomonas palustris
+  1.72	1	0	F	69277	            Phyllobacteriaceae
+  1.72	1	0	G	2911176	              Aquibium
+  1.72	1	1	S	1670800	                Aquibium oceanicum
+  1.72	1	0	F	119045	            Methylobacteriaceae
+  1.72	1	0	G	2282523	              Methylorubrum
+  1.72	1	1	S	223967	                Methylorubrum populi
+  1.72	1	0	O	204457	          Sphingomonadales
+  1.72	1	0	F	41297	            Sphingomonadaceae
+  1.72	1	0	G	13687	              Sphingomonas
+  1.72	1	1	S	2938948	                Sphingomonas glaciei
+  3.45	2	0	C	1236	        Gammaproteobacteria
+  1.72	1	0	O	72274	          Pseudomonadales
+  1.72	1	0	F	135621	            Pseudomonadaceae
+  1.72	1	1	G	286	              Pseudomonas
+  1.72	1	0	O	1706369	          Cellvibrionales
+  1.72	1	0	F	1706371	            Cellvibrionaceae
+  1.72	1	0	G	2036021	              Agarilytica
+  1.72	1	1	S	1737490	                Agarilytica rhodophyticola
+  3.45	2	0	C	28216	        Betaproteobacteria
+  3.45	2	0	O	80840	          Burkholderiales
+  3.45	2	0	F	119060	            Burkholderiaceae
+  3.45	2	1	G	32008	              Burkholderia
+  1.72	1	0	G1	87882	                Burkholderia cepacia complex
+  1.72	1	1	S	179879	                  Burkholderia anthina
+  6.90	4	0	D1	1783272	      Terrabacteria group
+  6.90	4	0	P	201174	        Actinomycetota
+  6.90	4	2	C	1760	          Actinomycetes
+  1.72	1	0	O	85006	            Micrococcales
+  1.72	1	0	F	1268	              Micrococcaceae
+  1.72	1	0	G	596707	                Sinomonas
+  1.72	1	0	G1	2646595	                  unclassified Sinomonas
+  1.72	1	1	S	2020377	                    Sinomonas sp. R1AF57
+  1.72	1	0	O	85011	            Kitasatosporales
+  1.72	1	0	F	2062	              Streptomycetaceae
+  1.72	1	0	G	1883	                Streptomyces
+  1.72	1	1	S	1942	                  Streptomyces goshikiensis
+  1.72	1	0	D1	1783257	      PVC group
+  1.72	1	0	P	74201	        Verrucomicrobiota
+  1.72	1	0	C	203494	          Verrucomicrobiae
+  1.72	1	0	O	48461	            Verrucomicrobiales
+  1.72	1	0	F	203557	              Verrucomicrobiaceae
+  1.72	1	0	G	2735	                Verrucomicrobium
+  1.72	1	0	G1	2625155	                  unclassified Verrucomicrobium
+  1.72	1	1	S	1882831	                    Verrucomicrobium sp. GAS474
+ 12.07	7	0	D	2759	    Eukaryota
+ 12.07	7	0	D1	33154	      Opisthokonta
+  6.90	4	0	K	4751	        Fungi
+  6.90	4	0	K1	451864	          Dikarya
+  6.90	4	0	P	4890	            Ascomycota
+  6.90	4	0	P1	716545	              saccharomyceta
+  5.17	3	0	P2	147538	                Pezizomycotina
+  5.17	3	0	P3	716546	                  leotiomyceta
+  3.45	2	0	P4	715962	                    dothideomyceta
+  3.45	2	0	C	147541	                      Dothideomycetes
+  3.45	2	0	C1	451868	                        Pleosporomycetidae
+  3.45	2	0	O	92860	                          Pleosporales
+  3.45	2	0	O1	715340	                            Pleosporineae
+  3.45	2	0	F	683158	                              Didymellaceae
+  3.45	2	0	G	5453	                                Ascochyta
+  3.45	2	2	S	5454	                                  Ascochyta rabiei
+  1.72	1	0	C	147545	                    Eurotiomycetes
+  1.72	1	0	C1	451871	                      Eurotiomycetidae
+  1.72	1	0	O	5042	                        Eurotiales
+  1.72	1	0	F	1131492	                          Aspergillaceae
+  1.72	1	0	G	5052	                            Aspergillus
+  1.72	1	1	S	182096	                              Aspergillus chevalieri
+  1.72	1	0	P2	147537	                Saccharomycotina
+  1.72	1	0	C	4891	                  Saccharomycetes
+  1.72	1	0	O	4892	                    Saccharomycetales
+  1.72	1	0	O1	2916678	                      CUG-Ser1 clade
+  1.72	1	0	F	766764	                        Debaryomycetaceae
+  1.72	1	0	F1	1535325	                          Candida/Lodderomyces clade
+  1.72	1	0	G	36913	                            Lodderomyces
+  1.72	1	1	S	36914	                              Lodderomyces elongisporus
+  5.17	3	0	K	33208	        Metazoa
+  5.17	3	0	K1	6072	          Eumetazoa
+  5.17	3	0	K2	33213	            Bilateria
+  5.17	3	0	K3	33511	              Deuterostomia
+  5.17	3	0	P	7711	                Chordata
+  5.17	3	0	P1	89593	                  Craniata
+  5.17	3	0	P2	7742	                    Vertebrata
+  5.17	3	0	P3	7776	                      Gnathostomata
+  5.17	3	0	P4	117570	                        Teleostomi
+  5.17	3	0	P5	117571	                          Euteleostomi
+  5.17	3	0	P6	8287	                            Sarcopterygii
+  5.17	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.17	3	0	P8	32523	                                Tetrapoda
+  5.17	3	0	P9	32524	                                  Amniota
+  5.17	3	0	C	40674	                                    Mammalia
+  5.17	3	0	C1	32525	                                      Theria
+  5.17	3	0	C2	9347	                                        Eutheria
+  5.17	3	0	C3	1437010	                                          Boreoeutheria
+  5.17	3	0	C4	314146	                                            Euarchontoglires
+  5.17	3	0	O	9443	                                              Primates
+  5.17	3	0	O1	376913	                                                Haplorrhini
+  5.17	3	0	O2	314293	                                                  Simiiformes
+  5.17	3	0	O3	9526	                                                    Catarrhini
+  5.17	3	0	O4	314295	                                                      Hominoidea
+  5.17	3	0	F	9604	                                                        Hominidae
+  5.17	3	0	F1	207598	                                                          Homininae
+  5.17	3	0	G	9605	                                                            Homo
+  5.17	3	3	S	9606	                                                              Homo sapiens

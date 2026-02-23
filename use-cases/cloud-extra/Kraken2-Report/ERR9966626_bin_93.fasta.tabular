@@ -1,0 +1,40 @@
+  3.61	3	3	U	0	unclassified
+ 96.39	80	0	R	1	root
+ 96.39	80	0	R1	131567	  cellular organisms
+ 95.18	79	1	D	2	    Bacteria
+ 91.57	76	0	D1	1783272	      Terrabacteria group
+ 91.57	76	0	P	201174	        Actinomycetota
+ 91.57	76	0	C	1760	          Actinomycetes
+ 89.16	74	0	O	85006	            Micrococcales
+ 89.16	74	0	F	1268	              Micrococcaceae
+ 89.16	74	0	G	57493	                Kocuria
+ 83.13	69	69	S	72000	                  Kocuria rhizophila
+  6.02	5	5	S	71999	                  Kocuria palustris
+  1.20	1	1	O	85007	            Mycobacteriales
+  1.20	1	0	O	85009	            Propionibacteriales
+  1.20	1	0	F	85015	              Nocardioidaceae
+  1.20	1	0	G	1839	                Nocardioides
+  1.20	1	1	S	1774216	                  Nocardioides rotundus
+  2.41	2	0	P	1224	      Pseudomonadota
+  1.20	1	0	C	1236	        Gammaproteobacteria
+  1.20	1	0	O	135619	          Oceanospirillales
+  1.20	1	0	F	28256	            Halomonadaceae
+  1.20	1	1	G	2745	              Halomonas
+  1.20	1	0	C	28211	        Alphaproteobacteria
+  1.20	1	0	O	204441	          Rhodospirillales
+  1.20	1	0	F	433	            Acetobacteraceae
+  1.20	1	0	G	125216	              Roseomonas
+  1.20	1	1	S	207340	                Roseomonas mucosa
+  1.20	1	0	D	2759	    Eukaryota
+  1.20	1	0	D1	33154	      Opisthokonta
+  1.20	1	0	K	4751	        Fungi
+  1.20	1	0	K1	451864	          Dikarya
+  1.20	1	0	P	5204	            Basidiomycota
+  1.20	1	0	P1	5302	              Agaricomycotina
+  1.20	1	0	C	155619	                Agaricomycetes
+  1.20	1	0	C1	452333	                  Agaricomycetidae
+  1.20	1	0	O	5338	                    Agaricales
+  1.20	1	0	O1	2982305	                      Agaricineae
+  1.20	1	0	F	40562	                        Strophariaceae
+  1.20	1	0	G	71950	                          Psilocybe
+  1.20	1	1	S	181762	                            Psilocybe cubensis

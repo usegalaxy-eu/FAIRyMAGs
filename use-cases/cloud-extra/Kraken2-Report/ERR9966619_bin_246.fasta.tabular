@@ -1,0 +1,45 @@
+ 70.97	22	22	U	0	unclassified
+ 29.03	9	1	R	1	root
+ 25.81	8	0	R1	131567	  cellular organisms
+ 19.35	6	1	D	2759	    Eukaryota
+ 16.13	5	0	D1	33154	      Opisthokonta
+ 16.13	5	0	K	33208	        Metazoa
+ 16.13	5	0	K1	6072	          Eumetazoa
+ 16.13	5	0	K2	33213	            Bilateria
+ 16.13	5	0	K3	33511	              Deuterostomia
+ 16.13	5	0	P	7711	                Chordata
+ 16.13	5	0	P1	89593	                  Craniata
+ 16.13	5	0	P2	7742	                    Vertebrata
+ 16.13	5	0	P3	7776	                      Gnathostomata
+ 16.13	5	0	P4	117570	                        Teleostomi
+ 16.13	5	0	P5	117571	                          Euteleostomi
+ 16.13	5	0	P6	8287	                            Sarcopterygii
+ 16.13	5	0	P7	1338369	                              Dipnotetrapodomorpha
+ 16.13	5	0	P8	32523	                                Tetrapoda
+ 16.13	5	0	P9	32524	                                  Amniota
+ 16.13	5	0	C	40674	                                    Mammalia
+ 16.13	5	0	C1	32525	                                      Theria
+ 16.13	5	0	C2	9347	                                        Eutheria
+ 16.13	5	0	C3	1437010	                                          Boreoeutheria
+ 16.13	5	0	C4	314146	                                            Euarchontoglires
+ 16.13	5	0	O	9443	                                              Primates
+ 16.13	5	0	O1	376913	                                                Haplorrhini
+ 16.13	5	0	O2	314293	                                                  Simiiformes
+ 16.13	5	0	O3	9526	                                                    Catarrhini
+ 16.13	5	0	O4	314295	                                                      Hominoidea
+ 16.13	5	0	F	9604	                                                        Hominidae
+ 16.13	5	0	F1	207598	                                                          Homininae
+ 16.13	5	0	G	9605	                                                            Homo
+ 16.13	5	5	S	9606	                                                              Homo sapiens
+  6.45	2	0	D	2	    Bacteria
+  6.45	2	0	P	1224	      Pseudomonadota
+  3.23	1	0	C	1236	        Gammaproteobacteria
+  3.23	1	0	O	135619	          Oceanospirillales
+  3.23	1	0	F	28256	            Halomonadaceae
+  3.23	1	0	G	2745	              Halomonas
+  3.23	1	1	S	1081866	                Halomonas socia
+  3.23	1	0	C	28211	        Alphaproteobacteria
+  3.23	1	0	O	356	          Hyphomicrobiales
+  3.23	1	0	F	119045	            Methylobacteriaceae
+  3.23	1	0	G	2282523	              Methylorubrum
+  3.23	1	1	S	408	                Methylorubrum extorquens

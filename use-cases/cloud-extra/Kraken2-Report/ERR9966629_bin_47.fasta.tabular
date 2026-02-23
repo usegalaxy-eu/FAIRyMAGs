@@ -1,0 +1,39 @@
+ 73.17	30	30	U	0	unclassified
+ 26.83	11	0	R	1	root
+ 26.83	11	1	R1	131567	  cellular organisms
+ 12.20	5	1	D	2	    Bacteria
+  7.32	3	1	P	1224	      Pseudomonadota
+  2.44	1	0	C	1236	        Gammaproteobacteria
+  2.44	1	0	O	72273	          Thiotrichales
+  2.44	1	0	F	135617	            Thiotrichaceae
+  2.44	1	0	G	1030	              Thiothrix
+  2.44	1	1	S	111770	                Thiothrix fructosivorans
+  2.44	1	0	C	28211	        Alphaproteobacteria
+  2.44	1	0	O	204457	          Sphingomonadales
+  2.44	1	0	F	41297	            Sphingomonadaceae
+  2.44	1	0	G	2823232	              Allosphingosinicella
+  2.44	1	1	S	941907	                Allosphingosinicella indica
+  2.44	1	0	P	2818505	      Myxococcota
+  2.44	1	0	P1	3031711	        Polyangia
+  2.44	1	0	O	3031712	          Polyangiales
+  2.44	1	0	F	49	            Polyangiaceae
+  2.44	1	0	G	39643	              Sorangium
+  2.44	1	0	S	56	                Sorangium cellulosum
+  2.44	1	1	S1	448385	                  Sorangium cellulosum So ce56
+ 12.20	5	0	D	2759	    Eukaryota
+ 12.20	5	1	D1	33154	      Opisthokonta
+  9.76	4	0	K	4751	        Fungi
+  9.76	4	0	K1	451864	          Dikarya
+  9.76	4	0	P	5204	            Basidiomycota
+  9.76	4	0	P1	5302	              Agaricomycotina
+  7.32	3	0	C	155619	                Agaricomycetes
+  7.32	3	0	C1	452333	                  Agaricomycetidae
+  7.32	3	2	O	5338	                    Agaricales
+  2.44	1	0	O1	2982316	                      Marasmiineae
+  2.44	1	0	F	654128	                        Marasmiaceae
+  2.44	1	0	G	34448	                          Marasmius
+  2.44	1	1	S	181124	                            Marasmius oreades
+  2.44	1	0	C	155616	                Tremellomycetes
+  2.44	1	0	O	5234	                  Tremellales
+  2.44	1	0	F	1884633	                    Cryptococcaceae
+  2.44	1	1	G	5206	                      Cryptococcus

@@ -1,0 +1,92 @@
+ 66.67	32	32	U	0	unclassified
+ 33.33	16	0	R	1	root
+ 33.33	16	4	R1	131567	  cellular organisms
+ 18.75	9	1	D	2	    Bacteria
+ 10.42	5	0	P	1224	      Pseudomonadota
+  4.17	2	0	C	1236	        Gammaproteobacteria
+  4.17	2	0	O	72274	          Pseudomonadales
+  4.17	2	0	F	135621	            Pseudomonadaceae
+  4.17	2	0	G	286	              Pseudomonas
+  2.08	1	0	G1	196821	                unclassified Pseudomonas
+  2.08	1	1	S	1881017	                  Pseudomonas sp. 7SR1
+  2.08	1	1	S	219572	                Pseudomonas antarctica
+  4.17	2	0	C	28216	        Betaproteobacteria
+  4.17	2	0	O	80840	          Burkholderiales
+  2.08	1	0	F	119060	            Burkholderiaceae
+  2.08	1	0	G	106589	              Cupriavidus
+  2.08	1	1	S	82633	                Cupriavidus pauculus
+  2.08	1	0	F	2975441	            Sphaerotilaceae
+  2.08	1	0	G	93681	              Roseateles
+  2.08	1	1	S	76731	                Roseateles depolymerans
+  2.08	1	0	C	28211	        Alphaproteobacteria
+  2.08	1	1	O	356	          Hyphomicrobiales
+  4.17	2	0	D1	1783272	      Terrabacteria group
+  2.08	1	0	P	1239	        Bacillota
+  2.08	1	0	C	91061	          Bacilli
+  2.08	1	1	O	1385	            Bacillales
+  2.08	1	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  2.08	1	0	P	1117	          Cyanobacteriota
+  2.08	1	0	C	3028117	            Cyanophyceae
+  2.08	1	0	O	307595	              Gloeobacterales
+  2.08	1	0	F	3079741	                Anthocerotibacteraceae
+  2.08	1	0	G	2857076	                  Anthocerotibacter
+  2.08	1	0	S	2857077	                    Anthocerotibacter panamensis
+  2.08	1	1	S1	2778476	                      Anthocerotibacter panamensis C109
+  2.08	1	0	D1	1783257	      PVC group
+  2.08	1	0	P	74201	        Verrucomicrobiota
+  2.08	1	0	C	203494	          Verrucomicrobiae
+  2.08	1	0	O	48461	            Verrucomicrobiales
+  2.08	1	0	F	203557	              Verrucomicrobiaceae
+  2.08	1	0	G	2735	                Verrucomicrobium
+  2.08	1	0	G1	2625155	                  unclassified Verrucomicrobium
+  2.08	1	1	S	1882831	                    Verrucomicrobium sp. GAS474
+  6.25	3	0	D	2759	    Eukaryota
+  4.17	2	0	D1	33154	      Opisthokonta
+  2.08	1	0	K	4751	        Fungi
+  2.08	1	0	K1	451864	          Dikarya
+  2.08	1	0	P	5204	            Basidiomycota
+  2.08	1	0	P1	5302	              Agaricomycotina
+  2.08	1	0	C	155619	                Agaricomycetes
+  2.08	1	0	C1	452333	                  Agaricomycetidae
+  2.08	1	0	O	5338	                    Agaricales
+  2.08	1	0	O1	2982305	                      Agaricineae
+  2.08	1	0	F	40562	                        Strophariaceae
+  2.08	1	0	G	71950	                          Psilocybe
+  2.08	1	1	S	181762	                            Psilocybe cubensis
+  2.08	1	0	K	33208	        Metazoa
+  2.08	1	0	K1	6072	          Eumetazoa
+  2.08	1	0	K2	33213	            Bilateria
+  2.08	1	0	K3	33511	              Deuterostomia
+  2.08	1	0	P	7711	                Chordata
+  2.08	1	0	P1	89593	                  Craniata
+  2.08	1	0	P2	7742	                    Vertebrata
+  2.08	1	0	P3	7776	                      Gnathostomata
+  2.08	1	0	P4	117570	                        Teleostomi
+  2.08	1	0	P5	117571	                          Euteleostomi
+  2.08	1	0	P6	8287	                            Sarcopterygii
+  2.08	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  2.08	1	0	P8	32523	                                Tetrapoda
+  2.08	1	0	P9	32524	                                  Amniota
+  2.08	1	0	C	40674	                                    Mammalia
+  2.08	1	0	C1	32525	                                      Theria
+  2.08	1	0	C2	9347	                                        Eutheria
+  2.08	1	0	C3	1437010	                                          Boreoeutheria
+  2.08	1	0	C4	314146	                                            Euarchontoglires
+  2.08	1	0	O	9443	                                              Primates
+  2.08	1	0	O1	376913	                                                Haplorrhini
+  2.08	1	0	O2	314293	                                                  Simiiformes
+  2.08	1	0	O3	9526	                                                    Catarrhini
+  2.08	1	0	O4	314295	                                                      Hominoidea
+  2.08	1	0	F	9604	                                                        Hominidae
+  2.08	1	0	F1	207598	                                                          Homininae
+  2.08	1	0	G	9605	                                                            Homo
+  2.08	1	1	S	9606	                                                              Homo sapiens
+  2.08	1	0	D1	2698737	      Sar
+  2.08	1	0	D2	33630	        Alveolata
+  2.08	1	0	P	5794	          Apicomplexa
+  2.08	1	0	C	422676	            Aconoidasida
+  2.08	1	0	O	5819	              Haemosporida
+  2.08	1	0	F	1639119	                Plasmodiidae
+  2.08	1	0	G	5820	                  Plasmodium
+  2.08	1	0	G1	418103	                    Plasmodium (Plasmodium)
+  2.08	1	1	S	5855	                      Plasmodium vivax

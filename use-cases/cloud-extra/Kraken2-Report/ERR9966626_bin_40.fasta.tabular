@@ -1,0 +1,41 @@
+ 56.76	21	21	U	0	unclassified
+ 43.24	16	0	R	1	root
+ 43.24	16	0	R1	131567	  cellular organisms
+ 37.84	14	0	D	2759	    Eukaryota
+ 37.84	14	0	D1	33154	      Opisthokonta
+ 37.84	14	0	K	4751	        Fungi
+ 37.84	14	0	K1	451864	          Dikarya
+ 32.43	12	0	P	5204	            Basidiomycota
+ 32.43	12	0	P1	5302	              Agaricomycotina
+ 32.43	12	0	C	155619	                Agaricomycetes
+ 27.03	10	0	C1	452333	                  Agaricomycetidae
+ 27.03	10	2	O	5338	                    Agaricales
+ 18.92	7	0	O1	2982305	                      Agaricineae
+ 18.92	7	0	F	40562	                        Strophariaceae
+ 18.92	7	0	G	71950	                          Psilocybe
+ 18.92	7	7	S	181762	                            Psilocybe cubensis
+  2.70	1	0	O1	2982316	                      Marasmiineae
+  2.70	1	0	F	654128	                        Marasmiaceae
+  2.70	1	0	G	34448	                          Marasmius
+  2.70	1	1	S	181124	                            Marasmius oreades
+  5.41	2	0	C1	355688	                  Agaricomycetes incertae sedis
+  5.41	2	0	O	36064	                    Cantharellales
+  5.41	2	0	F	5250	                      Ceratobasidiaceae
+  5.41	2	0	G	1322061	                        Rhizoctonia
+  5.41	2	2	S	456999	                          Rhizoctonia solani
+  5.41	2	1	P	4890	            Ascomycota
+  2.70	1	0	P1	716545	              saccharomyceta
+  2.70	1	0	P2	147538	                Pezizomycotina
+  2.70	1	0	P3	716546	                  leotiomyceta
+  2.70	1	0	P4	715989	                    sordariomyceta
+  2.70	1	1	C	147550	                      Sordariomycetes
+  5.41	2	1	D	2	    Bacteria
+  2.70	1	0	D1	1783270	      FCB group
+  2.70	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.70	1	0	P	976	          Bacteroidota
+  2.70	1	0	C	768503	            Cytophagia
+  2.70	1	0	O	768507	              Cytophagales
+  2.70	1	0	F	563798	                Cyclobacteriaceae
+  2.70	1	0	G	390846	                  Echinicola
+  2.70	1	0	G1	2621165	                    unclassified Echinicola
+  2.70	1	1	S	2781961	                      Echinicola sp. 20G

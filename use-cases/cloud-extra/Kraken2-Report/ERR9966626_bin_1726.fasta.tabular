@@ -1,0 +1,127 @@
+ 84.33	113	113	U	0	unclassified
+ 15.67	21	1	R	1	root
+ 14.93	20	1	R1	131567	  cellular organisms
+ 10.45	14	1	D	2	    Bacteria
+  5.22	7	1	D1	1783272	      Terrabacteria group
+  1.49	2	0	P	1239	        Bacillota
+  1.49	2	0	C	91061	          Bacilli
+  1.49	2	0	O	1385	            Bacillales
+  0.75	1	0	F	90964	              Staphylococcaceae
+  0.75	1	1	G	1279	                Staphylococcus
+  0.75	1	0	F	186817	              Bacillaceae
+  0.75	1	0	G	1386	                Bacillus
+  0.75	1	0	G1	86661	                  Bacillus cereus group
+  0.75	1	1	S	1392	                    Bacillus anthracis
+  1.49	2	0	P	201174	        Actinomycetota
+  1.49	2	0	C	1760	          Actinomycetes
+  0.75	1	0	O	85006	            Micrococcales
+  0.75	1	0	F	1268	              Micrococcaceae
+  0.75	1	0	G	1663	                Arthrobacter
+  0.75	1	0	G1	235627	                  unclassified Arthrobacter
+  0.75	1	1	S	2575374	                    Arthrobacter sp. 24S4-2
+  0.75	1	0	O	85009	            Propionibacteriales
+  0.75	1	0	F	31957	              Propionibacteriaceae
+  0.75	1	0	G	72763	                Tessaracoccus
+  0.75	1	1	S	1610493	                  Tessaracoccus flavus
+  1.49	2	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  1.49	2	0	P	1117	          Cyanobacteriota
+  0.75	1	0	P1	1983111	            unclassified Cyanobacteriota
+  0.75	1	1	S	1763363	              cyanobacterium endosymbiont of Rhopalodia gibberula
+  0.75	1	0	C	3028117	            Cyanophyceae
+  0.75	1	0	O	2881377	              Pseudanabaenales
+  0.75	1	0	F	1890436	                Pseudanabaenaceae
+  0.75	1	0	G	1152	                  Pseudanabaena
+  0.75	1	0	S	1112103	                    Pseudanabaena galeata
+  0.75	1	1	S1	2602720	                      Pseudanabaena galeata CCNP1313
+  3.73	5	1	P	1224	      Pseudomonadota
+  1.49	2	0	C	28211	        Alphaproteobacteria
+  0.75	1	0	O	204457	          Sphingomonadales
+  0.75	1	0	F	41297	            Sphingomonadaceae
+  0.75	1	0	G	13687	              Sphingomonas
+  0.75	1	1	S	424800	                Sphingomonas insulae
+  0.75	1	0	O	356	          Hyphomicrobiales
+  0.75	1	0	F	655351	            Cohaesibacteraceae
+  0.75	1	0	G	655352	              Cohaesibacter
+  0.75	1	0	G1	1002545	                environmental samples
+  0.75	1	1	S	1002546	                  uncultured Cohaesibacter sp.
+  0.75	1	0	C	1236	        Gammaproteobacteria
+  0.75	1	0	O	72273	          Thiotrichales
+  0.75	1	0	F	135616	            Piscirickettsiaceae
+  0.75	1	0	G	2039723	              Thiomicrorhabdus
+  0.75	1	1	S	2267253	                Thiomicrorhabdus indica
+  0.75	1	0	C	28216	        Betaproteobacteria
+  0.75	1	0	O	206351	          Neisseriales
+  0.75	1	0	F	2897177	            Chitinibacteraceae
+  0.75	1	0	G	1055692	              Chitinolyticbacter
+  0.75	1	1	S	682798	                Chitinolyticbacter meiyuanensis
+  0.75	1	0	D1	1783270	      FCB group
+  0.75	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  0.75	1	0	P	976	          Bacteroidota
+  0.75	1	0	C	117743	            Flavobacteriia
+  0.75	1	0	O	200644	              Flavobacteriales
+  0.75	1	0	F	2762318	                Weeksellaceae
+  0.75	1	0	F1	2782232	                  Chryseobacterium group
+  0.75	1	1	G	59732	                    Chryseobacterium
+  3.73	5	0	D	2759	    Eukaryota
+  2.99	4	0	D1	33154	      Opisthokonta
+  1.49	2	0	K	4751	        Fungi
+  1.49	2	0	K1	451864	          Dikarya
+  0.75	1	0	P	4890	            Ascomycota
+  0.75	1	0	P1	716545	              saccharomyceta
+  0.75	1	0	P2	147538	                Pezizomycotina
+  0.75	1	0	P3	716546	                  leotiomyceta
+  0.75	1	0	P4	715989	                    sordariomyceta
+  0.75	1	0	C	147550	                      Sordariomycetes
+  0.75	1	0	C1	222543	                        Hypocreomycetidae
+  0.75	1	0	O	5125	                          Hypocreales
+  0.75	1	0	F	34397	                            Clavicipitaceae
+  0.75	1	0	G	243023	                              Pochonia
+  0.75	1	0	S	280754	                                Pochonia chlamydosporia
+  0.75	1	1	S1	1380566	                                  Pochonia chlamydosporia 170
+  0.75	1	0	P	5204	            Basidiomycota
+  0.75	1	0	P1	5302	              Agaricomycotina
+  0.75	1	0	C	155619	                Agaricomycetes
+  0.75	1	0	C1	452333	                  Agaricomycetidae
+  0.75	1	0	O	5338	                    Agaricales
+  0.75	1	0	O1	2982305	                      Agaricineae
+  0.75	1	0	F	40562	                        Strophariaceae
+  0.75	1	0	G	71950	                          Psilocybe
+  0.75	1	1	S	181762	                            Psilocybe cubensis
+  1.49	2	0	K	33208	        Metazoa
+  1.49	2	0	K1	6072	          Eumetazoa
+  1.49	2	0	K2	33213	            Bilateria
+  1.49	2	0	K3	33511	              Deuterostomia
+  1.49	2	0	P	7711	                Chordata
+  1.49	2	0	P1	89593	                  Craniata
+  1.49	2	0	P2	7742	                    Vertebrata
+  1.49	2	0	P3	7776	                      Gnathostomata
+  1.49	2	0	P4	117570	                        Teleostomi
+  1.49	2	0	P5	117571	                          Euteleostomi
+  1.49	2	0	P6	8287	                            Sarcopterygii
+  1.49	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.49	2	0	P8	32523	                                Tetrapoda
+  1.49	2	0	P9	32524	                                  Amniota
+  1.49	2	0	C	40674	                                    Mammalia
+  1.49	2	0	C1	32525	                                      Theria
+  1.49	2	0	C2	9347	                                        Eutheria
+  1.49	2	0	C3	1437010	                                          Boreoeutheria
+  1.49	2	0	C4	314146	                                            Euarchontoglires
+  1.49	2	0	O	9443	                                              Primates
+  1.49	2	0	O1	376913	                                                Haplorrhini
+  1.49	2	0	O2	314293	                                                  Simiiformes
+  1.49	2	0	O3	9526	                                                    Catarrhini
+  1.49	2	0	O4	314295	                                                      Hominoidea
+  1.49	2	0	F	9604	                                                        Hominidae
+  1.49	2	0	F1	207598	                                                          Homininae
+  1.49	2	0	G	9605	                                                            Homo
+  1.49	2	2	S	9606	                                                              Homo sapiens
+  0.75	1	0	D1	2698737	      Sar
+  0.75	1	0	D2	33630	        Alveolata
+  0.75	1	0	P	5794	          Apicomplexa
+  0.75	1	0	C	422676	            Aconoidasida
+  0.75	1	0	O	5819	              Haemosporida
+  0.75	1	0	F	1639119	                Plasmodiidae
+  0.75	1	0	G	5820	                  Plasmodium
+  0.75	1	0	G1	418101	                    Plasmodium (Vinckeia)
+  0.75	1	0	S	5825	                      Plasmodium chabaudi
+  0.75	1	1	S1	31271	                        Plasmodium chabaudi chabaudi

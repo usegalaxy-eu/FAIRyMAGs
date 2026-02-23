@@ -1,0 +1,144 @@
+ 55.84	43	43	U	0	unclassified
+ 44.16	34	0	R	1	root
+ 44.16	34	1	R1	131567	  cellular organisms
+ 36.36	28	2	D	2	    Bacteria
+ 15.58	12	0	P	1224	      Pseudomonadota
+  7.79	6	1	C	1236	        Gammaproteobacteria
+  3.90	3	0	O	91347	          Enterobacterales
+  2.60	2	0	F	1903409	            Erwiniaceae
+  1.30	1	0	G	32199	              Buchnera
+  1.30	1	0	S	9	                Buchnera aphidicola
+  1.30	1	1	S1	1507522	                  Buchnera aphidicola (Macrosiphum euphorbiae)
+  1.30	1	0	G	53335	              Pantoea
+  1.30	1	1	S	59814	                Pantoea dispersa
+  1.30	1	0	F	543	            Enterobacteriaceae
+  1.30	1	0	F1	36866	              unclassified Enterobacteriaceae
+  1.30	1	1	S	2675796	                Enterobacteriaceae endosymbiont of Plateumaris rustica
+  1.30	1	0	O	135613	          Chromatiales
+  1.30	1	0	F	1046	            Chromatiaceae
+  1.30	1	0	G	2796146	              Candidatus Nitrosacidococcus
+  1.30	1	0	G1	2942907	                unclassified Candidatus Nitrosacidococcus
+  1.30	1	1	S	2942908	                  Candidatus Nitrosacidococcus sp. I8
+  1.30	1	0	O	135614	          Xanthomonadales
+  1.30	1	0	F	32033	            Xanthomonadaceae
+  1.30	1	0	G	338	              Xanthomonas
+  1.30	1	1	S	29447	                Xanthomonas albilineans
+  5.19	4	1	C	28211	        Alphaproteobacteria
+  3.90	3	1	O	766	          Rickettsiales
+  1.30	1	0	F	775	            Rickettsiaceae
+  1.30	1	0	F1	33988	              Rickettsieae
+  1.30	1	0	G	780	                Rickettsia
+  1.30	1	0	G1	114277	                  spotted fever group
+  1.30	1	1	S	1068590	                    Rickettsia asembonensis
+  1.30	1	0	F	942	            Anaplasmataceae
+  1.30	1	0	G	943	              Ehrlichia
+  1.30	1	0	G1	106178	                canis group
+  1.30	1	1	S	944	                  Ehrlichia canis
+  2.60	2	0	C	28216	        Betaproteobacteria
+  1.30	1	0	O	80840	          Burkholderiales
+  1.30	1	0	O1	224471	            Burkholderiales genera incertae sedis
+  1.30	1	0	G	2929841	              Ichthyocystis
+  1.30	1	1	S	1561003	                Candidatus Ichthyocystis hellenicum
+  1.30	1	0	O	206351	          Neisseriales
+  1.30	1	0	F	1499392	            Chromobacteriaceae
+  1.30	1	0	G	535	              Chromobacterium
+  1.30	1	1	S	1108595	                Chromobacterium vaccinii
+ 15.58	12	0	D1	1783272	      Terrabacteria group
+ 10.39	8	0	P	1239	        Bacillota
+  6.49	5	0	C	91061	          Bacilli
+  5.19	4	0	O	1385	            Bacillales
+  2.60	2	0	F	186817	              Bacillaceae
+  1.30	1	0	G	1386	                Bacillus
+  1.30	1	0	G1	653685	                  Bacillus subtilis group
+  1.30	1	0	G2	1938374	                    Bacillus amyloliquefaciens group
+  1.30	1	1	S	1390	                      Bacillus amyloliquefaciens
+  1.30	1	0	G	351195	                Salimicrobium
+  1.30	1	1	S	1230341	                  Salimicrobium jeotgali
+  1.30	1	0	F	186820	              Listeriaceae
+  1.30	1	0	G	1637	                Listeria
+  1.30	1	0	G1	2642072	                  unclassified Listeria
+  1.30	1	1	S	1844999	                    Listeria sp. PSOL-1
+  1.30	1	0	F	186822	              Paenibacillaceae
+  1.30	1	0	G	44249	                Paenibacillus
+  1.30	1	1	S	61624	                  Paenibacillus mucilaginosus
+  1.30	1	0	O	186826	            Lactobacillales
+  1.30	1	0	F	33958	              Lactobacillaceae
+  1.30	1	0	G	2767842	                Lactiplantibacillus
+  1.30	1	1	S	1589	                  Lactiplantibacillus pentosus
+  3.90	3	0	C	186801	          Clostridia
+  3.90	3	0	O	186802	            Eubacteriales
+  2.60	2	0	F	31979	              Clostridiaceae
+  1.30	1	0	G	1485	                Clostridium
+  1.30	1	1	S	1491	                  Clostridium botulinum
+  1.30	1	0	G	1848399	                Crassaminicella
+  1.30	1	1	S	2855394	                  Crassaminicella indica
+  1.30	1	0	F	186804	              Peptostreptococcaceae
+  1.30	1	0	G	186831	                Acetoanaerobium
+  1.30	1	1	S	1511	                  Acetoanaerobium sticklandii
+  3.90	3	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  3.90	3	0	P	1117	          Cyanobacteriota
+  3.90	3	1	C	3028117	            Cyanophyceae
+  1.30	1	0	C1	1301283	              Oscillatoriophycideae
+  1.30	1	0	O	1118	                Chroococcales
+  1.30	1	0	F	1890450	                  Aphanothecaceae
+  1.30	1	0	G	1453359	                    Atelocyanobacterium
+  1.30	1	0	S	713887	                      Candidatus Atelocyanobacterium thalassa
+  1.30	1	1	S1	1285375	                        cyanobacterium endosymbiont of Braarudosphaera bigelowii
+  1.30	1	0	O	1890424	              Synechococcales
+  1.30	1	0	F	2881426	                Prochlorococcaceae
+  1.30	1	0	G	1218	                  Prochlorococcus
+  1.30	1	0	S	1219	                    Prochlorococcus marinus
+  1.30	1	1	S1	3014998	                      Prochlorococcus marinus str. MIT 0919
+  1.30	1	0	P	201174	        Actinomycetota
+  1.30	1	0	C	1760	          Actinomycetes
+  1.30	1	0	O	85004	            Bifidobacteriales
+  1.30	1	0	F	31953	              Bifidobacteriaceae
+  1.30	1	1	G	1678	                Bifidobacterium
+  1.30	1	0	P	29547	      Campylobacterota
+  1.30	1	0	C	3031852	        Epsilonproteobacteria
+  1.30	1	0	O	213849	          Campylobacterales
+  1.30	1	0	F	72294	            Campylobacteraceae
+  1.30	1	0	G	194	              Campylobacter
+  1.30	1	0	G1	2593542	                unclassified Campylobacter
+  1.30	1	1	S	1032243	                  Campylobacter sp. RM6914
+  1.30	1	0	D1	1783270	      FCB group
+  1.30	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  1.30	1	1	P	976	          Bacteroidota
+  5.19	4	0	D	2759	    Eukaryota
+  5.19	4	0	D1	33154	      Opisthokonta
+  5.19	4	0	K	33208	        Metazoa
+  5.19	4	0	K1	6072	          Eumetazoa
+  5.19	4	0	K2	33213	            Bilateria
+  5.19	4	0	K3	33511	              Deuterostomia
+  5.19	4	0	P	7711	                Chordata
+  5.19	4	0	P1	89593	                  Craniata
+  5.19	4	0	P2	7742	                    Vertebrata
+  5.19	4	0	P3	7776	                      Gnathostomata
+  5.19	4	0	P4	117570	                        Teleostomi
+  5.19	4	0	P5	117571	                          Euteleostomi
+  5.19	4	0	P6	8287	                            Sarcopterygii
+  5.19	4	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.19	4	0	P8	32523	                                Tetrapoda
+  5.19	4	0	P9	32524	                                  Amniota
+  5.19	4	0	C	40674	                                    Mammalia
+  5.19	4	0	C1	32525	                                      Theria
+  5.19	4	0	C2	9347	                                        Eutheria
+  5.19	4	0	C3	1437010	                                          Boreoeutheria
+  5.19	4	0	C4	314146	                                            Euarchontoglires
+  5.19	4	0	O	9443	                                              Primates
+  5.19	4	0	O1	376913	                                                Haplorrhini
+  5.19	4	0	O2	314293	                                                  Simiiformes
+  5.19	4	0	O3	9526	                                                    Catarrhini
+  5.19	4	0	O4	314295	                                                      Hominoidea
+  5.19	4	0	F	9604	                                                        Hominidae
+  5.19	4	0	F1	207598	                                                          Homininae
+  5.19	4	0	G	9605	                                                            Homo
+  5.19	4	4	S	9606	                                                              Homo sapiens
+  1.30	1	0	D	2157	    Archaea
+  1.30	1	0	D1	1783275	      TACK group
+  1.30	1	0	P	651137	        Nitrososphaerota
+  1.30	1	0	C	1643678	          Nitrososphaeria
+  1.30	1	0	O	31932	            Nitrosopumilales
+  1.30	1	0	F	338190	              Nitrosopumilaceae
+  1.30	1	0	G	338191	                Nitrosopumilus
+  1.30	1	1	S	1580092	                  Nitrosopumilus adriaticus

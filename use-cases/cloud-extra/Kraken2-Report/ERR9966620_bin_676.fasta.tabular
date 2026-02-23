@@ -1,0 +1,29 @@
+ 84.00	21	21	U	0	unclassified
+ 16.00	4	0	R	1	root
+ 16.00	4	0	R1	131567	  cellular organisms
+ 12.00	3	1	D	2	    Bacteria
+  8.00	2	0	D1	1783272	      Terrabacteria group
+  8.00	2	0	P	1239	        Bacillota
+  4.00	1	0	C	91061	          Bacilli
+  4.00	1	0	O	1385	            Bacillales
+  4.00	1	0	F	90964	              Staphylococcaceae
+  4.00	1	0	G	69965	                Macrococcus
+  4.00	1	1	S	198483	                  Macrococcus brunensis
+  4.00	1	0	C	186801	          Clostridia
+  4.00	1	0	O	186802	            Eubacteriales
+  4.00	1	0	F	31979	              Clostridiaceae
+  4.00	1	0	G	1485	                Clostridium
+  4.00	1	1	S	1513	                  Clostridium tetani
+  4.00	1	0	D	2759	    Eukaryota
+  4.00	1	0	D1	33154	      Opisthokonta
+  4.00	1	0	K	4751	        Fungi
+  4.00	1	0	K1	451864	          Dikarya
+  4.00	1	0	P	5204	            Basidiomycota
+  4.00	1	0	P1	5302	              Agaricomycotina
+  4.00	1	0	C	155619	                Agaricomycetes
+  4.00	1	0	C1	452333	                  Agaricomycetidae
+  4.00	1	0	O	5338	                    Agaricales
+  4.00	1	0	O1	2982305	                      Agaricineae
+  4.00	1	0	F	40562	                        Strophariaceae
+  4.00	1	0	G	71950	                          Psilocybe
+  4.00	1	1	S	181762	                            Psilocybe cubensis

@@ -1,0 +1,47 @@
+  0.71	7	7	U	0	unclassified
+ 99.29	983	0	R	1	root
+ 99.29	983	0	R1	131567	  cellular organisms
+ 99.29	983	3	D	2	    Bacteria
+ 98.38	974	3	P	1224	      Pseudomonadota
+ 98.08	971	0	C	28211	        Alphaproteobacteria
+ 97.68	967	1	O	204441	          Rhodospirillales
+ 97.47	965	0	F	433	            Acetobacteraceae
+ 97.47	965	28	G	125216	              Roseomonas
+ 85.76	849	849	S	207340	                Roseomonas mucosa
+  5.35	53	0	G1	2617492	                unclassified Roseomonas
+  4.95	49	49	S	2018065	                  Roseomonas sp. FDAARGOS_362
+  0.40	4	4	S	2897332	                  Roseomonas sp. OT10
+  3.54	35	29	S	257708	                Roseomonas gilardii
+  0.61	6	6	S1	204527	                  Roseomonas gilardii subsp. gilardii
+  0.10	1	0	F	2829815	            Azospirillaceae
+  0.10	1	0	G	191	              Azospirillum
+  0.10	1	0	G1	2630922	                unclassified Azospirillum
+  0.10	1	1	S	137722	                  Azospirillum sp. B510
+  0.20	2	0	O	204455	          Rhodobacterales
+  0.20	2	0	F	31989	            Paracoccaceae
+  0.20	2	0	G	265	              Paracoccus
+  0.10	1	0	G1	2688777	                unclassified Paracoccus (in: a-proteobacteria)
+  0.10	1	1	S	3030011	                  Paracoccus sp. S3-43
+  0.10	1	1	S	147645	                Paracoccus yeei
+  0.10	1	0	O	356	          Hyphomicrobiales
+  0.10	1	0	F	45404	            Beijerinckiaceae
+  0.10	1	0	G	120652	              Methylocella
+  0.10	1	1	S	227605	                Methylocella tundrae
+  0.10	1	0	O	204457	          Sphingomonadales
+  0.10	1	0	F	41297	            Sphingomonadaceae
+  0.10	1	0	G	165697	              Sphingopyxis
+  0.10	1	1	S	33050	                Sphingopyxis macrogoltabida
+  0.61	6	0	D1	1783272	      Terrabacteria group
+  0.61	6	0	P	201174	        Actinomycetota
+  0.61	6	1	C	1760	          Actinomycetes
+  0.40	4	0	O	85006	            Micrococcales
+  0.40	4	0	F	1268	              Micrococcaceae
+  0.30	3	0	G	57493	                Kocuria
+  0.20	2	2	S	1049583	                  Kocuria indica
+  0.10	1	1	S	71999	                  Kocuria palustris
+  0.10	1	0	G	1269	                Micrococcus
+  0.10	1	1	S	1270	                  Micrococcus luteus
+  0.10	1	0	O	85011	            Kitasatosporales
+  0.10	1	0	F	2062	              Streptomycetaceae
+  0.10	1	0	G	1883	                Streptomyces
+  0.10	1	1	S	2878388	                  Streptomyces marincola

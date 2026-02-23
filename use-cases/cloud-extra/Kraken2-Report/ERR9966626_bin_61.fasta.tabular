@@ -1,0 +1,25 @@
+ 91.11	41	41	U	0	unclassified
+  8.89	4	0	R	1	root
+  8.89	4	1	R1	131567	  cellular organisms
+  6.67	3	0	D	2	    Bacteria
+  2.22	1	0	D1	1783272	      Terrabacteria group
+  2.22	1	0	P	201174	        Actinomycetota
+  2.22	1	0	C	1760	          Actinomycetes
+  2.22	1	0	O	85011	            Kitasatosporales
+  2.22	1	0	F	2062	              Streptomycetaceae
+  2.22	1	0	G	1883	                Streptomyces
+  2.22	1	0	G1	2593676	                  unclassified Streptomyces
+  2.22	1	1	S	2203204	                    Streptomyces sp. WAC 01438
+  2.22	1	0	D1	1783257	      PVC group
+  2.22	1	0	P	203682	        Planctomycetota
+  2.22	1	0	C	666505	          Phycisphaerae
+  2.22	1	0	O	666506	            Phycisphaerales
+  2.22	1	0	F	666507	              Phycisphaeraceae
+  2.22	1	0	G	2913022	                Mucisphaera
+  2.22	1	1	S	2527982	                  Mucisphaera calidilacus
+  2.22	1	0	P	1224	      Pseudomonadota
+  2.22	1	0	C	28211	        Alphaproteobacteria
+  2.22	1	0	O	204441	          Rhodospirillales
+  2.22	1	0	F	433	            Acetobacteraceae
+  2.22	1	0	G	1706033	              Sediminicoccus
+  2.22	1	1	S	1225128	                Sediminicoccus rosea

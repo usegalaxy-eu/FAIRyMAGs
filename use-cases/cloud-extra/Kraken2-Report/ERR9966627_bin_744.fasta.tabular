@@ -1,0 +1,72 @@
+ 65.85	27	27	U	0	unclassified
+ 34.15	14	0	R	1	root
+ 34.15	14	2	R1	131567	  cellular organisms
+ 19.51	8	0	D	2759	    Eukaryota
+ 19.51	8	0	D1	33154	      Opisthokonta
+ 14.63	6	0	K	4751	        Fungi
+ 14.63	6	0	K1	451864	          Dikarya
+ 14.63	6	1	P	5204	            Basidiomycota
+ 12.20	5	0	P1	5302	              Agaricomycotina
+ 12.20	5	0	C	155619	                Agaricomycetes
+ 12.20	5	0	C1	452333	                  Agaricomycetidae
+ 12.20	5	0	O	5338	                    Agaricales
+  9.76	4	0	O1	2982305	                      Agaricineae
+  9.76	4	0	F	40562	                        Strophariaceae
+  9.76	4	0	G	71950	                          Psilocybe
+  9.76	4	4	S	181762	                            Psilocybe cubensis
+  2.44	1	0	O1	2982316	                      Marasmiineae
+  2.44	1	0	F	654128	                        Marasmiaceae
+  2.44	1	0	G	34448	                          Marasmius
+  2.44	1	1	S	181124	                            Marasmius oreades
+  4.88	2	0	K	33208	        Metazoa
+  4.88	2	0	K1	6072	          Eumetazoa
+  4.88	2	0	K2	33213	            Bilateria
+  4.88	2	0	K3	33511	              Deuterostomia
+  4.88	2	0	P	7711	                Chordata
+  4.88	2	0	P1	89593	                  Craniata
+  4.88	2	0	P2	7742	                    Vertebrata
+  4.88	2	0	P3	7776	                      Gnathostomata
+  4.88	2	0	P4	117570	                        Teleostomi
+  4.88	2	0	P5	117571	                          Euteleostomi
+  4.88	2	0	P6	8287	                            Sarcopterygii
+  4.88	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  4.88	2	0	P8	32523	                                Tetrapoda
+  4.88	2	0	P9	32524	                                  Amniota
+  4.88	2	0	C	40674	                                    Mammalia
+  4.88	2	0	C1	32525	                                      Theria
+  4.88	2	0	C2	9347	                                        Eutheria
+  4.88	2	0	C3	1437010	                                          Boreoeutheria
+  4.88	2	0	C4	314146	                                            Euarchontoglires
+  4.88	2	0	O	9443	                                              Primates
+  4.88	2	0	O1	376913	                                                Haplorrhini
+  4.88	2	0	O2	314293	                                                  Simiiformes
+  4.88	2	0	O3	9526	                                                    Catarrhini
+  4.88	2	0	O4	314295	                                                      Hominoidea
+  4.88	2	0	F	9604	                                                        Hominidae
+  4.88	2	0	F1	207598	                                                          Homininae
+  4.88	2	0	G	9605	                                                            Homo
+  4.88	2	2	S	9606	                                                              Homo sapiens
+  9.76	4	1	D	2	    Bacteria
+  4.88	2	0	D1	1783272	      Terrabacteria group
+  2.44	1	0	P	1239	        Bacillota
+  2.44	1	0	C	186801	          Clostridia
+  2.44	1	0	O	186802	            Eubacteriales
+  2.44	1	0	F	31979	              Clostridiaceae
+  2.44	1	0	G	1485	                Clostridium
+  2.44	1	1	S	2320868	                  Clostridium manihotivorum
+  2.44	1	0	P	201174	        Actinomycetota
+  2.44	1	0	C	1760	          Actinomycetes
+  2.44	1	0	O	85007	            Mycobacteriales
+  2.44	1	0	F	1653	              Corynebacteriaceae
+  2.44	1	0	G	1716	                Corynebacterium
+  2.44	1	0	S	1223514	                  Corynebacterium humireducens
+  2.44	1	1	S1	1223515	                    Corynebacterium humireducens NBRC 106098 = DSM 45392
+  2.44	1	0	D1	1783270	      FCB group
+  2.44	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.44	1	0	P	976	          Bacteroidota
+  2.44	1	0	C	117743	            Flavobacteriia
+  2.44	1	0	O	200644	              Flavobacteriales
+  2.44	1	0	F	2762318	                Weeksellaceae
+  2.44	1	0	F1	2782232	                  Chryseobacterium group
+  2.44	1	0	G	59732	                    Chryseobacterium
+  2.44	1	1	S	1324352	                      Chryseobacterium gallinarum

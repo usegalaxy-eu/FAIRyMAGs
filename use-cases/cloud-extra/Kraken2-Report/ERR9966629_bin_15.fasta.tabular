@@ -1,0 +1,77 @@
+ 72.50	29	29	U	0	unclassified
+ 27.50	11	0	R	1	root
+ 27.50	11	0	R1	131567	  cellular organisms
+ 17.50	7	1	D	2	    Bacteria
+  7.50	3	1	P	1224	      Pseudomonadota
+  2.50	1	0	C	28211	        Alphaproteobacteria
+  2.50	1	0	O	356	          Hyphomicrobiales
+  2.50	1	0	F	41294	            Nitrobacteraceae
+  2.50	1	1	G	374	              Bradyrhizobium
+  2.50	1	0	C	28216	        Betaproteobacteria
+  2.50	1	0	O	80840	          Burkholderiales
+  2.50	1	0	F	80864	            Comamonadaceae
+  2.50	1	0	G	47420	              Hydrogenophaga
+  2.50	1	0	G1	2610897	                unclassified Hydrogenophaga
+  2.50	1	1	S	2184519	                  Hydrogenophaga sp. NH-16
+  5.00	2	0	D1	1783272	      Terrabacteria group
+  5.00	2	0	P	201174	        Actinomycetota
+  5.00	2	0	C	1760	          Actinomycetes
+  2.50	1	0	O	85006	            Micrococcales
+  2.50	1	0	F	85016	              Cellulomonadaceae
+  2.50	1	0	G	1707	                Cellulomonas
+  2.50	1	0	G1	2620175	                  unclassified Cellulomonas
+  2.50	1	1	S	2591145	                    Cellulomonas sp. Y8
+  2.50	1	0	O	85007	            Mycobacteriales
+  2.50	1	0	F	85025	              Nocardiaceae
+  2.50	1	0	G	1827	                Rhodococcus
+  2.50	1	1	S	191292	                  Rhodococcus aetherivorans
+  2.50	1	0	D1	1783270	      FCB group
+  2.50	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.50	1	0	P	976	          Bacteroidota
+  2.50	1	0	C	768503	            Cytophagia
+  2.50	1	0	O	768507	              Cytophagales
+  2.50	1	0	F	1853232	                Hymenobacteraceae
+  2.50	1	0	G	89966	                  Hymenobacter
+  2.50	1	1	S	1850093	                    Hymenobacter nivis
+ 10.00	4	0	D	2759	    Eukaryota
+ 10.00	4	0	D1	33154	      Opisthokonta
+  5.00	2	0	K	4751	        Fungi
+  5.00	2	0	K1	451864	          Dikarya
+  5.00	2	0	P	4890	            Ascomycota
+  5.00	2	0	P1	716545	              saccharomyceta
+  5.00	2	0	P2	147538	                Pezizomycotina
+  5.00	2	1	P3	716546	                  leotiomyceta
+  2.50	1	0	C	147545	                    Eurotiomycetes
+  2.50	1	0	C1	451871	                      Eurotiomycetidae
+  2.50	1	0	O	5042	                        Eurotiales
+  2.50	1	0	F	1131492	                          Aspergillaceae
+  2.50	1	0	G	5052	                            Aspergillus
+  2.50	1	1	S	1069201	                              Aspergillus luchuensis
+  5.00	2	0	K	33208	        Metazoa
+  5.00	2	0	K1	6072	          Eumetazoa
+  5.00	2	0	K2	33213	            Bilateria
+  5.00	2	0	K3	33511	              Deuterostomia
+  5.00	2	0	P	7711	                Chordata
+  5.00	2	0	P1	89593	                  Craniata
+  5.00	2	0	P2	7742	                    Vertebrata
+  5.00	2	0	P3	7776	                      Gnathostomata
+  5.00	2	0	P4	117570	                        Teleostomi
+  5.00	2	0	P5	117571	                          Euteleostomi
+  5.00	2	0	P6	8287	                            Sarcopterygii
+  5.00	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.00	2	0	P8	32523	                                Tetrapoda
+  5.00	2	0	P9	32524	                                  Amniota
+  5.00	2	0	C	40674	                                    Mammalia
+  5.00	2	0	C1	32525	                                      Theria
+  5.00	2	0	C2	9347	                                        Eutheria
+  5.00	2	0	C3	1437010	                                          Boreoeutheria
+  5.00	2	0	C4	314146	                                            Euarchontoglires
+  5.00	2	0	O	9443	                                              Primates
+  5.00	2	0	O1	376913	                                                Haplorrhini
+  5.00	2	0	O2	314293	                                                  Simiiformes
+  5.00	2	0	O3	9526	                                                    Catarrhini
+  5.00	2	0	O4	314295	                                                      Hominoidea
+  5.00	2	0	F	9604	                                                        Hominidae
+  5.00	2	0	F1	207598	                                                          Homininae
+  5.00	2	0	G	9605	                                                            Homo
+  5.00	2	2	S	9606	                                                              Homo sapiens

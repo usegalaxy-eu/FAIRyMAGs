@@ -1,0 +1,39 @@
+ 86.11	31	31	U	0	unclassified
+ 13.89	5	0	R	1	root
+ 13.89	5	0	R1	131567	  cellular organisms
+ 11.11	4	1	D	2	    Bacteria
+  5.56	2	0	D1	1783272	      Terrabacteria group
+  2.78	1	0	P	1239	        Bacillota
+  2.78	1	0	C	91061	          Bacilli
+  2.78	1	0	O	1385	            Bacillales
+  2.78	1	0	F	90964	              Staphylococcaceae
+  2.78	1	0	G	1279	                Staphylococcus
+  2.78	1	1	S	1280	                  Staphylococcus aureus
+  2.78	1	0	P	201174	        Actinomycetota
+  2.78	1	0	C	1760	          Actinomycetes
+  2.78	1	0	O	85011	            Kitasatosporales
+  2.78	1	0	F	2062	              Streptomycetaceae
+  2.78	1	0	G	1883	                Streptomyces
+  2.78	1	1	G1	2593676	                  unclassified Streptomyces
+  2.78	1	0	P	1224	      Pseudomonadota
+  2.78	1	0	C	1236	        Gammaproteobacteria
+  2.78	1	0	O	72274	          Pseudomonadales
+  2.78	1	0	F	135621	            Pseudomonadaceae
+  2.78	1	0	G	286	              Pseudomonas
+  2.78	1	0	G1	196821	                unclassified Pseudomonas
+  2.78	1	1	S	2983246	                  Pseudomonas sp. SO81
+  2.78	1	0	D	2759	    Eukaryota
+  2.78	1	0	D1	33154	      Opisthokonta
+  2.78	1	0	K	4751	        Fungi
+  2.78	1	0	K1	451864	          Dikarya
+  2.78	1	0	P	4890	            Ascomycota
+  2.78	1	0	P1	716545	              saccharomyceta
+  2.78	1	0	P2	147538	                Pezizomycotina
+  2.78	1	0	P3	716546	                  leotiomyceta
+  2.78	1	0	P4	715989	                    sordariomyceta
+  2.78	1	0	C	147550	                      Sordariomycetes
+  2.78	1	0	C1	222544	                        Sordariomycetidae
+  2.78	1	0	O	639021	                          Magnaporthales
+  2.78	1	0	F	2528436	                            Pyriculariaceae
+  2.78	1	0	G	48558	                              Pyricularia
+  2.78	1	1	S	1578925	                                Pyricularia pennisetigena

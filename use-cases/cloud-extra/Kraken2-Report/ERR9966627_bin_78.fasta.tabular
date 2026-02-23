@@ -1,0 +1,106 @@
+ 79.57	74	74	U	0	unclassified
+ 20.43	19	0	R	1	root
+ 20.43	19	0	R1	131567	  cellular organisms
+ 15.05	14	2	D	2	    Bacteria
+  9.68	9	1	P	1224	      Pseudomonadota
+  5.38	5	0	C	28211	        Alphaproteobacteria
+  2.15	2	0	O	204455	          Rhodobacterales
+  2.15	2	0	F	31989	            Paracoccaceae
+  1.08	1	0	G	34008	              Rhodovulum
+  1.08	1	0	G1	2631432	                unclassified Rhodovulum
+  1.08	1	1	S	308754	                  Rhodovulum sp. MB263
+  1.08	1	0	G	265	              Paracoccus
+  1.08	1	1	S	147645	                Paracoccus yeei
+  2.15	2	0	O	356	          Hyphomicrobiales
+  1.08	1	0	F	2843308	            Pleomorphomonadaceae
+  1.08	1	0	G	1572860	              Hartmannibacter
+  1.08	1	1	S	1482074	                Hartmannibacter diazotrophicus
+  1.08	1	0	F	41294	            Nitrobacteraceae
+  1.08	1	0	G	374	              Bradyrhizobium
+  1.08	1	1	S	3056648	                Bradyrhizobium roseus
+  1.08	1	0	O	204441	          Rhodospirillales
+  1.08	1	0	F	2829815	            Azospirillaceae
+  1.08	1	0	G	204447	              Skermanella
+  1.08	1	1	S	1789672	                Skermanella mucosa
+  2.15	2	0	C	1236	        Gammaproteobacteria
+  1.08	1	0	O	72273	          Thiotrichales
+  1.08	1	0	F	135616	            Piscirickettsiaceae
+  1.08	1	0	G	2039723	              Thiomicrorhabdus
+  1.08	1	0	G1	2636650	                unclassified Thiomicrorhabdus
+  1.08	1	1	S	2039724	                  Thiomicrorhabdus sp.
+  1.08	1	0	O	135624	          Aeromonadales
+  1.08	1	0	F	84642	            Aeromonadaceae
+  1.08	1	0	G	642	              Aeromonas
+  1.08	1	1	S	648	                Aeromonas caviae
+  1.08	1	0	C	28216	        Betaproteobacteria
+  1.08	1	1	O	80840	          Burkholderiales
+  3.23	3	0	D1	1783272	      Terrabacteria group
+  3.23	3	0	P	201174	        Actinomycetota
+  3.23	3	0	C	1760	          Actinomycetes
+  2.15	2	0	O	85011	            Kitasatosporales
+  2.15	2	0	F	2062	              Streptomycetaceae
+  2.15	2	0	G	1883	                Streptomyces
+  1.08	1	1	S	47759	                  Streptomyces tubercidicus
+  1.08	1	0	S	114687	                  Streptomyces auratus
+  1.08	1	1	S1	1160718	                    Streptomyces auratus AGR0001
+  1.08	1	0	O	85006	            Micrococcales
+  1.08	1	0	F	85023	              Microbacteriaceae
+  1.08	1	0	G	2034	                Curtobacterium
+  1.08	1	0	G1	257496	                  unclassified Curtobacterium
+  1.08	1	1	S	2898151	                    Curtobacterium sp. C1
+  5.38	5	0	D	2759	    Eukaryota
+  4.30	4	0	D1	33154	      Opisthokonta
+  3.23	3	0	K	33208	        Metazoa
+  3.23	3	0	K1	6072	          Eumetazoa
+  3.23	3	0	K2	33213	            Bilateria
+  3.23	3	0	K3	33511	              Deuterostomia
+  3.23	3	0	P	7711	                Chordata
+  3.23	3	0	P1	89593	                  Craniata
+  3.23	3	0	P2	7742	                    Vertebrata
+  3.23	3	0	P3	7776	                      Gnathostomata
+  3.23	3	0	P4	117570	                        Teleostomi
+  3.23	3	0	P5	117571	                          Euteleostomi
+  3.23	3	0	P6	8287	                            Sarcopterygii
+  3.23	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.23	3	0	P8	32523	                                Tetrapoda
+  3.23	3	0	P9	32524	                                  Amniota
+  3.23	3	0	C	40674	                                    Mammalia
+  3.23	3	0	C1	32525	                                      Theria
+  3.23	3	0	C2	9347	                                        Eutheria
+  3.23	3	0	C3	1437010	                                          Boreoeutheria
+  3.23	3	0	C4	314146	                                            Euarchontoglires
+  3.23	3	0	O	9443	                                              Primates
+  3.23	3	0	O1	376913	                                                Haplorrhini
+  3.23	3	0	O2	314293	                                                  Simiiformes
+  3.23	3	0	O3	9526	                                                    Catarrhini
+  3.23	3	0	O4	314295	                                                      Hominoidea
+  3.23	3	0	F	9604	                                                        Hominidae
+  3.23	3	0	F1	207598	                                                          Homininae
+  3.23	3	0	G	9605	                                                            Homo
+  3.23	3	3	S	9606	                                                              Homo sapiens
+  1.08	1	0	K	4751	        Fungi
+  1.08	1	0	K1	451864	          Dikarya
+  1.08	1	0	P	4890	            Ascomycota
+  1.08	1	0	P1	716545	              saccharomyceta
+  1.08	1	0	P2	147538	                Pezizomycotina
+  1.08	1	0	P3	716546	                  leotiomyceta
+  1.08	1	0	P4	715989	                    sordariomyceta
+  1.08	1	0	C	147550	                      Sordariomycetes
+  1.08	1	0	C1	222544	                        Sordariomycetidae
+  1.08	1	0	O	5139	                          Sordariales
+  1.08	1	0	F	35718	                            Chaetomiaceae
+  1.08	1	0	G	1920207	                              Thermothelomyces
+  1.08	1	0	S	78579	                                Thermothelomyces thermophilus
+  1.08	1	1	S1	573729	                                  Thermothelomyces thermophilus ATCC 42464
+  1.08	1	0	D1	2611352	      Discoba
+  1.08	1	0	P	33682	        Euglenozoa
+  1.08	1	0	C	5653	          Kinetoplastea
+  1.08	1	0	C1	2704647	            Metakinetoplastina
+  1.08	1	0	O	2704949	              Trypanosomatida
+  1.08	1	0	F	5654	                Trypanosomatidae
+  1.08	1	0	F1	1286322	                  Leishmaniinae
+  1.08	1	0	G	5658	                    Leishmania
+  1.08	1	0	G1	38568	                      Leishmania
+  1.08	1	0	G2	38582	                        Leishmania mexicana species complex
+  1.08	1	0	S	5665	                          Leishmania mexicana
+  1.08	1	1	S1	929439	                            Leishmania mexicana MHOM/GT/2001/U1103

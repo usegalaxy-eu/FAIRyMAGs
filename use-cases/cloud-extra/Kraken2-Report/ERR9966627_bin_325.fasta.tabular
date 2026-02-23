@@ -1,0 +1,82 @@
+ 73.58	39	39	U	0	unclassified
+ 26.42	14	0	R	1	root
+ 26.42	14	3	R1	131567	  cellular organisms
+ 11.32	6	2	D	2	    Bacteria
+  5.66	3	0	P	1224	      Pseudomonadota
+  3.77	2	0	C	28216	        Betaproteobacteria
+  1.89	1	0	O	80840	          Burkholderiales
+  1.89	1	0	F	119060	            Burkholderiaceae
+  1.89	1	1	G	1822464	              Paraburkholderia
+  1.89	1	0	O	206351	          Neisseriales
+  1.89	1	0	F	1499392	            Chromobacteriaceae
+  1.89	1	0	G	535	              Chromobacterium
+  1.89	1	1	S	1108595	                Chromobacterium vaccinii
+  1.89	1	0	C	28211	        Alphaproteobacteria
+  1.89	1	0	O	356	          Hyphomicrobiales
+  1.89	1	0	F	82115	            Rhizobiaceae
+  1.89	1	0	F1	227290	              Rhizobium/Agrobacterium group
+  1.89	1	0	G	357	                Agrobacterium
+  1.89	1	0	G1	1183400	                  Agrobacterium tumefaciens complex
+  1.89	1	1	S	358	                    Agrobacterium tumefaciens
+  1.89	1	0	D1	1783272	      Terrabacteria group
+  1.89	1	0	P	201174	        Actinomycetota
+  1.89	1	0	C	1760	          Actinomycetes
+  1.89	1	0	O	85011	            Kitasatosporales
+  1.89	1	0	F	2062	              Streptomycetaceae
+  1.89	1	1	G	1883	                Streptomyces
+  9.43	5	0	D	2759	    Eukaryota
+  9.43	5	0	D1	33154	      Opisthokonta
+  5.66	3	0	K	4751	        Fungi
+  5.66	3	0	K1	451864	          Dikarya
+  3.77	2	0	P	5204	            Basidiomycota
+  3.77	2	0	P1	5302	              Agaricomycotina
+  1.89	1	0	C	155616	                Tremellomycetes
+  1.89	1	0	O	1851469	                  Trichosporonales
+  1.89	1	0	F	1759442	                    Trichosporonaceae
+  1.89	1	0	G	1838142	                      Cutaneotrichosporon
+  1.89	1	1	S	279322	                        Cutaneotrichosporon cavernicola
+  1.89	1	0	C	155619	                Agaricomycetes
+  1.89	1	0	C1	355688	                  Agaricomycetes incertae sedis
+  1.89	1	0	O	36064	                    Cantharellales
+  1.89	1	0	F	5250	                      Ceratobasidiaceae
+  1.89	1	0	G	1322061	                        Rhizoctonia
+  1.89	1	1	S	456999	                          Rhizoctonia solani
+  1.89	1	0	P	4890	            Ascomycota
+  1.89	1	0	P1	716545	              saccharomyceta
+  1.89	1	0	P2	147538	                Pezizomycotina
+  1.89	1	0	P3	716546	                  leotiomyceta
+  1.89	1	0	P4	715989	                    sordariomyceta
+  1.89	1	0	C	147550	                      Sordariomycetes
+  1.89	1	0	C1	222543	                        Hypocreomycetidae
+  1.89	1	0	O	5125	                          Hypocreales
+  1.89	1	0	F	474942	                            Ophiocordycipitaceae
+  1.89	1	0	G	1052105	                              Purpureocillium
+  1.89	1	1	S	2060973	                                Purpureocillium takamizusanense
+  3.77	2	0	K	33208	        Metazoa
+  3.77	2	0	K1	6072	          Eumetazoa
+  3.77	2	0	K2	33213	            Bilateria
+  3.77	2	0	K3	33511	              Deuterostomia
+  3.77	2	0	P	7711	                Chordata
+  3.77	2	0	P1	89593	                  Craniata
+  3.77	2	0	P2	7742	                    Vertebrata
+  3.77	2	0	P3	7776	                      Gnathostomata
+  3.77	2	0	P4	117570	                        Teleostomi
+  3.77	2	0	P5	117571	                          Euteleostomi
+  3.77	2	0	P6	8287	                            Sarcopterygii
+  3.77	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.77	2	0	P8	32523	                                Tetrapoda
+  3.77	2	0	P9	32524	                                  Amniota
+  3.77	2	0	C	40674	                                    Mammalia
+  3.77	2	0	C1	32525	                                      Theria
+  3.77	2	0	C2	9347	                                        Eutheria
+  3.77	2	0	C3	1437010	                                          Boreoeutheria
+  3.77	2	0	C4	314146	                                            Euarchontoglires
+  3.77	2	0	O	9443	                                              Primates
+  3.77	2	0	O1	376913	                                                Haplorrhini
+  3.77	2	0	O2	314293	                                                  Simiiformes
+  3.77	2	0	O3	9526	                                                    Catarrhini
+  3.77	2	0	O4	314295	                                                      Hominoidea
+  3.77	2	0	F	9604	                                                        Hominidae
+  3.77	2	0	F1	207598	                                                          Homininae
+  3.77	2	0	G	9605	                                                            Homo
+  3.77	2	2	S	9606	                                                              Homo sapiens

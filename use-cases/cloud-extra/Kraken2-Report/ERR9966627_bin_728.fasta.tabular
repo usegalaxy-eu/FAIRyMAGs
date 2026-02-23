@@ -1,0 +1,96 @@
+ 70.59	36	36	U	0	unclassified
+ 29.41	15	0	R	1	root
+ 29.41	15	1	R1	131567	  cellular organisms
+ 15.69	8	0	D	2759	    Eukaryota
+ 15.69	8	0	D1	33154	      Opisthokonta
+ 13.73	7	0	K	4751	        Fungi
+ 13.73	7	0	K1	451864	          Dikarya
+ 11.76	6	0	P	5204	            Basidiomycota
+  7.84	4	0	P1	5302	              Agaricomycotina
+  7.84	4	0	C	155619	                Agaricomycetes
+  7.84	4	0	C1	452333	                  Agaricomycetidae
+  7.84	4	0	O	5338	                    Agaricales
+  7.84	4	0	O1	2982305	                      Agaricineae
+  7.84	4	0	F	40562	                        Strophariaceae
+  7.84	4	0	G	71950	                          Psilocybe
+  7.84	4	4	S	181762	                            Psilocybe cubensis
+  3.92	2	0	P1	452284	              Ustilaginomycotina
+  1.96	1	0	C	5257	                Ustilaginomycetes
+  1.96	1	0	O	5267	                  Ustilaginales
+  1.96	1	0	F	5268	                    Ustilaginaceae
+  1.96	1	0	G	5269	                      Ustilago
+  1.96	1	0	S	5270	                        Ustilago maydis
+  1.96	1	1	S1	237631	                          Ustilago maydis 521
+  1.96	1	0	C	1538075	                Malasseziomycetes
+  1.96	1	0	O	162474	                  Malasseziales
+  1.96	1	0	F	742845	                    Malasseziaceae
+  1.96	1	0	G	55193	                      Malassezia
+  1.96	1	1	S	223818	                        Malassezia japonica
+  1.96	1	0	P	4890	            Ascomycota
+  1.96	1	0	P1	716545	              saccharomyceta
+  1.96	1	0	P2	147538	                Pezizomycotina
+  1.96	1	0	P3	716546	                  leotiomyceta
+  1.96	1	0	P4	715989	                    sordariomyceta
+  1.96	1	0	C	147550	                      Sordariomycetes
+  1.96	1	0	C1	222543	                        Hypocreomycetidae
+  1.96	1	0	O	5125	                          Hypocreales
+  1.96	1	0	F	34397	                            Clavicipitaceae
+  1.96	1	0	G	243023	                              Pochonia
+  1.96	1	0	S	280754	                                Pochonia chlamydosporia
+  1.96	1	1	S1	1380566	                                  Pochonia chlamydosporia 170
+  1.96	1	0	K	33208	        Metazoa
+  1.96	1	0	K1	6072	          Eumetazoa
+  1.96	1	0	K2	33213	            Bilateria
+  1.96	1	0	K3	33511	              Deuterostomia
+  1.96	1	0	P	7711	                Chordata
+  1.96	1	0	P1	89593	                  Craniata
+  1.96	1	0	P2	7742	                    Vertebrata
+  1.96	1	0	P3	7776	                      Gnathostomata
+  1.96	1	0	P4	117570	                        Teleostomi
+  1.96	1	0	P5	117571	                          Euteleostomi
+  1.96	1	0	P6	8287	                            Sarcopterygii
+  1.96	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.96	1	0	P8	32523	                                Tetrapoda
+  1.96	1	0	P9	32524	                                  Amniota
+  1.96	1	0	C	40674	                                    Mammalia
+  1.96	1	0	C1	32525	                                      Theria
+  1.96	1	0	C2	9347	                                        Eutheria
+  1.96	1	0	C3	1437010	                                          Boreoeutheria
+  1.96	1	0	C4	314146	                                            Euarchontoglires
+  1.96	1	0	O	9443	                                              Primates
+  1.96	1	0	O1	376913	                                                Haplorrhini
+  1.96	1	0	O2	314293	                                                  Simiiformes
+  1.96	1	0	O3	9526	                                                    Catarrhini
+  1.96	1	0	O4	314295	                                                      Hominoidea
+  1.96	1	0	F	9604	                                                        Hominidae
+  1.96	1	0	F1	207598	                                                          Homininae
+  1.96	1	0	G	9605	                                                            Homo
+  1.96	1	1	S	9606	                                                              Homo sapiens
+ 11.76	6	1	D	2	    Bacteria
+  5.88	3	0	D1	1783272	      Terrabacteria group
+  3.92	2	0	P	201174	        Actinomycetota
+  3.92	2	0	C	1760	          Actinomycetes
+  3.92	2	0	O	85007	            Mycobacteriales
+  1.96	1	0	F	1762	              Mycobacteriaceae
+  1.96	1	0	G	1763	                Mycobacterium
+  1.96	1	1	S	1775	                  Mycobacterium cookii
+  1.96	1	0	F	85025	              Nocardiaceae
+  1.96	1	1	G	1827	                Rhodococcus
+  1.96	1	0	P	1239	        Bacillota
+  1.96	1	0	C	186801	          Clostridia
+  1.96	1	0	O	186802	            Eubacteriales
+  1.96	1	0	O1	538999	              Eubacteriales incertae sedis
+  1.96	1	0	F	543314	                Eubacteriales Family XIII. Incertae Sedis
+  1.96	1	0	G	1926556	                  Emergencia
+  1.96	1	1	S	1776384	                    Emergencia timonensis
+  3.92	2	0	P	1224	      Pseudomonadota
+  1.96	1	0	C	1236	        Gammaproteobacteria
+  1.96	1	0	O	1706369	          Cellvibrionales
+  1.96	1	0	F	1706373	            Microbulbiferaceae
+  1.96	1	0	G	48073	              Microbulbifer
+  1.96	1	1	S	260552	                Microbulbifer agarilyticus
+  1.96	1	0	C	28216	        Betaproteobacteria
+  1.96	1	0	O	206351	          Neisseriales
+  1.96	1	0	F	1499392	            Chromobacteriaceae
+  1.96	1	0	G	535	              Chromobacterium
+  1.96	1	1	S	536	                Chromobacterium violaceum

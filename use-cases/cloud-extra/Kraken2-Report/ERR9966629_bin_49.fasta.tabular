@@ -1,0 +1,107 @@
+ 41.00	41	41	U	0	unclassified
+ 59.00	59	0	R	1	root
+ 59.00	59	4	R1	131567	  cellular organisms
+ 50.00	50	0	D	2759	    Eukaryota
+ 50.00	50	0	D1	33154	      Opisthokonta
+ 30.00	30	0	K	4751	        Fungi
+ 30.00	30	0	K1	451864	          Dikarya
+ 19.00	19	0	P	5204	            Basidiomycota
+ 19.00	19	0	P1	5302	              Agaricomycotina
+ 19.00	19	0	C	155619	                Agaricomycetes
+ 19.00	19	0	C1	452333	                  Agaricomycetidae
+ 19.00	19	1	O	5338	                    Agaricales
+ 10.00	10	0	O1	2982305	                      Agaricineae
+ 10.00	10	0	F	40562	                        Strophariaceae
+ 10.00	10	0	G	71950	                          Psilocybe
+ 10.00	10	10	S	181762	                            Psilocybe cubensis
+  8.00	8	0	O1	2982316	                      Marasmiineae
+  8.00	8	0	F	654128	                        Marasmiaceae
+  8.00	8	0	G	34448	                          Marasmius
+  8.00	8	8	S	181124	                            Marasmius oreades
+ 11.00	11	0	P	4890	            Ascomycota
+ 11.00	11	0	P1	716545	              saccharomyceta
+  9.00	9	0	P2	147538	                Pezizomycotina
+  9.00	9	0	P3	716546	                  leotiomyceta
+  7.00	7	0	P4	715989	                    sordariomyceta
+  7.00	7	0	C	147550	                      Sordariomycetes
+  7.00	7	0	C1	222543	                        Hypocreomycetidae
+  6.00	6	0	O	5125	                          Hypocreales
+  5.00	5	0	F	110618	                            Nectriaceae
+  5.00	5	0	G	5506	                              Fusarium
+  5.00	5	1	G1	569360	                                Fusarium sambucinum species complex
+  3.00	3	0	S	101028	                                  Fusarium pseudograminearum
+  3.00	3	3	S1	1028729	                                    Fusarium pseudograminearum CS3096
+  1.00	1	0	S	5518	                                  Fusarium graminearum
+  1.00	1	1	S1	229533	                                    Fusarium graminearum PH-1
+  1.00	1	0	F	34397	                            Clavicipitaceae
+  1.00	1	0	G	124426	                              Ustilaginoidea
+  1.00	1	1	S	1159556	                                Ustilaginoidea virens
+  1.00	1	0	O	1028384	                          Glomerellales
+  1.00	1	0	F	681950	                            Glomerellaceae
+  1.00	1	0	G	5455	                              Colletotrichum
+  1.00	1	0	G1	2707335	                                Colletotrichum acutatum species complex
+  1.00	1	1	S	145971	                                  Colletotrichum lupini
+  2.00	2	0	C	147545	                    Eurotiomycetes
+  2.00	2	0	C1	451871	                      Eurotiomycetidae
+  2.00	2	0	O	5042	                        Eurotiales
+  2.00	2	0	F	1131492	                          Aspergillaceae
+  2.00	2	0	G	5052	                            Aspergillus
+  1.00	1	1	S	1069201	                              Aspergillus luchuensis
+  1.00	1	0	G1	2720870	                              Aspergillus subgen. Nidulantes
+  1.00	1	0	S	162425	                                Aspergillus nidulans
+  1.00	1	1	S1	227321	                                  Aspergillus nidulans FGSC A4
+  2.00	2	0	P2	147537	                Saccharomycotina
+  2.00	2	0	C	4891	                  Saccharomycetes
+  2.00	2	0	O	4892	                    Saccharomycetales
+  2.00	2	0	F	4893	                      Saccharomycetaceae
+  1.00	1	0	G	4910	                        Kluyveromyces
+  1.00	1	1	S	28985	                          Kluyveromyces lactis
+  1.00	1	1	G	4930	                        Saccharomyces
+ 20.00	20	0	K	33208	        Metazoa
+ 20.00	20	0	K1	6072	          Eumetazoa
+ 20.00	20	0	K2	33213	            Bilateria
+ 20.00	20	0	K3	33511	              Deuterostomia
+ 20.00	20	0	P	7711	                Chordata
+ 20.00	20	0	P1	89593	                  Craniata
+ 20.00	20	0	P2	7742	                    Vertebrata
+ 20.00	20	0	P3	7776	                      Gnathostomata
+ 20.00	20	0	P4	117570	                        Teleostomi
+ 20.00	20	0	P5	117571	                          Euteleostomi
+ 20.00	20	0	P6	8287	                            Sarcopterygii
+ 20.00	20	0	P7	1338369	                              Dipnotetrapodomorpha
+ 20.00	20	0	P8	32523	                                Tetrapoda
+ 20.00	20	0	P9	32524	                                  Amniota
+ 20.00	20	0	C	40674	                                    Mammalia
+ 20.00	20	0	C1	32525	                                      Theria
+ 20.00	20	0	C2	9347	                                        Eutheria
+ 20.00	20	0	C3	1437010	                                          Boreoeutheria
+ 20.00	20	0	C4	314146	                                            Euarchontoglires
+ 20.00	20	0	O	9443	                                              Primates
+ 20.00	20	0	O1	376913	                                                Haplorrhini
+ 20.00	20	0	O2	314293	                                                  Simiiformes
+ 20.00	20	0	O3	9526	                                                    Catarrhini
+ 20.00	20	0	O4	314295	                                                      Hominoidea
+ 20.00	20	0	F	9604	                                                        Hominidae
+ 20.00	20	0	F1	207598	                                                          Homininae
+ 20.00	20	0	G	9605	                                                            Homo
+ 20.00	20	20	S	9606	                                                              Homo sapiens
+  5.00	5	1	D	2	    Bacteria
+  2.00	2	1	P	1224	      Pseudomonadota
+  1.00	1	0	C	1236	        Gammaproteobacteria
+  1.00	1	0	O	72274	          Pseudomonadales
+  1.00	1	0	F	135621	            Pseudomonadaceae
+  1.00	1	0	G	286	              Pseudomonas
+  1.00	1	0	G1	196821	                unclassified Pseudomonas
+  1.00	1	1	S	2898483	                  Pseudomonas sp. 7-41
+  2.00	2	0	D1	1783272	      Terrabacteria group
+  2.00	2	0	P	1239	        Bacillota
+  2.00	2	0	C	186801	          Clostridia
+  1.00	1	0	O	53433	            Halanaerobiales
+  1.00	1	0	F	53434	              Halobacteroidaceae
+  1.00	1	0	G	42417	                Halobacteroides
+  1.00	1	0	S	42422	                  Halobacteroides halobius
+  1.00	1	1	S1	748449	                    Halobacteroides halobius DSM 5150
+  1.00	1	0	O	186802	            Eubacteriales
+  1.00	1	0	F	31979	              Clostridiaceae
+  1.00	1	0	G	1485	                Clostridium
+  1.00	1	1	S	1491	                  Clostridium botulinum

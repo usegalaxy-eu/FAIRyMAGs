@@ -1,0 +1,90 @@
+ 60.87	14	14	U	0	unclassified
+ 39.13	9	0	R	1	root
+ 39.13	9	1	R1	131567	  cellular organisms
+ 17.39	4	0	D	2	    Bacteria
+  8.70	2	0	P	1224	      Pseudomonadota
+  8.70	2	0	C	28211	        Alphaproteobacteria
+  8.70	2	0	O	204441	          Rhodospirillales
+  4.35	1	0	F	433	            Acetobacteraceae
+  4.35	1	0	G	434	              Acetobacter
+  4.35	1	1	S	2592655	                Acetobacter vaccinii
+  4.35	1	0	F	2690195	            Elioraeaceae
+  4.35	1	0	G	457933	              Elioraea
+  4.35	1	1	S	2843330	                Elioraea tepida
+  4.35	1	0	D1	1783272	      Terrabacteria group
+  4.35	1	0	P	201174	        Actinomycetota
+  4.35	1	0	C	1760	          Actinomycetes
+  4.35	1	1	O	85006	            Micrococcales
+  4.35	1	0	D1	1783270	      FCB group
+  4.35	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  4.35	1	0	P	976	          Bacteroidota
+  4.35	1	0	C	117747	            Sphingobacteriia
+  4.35	1	0	O	200666	              Sphingobacteriales
+  4.35	1	0	F	84566	                Sphingobacteriaceae
+  4.35	1	0	G	423349	                  Mucilaginibacter
+  4.35	1	0	G1	2617802	                    unclassified Mucilaginibacter
+  4.35	1	1	S	2703789	                      Mucilaginibacter sp. 14171R-50
+ 17.39	4	0	D	2759	    Eukaryota
+ 13.04	3	0	D1	33154	      Opisthokonta
+  8.70	2	0	K	4751	        Fungi
+  8.70	2	0	K1	451864	          Dikarya
+  4.35	1	0	P	4890	            Ascomycota
+  4.35	1	0	P1	716545	              saccharomyceta
+  4.35	1	0	P2	147538	                Pezizomycotina
+  4.35	1	0	P3	716546	                  leotiomyceta
+  4.35	1	0	P4	715989	                    sordariomyceta
+  4.35	1	0	C	147550	                      Sordariomycetes
+  4.35	1	0	C1	222544	                        Sordariomycetidae
+  4.35	1	0	O	5139	                          Sordariales
+  4.35	1	0	F	5148	                            Sordariaceae
+  4.35	1	0	G	5140	                              Neurospora
+  4.35	1	0	S	5141	                                Neurospora crassa
+  4.35	1	1	S1	367110	                                  Neurospora crassa OR74A
+  4.35	1	0	P	5204	            Basidiomycota
+  4.35	1	0	P1	5302	              Agaricomycotina
+  4.35	1	0	C	155619	                Agaricomycetes
+  4.35	1	0	C1	452333	                  Agaricomycetidae
+  4.35	1	0	O	5338	                    Agaricales
+  4.35	1	0	O1	2982305	                      Agaricineae
+  4.35	1	0	F	40562	                        Strophariaceae
+  4.35	1	0	G	71950	                          Psilocybe
+  4.35	1	1	S	181762	                            Psilocybe cubensis
+  4.35	1	0	K	33208	        Metazoa
+  4.35	1	0	K1	6072	          Eumetazoa
+  4.35	1	0	K2	33213	            Bilateria
+  4.35	1	0	K3	33511	              Deuterostomia
+  4.35	1	0	P	7711	                Chordata
+  4.35	1	0	P1	89593	                  Craniata
+  4.35	1	0	P2	7742	                    Vertebrata
+  4.35	1	0	P3	7776	                      Gnathostomata
+  4.35	1	0	P4	117570	                        Teleostomi
+  4.35	1	0	P5	117571	                          Euteleostomi
+  4.35	1	0	P6	8287	                            Sarcopterygii
+  4.35	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  4.35	1	0	P8	32523	                                Tetrapoda
+  4.35	1	0	P9	32524	                                  Amniota
+  4.35	1	0	C	40674	                                    Mammalia
+  4.35	1	0	C1	32525	                                      Theria
+  4.35	1	0	C2	9347	                                        Eutheria
+  4.35	1	0	C3	1437010	                                          Boreoeutheria
+  4.35	1	0	C4	314146	                                            Euarchontoglires
+  4.35	1	0	O	9443	                                              Primates
+  4.35	1	0	O1	376913	                                                Haplorrhini
+  4.35	1	0	O2	314293	                                                  Simiiformes
+  4.35	1	0	O3	9526	                                                    Catarrhini
+  4.35	1	0	O4	314295	                                                      Hominoidea
+  4.35	1	0	F	9604	                                                        Hominidae
+  4.35	1	0	F1	207598	                                                          Homininae
+  4.35	1	0	G	9605	                                                            Homo
+  4.35	1	1	S	9606	                                                              Homo sapiens
+  4.35	1	0	D1	2698737	      Sar
+  4.35	1	0	D2	33630	        Alveolata
+  4.35	1	0	P	5794	          Apicomplexa
+  4.35	1	0	C	1280412	            Conoidasida
+  4.35	1	0	C1	5796	              Coccidia
+  4.35	1	0	O	75739	                Eucoccidiorida
+  4.35	1	0	O1	423054	                  Eimeriorina
+  4.35	1	0	F	5809	                    Sarcocystidae
+  4.35	1	0	G	5810	                      Toxoplasma
+  4.35	1	0	S	5811	                        Toxoplasma gondii
+  4.35	1	1	S1	508771	                          Toxoplasma gondii ME49

@@ -1,0 +1,109 @@
+  4.42	31	31	U	0	unclassified
+ 95.58	670	0	R	1	root
+ 95.58	670	0	R1	131567	  cellular organisms
+ 95.44	669	5	D	2	    Bacteria
+ 93.58	656	0	D1	1783272	      Terrabacteria group
+ 93.58	656	0	P	201174	        Actinomycetota
+ 93.58	656	1	C	1760	          Actinomycetes
+ 92.58	649	0	O	85007	            Mycobacteriales
+ 92.44	648	7	F	1762	              Mycobacteriaceae
+ 89.44	627	4	G	670516	                Mycobacteroides
+ 72.18	506	506	S	404941	                  Mycobacteroides salmoniphilum
+  6.99	49	28	S	1774	                  Mycobacteroides chelonae
+  3.00	21	21	S1	2480908	                    [Mycobacterium] chelonae subsp. gwanakae
+  6.70	47	15	S	36809	                  Mycobacteroides abscessus
+  2.71	19	19	S1	1185650	                    Mycobacteroides abscessus subsp. abscessus
+  1.00	7	6	S1	319705	                    Mycobacteroides abscessus subsp. bolletii
+  0.14	1	1	S2	1091046	                      Mycobacteroides abscessus subsp. bolletii BD
+  0.71	5	0	S1	1962118	                    Mycobacteroides abscessus subsp. massiliense
+  0.71	5	5	S2	1001714	                      Mycobacteroides abscessus subsp. massiliense CCUG 48898 = JCM 15300
+  0.14	1	1	S1	1132508	                    Mycobacteroides abscessus UC22
+  2.14	15	15	S	1520670	                  [Mycobacterium] stephanolepidis
+  0.71	5	5	S	83262	                  Mycobacteroides immunogenum
+  0.14	1	1	S	1578165	                  Mycobacteroides saopaulense
+  1.43	10	1	G	1866885	                Mycolicibacterium
+  0.71	5	5	S	1802	                  Mycolicibacterium farcinogenes
+  0.14	1	1	S	2761578	                  Mycolicibacterium baixiangningiae
+  0.14	1	0	G1	2636767	                  unclassified Mycolicibacterium
+  0.14	1	1	S	1968788	                    Mycolicibacterium sp. CBMA 213
+  0.14	1	1	S	53462	                  Mycolicibacterium mageritense
+  0.14	1	1	S	444597	                  Mycolicibacterium insubricum
+  0.57	4	1	G	1763	                Mycobacterium
+  0.14	1	1	S	3027808	                  Candidatus Mycobacterium wuenschmannii
+  0.14	1	0	G1	2249310	                  Mycobacterium simiae complex
+  0.14	1	1	S	722731	                    Mycobacterium shigaense
+  0.14	1	0	G1	120793	                  Mycobacterium avium complex (MAC)
+  0.14	1	0	S	1767	                    Mycobacterium intracellulare
+  0.14	1	1	S1	222805	                      Mycobacterium intracellulare subsp. chimaera
+  0.14	1	0	F	3040680	              Hoyosellaceae
+  0.14	1	0	G	697025	                Hoyosella
+  0.14	1	0	S	639313	                  Hoyosella subflava
+  0.14	1	1	S1	443218	                    Hoyosella subflava DQS3-9A1
+  0.43	3	0	O	85011	            Kitasatosporales
+  0.43	3	0	F	2062	              Streptomycetaceae
+  0.43	3	1	G	1883	                Streptomyces
+  0.14	1	0	G1	2839105	                  Streptomyces violaceusniger group
+  0.14	1	0	S	68280	                    Streptomyces violaceusniger
+  0.14	1	1	S1	653045	                      Streptomyces violaceusniger Tu 4113
+  0.14	1	0	G1	2593676	                  unclassified Streptomyces
+  0.14	1	1	S	2751189	                    Streptomyces sp. NEAU-sy36
+  0.14	1	0	O	85006	            Micrococcales
+  0.14	1	0	F	2805590	              Ornithinimicrobiaceae
+  0.14	1	0	G	125287	                Ornithinimicrobium
+  0.14	1	1	S	2283195	                  Ornithinimicrobium avium
+  0.14	1	0	O	85008	            Micromonosporales
+  0.14	1	0	F	28056	              Micromonosporaceae
+  0.14	1	0	G	1865	                Actinoplanes
+  0.14	1	1	S	113562	                  Actinoplanes derwentensis
+  0.14	1	0	O	85012	            Streptosporangiales
+  0.14	1	0	F	83676	              Nocardiopsaceae
+  0.14	1	0	G	2013	                Nocardiopsis
+  0.14	1	1	S	2831968	                  Nocardiopsis akebiae
+  1.00	7	0	P	1224	      Pseudomonadota
+  0.86	6	1	C	28211	        Alphaproteobacteria
+  0.43	3	0	O	356	          Hyphomicrobiales
+  0.29	2	0	F	69277	            Phyllobacteriaceae
+  0.14	1	0	G	245876	              Nitratireductor
+  0.14	1	1	S	2854036	                Nitratireductor rhodophyticola
+  0.14	1	0	G	2911176	              Aquibium
+  0.14	1	1	S	1670800	                Aquibium oceanicum
+  0.14	1	0	F	41294	            Nitrobacteraceae
+  0.14	1	1	G	374	              Bradyrhizobium
+  0.14	1	0	O	204441	          Rhodospirillales
+  0.14	1	0	F	433	            Acetobacteraceae
+  0.14	1	0	G	504465	              Rhodovastum
+  0.14	1	1	S	504468	                Rhodovastum atsumiense
+  0.14	1	0	O	204455	          Rhodobacterales
+  0.14	1	0	F	2854170	            Roseobacteraceae
+  0.14	1	0	G	191028	              Leisingera
+  0.14	1	0	G1	2614906	                unclassified Leisingera
+  0.14	1	1	S	2508307	                  Leisingera sp. NJS204
+  0.14	1	0	C	28216	        Betaproteobacteria
+  0.14	1	0	O	80840	          Burkholderiales
+  0.14	1	0	F	80864	            Comamonadaceae
+  0.14	1	0	G	283	              Comamonas
+  0.14	1	1	S	285	                Comamonas testosteroni
+  0.14	1	0	D1	1783257	      PVC group
+  0.14	1	0	P	204428	        Chlamydiota
+  0.14	1	0	C	204429	          Chlamydiia
+  0.14	1	0	O	51291	            Chlamydiales
+  0.14	1	0	F	809	              Chlamydiaceae
+  0.14	1	0	F1	1113537	                Chlamydia/Chlamydophila group
+  0.14	1	0	G	810	                  Chlamydia
+  0.14	1	0	S	83557	                    Chlamydia caviae
+  0.14	1	1	S1	227941	                      Chlamydia caviae GPIC
+  0.14	1	0	D	2759	    Eukaryota
+  0.14	1	0	D1	33154	      Opisthokonta
+  0.14	1	0	K	4751	        Fungi
+  0.14	1	0	K1	451864	          Dikarya
+  0.14	1	0	P	4890	            Ascomycota
+  0.14	1	0	P1	716545	              saccharomyceta
+  0.14	1	0	P2	147538	                Pezizomycotina
+  0.14	1	0	P3	716546	                  leotiomyceta
+  0.14	1	0	P4	715989	                    sordariomyceta
+  0.14	1	0	C	147550	                      Sordariomycetes
+  0.14	1	0	C1	222543	                        Hypocreomycetidae
+  0.14	1	0	O	5125	                          Hypocreales
+  0.14	1	0	F	474942	                            Ophiocordycipitaceae
+  0.14	1	0	G	98402	                              Drechmeria
+  0.14	1	1	S	98403	                                Drechmeria coniospora

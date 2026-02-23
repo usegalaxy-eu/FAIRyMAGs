@@ -1,0 +1,39 @@
+ 84.62	33	33	U	0	unclassified
+ 15.38	6	0	R	1	root
+ 12.82	5	1	R1	131567	  cellular organisms
+ 10.26	4	0	D	2	    Bacteria
+  5.13	2	0	D1	1783272	      Terrabacteria group
+  5.13	2	0	P	201174	        Actinomycetota
+  5.13	2	0	C	1760	          Actinomycetes
+  2.56	1	0	O	85006	            Micrococcales
+  2.56	1	0	F	85023	              Microbacteriaceae
+  2.56	1	0	G	110932	                Leifsonia
+  2.56	1	0	S	1575	                  Leifsonia xyli
+  2.56	1	0	S1	31966	                    Leifsonia xyli subsp. cynodontis
+  2.56	1	1	S2	1389489	                      Leifsonia xyli subsp. cynodontis DSM 46306
+  2.56	1	0	O	85012	            Streptosporangiales
+  2.56	1	0	F	2012	              Thermomonosporaceae
+  2.56	1	0	G	1988	                Actinomadura
+  2.56	1	0	G1	2626254	                  unclassified Actinomadura
+  2.56	1	1	S	2742128	                    Actinomadura sp. NAK00032
+  2.56	1	0	P	200940	      Thermodesulfobacteriota
+  2.56	1	0	C	3031449	        Desulfovibrionia
+  2.56	1	0	O	213115	          Desulfovibrionales
+  2.56	1	0	F	194924	            Desulfovibrionaceae
+  2.56	1	0	G	2035811	              Pseudodesulfovibrio
+  2.56	1	1	S	57320	                Pseudodesulfovibrio profundus
+  2.56	1	0	P	1224	      Pseudomonadota
+  2.56	1	0	C	1236	        Gammaproteobacteria
+  2.56	1	0	O	135614	          Xanthomonadales
+  2.56	1	0	F	32033	            Xanthomonadaceae
+  2.56	1	0	G	83614	              Luteimonas
+  2.56	1	0	G1	2629088	                unclassified Luteimonas
+  2.56	1	1	S	2925842	                  Luteimonas sp. S4-F44
+  2.56	1	0	D	10239	  Viruses
+  2.56	1	0	D1	2731341	    Duplodnaviria
+  2.56	1	0	K	2731360	      Heunggongvirae
+  2.56	1	0	P	2731618	        Uroviricota
+  2.56	1	0	C	2731619	          Caudoviricetes
+  2.56	1	0	O	2942680	            Thumleimavirales
+  2.56	1	0	F	2946190	              Hafunaviridae
+  2.56	1	1	G	2843389	                Haloferacalesvirus

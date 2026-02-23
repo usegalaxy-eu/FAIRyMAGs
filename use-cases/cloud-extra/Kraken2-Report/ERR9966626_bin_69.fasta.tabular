@@ -1,0 +1,63 @@
+ 82.35	42	42	U	0	unclassified
+ 17.65	9	0	R	1	root
+ 17.65	9	1	R1	131567	  cellular organisms
+  7.84	4	0	D	2	    Bacteria
+  5.88	3	0	P	1224	      Pseudomonadota
+  5.88	3	0	C	28211	        Alphaproteobacteria
+  3.92	2	0	O	204441	          Rhodospirillales
+  3.92	2	0	F	433	            Acetobacteraceae
+  3.92	2	0	G	125216	              Roseomonas
+  3.92	2	2	S	207340	                Roseomonas mucosa
+  1.96	1	0	O	356	          Hyphomicrobiales
+  1.96	1	0	F	119045	            Methylobacteriaceae
+  1.96	1	0	G	407	              Methylobacterium
+  1.96	1	0	S	114616	                Methylobacterium nodulans
+  1.96	1	1	S1	460265	                  Methylobacterium nodulans ORS 2060
+  1.96	1	0	D1	1783272	      Terrabacteria group
+  1.96	1	0	P	201174	        Actinomycetota
+  1.96	1	0	C	1760	          Actinomycetes
+  1.96	1	0	O	85010	            Pseudonocardiales
+  1.96	1	0	F	2070	              Pseudonocardiaceae
+  1.96	1	0	G	40566	                Actinosynnema
+  1.96	1	1	S	42197	                  Actinosynnema pretiosum
+  7.84	4	0	D	2759	    Eukaryota
+  7.84	4	0	D1	33154	      Opisthokonta
+  5.88	3	0	K	33208	        Metazoa
+  5.88	3	0	K1	6072	          Eumetazoa
+  5.88	3	0	K2	33213	            Bilateria
+  5.88	3	0	K3	33511	              Deuterostomia
+  5.88	3	0	P	7711	                Chordata
+  5.88	3	0	P1	89593	                  Craniata
+  5.88	3	0	P2	7742	                    Vertebrata
+  5.88	3	0	P3	7776	                      Gnathostomata
+  5.88	3	0	P4	117570	                        Teleostomi
+  5.88	3	0	P5	117571	                          Euteleostomi
+  5.88	3	0	P6	8287	                            Sarcopterygii
+  5.88	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.88	3	0	P8	32523	                                Tetrapoda
+  5.88	3	0	P9	32524	                                  Amniota
+  5.88	3	0	C	40674	                                    Mammalia
+  5.88	3	0	C1	32525	                                      Theria
+  5.88	3	0	C2	9347	                                        Eutheria
+  5.88	3	0	C3	1437010	                                          Boreoeutheria
+  5.88	3	0	C4	314146	                                            Euarchontoglires
+  5.88	3	0	O	9443	                                              Primates
+  5.88	3	0	O1	376913	                                                Haplorrhini
+  5.88	3	0	O2	314293	                                                  Simiiformes
+  5.88	3	0	O3	9526	                                                    Catarrhini
+  5.88	3	0	O4	314295	                                                      Hominoidea
+  5.88	3	0	F	9604	                                                        Hominidae
+  5.88	3	0	F1	207598	                                                          Homininae
+  5.88	3	0	G	9605	                                                            Homo
+  5.88	3	3	S	9606	                                                              Homo sapiens
+  1.96	1	0	K	4751	        Fungi
+  1.96	1	0	K1	451864	          Dikarya
+  1.96	1	0	P	5204	            Basidiomycota
+  1.96	1	0	P1	5302	              Agaricomycotina
+  1.96	1	0	C	155616	                Tremellomycetes
+  1.96	1	0	O	5234	                  Tremellales
+  1.96	1	0	F	1884633	                    Cryptococcaceae
+  1.96	1	0	G	5206	                      Cryptococcus
+  1.96	1	0	G1	1897064	                        Cryptococcus neoformans species complex
+  1.96	1	0	S	5207	                          Cryptococcus neoformans
+  1.96	1	1	S1	40410	                            Cryptococcus neoformans var. neoformans

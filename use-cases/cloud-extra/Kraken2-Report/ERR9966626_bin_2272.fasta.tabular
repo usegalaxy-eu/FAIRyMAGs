@@ -1,0 +1,111 @@
+ 82.76	96	96	U	0	unclassified
+ 17.24	20	0	R	1	root
+ 17.24	20	2	R1	131567	  cellular organisms
+ 11.21	13	2	D	2	    Bacteria
+  6.90	8	0	P	1224	      Pseudomonadota
+  3.45	4	0	C	1236	        Gammaproteobacteria
+  1.72	2	0	O	72274	          Pseudomonadales
+  1.72	2	0	F	135621	            Pseudomonadaceae
+  1.72	2	0	G	286	              Pseudomonas
+  0.86	1	1	G1	196821	                unclassified Pseudomonas
+  0.86	1	1	S	515393	                Pseudomonas yamanorum
+  0.86	1	0	O	91347	          Enterobacterales
+  0.86	1	0	F	1903411	            Yersiniaceae
+  0.86	1	0	G	34037	              Rahnella
+  0.86	1	1	S	58169	                Rahnella inusitata
+  0.86	1	0	O	135614	          Xanthomonadales
+  0.86	1	0	F	32033	            Xanthomonadaceae
+  0.86	1	0	G	68	              Lysobacter
+  0.86	1	0	G1	2635362	                unclassified Lysobacter
+  0.86	1	1	S	2781021	                  Lysobacter sp. H21R4
+  1.72	2	0	C	28211	        Alphaproteobacteria
+  0.86	1	0	O	204457	          Sphingomonadales
+  0.86	1	0	F	41297	            Sphingomonadaceae
+  0.86	1	0	G	165696	              Novosphingobium
+  0.86	1	0	G1	2644732	                unclassified Novosphingobium
+  0.86	1	1	S	2780074	                  Novosphingobium sp. ES2-1
+  0.86	1	0	O	356	          Hyphomicrobiales
+  0.86	1	0	F	41294	            Nitrobacteraceae
+  0.86	1	1	G	374	              Bradyrhizobium
+  1.72	2	0	C	28216	        Betaproteobacteria
+  1.72	2	0	O	80840	          Burkholderiales
+  0.86	1	0	F	80864	            Comamonadaceae
+  0.86	1	0	G	34072	              Variovorax
+  0.86	1	0	G1	663243	                unclassified Variovorax
+  0.86	1	1	S	2681552	                  Variovorax sp. RKNM96
+  0.86	1	1	F	119060	            Burkholderiaceae
+  1.72	2	0	D1	1783272	      Terrabacteria group
+  1.72	2	0	P	201174	        Actinomycetota
+  1.72	2	0	C	1760	          Actinomycetes
+  0.86	1	0	O	85006	            Micrococcales
+  0.86	1	0	F	85023	              Microbacteriaceae
+  0.86	1	0	G	33886	                Rathayibacter
+  0.86	1	0	G1	2609250	                  unclassified Rathayibacter
+  0.86	1	1	S	2609253	                    Rathayibacter sp. VKM Ac-2760
+  0.86	1	0	O	85007	            Mycobacteriales
+  0.86	1	0	F	85028	              Tsukamurellaceae
+  0.86	1	0	G	2060	                Tsukamurella
+  0.86	1	1	S	57704	                  Tsukamurella tyrosinosolvens
+  0.86	1	0	D1	1783257	      PVC group
+  0.86	1	0	P	74201	        Verrucomicrobiota
+  0.86	1	0	C	203494	          Verrucomicrobiae
+  0.86	1	0	O	134621	            Limisphaerales
+  0.86	1	0	F	3050006	              Fontisphaeraceae
+  0.86	1	0	G	3050007	                Fontisphaera
+  0.86	1	1	S	2974023	                  Fontisphaera persica
+  4.31	5	0	D	2759	    Eukaryota
+  4.31	5	0	D1	33154	      Opisthokonta
+  3.45	4	0	K	4751	        Fungi
+  3.45	4	0	K1	451864	          Dikarya
+  1.72	2	0	P	4890	            Ascomycota
+  1.72	2	0	P1	716545	              saccharomyceta
+  1.72	2	0	P2	147538	                Pezizomycotina
+  1.72	2	0	P3	716546	                  leotiomyceta
+  1.72	2	0	P4	715989	                    sordariomyceta
+  1.72	2	0	C	147550	                      Sordariomycetes
+  1.72	2	0	C1	222543	                        Hypocreomycetidae
+  1.72	2	0	O	5125	                          Hypocreales
+  0.86	1	0	F	110618	                            Nectriaceae
+  0.86	1	0	G	5506	                              Fusarium
+  0.86	1	0	G1	569360	                                Fusarium sambucinum species complex
+  0.86	1	1	S	36050	                                  Fusarium poae
+  0.86	1	0	F	474942	                            Ophiocordycipitaceae
+  0.86	1	0	G	98402	                              Drechmeria
+  0.86	1	1	S	98403	                                Drechmeria coniospora
+  1.72	2	0	P	5204	            Basidiomycota
+  1.72	2	0	P1	5302	              Agaricomycotina
+  1.72	2	0	C	155619	                Agaricomycetes
+  1.72	2	0	C1	452333	                  Agaricomycetidae
+  1.72	2	0	O	5338	                    Agaricales
+  1.72	2	0	O1	2982305	                      Agaricineae
+  1.72	2	0	F	40562	                        Strophariaceae
+  1.72	2	0	G	71950	                          Psilocybe
+  1.72	2	2	S	181762	                            Psilocybe cubensis
+  0.86	1	0	K	33208	        Metazoa
+  0.86	1	0	K1	6072	          Eumetazoa
+  0.86	1	0	K2	33213	            Bilateria
+  0.86	1	0	K3	33511	              Deuterostomia
+  0.86	1	0	P	7711	                Chordata
+  0.86	1	0	P1	89593	                  Craniata
+  0.86	1	0	P2	7742	                    Vertebrata
+  0.86	1	0	P3	7776	                      Gnathostomata
+  0.86	1	0	P4	117570	                        Teleostomi
+  0.86	1	0	P5	117571	                          Euteleostomi
+  0.86	1	0	P6	8287	                            Sarcopterygii
+  0.86	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.86	1	0	P8	32523	                                Tetrapoda
+  0.86	1	0	P9	32524	                                  Amniota
+  0.86	1	0	C	40674	                                    Mammalia
+  0.86	1	0	C1	32525	                                      Theria
+  0.86	1	0	C2	9347	                                        Eutheria
+  0.86	1	0	C3	1437010	                                          Boreoeutheria
+  0.86	1	0	C4	314146	                                            Euarchontoglires
+  0.86	1	0	O	9443	                                              Primates
+  0.86	1	0	O1	376913	                                                Haplorrhini
+  0.86	1	0	O2	314293	                                                  Simiiformes
+  0.86	1	0	O3	9526	                                                    Catarrhini
+  0.86	1	0	O4	314295	                                                      Hominoidea
+  0.86	1	0	F	9604	                                                        Hominidae
+  0.86	1	0	F1	207598	                                                          Homininae
+  0.86	1	0	G	9605	                                                            Homo
+  0.86	1	1	S	9606	                                                              Homo sapiens

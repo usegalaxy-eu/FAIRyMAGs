@@ -1,0 +1,52 @@
+ 88.73	63	63	U	0	unclassified
+ 11.27	8	0	R	1	root
+ 11.27	8	0	R1	131567	  cellular organisms
+  8.45	6	0	D	2759	    Eukaryota
+  8.45	6	0	D1	33154	      Opisthokonta
+  4.23	3	0	K	4751	        Fungi
+  4.23	3	0	K1	451864	          Dikarya
+  4.23	3	0	P	5204	            Basidiomycota
+  4.23	3	0	P1	5302	              Agaricomycotina
+  4.23	3	0	C	155619	                Agaricomycetes
+  4.23	3	0	C1	452333	                  Agaricomycetidae
+  4.23	3	0	O	5338	                    Agaricales
+  4.23	3	0	O1	2982305	                      Agaricineae
+  4.23	3	0	F	40562	                        Strophariaceae
+  4.23	3	0	G	71950	                          Psilocybe
+  4.23	3	3	S	181762	                            Psilocybe cubensis
+  4.23	3	0	K	33208	        Metazoa
+  4.23	3	0	K1	6072	          Eumetazoa
+  4.23	3	0	K2	33213	            Bilateria
+  4.23	3	0	K3	33511	              Deuterostomia
+  4.23	3	0	P	7711	                Chordata
+  4.23	3	0	P1	89593	                  Craniata
+  4.23	3	0	P2	7742	                    Vertebrata
+  4.23	3	0	P3	7776	                      Gnathostomata
+  4.23	3	0	P4	117570	                        Teleostomi
+  4.23	3	0	P5	117571	                          Euteleostomi
+  4.23	3	0	P6	8287	                            Sarcopterygii
+  4.23	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  4.23	3	0	P8	32523	                                Tetrapoda
+  4.23	3	0	P9	32524	                                  Amniota
+  4.23	3	0	C	40674	                                    Mammalia
+  4.23	3	0	C1	32525	                                      Theria
+  4.23	3	0	C2	9347	                                        Eutheria
+  4.23	3	0	C3	1437010	                                          Boreoeutheria
+  4.23	3	0	C4	314146	                                            Euarchontoglires
+  4.23	3	0	O	9443	                                              Primates
+  4.23	3	0	O1	376913	                                                Haplorrhini
+  4.23	3	0	O2	314293	                                                  Simiiformes
+  4.23	3	0	O3	9526	                                                    Catarrhini
+  4.23	3	0	O4	314295	                                                      Hominoidea
+  4.23	3	0	F	9604	                                                        Hominidae
+  4.23	3	0	F1	207598	                                                          Homininae
+  4.23	3	0	G	9605	                                                            Homo
+  4.23	3	3	S	9606	                                                              Homo sapiens
+  2.82	2	0	D	2	    Bacteria
+  1.41	1	1	D1	1783272	      Terrabacteria group
+  1.41	1	0	P	1224	      Pseudomonadota
+  1.41	1	0	C	28211	        Alphaproteobacteria
+  1.41	1	0	O	204441	          Rhodospirillales
+  1.41	1	0	F	433	            Acetobacteraceae
+  1.41	1	0	G	1434011	              Komagataeibacter
+  1.41	1	1	S	265959	                Komagataeibacter saccharivorans

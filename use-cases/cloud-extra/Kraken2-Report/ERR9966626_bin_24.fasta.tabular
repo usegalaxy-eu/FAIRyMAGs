@@ -1,0 +1,101 @@
+ 89.93	125	125	U	0	unclassified
+ 10.07	14	0	R	1	root
+ 10.07	14	0	R1	131567	  cellular organisms
+  7.91	11	0	D	2759	    Eukaryota
+  6.47	9	0	D1	33154	      Opisthokonta
+  3.60	5	0	K	33208	        Metazoa
+  3.60	5	0	K1	6072	          Eumetazoa
+  3.60	5	0	K2	33213	            Bilateria
+  3.60	5	0	K3	33511	              Deuterostomia
+  3.60	5	0	P	7711	                Chordata
+  3.60	5	0	P1	89593	                  Craniata
+  3.60	5	0	P2	7742	                    Vertebrata
+  3.60	5	0	P3	7776	                      Gnathostomata
+  3.60	5	0	P4	117570	                        Teleostomi
+  3.60	5	0	P5	117571	                          Euteleostomi
+  3.60	5	0	P6	8287	                            Sarcopterygii
+  3.60	5	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.60	5	0	P8	32523	                                Tetrapoda
+  3.60	5	0	P9	32524	                                  Amniota
+  3.60	5	0	C	40674	                                    Mammalia
+  3.60	5	0	C1	32525	                                      Theria
+  3.60	5	0	C2	9347	                                        Eutheria
+  3.60	5	0	C3	1437010	                                          Boreoeutheria
+  3.60	5	0	C4	314146	                                            Euarchontoglires
+  3.60	5	0	O	9443	                                              Primates
+  3.60	5	0	O1	376913	                                                Haplorrhini
+  3.60	5	0	O2	314293	                                                  Simiiformes
+  3.60	5	0	O3	9526	                                                    Catarrhini
+  3.60	5	0	O4	314295	                                                      Hominoidea
+  3.60	5	0	F	9604	                                                        Hominidae
+  3.60	5	0	F1	207598	                                                          Homininae
+  3.60	5	0	G	9605	                                                            Homo
+  3.60	5	5	S	9606	                                                              Homo sapiens
+  2.88	4	0	K	4751	        Fungi
+  2.88	4	0	K1	451864	          Dikarya
+  1.44	2	0	P	4890	            Ascomycota
+  1.44	2	0	P1	716545	              saccharomyceta
+  1.44	2	0	P2	147538	                Pezizomycotina
+  1.44	2	0	P3	716546	                  leotiomyceta
+  0.72	1	0	C	147545	                    Eurotiomycetes
+  0.72	1	0	C1	451871	                      Eurotiomycetidae
+  0.72	1	0	O	5042	                        Eurotiales
+  0.72	1	0	F	28568	                          Trichocomaceae
+  0.72	1	0	G	5094	                            Talaromyces
+  0.72	1	0	G1	2752542	                              Talaromyces sect. Islandici
+  0.72	1	1	S	121627	                                Talaromyces rugulosus
+  0.72	1	0	P4	715989	                    sordariomyceta
+  0.72	1	0	C	147550	                      Sordariomycetes
+  0.72	1	0	C1	222543	                        Hypocreomycetidae
+  0.72	1	0	O	5125	                          Hypocreales
+  0.72	1	0	F	110618	                            Nectriaceae
+  0.72	1	0	G	5506	                              Fusarium
+  0.72	1	0	G1	171631	                                Fusarium oxysporum species complex
+  0.72	1	0	S	5507	                                  Fusarium oxysporum
+  0.72	1	0	S1	59765	                                    Fusarium oxysporum f. sp. lycopersici
+  0.72	1	1	S2	426428	                                      Fusarium oxysporum f. sp. lycopersici 4287
+  1.44	2	0	P	5204	            Basidiomycota
+  1.44	2	0	P1	5302	              Agaricomycotina
+  1.44	2	0	C	155619	                Agaricomycetes
+  1.44	2	0	C1	452333	                  Agaricomycetidae
+  1.44	2	0	O	5338	                    Agaricales
+  1.44	2	0	O1	2982305	                      Agaricineae
+  1.44	2	0	F	40562	                        Strophariaceae
+  1.44	2	0	G	71950	                          Psilocybe
+  1.44	2	2	S	181762	                            Psilocybe cubensis
+  0.72	1	0	D1	554915	      Amoebozoa
+  0.72	1	0	P	2605435	        Evosea
+  0.72	1	0	C	142796	          Eumycetozoa
+  0.72	1	0	C1	33083	            Dictyostelia
+  0.72	1	0	O	2058949	              Dictyosteliales
+  0.72	1	0	F	2058185	                Dictyosteliaceae
+  0.72	1	0	G	5782	                  Dictyostelium
+  0.72	1	0	S	44689	                    Dictyostelium discoideum
+  0.72	1	1	S1	352472	                      Dictyostelium discoideum AX4
+  0.72	1	0	D1	2698737	      Sar
+  0.72	1	0	D2	33630	        Alveolata
+  0.72	1	0	P	5794	          Apicomplexa
+  0.72	1	0	C	422676	            Aconoidasida
+  0.72	1	0	O	5819	              Haemosporida
+  0.72	1	0	F	1639119	                Plasmodiidae
+  0.72	1	0	G	5820	                  Plasmodium
+  0.72	1	1	G1	418101	                    Plasmodium (Vinckeia)
+  2.16	3	0	D	2	    Bacteria
+  2.16	3	0	D1	1783270	      FCB group
+  2.16	3	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.16	3	0	P	976	          Bacteroidota
+  0.72	1	0	C	117743	            Flavobacteriia
+  0.72	1	0	O	200644	              Flavobacteriales
+  0.72	1	0	F	49546	                Flavobacteriaceae
+  0.72	1	0	G	237	                  Flavobacterium
+  0.72	1	1	S	2906076	                    Flavobacterium covae
+  0.72	1	0	C	200643	            Bacteroidia
+  0.72	1	0	O	171549	              Bacteroidales
+  0.72	1	0	F	171551	                Porphyromonadaceae
+  0.72	1	0	G	836	                  Porphyromonas
+  0.72	1	1	S	837	                    Porphyromonas gingivalis
+  0.72	1	0	C	1853228	            Chitinophagia
+  0.72	1	0	O	1853229	              Chitinophagales
+  0.72	1	0	F	563835	                Chitinophagaceae
+  0.72	1	0	G	1004303	                  Ferruginibacter
+  0.72	1	1	S	2875540	                    Ferruginibacter albus

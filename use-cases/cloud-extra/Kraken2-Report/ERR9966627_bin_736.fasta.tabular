@@ -1,0 +1,46 @@
+ 85.00	17	17	U	0	unclassified
+ 15.00	3	0	R	1	root
+ 15.00	3	1	R1	131567	  cellular organisms
+ 10.00	2	0	D	2759	    Eukaryota
+ 10.00	2	0	D1	33154	      Opisthokonta
+  5.00	1	0	K	4751	        Fungi
+  5.00	1	0	K1	451864	          Dikarya
+  5.00	1	0	P	4890	            Ascomycota
+  5.00	1	0	P1	716545	              saccharomyceta
+  5.00	1	0	P2	147538	                Pezizomycotina
+  5.00	1	0	P3	716546	                  leotiomyceta
+  5.00	1	0	P4	715962	                    dothideomyceta
+  5.00	1	0	C	147541	                      Dothideomycetes
+  5.00	1	0	C1	451867	                        Dothideomycetidae
+  5.00	1	0	O	2726947	                          Mycosphaerellales
+  5.00	1	0	F	93133	                            Mycosphaerellaceae
+  5.00	1	0	G	2897311	                              Fulvia
+  5.00	1	1	S	5499	                                Fulvia fulva
+  5.00	1	0	K	33208	        Metazoa
+  5.00	1	0	K1	6072	          Eumetazoa
+  5.00	1	0	K2	33213	            Bilateria
+  5.00	1	0	K3	33511	              Deuterostomia
+  5.00	1	0	P	7711	                Chordata
+  5.00	1	0	P1	89593	                  Craniata
+  5.00	1	0	P2	7742	                    Vertebrata
+  5.00	1	0	P3	7776	                      Gnathostomata
+  5.00	1	0	P4	117570	                        Teleostomi
+  5.00	1	0	P5	117571	                          Euteleostomi
+  5.00	1	0	P6	8287	                            Sarcopterygii
+  5.00	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.00	1	0	P8	32523	                                Tetrapoda
+  5.00	1	0	P9	32524	                                  Amniota
+  5.00	1	0	C	40674	                                    Mammalia
+  5.00	1	0	C1	32525	                                      Theria
+  5.00	1	0	C2	9347	                                        Eutheria
+  5.00	1	0	C3	1437010	                                          Boreoeutheria
+  5.00	1	0	C4	314146	                                            Euarchontoglires
+  5.00	1	0	O	9443	                                              Primates
+  5.00	1	0	O1	376913	                                                Haplorrhini
+  5.00	1	0	O2	314293	                                                  Simiiformes
+  5.00	1	0	O3	9526	                                                    Catarrhini
+  5.00	1	0	O4	314295	                                                      Hominoidea
+  5.00	1	0	F	9604	                                                        Hominidae
+  5.00	1	0	F1	207598	                                                          Homininae
+  5.00	1	0	G	9605	                                                            Homo
+  5.00	1	1	S	9606	                                                              Homo sapiens

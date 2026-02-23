@@ -1,0 +1,36 @@
+ 87.10	54	54	U	0	unclassified
+ 12.90	8	0	R	1	root
+ 12.90	8	0	R1	131567	  cellular organisms
+  6.45	4	1	D	2	    Bacteria
+  4.84	3	1	D1	1783272	      Terrabacteria group
+  3.23	2	0	P	201174	        Actinomycetota
+  3.23	2	0	C	1760	          Actinomycetes
+  3.23	2	0	O	85011	            Kitasatosporales
+  3.23	2	0	F	2062	              Streptomycetaceae
+  3.23	2	0	G	1883	                Streptomyces
+  1.61	1	1	S	1971	                  Streptomyces noursei
+  1.61	1	1	S	67345	                  Streptomyces prasinus
+  6.45	4	0	D	2759	    Eukaryota
+  6.45	4	0	D1	33154	      Opisthokonta
+  6.45	4	0	K	4751	        Fungi
+  6.45	4	0	K1	451864	          Dikarya
+  6.45	4	0	P	5204	            Basidiomycota
+  4.84	3	0	P1	5302	              Agaricomycotina
+  4.84	3	0	C	155619	                Agaricomycetes
+  3.23	2	0	C1	452333	                  Agaricomycetidae
+  3.23	2	0	O	5338	                    Agaricales
+  3.23	2	0	O1	2982316	                      Marasmiineae
+  3.23	2	0	F	654128	                        Marasmiaceae
+  3.23	2	0	G	34448	                          Marasmius
+  3.23	2	2	S	181124	                            Marasmius oreades
+  1.61	1	0	C1	355688	                  Agaricomycetes incertae sedis
+  1.61	1	0	O	36064	                    Cantharellales
+  1.61	1	0	F	5250	                      Ceratobasidiaceae
+  1.61	1	0	G	1322061	                        Rhizoctonia
+  1.61	1	1	S	456999	                          Rhizoctonia solani
+  1.61	1	0	P1	29000	              Pucciniomycotina
+  1.61	1	0	C	162484	                Pucciniomycetes
+  1.61	1	0	O	5258	                  Pucciniales
+  1.61	1	0	F	5262	                    Pucciniaceae
+  1.61	1	0	G	5296	                      Puccinia
+  1.61	1	1	S	208348	                        Puccinia triticina

@@ -1,0 +1,100 @@
+ 76.60	72	72	U	0	unclassified
+ 23.40	22	0	R	1	root
+ 23.40	22	2	R1	131567	  cellular organisms
+ 17.02	16	0	D	2759	    Eukaryota
+ 17.02	16	0	D1	33154	      Opisthokonta
+ 13.83	13	0	K	4751	        Fungi
+ 13.83	13	1	K1	451864	          Dikarya
+  7.45	7	0	P	5204	            Basidiomycota
+  7.45	7	0	P1	5302	              Agaricomycotina
+  6.38	6	0	C	155619	                Agaricomycetes
+  5.32	5	0	C1	452333	                  Agaricomycetidae
+  5.32	5	1	O	5338	                    Agaricales
+  4.26	4	0	O1	2982305	                      Agaricineae
+  4.26	4	0	F	40562	                        Strophariaceae
+  4.26	4	0	G	71950	                          Psilocybe
+  4.26	4	4	S	181762	                            Psilocybe cubensis
+  1.06	1	0	C1	355688	                  Agaricomycetes incertae sedis
+  1.06	1	0	O	36064	                    Cantharellales
+  1.06	1	0	F	5250	                      Ceratobasidiaceae
+  1.06	1	0	G	1322061	                        Rhizoctonia
+  1.06	1	1	S	456999	                          Rhizoctonia solani
+  1.06	1	0	C	155616	                Tremellomycetes
+  1.06	1	0	O	1851469	                  Trichosporonales
+  1.06	1	0	F	1759442	                    Trichosporonaceae
+  1.06	1	0	G	1838142	                      Cutaneotrichosporon
+  1.06	1	1	S	279322	                        Cutaneotrichosporon cavernicola
+  5.32	5	0	P	4890	            Ascomycota
+  5.32	5	0	P1	716545	              saccharomyceta
+  3.19	3	0	P2	147538	                Pezizomycotina
+  3.19	3	0	P3	716546	                  leotiomyceta
+  2.13	2	0	C	147545	                    Eurotiomycetes
+  2.13	2	0	C1	451871	                      Eurotiomycetidae
+  2.13	2	0	O	5042	                        Eurotiales
+  2.13	2	0	F	1131492	                          Aspergillaceae
+  2.13	2	0	G	5052	                            Aspergillus
+  1.06	1	0	G1	2720870	                              Aspergillus subgen. Nidulantes
+  1.06	1	0	S	162425	                                Aspergillus nidulans
+  1.06	1	1	S1	227321	                                  Aspergillus nidulans FGSC A4
+  1.06	1	0	G1	2720872	                              Aspergillus subgen. Fumigati
+  1.06	1	0	S	746128	                                Aspergillus fumigatus
+  1.06	1	1	S1	330879	                                  Aspergillus fumigatus Af293
+  1.06	1	0	P4	715989	                    sordariomyceta
+  1.06	1	0	C	147550	                      Sordariomycetes
+  1.06	1	0	C1	222543	                        Hypocreomycetidae
+  1.06	1	0	O	5125	                          Hypocreales
+  1.06	1	0	F	474943	                            Cordycipitaceae
+  1.06	1	0	G	150366	                              Akanthomyces
+  1.06	1	1	S	2231603	                                Akanthomyces muscarius
+  2.13	2	0	P2	147537	                Saccharomycotina
+  2.13	2	0	C	4891	                  Saccharomycetes
+  2.13	2	0	O	4892	                    Saccharomycetales
+  2.13	2	0	F	34353	                      Dipodascaceae
+  2.13	2	0	G	4951	                        Yarrowia
+  2.13	2	0	S	4952	                          Yarrowia lipolytica
+  2.13	2	2	S1	284591	                            Yarrowia lipolytica CLIB122
+  3.19	3	0	K	33208	        Metazoa
+  3.19	3	0	K1	6072	          Eumetazoa
+  3.19	3	0	K2	33213	            Bilateria
+  3.19	3	0	K3	33511	              Deuterostomia
+  3.19	3	0	P	7711	                Chordata
+  3.19	3	0	P1	89593	                  Craniata
+  3.19	3	0	P2	7742	                    Vertebrata
+  3.19	3	0	P3	7776	                      Gnathostomata
+  3.19	3	0	P4	117570	                        Teleostomi
+  3.19	3	0	P5	117571	                          Euteleostomi
+  3.19	3	0	P6	8287	                            Sarcopterygii
+  3.19	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.19	3	0	P8	32523	                                Tetrapoda
+  3.19	3	0	P9	32524	                                  Amniota
+  3.19	3	0	C	40674	                                    Mammalia
+  3.19	3	0	C1	32525	                                      Theria
+  3.19	3	0	C2	9347	                                        Eutheria
+  3.19	3	0	C3	1437010	                                          Boreoeutheria
+  3.19	3	0	C4	314146	                                            Euarchontoglires
+  3.19	3	0	O	9443	                                              Primates
+  3.19	3	0	O1	376913	                                                Haplorrhini
+  3.19	3	0	O2	314293	                                                  Simiiformes
+  3.19	3	0	O3	9526	                                                    Catarrhini
+  3.19	3	0	O4	314295	                                                      Hominoidea
+  3.19	3	0	F	9604	                                                        Hominidae
+  3.19	3	0	F1	207598	                                                          Homininae
+  3.19	3	0	G	9605	                                                            Homo
+  3.19	3	3	S	9606	                                                              Homo sapiens
+  4.26	4	1	D	2	    Bacteria
+  3.19	3	0	D1	1783272	      Terrabacteria group
+  2.13	2	0	P	201174	        Actinomycetota
+  2.13	2	0	C	1760	          Actinomycetes
+  2.13	2	0	O	85009	            Propionibacteriales
+  1.06	1	0	F	31957	              Propionibacteriaceae
+  1.06	1	0	G	1912216	                Cutibacterium
+  1.06	1	1	S	33011	                  Cutibacterium granulosum
+  1.06	1	0	F	85015	              Nocardioidaceae
+  1.06	1	0	G	2040	                Aeromicrobium
+  1.06	1	1	S	2663859	                  Aeromicrobium senzhongii
+  1.06	1	0	P	1239	        Bacillota
+  1.06	1	0	C	91061	          Bacilli
+  1.06	1	0	O	1385	            Bacillales
+  1.06	1	0	F	186818	              Planococcaceae
+  1.06	1	0	G	651660	                Paenisporosarcina
+  1.06	1	1	S	2320858	                  Paenisporosarcina cavernae

@@ -1,0 +1,11 @@
+name: mags
+channels:
+  - conda-forge
+  - defaults
+  - bioconda
+dependencies:
+  - bioblend
+  - requests
+  - pandas
+  - ipykernel
+

@@ -43,3 +43,7 @@ Install dependencies
 ```
 conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt -y
 ```
+
+## MetasSPADES resource estimation
+
+Follow the step-by-step guide in the [README.md](metaspades-resource-estimation/README.md)

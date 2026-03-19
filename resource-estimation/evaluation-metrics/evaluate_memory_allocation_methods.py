@@ -542,7 +542,7 @@ class HPCMemoryEvaluator:
             arrowprops=dict(
                 arrowstyle="->",
                 color="gray",
-                lw=0.8,
+                lw=2,
             ),
             ax=ax
         )

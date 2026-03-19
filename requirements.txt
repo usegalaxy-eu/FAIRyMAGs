@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+tqdm
+ipykernel
+tabulate
+adjustText
+xgboost
+python-dotenv
+bioblend

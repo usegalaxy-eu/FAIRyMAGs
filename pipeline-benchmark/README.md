@@ -36,13 +36,7 @@ Merge all MAGs with the reference genomes and compute metrics:
 
 ---
 
-# Setup Environment
-
-* Use `conda` or your preferred Python environment to install dependencies
-
----
-
-# Analysis Script
+### Analysis Script
 
 * `drep-benchmark.ipynb`
 

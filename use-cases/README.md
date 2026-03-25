@@ -1,4 +1,4 @@
-## Use case evaluation
+# Use case evaluation
 
 1. Galaxy histories for each use case are provided in the corresponding README files (e.g., `bee/README.md`).
 

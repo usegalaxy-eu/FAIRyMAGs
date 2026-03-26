@@ -72,7 +72,7 @@ conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt
 
 ---
 
-#### MetasSPADES Resource Estimation
+#### MetaSPADES Resource Estimation
 
 * Follow the step-by-step guide in the [metaspades-resource-estimation README](metaspades-resource-estimation/README.md)
 
@@ -87,6 +87,8 @@ conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt
 #### Use case summary plots
 
 * Follow the step-by-step guide in the [use-cases README](use-cases/README.md)
+
+---
 
 #### Use case summary plots
 

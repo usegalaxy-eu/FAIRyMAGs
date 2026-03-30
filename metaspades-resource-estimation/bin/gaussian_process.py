@@ -28,15 +28,20 @@ TARGET_COL = "peak_mem_in_gbs"   # change to match your dataset
 JOB_ID_COL = "primary_accession"                # optional: if you have job IDs
 GROUP_COL = None                 # optional: grouping for CV (e.g., user/project)
 
-def load_your_data(stats_file,y_file) -> pd.DataFrame:
+def load_your_data(stats_file, y_file) -> pd.DataFrame:
+    # 1. Load features
     df = pd.read_csv(stats_file, index_col=0)
+
+    # 2. Load target / labels
     y_df = pd.read_csv(y_file, sep=",")
     y_dict = dict(zip(y_df['srr_id'], y_df[TARGET_COL]))
     df[TARGET_COL] = df.index.map(y_dict)
 
-    # set nan values to 0
-    df = df.fillna(0)
-    
+    # 3. Fill missing values
+    df = df.replace(".", np.nan)           # replace "." with NaN
+    df = df.apply(pd.to_numeric, errors="coerce")  # convert everything to numeric
+    df = df.fillna(0)                      # fill NaNs with 0 (or other strategy)
+
     return df
 
 def infer_feature_types(df: pd.DataFrame, target_col: str) -> Tuple[List[str], List[str]]:

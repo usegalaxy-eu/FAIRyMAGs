@@ -66,9 +66,14 @@
 
 2. **Install dependencies**
 
-```bash
-conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt -y
-```
+   ```bash
+   conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt -y
+   ```
+
+3. **Add Galaxy API key**
+
+   Add the API key to .env like `GALAXY_API=<key>`
+
 
 ---
 
@@ -90,6 +95,6 @@ conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt
 
 ---
 
-#### Use case summary plots
+#### Binning evaluation plots
 
 * Follow the step-by-step guide in the [binning-evaluation README](binning-evaluation/README.md)

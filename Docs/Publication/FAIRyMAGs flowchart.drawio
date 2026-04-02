@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.4">
   <diagram name="Page-1" id="OXx0mrphuP4tM-t9iBNC">
-    <mxGraphModel dx="1133" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="938" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,6 +218,9 @@
         <mxCell id="vkG2h01UbkOtzdg-TvTA-18" edge="1" parent="1" source="vkG2h01UbkOtzdg-TvTA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="AoyrjoGFgOjHUxMBYxMh-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qRnCOxgN8ylnj0CtC2k5-2" edge="1" parent="1" source="vkG2h01UbkOtzdg-TvTA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" target="qRnCOxgN8ylnj0CtC2k5-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="vkG2h01UbkOtzdg-TvTA-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="MAGs building and quality control" vertex="1">
           <mxGeometry height="110" width="102.5" x="482.5" y="80" as="geometry" />
         </mxCell>
@@ -229,6 +232,9 @@
         </mxCell>
         <mxCell id="vkG2h01UbkOtzdg-TvTA-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 33px;&quot;&gt;(B)&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="70" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="qRnCOxgN8ylnj0CtC2k5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Custom galaxy workflows" vertex="1">
+          <mxGeometry height="30" width="120" x="652.5" y="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

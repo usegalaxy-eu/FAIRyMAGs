@@ -77,12 +77,6 @@
 
 ---
 
-#### MetaSPADES Resource Estimation
-
-* Follow the step-by-step guide in the [metaspades-resource-estimation README](metaspades-resource-estimation/README.md)
-
----
-
 #### Pipeline Benchmark
 
 * Follow the step-by-step guide in the [pipeline-benchmark README](pipeline-benchmark/README.md)

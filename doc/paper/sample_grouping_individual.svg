@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" width="160" height="130">
+  <defs>
+    <marker id="arrowC" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#4DB6AC"/>
+    </marker>
+  </defs>
+  <text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#333">Individual</text>
+  <!-- sample circles -->
+  <circle cx="25" cy="45" r="10" fill="#4DB6AC" opacity="0.7"/>
+  <circle cx="57" cy="45" r="10" fill="#4DB6AC" opacity="0.7"/>
+  <circle cx="89" cy="45" r="10" fill="#4DB6AC" opacity="0.7"/>
+  <circle cx="121" cy="45" r="10" fill="#4DB6AC" opacity="0.7"/>
+  <text x="25" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">S1</text>
+  <text x="57" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">S2</text>
+  <text x="89" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">S3</text>
+  <text x="121" y="70" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">S4</text>
+  <!-- arrows down -->
+  <line x1="25" y1="55" x2="25" y2="80" stroke="#4DB6AC" stroke-width="1.5" marker-end="url(#arrowC)"/>
+  <line x1="57" y1="55" x2="57" y2="80" stroke="#4DB6AC" stroke-width="1.5" marker-end="url(#arrowC)"/>
+  <line x1="89" y1="55" x2="89" y2="80" stroke="#4DB6AC" stroke-width="1.5" marker-end="url(#arrowC)"/>
+  <line x1="121" y1="55" x2="121" y2="80" stroke="#4DB6AC" stroke-width="1.5" marker-end="url(#arrowC)"/>
+  <!-- assemblies -->
+  <circle cx="25" cy="95" r="10" fill="#4DB6AC" opacity="0.9"/>
+  <circle cx="57" cy="95" r="10" fill="#4DB6AC" opacity="0.9"/>
+  <circle cx="89" cy="95" r="10" fill="#4DB6AC" opacity="0.9"/>
+  <circle cx="121" cy="95" r="10" fill="#4DB6AC" opacity="0.9"/>
+  <text x="25" y="120" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">A1</text>
+  <text x="57" y="120" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">A2</text>
+  <text x="89" y="120" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">A3</text>
+  <text x="121" y="120" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#777">A4</text>
+</svg>

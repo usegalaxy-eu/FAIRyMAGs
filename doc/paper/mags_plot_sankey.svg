@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" width="160" height="130">
+  <text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">Taxa Sankey</text>
+  <!-- level 1: Domain/Phylum -->
+  <rect x="10" y="25" width="14" height="80" rx="3" fill="#4CAF50" opacity="0.3" stroke="#4CAF50" stroke-width="1"/>
+  <text x="17" y="70" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#4CAF50" transform="rotate(-90,17,70)">Domain</text>
+  <!-- flow lines to level 2 -->
+  <path d="M 24,35 C 40,35 35,42 50,42" fill="none" stroke="#4CAF50" stroke-width="4" opacity="0.5"/>
+  <path d="M 24,50 C 40,50 35,55 50,55" fill="none" stroke="#4CAF50" stroke-width="3" opacity="0.5"/>
+  <path d="M 24,65 C 40,65 35,70 50,70" fill="none" stroke="#FFC107" stroke-width="3" opacity="0.5"/>
+  <path d="M 24,80 C 40,80 35,82 50,82" fill="none" stroke="#FFC107" stroke-width="2" opacity="0.5"/>
+  <path d="M 24,90 C 40,90 35,92 50,92" fill="none" stroke="#FF5722" stroke-width="2" opacity="0.5"/>
+  <!-- level 2: Phyla -->
+  <rect x="50" y="28" width="14" height="30" rx="3" fill="#4CAF50" opacity="0.4" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="50" y="60" width="14" height="25" rx="3" fill="#FFC107" opacity="0.4" stroke="#FFC107" stroke-width="1"/>
+  <rect x="50" y="87" width="14" height="18" rx="3" fill="#FF5722" opacity="0.4" stroke="#FF5722" stroke-width="1"/>
+  <text x="57" y="48" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#4CAF50" transform="rotate(-90,57,48)">Firmicutes</text>
+  <text x="57" y="75" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#FFC107" transform="rotate(-90,57,75)">Bacteroidota</text>
+  <text x="57" y="97" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#FF5722" transform="rotate(-90,57,97)">Proteo...</text>
+  <!-- flow lines to level 3 -->
+  <path d="M 64,40 C 80,40 75,45 90,45" fill="none" stroke="#4CAF50" stroke-width="3" opacity="0.5"/>
+  <path d="M 64,48 C 80,48 75,52 90,52" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.5"/>
+  <path d="M 64,70 C 80,70 75,73 90,73" fill="none" stroke="#FFC107" stroke-width="2.5" opacity="0.5"/>
+  <path d="M 64,78 C 80,78 75,80 90,80" fill="none" stroke="#FFC107" stroke-width="1.5" opacity="0.5"/>
+  <path d="M 64,95 C 80,95 75,96 90,96" fill="none" stroke="#FF5722" stroke-width="2" opacity="0.5"/>
+  <!-- level 3: Genera -->
+  <rect x="90" y="32" width="14" height="22" rx="3" fill="#4CAF50" opacity="0.5" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="90" y="56" width="14" height="18" rx="3" fill="#66BB6A" opacity="0.5" stroke="#66BB6A" stroke-width="1"/>
+  <rect x="90" y="76" width="14" height="14" rx="3" fill="#FFC107" opacity="0.5" stroke="#FFC107" stroke-width="1"/>
+  <rect x="90" y="92" width="14" height="12" rx="3" fill="#FF5722" opacity="0.5" stroke="#FF5722" stroke-width="1"/>
+  <text x="97" y="48" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#4CAF50" transform="rotate(-90,97,48)">Lactobacillus</text>
+  <text x="97" y="68" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#66BB6A" transform="rotate(-90,97,68)">Clostridium</text>
+  <text x="97" y="85" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#FFC107" transform="rotate(-90,97,85)">Bacteroides</text>
+  <text x="97" y="99" text-anchor="middle" font-family="sans-serif" font-size="6" fill="#FF5722" transform="rotate(-90,97,99)">Escherichia</text>
+  <!-- level 4: flow to right edge -->
+  <path d="M 104,40 C 120,40 115,45 130,45" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.4"/>
+  <path d="M 104,50 C 120,50 115,55 130,55" fill="none" stroke="#4CAF50" stroke-width="1.5" opacity="0.4"/>
+  <path d="M 104,65 C 120,65 115,68 130,68" fill="none" stroke="#66BB6A" stroke-width="2" opacity="0.4"/>
+  <path d="M 104,83 C 120,83 115,85 130,85" fill="none" stroke="#FFC107" stroke-width="2" opacity="0.4"/>
+  <path d="M 104,97 C 120,97 115,98 130,98" fill="none" stroke="#FF5722" stroke-width="1.5" opacity="0.4"/>
+  <!-- right edge -->
+  <rect x="130" y="25" width="14" height="80" rx="3" fill="#999" opacity="0.2" stroke="#999" stroke-width="1"/>
+  <text x="137" y="70" text-anchor="middle" font-family="sans-serif" font-size="7" fill="#999" transform="rotate(-90,137,70)">MAGs</text>
+</svg>

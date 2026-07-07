@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" width="160" height="130">
+  <text x="80" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="bold" fill="#333">dRep Clusters</text>
+  <!-- dendrogram tree -->
+  <line x1="35" y1="25" x2="35" y2="42" stroke="#777" stroke-width="1"/>
+  <line x1="50" y1="28" x2="50" y2="42" stroke="#777" stroke-width="1"/>
+  <line x1="65" y1="25" x2="65" y2="42" stroke="#777" stroke-width="1"/>
+  <line x1="80" y1="28" x2="80" y2="42" stroke="#777" stroke-width="1"/>
+  <line x1="95" y1="25" x2="95" y2="42" stroke="#777" stroke-width="1"/>
+  <line x1="110" y1="28" x2="110" y2="42" stroke="#777" stroke-width="1"/>
+  <line x1="125" y1="25" x2="125" y2="42" stroke="#777" stroke-width="1"/>
+  <!-- tree branches -->
+  <line x1="35" y1="25" x2="65" y2="25" stroke="#777" stroke-width="1"/>
+  <line x1="50" y1="28" x2="80" y2="28" stroke="#777" stroke-width="1"/>
+  <line x1="95" y1="25" x2="125" y2="25" stroke="#777" stroke-width="1"/>
+  <line x1="110" y1="28" x2="125" y2="28" stroke="#777" stroke-width="1"/>
+  <line x1="50" y1="25" x2="72" y2="26" stroke="#777" stroke-width="1"/>
+  <line x1="80" y1="26" x2="110" y2="26" stroke="#777" stroke-width="1"/>
+  <line x1="72" y1="26" x2="80" y2="26" stroke="#777" stroke-width="1.5"/>
+  <!-- cluster boxes (MAGs grouped) -->
+  <rect x="28" y="43" width="14" height="50" rx="3" fill="#4CAF50" opacity="0.25" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="43" y="43" width="14" height="50" rx="3" fill="#4CAF50" opacity="0.25" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="58" y="43" width="14" height="50" rx="3" fill="#FFC107" opacity="0.25" stroke="#FFC107" stroke-width="1"/>
+  <rect x="73" y="43" width="14" height="50" rx="3" fill="#FFC107" opacity="0.25" stroke="#FFC107" stroke-width="1"/>
+  <rect x="88" y="43" width="14" height="50" rx="3" fill="#4CAF50" opacity="0.25" stroke="#4CAF50" stroke-width="1"/>
+  <rect x="103" y="43" width="14" height="50" rx="3" fill="#FF5722" opacity="0.25" stroke="#FF5722" stroke-width="1"/>
+  <rect x="118" y="43" width="14" height="50" rx="3" fill="#FF5722" opacity="0.25" stroke="#FF5722" stroke-width="1"/>
+  <!-- intra-cluster MAG lines -->
+  <line x1="32" y1="48" x2="38" y2="48" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="33" y1="55" x2="37" y2="55" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="32" y1="62" x2="38" y2="62" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="34" y1="69" x2="36" y2="69" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="47" y1="50" x2="53" y2="50" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="48" y1="58" x2="52" y2="58" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="46" y1="66" x2="54" y2="66" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="48" y1="74" x2="52" y2="74" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="62" y1="52" x2="68" y2="52" stroke="#FFC107" stroke-width="2"/>
+  <line x1="61" y1="60" x2="69" y2="60" stroke="#FFC107" stroke-width="2"/>
+  <line x1="63" y1="68" x2="67" y2="68" stroke="#FFC107" stroke-width="2"/>
+  <line x1="62" y1="76" x2="68" y2="76" stroke="#FFC107" stroke-width="2"/>
+  <line x1="77" y1="50" x2="83" y2="50" stroke="#FFC107" stroke-width="2"/>
+  <line x1="76" y1="62" x2="84" y2="62" stroke="#FFC107" stroke-width="2"/>
+  <line x1="78" y1="74" x2="82" y2="74" stroke="#FFC107" stroke-width="2"/>
+  <line x1="77" y1="85" x2="83" y2="85" stroke="#FFC107" stroke-width="2"/>
+  <line x1="91" y1="48" x2="97" y2="48" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="92" y1="60" x2="96" y2="60" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="90" y1="72" x2="98" y2="72" stroke="#4CAF50" stroke-width="2"/>
+  <line x1="107" y1="52" x2="113" y2="52" stroke="#FF5722" stroke-width="2"/>
+  <line x1="106" y1="65" x2="114" y2="65" stroke="#FF5722" stroke-width="2"/>
+  <line x1="108" y1="78" x2="112" y2="78" stroke="#FF5722" stroke-width="2"/>
+  <line x1="122" y1="50" x2="128" y2="50" stroke="#FF5722" stroke-width="2"/>
+  <line x1="121" y1="65" x2="129" y2="65" stroke="#FF5722" stroke-width="2"/>
+  <!-- x-axis -->
+  <line x1="28" y1="95" x2="135" y2="95" stroke="#555" stroke-width="1"/>
+  <text x="82" y="108" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#777">Clusters (top N)</text>
+  <!-- color by legend -->
+  <rect x="20" y="115" width="6" height="6" rx="1" fill="#4CAF50"/>
+  <text x="28" y="121" font-family="sans-serif" font-size="7" fill="#777">Phylum A</text>
+  <rect x="70" y="115" width="6" height="6" rx="1" fill="#FFC107"/>
+  <text x="78" y="121" font-family="sans-serif" font-size="7" fill="#777">Phylum B</text>
+  <rect x="120" y="115" width="6" height="6" rx="1" fill="#FF5722"/>
+  <text x="128" y="121" font-family="sans-serif" font-size="7" fill="#777">Phylum C</text>
+</svg>

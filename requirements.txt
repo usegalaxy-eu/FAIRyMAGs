@@ -10,3 +10,7 @@ adjustText
 xgboost
 python-dotenv
 bioblend
+jupyter
+nbformat
+black-jupyter
+openpyxl

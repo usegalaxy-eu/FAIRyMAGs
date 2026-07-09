@@ -58,37 +58,49 @@
 
 ---
 
-### Run Analysis Scripts
+## Reproduce Analyses
 
-1. **Install conda**
+### Requirements
 
-   * [Conda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+This project uses Python 3 and the packages listed in [`requirements.txt`](requirements.txt)
 
-2. **Install dependencies**
+These requirements could be installed in 2 ways:
+
+- Python virtual environment
+
+- Conda environment:
+   1. **Install conda** following [conda installation guide](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+   2. **Install dependencies** in a conda environment:
 
    ```bash
-   conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt -y
+   $ conda create \
+     -n fairymags \
+     -c conda-forge \
+     -c bioconda \
+     --file requirements.txt \
+     -y
    ```
 
-3. **Add Galaxy API key**
+   3. Start conda environment
 
-   Add the API key to .env like `GALAXY_API=<key>`
+   ```bash
+   $ conda activate fairymags
+   ```
+
+In addition, a **Galaxy API key** is required and should be added the API key to .env like `GALAXY_API=<key>`
 
 
----
-
-#### Pipeline Benchmark
+### Benchmarking
 
 * Follow the step-by-step guide in the [pipeline-benchmark README](pipeline-benchmark/README.md)
 
----
 
-#### Use case summary plots
+### Use cases
 
 * Follow the step-by-step guide in the [use-cases README](use-cases/README.md)
-
----
 
 #### Binning evaluation plots
 
 * Follow the step-by-step guide in the [binning-evaluation README](binning-evaluation/README.md)
+
+

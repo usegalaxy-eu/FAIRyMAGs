@@ -1,0 +1,141 @@
+ 70.34	83	83	U	0	unclassified
+ 29.66	35	0	R	1	root
+ 29.66	35	3	R1	131567	  cellular organisms
+ 20.34	24	0	D	2759	    Eukaryota
+ 20.34	24	0	D1	33154	      Opisthokonta
+ 19.49	23	0	K	4751	        Fungi
+ 19.49	23	0	K1	451864	          Dikarya
+ 17.80	21	0	P	4890	            Ascomycota
+ 17.80	21	0	P1	716545	              saccharomyceta
+ 17.80	21	0	P2	147538	                Pezizomycotina
+ 17.80	21	3	P3	716546	                  leotiomyceta
+  7.63	9	0	P4	715962	                    dothideomyceta
+  7.63	9	0	C	147541	                      Dothideomycetes
+  7.63	9	0	C1	451868	                        Pleosporomycetidae
+  7.63	9	0	O	92860	                          Pleosporales
+  7.63	9	0	O1	715340	                            Pleosporineae
+  7.63	9	0	F	683158	                              Didymellaceae
+  7.63	9	0	G	5453	                                Ascochyta
+  7.63	9	9	S	5454	                                  Ascochyta rabiei
+  5.93	7	0	P4	715989	                    sordariomyceta
+  5.93	7	0	C	147550	                      Sordariomycetes
+  5.08	6	0	C1	222543	                        Hypocreomycetidae
+  4.24	5	0	O	5125	                          Hypocreales
+  1.69	2	0	F	110618	                            Nectriaceae
+  1.69	2	0	G	5506	                              Fusarium
+  0.85	1	0	G1	232080	                                Fusarium solani species complex
+  0.85	1	1	S	1328300	                                  Fusarium keratoplasticum
+  0.85	1	0	G1	569360	                                Fusarium sambucinum species complex
+  0.85	1	1	S	56646	                                  Fusarium venenatum
+  0.85	1	0	F	5129	                            Hypocreaceae
+  0.85	1	0	G	5543	                              Trichoderma
+  0.85	1	1	S	2034170	                                Trichoderma breve
+  0.85	1	0	F	34397	                            Clavicipitaceae
+  0.85	1	0	G	124426	                              Ustilaginoidea
+  0.85	1	1	S	1159556	                                Ustilaginoidea virens
+  0.85	1	0	F	474942	                            Ophiocordycipitaceae
+  0.85	1	0	G	1052105	                              Purpureocillium
+  0.85	1	1	S	2060973	                                Purpureocillium takamizusanense
+  0.85	1	0	O	1028384	                          Glomerellales
+  0.85	1	0	F	681950	                            Glomerellaceae
+  0.85	1	0	G	5455	                              Colletotrichum
+  0.85	1	0	G1	2707350	                                Colletotrichum destructivum species complex
+  0.85	1	0	S	80884	                                  Colletotrichum higginsianum
+  0.85	1	1	S1	759273	                                    Colletotrichum higginsianum IMI 349063
+  0.85	1	0	C1	222544	                        Sordariomycetidae
+  0.85	1	0	O	5139	                          Sordariales
+  0.85	1	0	F	35718	                            Chaetomiaceae
+  0.85	1	0	G	1920207	                              Thermothelomyces
+  0.85	1	0	S	78579	                                Thermothelomyces thermophilus
+  0.85	1	1	S1	573729	                                  Thermothelomyces thermophilus ATCC 42464
+  1.69	2	0	C	147545	                    Eurotiomycetes
+  1.69	2	0	C1	451871	                      Eurotiomycetidae
+  1.69	2	0	O	5042	                        Eurotiales
+  0.85	1	0	F	28568	                          Trichocomaceae
+  0.85	1	0	G	5094	                            Talaromyces
+  0.85	1	0	G1	2752542	                              Talaromyces sect. Islandici
+  0.85	1	1	S	121627	                                Talaromyces rugulosus
+  0.85	1	0	F	1131492	                          Aspergillaceae
+  0.85	1	0	G	5052	                            Aspergillus
+  0.85	1	1	S	1069201	                              Aspergillus luchuensis
+  1.69	2	0	P	5204	            Basidiomycota
+  0.85	1	0	P1	5302	              Agaricomycotina
+  0.85	1	0	C	155619	                Agaricomycetes
+  0.85	1	0	C1	452333	                  Agaricomycetidae
+  0.85	1	0	O	5338	                    Agaricales
+  0.85	1	0	O1	2982305	                      Agaricineae
+  0.85	1	0	F	40562	                        Strophariaceae
+  0.85	1	0	G	71950	                          Psilocybe
+  0.85	1	1	S	181762	                            Psilocybe cubensis
+  0.85	1	0	P1	452284	              Ustilaginomycotina
+  0.85	1	0	C	5257	                Ustilaginomycetes
+  0.85	1	0	O	5267	                  Ustilaginales
+  0.85	1	0	F	5268	                    Ustilaginaceae
+  0.85	1	0	G	63265	                      Sporisorium
+  0.85	1	1	S	280036	                        Sporisorium graminicola
+  0.85	1	0	K	33208	        Metazoa
+  0.85	1	0	K1	6072	          Eumetazoa
+  0.85	1	0	K2	33213	            Bilateria
+  0.85	1	0	K3	33511	              Deuterostomia
+  0.85	1	0	P	7711	                Chordata
+  0.85	1	0	P1	89593	                  Craniata
+  0.85	1	0	P2	7742	                    Vertebrata
+  0.85	1	0	P3	7776	                      Gnathostomata
+  0.85	1	0	P4	117570	                        Teleostomi
+  0.85	1	0	P5	117571	                          Euteleostomi
+  0.85	1	0	P6	8287	                            Sarcopterygii
+  0.85	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.85	1	0	P8	32523	                                Tetrapoda
+  0.85	1	0	P9	32524	                                  Amniota
+  0.85	1	0	C	40674	                                    Mammalia
+  0.85	1	0	C1	32525	                                      Theria
+  0.85	1	0	C2	9347	                                        Eutheria
+  0.85	1	0	C3	1437010	                                          Boreoeutheria
+  0.85	1	0	C4	314146	                                            Euarchontoglires
+  0.85	1	0	O	9443	                                              Primates
+  0.85	1	0	O1	376913	                                                Haplorrhini
+  0.85	1	0	O2	314293	                                                  Simiiformes
+  0.85	1	0	O3	9526	                                                    Catarrhini
+  0.85	1	0	O4	314295	                                                      Hominoidea
+  0.85	1	0	F	9604	                                                        Hominidae
+  0.85	1	0	F1	207598	                                                          Homininae
+  0.85	1	0	G	9605	                                                            Homo
+  0.85	1	1	S	9606	                                                              Homo sapiens
+  6.78	8	1	D	2	    Bacteria
+  2.54	3	0	P	1224	      Pseudomonadota
+  1.69	2	0	C	1236	        Gammaproteobacteria
+  0.85	1	0	O	135618	          Methylococcales
+  0.85	1	0	F	403	            Methylococcaceae
+  0.85	1	0	G	416	              Methylomonas
+  0.85	1	1	S	2608981	                Methylomonas rhizoryzae
+  0.85	1	0	O	118969	          Legionellales
+  0.85	1	0	F	444	            Legionellaceae
+  0.85	1	0	G	445	              Legionella
+  0.85	1	1	S	452	                Legionella spiritensis
+  0.85	1	0	C	28211	        Alphaproteobacteria
+  0.85	1	0	O	356	          Hyphomicrobiales
+  0.85	1	0	F	2831100	            Boseaceae
+  0.85	1	0	G	85413	              Bosea
+  0.85	1	0	G1	2653178	                unclassified Bosea (in: a-proteobacteria)
+  0.85	1	1	S	2969621	                  Bosea sp. NBC_00550
+  1.69	2	0	D1	1783272	      Terrabacteria group
+  1.69	2	0	P	201174	        Actinomycetota
+  1.69	2	0	C	1760	          Actinomycetes
+  1.69	2	0	O	85007	            Mycobacteriales
+  1.69	2	0	F	1762	              Mycobacteriaceae
+  0.85	1	0	G	1073531	                Mycolicibacter
+  0.85	1	0	G1	2642523	                  unclassified Mycolicibacter
+  0.85	1	1	S	3064287	                    Mycolicibacter sp. MU0083
+  0.85	1	0	G	1866885	                Mycolicibacterium
+  0.85	1	1	S	1771	                  Mycolicibacterium phlei
+  1.69	2	0	P	200940	      Thermodesulfobacteriota
+  1.69	2	0	C	3031651	        Desulfuromonadia
+  0.85	1	0	O	69541	          Desulfuromonadales
+  0.85	1	0	F	3031659	            Geopsychrobacteraceae
+  0.85	1	0	G	37817	              Desulfuromusa
+  0.85	1	0	G1	97902	                environmental samples
+  0.85	1	1	S	219183	                  uncultured Desulfuromusa sp.
+  0.85	1	0	O	3031668	          Geobacterales
+  0.85	1	0	F	213422	            Geobacteraceae
+  0.85	1	0	G	28231	              Geobacter
+  0.85	1	1	S	345632	                Geobacter pickeringii

@@ -1,0 +1,110 @@
+ 68.00	51	51	U	0	unclassified
+ 32.00	24	0	R	1	root
+ 32.00	24	5	R1	131567	  cellular organisms
+ 16.00	12	0	D	2	    Bacteria
+  9.33	7	0	P	1224	      Pseudomonadota
+  6.67	5	0	C	28211	        Alphaproteobacteria
+  2.67	2	0	O	356	          Hyphomicrobiales
+  1.33	1	0	F	2831106	            Devosiaceae
+  1.33	1	0	G	46913	              Devosia
+  1.33	1	1	S	2657486	                Devosia beringensis
+  1.33	1	0	F	82115	            Rhizobiaceae
+  1.33	1	0	F1	227292	              Sinorhizobium/Ensifer group
+  1.33	1	0	G	106591	                Ensifer
+  1.33	1	1	S	106592	                  Ensifer adhaerens
+  2.67	2	0	O	204441	          Rhodospirillales
+  2.67	2	0	F	433	            Acetobacteraceae
+  2.67	2	0	G	125216	              Roseomonas
+  2.67	2	2	S	207340	                Roseomonas mucosa
+  1.33	1	0	O	204455	          Rhodobacterales
+  1.33	1	0	F	31989	            Paracoccaceae
+  1.33	1	0	G	265	              Paracoccus
+  1.33	1	1	S	147645	                Paracoccus yeei
+  1.33	1	0	C	1236	        Gammaproteobacteria
+  1.33	1	0	O	118969	          Legionellales
+  1.33	1	0	F	444	            Legionellaceae
+  1.33	1	0	G	445	              Legionella
+  1.33	1	1	S	446	                Legionella pneumophila
+  1.33	1	0	C	28216	        Betaproteobacteria
+  1.33	1	0	O	80840	          Burkholderiales
+  1.33	1	0	F	119060	            Burkholderiaceae
+  1.33	1	0	G	1827195	              Caballeronia
+  1.33	1	1	S	871203	                Caballeronia zhejiangensis
+  6.67	5	1	D1	1783272	      Terrabacteria group
+  4.00	3	0	P	201174	        Actinomycetota
+  4.00	3	0	C	1760	          Actinomycetes
+  1.33	1	0	O	85006	            Micrococcales
+  1.33	1	0	F	1268	              Micrococcaceae
+  1.33	1	0	G	57493	                Kocuria
+  1.33	1	0	G1	2649579	                  unclassified Kocuria
+  1.33	1	1	S	2719588	                    Kocuria sp. KD4
+  1.33	1	0	O	85007	            Mycobacteriales
+  1.33	1	0	F	1762	              Mycobacteriaceae
+  1.33	1	0	G	1763	                Mycobacterium
+  1.33	1	1	S	1552759	                  Mycobacterium grossiae
+  1.33	1	0	O	1643684	            Nakamurellales
+  1.33	1	0	F	85031	              Nakamurellaceae
+  1.33	1	0	G	53460	                Nakamurella
+  1.33	1	0	S	53461	                  Nakamurella multipartita
+  1.33	1	1	S1	479431	                    Nakamurella multipartita DSM 44233
+  1.33	1	0	P	1239	        Bacillota
+  1.33	1	0	C	91061	          Bacilli
+  1.33	1	1	O	186826	            Lactobacillales
+  8.00	6	0	D	2759	    Eukaryota
+  8.00	6	0	D1	33154	      Opisthokonta
+  5.33	4	0	K	33208	        Metazoa
+  5.33	4	0	K1	6072	          Eumetazoa
+  5.33	4	0	K2	33213	            Bilateria
+  5.33	4	0	K3	33511	              Deuterostomia
+  5.33	4	0	P	7711	                Chordata
+  5.33	4	0	P1	89593	                  Craniata
+  5.33	4	0	P2	7742	                    Vertebrata
+  5.33	4	0	P3	7776	                      Gnathostomata
+  5.33	4	0	P4	117570	                        Teleostomi
+  5.33	4	0	P5	117571	                          Euteleostomi
+  5.33	4	0	P6	8287	                            Sarcopterygii
+  5.33	4	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.33	4	0	P8	32523	                                Tetrapoda
+  5.33	4	0	P9	32524	                                  Amniota
+  5.33	4	0	C	40674	                                    Mammalia
+  5.33	4	0	C1	32525	                                      Theria
+  5.33	4	0	C2	9347	                                        Eutheria
+  5.33	4	0	C3	1437010	                                          Boreoeutheria
+  5.33	4	0	C4	314146	                                            Euarchontoglires
+  5.33	4	0	O	9443	                                              Primates
+  5.33	4	0	O1	376913	                                                Haplorrhini
+  5.33	4	0	O2	314293	                                                  Simiiformes
+  5.33	4	0	O3	9526	                                                    Catarrhini
+  5.33	4	0	O4	314295	                                                      Hominoidea
+  5.33	4	0	F	9604	                                                        Hominidae
+  5.33	4	0	F1	207598	                                                          Homininae
+  5.33	4	0	G	9605	                                                            Homo
+  5.33	4	4	S	9606	                                                              Homo sapiens
+  2.67	2	0	K	4751	        Fungi
+  2.67	2	0	K1	451864	          Dikarya
+  1.33	1	0	P	4890	            Ascomycota
+  1.33	1	0	P1	716545	              saccharomyceta
+  1.33	1	0	P2	147538	                Pezizomycotina
+  1.33	1	0	P3	716546	                  leotiomyceta
+  1.33	1	0	P4	715989	                    sordariomyceta
+  1.33	1	0	C	147550	                      Sordariomycetes
+  1.33	1	0	C1	222543	                        Hypocreomycetidae
+  1.33	1	0	O	5125	                          Hypocreales
+  1.33	1	0	F	474942	                            Ophiocordycipitaceae
+  1.33	1	0	G	98402	                              Drechmeria
+  1.33	1	1	S	98403	                                Drechmeria coniospora
+  1.33	1	0	P	5204	            Basidiomycota
+  1.33	1	0	P1	452284	              Ustilaginomycotina
+  1.33	1	0	C	1538075	                Malasseziomycetes
+  1.33	1	0	O	162474	                  Malasseziales
+  1.33	1	0	F	742845	                    Malasseziaceae
+  1.33	1	0	G	55193	                      Malassezia
+  1.33	1	1	S	223818	                        Malassezia japonica
+  1.33	1	0	D	2157	    Archaea
+  1.33	1	0	P	28890	      Euryarchaeota
+  1.33	1	0	P1	2290931	        Stenosarchaea group
+  1.33	1	0	C	183963	          Halobacteria
+  1.33	1	0	O	1644055	            Haloferacales
+  1.33	1	0	F	1963271	              Halorubraceae
+  1.33	1	0	G	43927	                Halobaculum
+  1.33	1	1	S	1017351	                  Halobaculum magnesiiphilum

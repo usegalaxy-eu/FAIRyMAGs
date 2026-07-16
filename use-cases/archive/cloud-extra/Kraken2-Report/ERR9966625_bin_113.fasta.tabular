@@ -1,0 +1,94 @@
+ 68.75	44	44	U	0	unclassified
+ 31.25	20	0	R	1	root
+ 31.25	20	2	R1	131567	  cellular organisms
+ 17.19	11	1	D	2759	    Eukaryota
+ 15.62	10	0	D1	33154	      Opisthokonta
+ 12.50	8	0	K	4751	        Fungi
+ 12.50	8	0	K1	451864	          Dikarya
+ 12.50	8	0	P	4890	            Ascomycota
+ 12.50	8	0	P1	716545	              saccharomyceta
+ 10.94	7	0	P2	147538	                Pezizomycotina
+ 10.94	7	0	P3	716546	                  leotiomyceta
+  7.81	5	0	P4	715962	                    dothideomyceta
+  7.81	5	0	C	147541	                      Dothideomycetes
+  4.69	3	0	C1	451867	                        Dothideomycetidae
+  4.69	3	0	O	2726947	                          Mycosphaerellales
+  4.69	3	0	F	93133	                            Mycosphaerellaceae
+  3.12	2	0	G	2897311	                              Fulvia
+  3.12	2	2	S	5499	                                Fulvia fulva
+  1.56	1	0	G	1047167	                              Zymoseptoria
+  1.56	1	0	S	1047171	                                Zymoseptoria tritici
+  1.56	1	1	S1	336722	                                  Zymoseptoria tritici IPO323
+  3.12	2	0	C1	451868	                        Pleosporomycetidae
+  3.12	2	0	O	92860	                          Pleosporales
+  3.12	2	0	O1	715340	                            Pleosporineae
+  3.12	2	0	F	683158	                              Didymellaceae
+  3.12	2	0	G	5453	                                Ascochyta
+  3.12	2	2	S	5454	                                  Ascochyta rabiei
+  3.12	2	0	P4	715989	                    sordariomyceta
+  3.12	2	1	C	147550	                      Sordariomycetes
+  1.56	1	0	C1	222544	                        Sordariomycetidae
+  1.56	1	0	O	5139	                          Sordariales
+  1.56	1	0	F	35718	                            Chaetomiaceae
+  1.56	1	0	G	2609811	                              Thermothielavioides
+  1.56	1	0	S	2587410	                                Thermothielavioides terrestris
+  1.56	1	1	S1	578455	                                  Thermothielavioides terrestris NRRL 8126
+  1.56	1	0	P2	147537	                Saccharomycotina
+  1.56	1	0	C	4891	                  Saccharomycetes
+  1.56	1	0	O	4892	                    Saccharomycetales
+  1.56	1	0	F	4893	                      Saccharomycetaceae
+  1.56	1	0	G	1196389	                        Zygotorulaspora
+  1.56	1	1	S	42260	                          Zygotorulaspora mrakii
+  3.12	2	0	K	33208	        Metazoa
+  3.12	2	0	K1	6072	          Eumetazoa
+  3.12	2	0	K2	33213	            Bilateria
+  3.12	2	0	K3	33511	              Deuterostomia
+  3.12	2	0	P	7711	                Chordata
+  3.12	2	0	P1	89593	                  Craniata
+  3.12	2	0	P2	7742	                    Vertebrata
+  3.12	2	0	P3	7776	                      Gnathostomata
+  3.12	2	0	P4	117570	                        Teleostomi
+  3.12	2	0	P5	117571	                          Euteleostomi
+  3.12	2	0	P6	8287	                            Sarcopterygii
+  3.12	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  3.12	2	0	P8	32523	                                Tetrapoda
+  3.12	2	0	P9	32524	                                  Amniota
+  3.12	2	0	C	40674	                                    Mammalia
+  3.12	2	0	C1	32525	                                      Theria
+  3.12	2	0	C2	9347	                                        Eutheria
+  3.12	2	0	C3	1437010	                                          Boreoeutheria
+  3.12	2	0	C4	314146	                                            Euarchontoglires
+  3.12	2	0	O	9443	                                              Primates
+  3.12	2	0	O1	376913	                                                Haplorrhini
+  3.12	2	0	O2	314293	                                                  Simiiformes
+  3.12	2	0	O3	9526	                                                    Catarrhini
+  3.12	2	0	O4	314295	                                                      Hominoidea
+  3.12	2	0	F	9604	                                                        Hominidae
+  3.12	2	0	F1	207598	                                                          Homininae
+  3.12	2	0	G	9605	                                                            Homo
+  3.12	2	2	S	9606	                                                              Homo sapiens
+ 10.94	7	2	D	2	    Bacteria
+  4.69	3	0	P	1224	      Pseudomonadota
+  3.12	2	0	C	1236	        Gammaproteobacteria
+  1.56	1	0	O	118969	          Legionellales
+  1.56	1	0	F	444	            Legionellaceae
+  1.56	1	0	G	445	              Legionella
+  1.56	1	1	S	45067	                Legionella lansingensis
+  1.56	1	0	O	135619	          Oceanospirillales
+  1.56	1	0	F	224372	            Alcanivoracaceae
+  1.56	1	0	G	59753	              Alcanivorax
+  1.56	1	0	G1	2638842	                unclassified Alcanivorax
+  1.56	1	1	S	1872427	                  Alcanivorax sp.
+  1.56	1	1	C	28211	        Alphaproteobacteria
+  1.56	1	0	D1	1783272	      Terrabacteria group
+  1.56	1	0	P	201174	        Actinomycetota
+  1.56	1	0	C	1760	          Actinomycetes
+  1.56	1	0	O	85006	            Micrococcales
+  1.56	1	0	F	1268	              Micrococcaceae
+  1.56	1	1	G	57493	                Kocuria
+  1.56	1	0	D1	68525	      delta/epsilon subdivisions
+  1.56	1	0	C	28221	        Deltaproteobacteria
+  1.56	1	0	O	1779134	          Bradymonadales
+  1.56	1	0	F	1779135	            Bradymonadaceae
+  1.56	1	0	G	2766927	              Persicimonas
+  1.56	1	1	S	2292766	                Persicimonas caeni

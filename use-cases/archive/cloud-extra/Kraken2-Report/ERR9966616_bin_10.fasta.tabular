@@ -1,0 +1,104 @@
+ 56.96	45	45	U	0	unclassified
+ 43.04	34	0	R	1	root
+ 43.04	34	3	R1	131567	  cellular organisms
+ 37.97	30	1	D	2	    Bacteria
+ 21.52	17	2	P	1224	      Pseudomonadota
+ 16.46	13	0	C	28211	        Alphaproteobacteria
+ 13.92	11	0	O	356	          Hyphomicrobiales
+ 11.39	9	0	F	41294	            Nitrobacteraceae
+ 11.39	9	0	G	374	              Bradyrhizobium
+ 10.13	8	2	G1	2631580	                unclassified Bradyrhizobium
+  3.80	3	3	S	2782654	                  Bradyrhizobium sp. 186
+  1.27	1	1	S	2831780	                  Bradyrhizobium sp. sBnM-33
+  1.27	1	1	S	2954771	                  Bradyrhizobium sp. Ash2021
+  1.27	1	1	S	3039154	                  Bradyrhizobium sp. CB1717
+  1.27	1	1	S	1437360	                Bradyrhizobium erythrophlei
+  1.27	1	0	F	2843305	            Phreatobacteraceae
+  1.27	1	0	G	1632780	              Phreatobacter
+  1.27	1	1	S	1940610	                Phreatobacter stygius
+  1.27	1	0	F	2831106	            Devosiaceae
+  1.27	1	0	G	46913	              Devosia
+  1.27	1	0	G1	196773	                unclassified Devosia
+  1.27	1	1	S	2976680	                  Devosia sp. FJ2-5-3
+  1.27	1	0	O	204441	          Rhodospirillales
+  1.27	1	0	F	2829815	            Azospirillaceae
+  1.27	1	1	G	191	              Azospirillum
+  1.27	1	0	O	204457	          Sphingomonadales
+  1.27	1	0	F	41297	            Sphingomonadaceae
+  1.27	1	0	G	13687	              Sphingomonas
+  1.27	1	0	S	397260	                Sphingomonas sanxanigenens
+  1.27	1	1	S1	1123269	                  Sphingomonas sanxanigenens DSM 19645 = NX02
+  2.53	2	0	C	1236	        Gammaproteobacteria
+  2.53	2	0	O	72274	          Pseudomonadales
+  2.53	2	0	F	135621	            Pseudomonadaceae
+  2.53	2	1	G	286	              Pseudomonas
+  1.27	1	0	G1	196821	                unclassified Pseudomonas
+  1.27	1	1	S	2954091	                  Pseudomonas sp. FP2309
+ 15.19	12	0	D1	1783272	      Terrabacteria group
+ 15.19	12	0	P	201174	        Actinomycetota
+ 15.19	12	2	C	1760	          Actinomycetes
+  5.06	4	0	O	85011	            Kitasatosporales
+  5.06	4	0	F	2062	              Streptomycetaceae
+  2.53	2	0	G	1883	                Streptomyces
+  2.53	2	0	G1	2593676	                  unclassified Streptomyces
+  1.27	1	1	S	3064901	                    Streptomyces sp. FXY-T5
+  1.27	1	1	S	1855352	                    Streptomyces sp. TLI_053
+  1.27	1	0	G	228398	                Streptacidiphilus
+  1.27	1	0	G1	2643834	                  unclassified Streptacidiphilus
+  1.27	1	1	S	2705012	                    Streptacidiphilus sp. PB12-B1b
+  1.27	1	0	G	2995706	                Streptantibioticus
+  1.27	1	0	S	29303	                  Streptantibioticus cattleyicolor
+  1.27	1	1	S1	1003195	                    Streptantibioticus cattleyicolor NRRL 8057 = DSM 46488
+  2.53	2	0	O	85006	            Micrococcales
+  1.27	1	0	F	85019	              Brevibacteriaceae
+  1.27	1	0	G	1696	                Brevibacterium
+  1.27	1	1	S	199591	                  Brevibacterium luteolum
+  1.27	1	0	F	85023	              Microbacteriaceae
+  1.27	1	0	G	2034	                Curtobacterium
+  1.27	1	0	G1	257496	                  unclassified Curtobacterium
+  1.27	1	1	S	3049047	                    Curtobacterium sp. DN_7.5
+  1.27	1	1	O	85007	            Mycobacteriales
+  1.27	1	0	O	85008	            Micromonosporales
+  1.27	1	0	F	28056	              Micromonosporaceae
+  1.27	1	0	G	1865	                Actinoplanes
+  1.27	1	0	S	1867	                  Actinoplanes teichomyceticus
+  1.27	1	1	S1	457423	                    Actinoplanes teichomyceticus ATCC 31121
+  1.27	1	0	O	85009	            Propionibacteriales
+  1.27	1	0	F	85015	              Nocardioidaceae
+  1.27	1	0	G	2040	                Aeromicrobium
+  1.27	1	0	G1	2633570	                  unclassified Aeromicrobium
+  1.27	1	1	S	2107713	                    Aeromicrobium sp. A1-2
+  1.27	1	0	O	85012	            Streptosporangiales
+  1.27	1	0	F	2012	              Thermomonosporaceae
+  1.27	1	0	G	2019	                Thermomonospora
+  1.27	1	1	S	1411117	                  Thermomonospora amylolytica
+  1.27	1	0	D	2759	    Eukaryota
+  1.27	1	0	D1	33154	      Opisthokonta
+  1.27	1	0	K	33208	        Metazoa
+  1.27	1	0	K1	6072	          Eumetazoa
+  1.27	1	0	K2	33213	            Bilateria
+  1.27	1	0	K3	33511	              Deuterostomia
+  1.27	1	0	P	7711	                Chordata
+  1.27	1	0	P1	89593	                  Craniata
+  1.27	1	0	P2	7742	                    Vertebrata
+  1.27	1	0	P3	7776	                      Gnathostomata
+  1.27	1	0	P4	117570	                        Teleostomi
+  1.27	1	0	P5	117571	                          Euteleostomi
+  1.27	1	0	P6	8287	                            Sarcopterygii
+  1.27	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.27	1	0	P8	32523	                                Tetrapoda
+  1.27	1	0	P9	32524	                                  Amniota
+  1.27	1	0	C	40674	                                    Mammalia
+  1.27	1	0	C1	32525	                                      Theria
+  1.27	1	0	C2	9347	                                        Eutheria
+  1.27	1	0	C3	1437010	                                          Boreoeutheria
+  1.27	1	0	C4	314146	                                            Euarchontoglires
+  1.27	1	0	O	9443	                                              Primates
+  1.27	1	0	O1	376913	                                                Haplorrhini
+  1.27	1	0	O2	314293	                                                  Simiiformes
+  1.27	1	0	O3	9526	                                                    Catarrhini
+  1.27	1	0	O4	314295	                                                      Hominoidea
+  1.27	1	0	F	9604	                                                        Hominidae
+  1.27	1	0	F1	207598	                                                          Homininae
+  1.27	1	0	G	9605	                                                            Homo
+  1.27	1	1	S	9606	                                                              Homo sapiens

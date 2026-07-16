@@ -1,0 +1,17 @@
+Bin Id	Marker lineage	# genomes	# markers	# marker sets	0	1	2	3	4	5+	Completeness	Contamination	Strain heterogeneity
+group_2_bin_200650.fasta	p__Bacteroidetes (UID2605)	350	316	210	14	286	16	0	0	0	94.76	5.68	56.25
+group_2_bin_217611.fasta	k__Bacteria (UID2495)	2993	142	88	33	108	1	0	0	0	85.85	1.14	0.00
+group_2_bin_262042.fasta	k__Bacteria (UID2495)	2993	142	88	59	81	2	0	0	0	73.81	2.27	50.00
+group_2_bin_264176.fasta	k__Bacteria (UID2570)	433	273	183	34	202	35	2	0	0	86.09	16.76	19.51
+group_2_bin_268054.fasta	k__Bacteria (UID203)	5449	100	55	23	38	34	5	0	0	69.67	35.31	73.47
+group_2_bin_31139.fasta	k__Bacteria (UID2495)	2993	142	88	37	103	2	0	0	0	90.51	1.24	50.00
+group_2_bin_314733.fasta	k__Bacteria (UID2495)	2993	143	89	16	127	0	0	0	0	90.19	0.00	0.00
+group_2_bin_344446.fasta	k__Bacteria (UID2495)	2993	142	88	6	130	6	0	0	0	93.94	5.30	66.67
+group_2_bin_394029.fasta	k__Bacteria (UID2982)	88	230	148	73	120	31	5	1	0	61.11	23.77	11.54
+group_2_bin_410381.fasta	k__Bacteria (UID2495)	2993	142	88	9	131	2	0	0	0	89.77	2.27	0.00
+group_2_bin_427243.fasta	k__Bacteria (UID203)	5449	100	55	21	51	25	3	0	0	74.79	18.02	2.94
+group_2_bin_507945.fasta	k__Bacteria (UID2495)	2993	142	88	18	118	6	0	0	0	83.92	4.68	0.00
+group_2_bin_519274.fasta	k__Bacteria (UID2495)	2993	142	88	51	83	8	0	0	0	80.37	7.39	87.50
+group_4_bin_41700.fasta	k__Archaea (UID2)	207	149	107	108	36	5	0	0	0	28.27	3.58	0.00
+group_4_bin_63579.fasta	k__Bacteria (UID2142)	169	316	236	8	306	2	0	0	0	96.61	0.85	0.00
+group_5_bin_1251.fasta	o__Rickettsiales (UID3811)	63	368	234	24	334	9	0	0	1	93.59	2.85	5.26

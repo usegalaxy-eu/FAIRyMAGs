@@ -1,0 +1,17 @@
+#KEY	group_2_bin_247412.fasta	group_2_bin_253990.fasta	group_2_bin_256516.fasta	group_2_bin_312419.fasta	group_2_bin_360825.fasta	group_2_bin_374764.fasta	group_2_bin_453546.fasta	group_2_bin_518144.fasta	group_2_bin_643563.fasta	group_2_bin_645825.fasta	group_2_bin_94618.fasta	group_4_bin_37618.fasta	group_5_bin_1238.fasta	group_7_bin_7843.fasta
+Annotation	Count	Count	Count	Count	Count	Count	Count	Count	Count	Count	Count	Count	Count	Count
+CDSs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+CRISPR arrays	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+gaps	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+hypotheticals	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ncRNA regions	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+ncRNAs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+oriCs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+oriTs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+oriVs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+pseudogenes	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+rRNAs	1	0	1	0	0	1	1	1	0	0	0	201	6	3
+sORFs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+signal peptides	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tRNAs	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+tmRNAs	0	0	0	0	0	0	0	0	0	0	0	0	0	0

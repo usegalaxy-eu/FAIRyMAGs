@@ -1,0 +1,96 @@
+ 71.91	64	64	U	0	unclassified
+ 28.09	25	1	R	1	root
+ 26.97	24	0	R1	131567	  cellular organisms
+ 17.98	16	1	D	2759	    Eukaryota
+ 16.85	15	0	D1	33154	      Opisthokonta
+ 15.73	14	0	K	33208	        Metazoa
+ 15.73	14	0	K1	6072	          Eumetazoa
+ 15.73	14	0	K2	33213	            Bilateria
+ 15.73	14	0	K3	33511	              Deuterostomia
+ 15.73	14	0	P	7711	                Chordata
+ 15.73	14	0	P1	89593	                  Craniata
+ 15.73	14	0	P2	7742	                    Vertebrata
+ 15.73	14	0	P3	7776	                      Gnathostomata
+ 15.73	14	0	P4	117570	                        Teleostomi
+ 15.73	14	0	P5	117571	                          Euteleostomi
+ 15.73	14	0	P6	8287	                            Sarcopterygii
+ 15.73	14	0	P7	1338369	                              Dipnotetrapodomorpha
+ 15.73	14	0	P8	32523	                                Tetrapoda
+ 15.73	14	0	P9	32524	                                  Amniota
+ 15.73	14	0	C	40674	                                    Mammalia
+ 15.73	14	0	C1	32525	                                      Theria
+ 15.73	14	0	C2	9347	                                        Eutheria
+ 15.73	14	0	C3	1437010	                                          Boreoeutheria
+ 15.73	14	0	C4	314146	                                            Euarchontoglires
+ 15.73	14	0	O	9443	                                              Primates
+ 15.73	14	0	O1	376913	                                                Haplorrhini
+ 15.73	14	0	O2	314293	                                                  Simiiformes
+ 15.73	14	0	O3	9526	                                                    Catarrhini
+ 15.73	14	0	O4	314295	                                                      Hominoidea
+ 15.73	14	0	F	9604	                                                        Hominidae
+ 15.73	14	0	F1	207598	                                                          Homininae
+ 15.73	14	0	G	9605	                                                            Homo
+ 15.73	14	14	S	9606	                                                              Homo sapiens
+  1.12	1	0	K	4751	        Fungi
+  1.12	1	0	K1	451864	          Dikarya
+  1.12	1	0	P	5204	            Basidiomycota
+  1.12	1	0	P1	5302	              Agaricomycotina
+  1.12	1	0	C	155619	                Agaricomycetes
+  1.12	1	0	C1	452333	                  Agaricomycetidae
+  1.12	1	0	O	5338	                    Agaricales
+  1.12	1	0	O1	2982316	                      Marasmiineae
+  1.12	1	0	F	654128	                        Marasmiaceae
+  1.12	1	0	G	34448	                          Marasmius
+  1.12	1	1	S	181124	                            Marasmius oreades
+  7.87	7	0	D	2	    Bacteria
+  3.37	3	0	D1	1783272	      Terrabacteria group
+  1.12	1	0	P	1239	        Bacillota
+  1.12	1	0	C	91061	          Bacilli
+  1.12	1	0	O	186826	            Lactobacillales
+  1.12	1	0	F	33958	              Lactobacillaceae
+  1.12	1	0	G	2742598	                Limosilactobacillus
+  1.12	1	1	S	1613	                  Limosilactobacillus fermentum
+  1.12	1	0	P	201174	        Actinomycetota
+  1.12	1	0	C	1760	          Actinomycetes
+  1.12	1	0	O	85012	            Streptosporangiales
+  1.12	1	0	F	2004	              Streptosporangiaceae
+  1.12	1	0	G	2000	                Streptosporangium
+  1.12	1	0	G1	2632669	                  unclassified Streptosporangium
+  1.12	1	1	S	2202249	                    Streptosporangium sp. 'caverna'
+  1.12	1	0	P	544448	        Mycoplasmatota
+  1.12	1	0	O	2790996	          Mycoplasmoidales
+  1.12	1	0	F	2895623	            Metamycoplasmataceae
+  1.12	1	0	G	2767358	              Mycoplasmopsis
+  1.12	1	1	S	28903	                Mycoplasmopsis bovis
+  1.12	1	0	D1	1783270	      FCB group
+  1.12	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  1.12	1	0	P	976	          Bacteroidota
+  1.12	1	0	C	117743	            Flavobacteriia
+  1.12	1	0	O	200644	              Flavobacteriales
+  1.12	1	0	F	49546	                Flavobacteriaceae
+  1.12	1	1	G	237	                  Flavobacterium
+  1.12	1	0	P	203691	      Spirochaetota
+  1.12	1	0	C	203692	        Spirochaetia
+  1.12	1	0	O	136	          Spirochaetales
+  1.12	1	0	F	2845253	            Treponemataceae
+  1.12	1	0	G	157	              Treponema
+  1.12	1	1	S	58231	                Treponema medium
+  1.12	1	0	P	1224	      Pseudomonadota
+  1.12	1	0	C	1236	        Gammaproteobacteria
+  1.12	1	0	O	91347	          Enterobacterales
+  1.12	1	0	F	1903411	            Yersiniaceae
+  1.12	1	1	G	629	              Yersinia
+  1.12	1	0	P	200940	      Thermodesulfobacteriota
+  1.12	1	0	C	3031451	        Desulfobulbia
+  1.12	1	0	O	3024411	          Desulfobulbales
+  1.12	1	0	F	213121	            Desulfobulbaceae
+  1.12	1	0	G	893	              Desulfobulbus
+  1.12	1	0	G1	111746	                environmental samples
+  1.12	1	1	S	239745	                  uncultured Desulfobulbus sp.
+  1.12	1	0	D	2157	    Archaea
+  1.12	1	0	P	28890	      Euryarchaeota
+  1.12	1	0	C	183968	        Thermococci
+  1.12	1	0	O	2258	          Thermococcales
+  1.12	1	0	F	2259	            Thermococcaceae
+  1.12	1	0	G	2263	              Thermococcus
+  1.12	1	1	S	71997	                Thermococcus gorgonarius

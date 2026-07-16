@@ -1,0 +1,56 @@
+ 86.36	57	57	U	0	unclassified
+ 13.64	9	0	R	1	root
+ 13.64	9	0	R1	131567	  cellular organisms
+  9.09	6	1	D	2	    Bacteria
+  4.55	3	2	P	1224	      Pseudomonadota
+  1.52	1	0	C	1236	        Gammaproteobacteria
+  1.52	1	0	O	72274	          Pseudomonadales
+  1.52	1	0	F	135621	            Pseudomonadaceae
+  1.52	1	0	F1	351	              Azotobacter group
+  1.52	1	0	G	352	                Azotobacter
+  1.52	1	1	S	354	                  Azotobacter vinelandii
+  3.03	2	0	D1	1783272	      Terrabacteria group
+  3.03	2	0	P	201174	        Actinomycetota
+  3.03	2	0	C	1760	          Actinomycetes
+  1.52	1	0	O	85006	            Micrococcales
+  1.52	1	0	F	85019	              Brevibacteriaceae
+  1.52	1	0	G	1696	                Brevibacterium
+  1.52	1	1	S	2898795	                  Brevibacterium zhoupengii
+  1.52	1	0	O	85011	            Kitasatosporales
+  1.52	1	0	F	2062	              Streptomycetaceae
+  1.52	1	0	G	1883	                Streptomyces
+  1.52	1	0	G1	2593676	                  unclassified Streptomyces
+  1.52	1	1	S	2750011	                    Streptomyces sp. Rer75
+  4.55	3	0	D	2759	    Eukaryota
+  4.55	3	0	D1	33154	      Opisthokonta
+  4.55	3	0	K	4751	        Fungi
+  4.55	3	0	K1	451864	          Dikarya
+  3.03	2	0	P	4890	            Ascomycota
+  3.03	2	0	P1	716545	              saccharomyceta
+  3.03	2	0	P2	147538	                Pezizomycotina
+  3.03	2	0	P3	716546	                  leotiomyceta
+  1.52	1	0	C	147545	                    Eurotiomycetes
+  1.52	1	0	C1	451871	                      Eurotiomycetidae
+  1.52	1	0	O	5042	                        Eurotiales
+  1.52	1	0	F	28568	                          Trichocomaceae
+  1.52	1	0	G	5094	                            Talaromyces
+  1.52	1	0	G1	2752542	                              Talaromyces sect. Islandici
+  1.52	1	1	S	121627	                                Talaromyces rugulosus
+  1.52	1	0	P4	715989	                    sordariomyceta
+  1.52	1	0	C	147550	                      Sordariomycetes
+  1.52	1	0	C1	222543	                        Hypocreomycetidae
+  1.52	1	0	O	5125	                          Hypocreales
+  1.52	1	0	F	110618	                            Nectriaceae
+  1.52	1	0	G	5506	                              Fusarium
+  1.52	1	0	G1	171627	                                Fusarium fujikuroi species complex
+  1.52	1	0	S	5127	                                  Fusarium fujikuroi
+  1.52	1	1	S1	1279085	                                    Fusarium fujikuroi IMI 58289
+  1.52	1	0	P	5204	            Basidiomycota
+  1.52	1	0	P1	5302	              Agaricomycotina
+  1.52	1	0	C	155619	                Agaricomycetes
+  1.52	1	0	C1	452333	                  Agaricomycetidae
+  1.52	1	0	O	5338	                    Agaricales
+  1.52	1	0	O1	2982305	                      Agaricineae
+  1.52	1	0	F	40562	                        Strophariaceae
+  1.52	1	0	G	71950	                          Psilocybe
+  1.52	1	1	S	181762	                            Psilocybe cubensis

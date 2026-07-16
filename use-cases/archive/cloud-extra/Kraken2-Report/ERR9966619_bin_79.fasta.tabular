@@ -1,0 +1,88 @@
+ 65.00	39	39	U	0	unclassified
+ 35.00	21	0	R	1	root
+ 35.00	21	1	R1	131567	  cellular organisms
+ 25.00	15	0	D	2759	    Eukaryota
+ 25.00	15	0	D1	33154	      Opisthokonta
+ 13.33	8	0	K	4751	        Fungi
+ 13.33	8	0	K1	451864	          Dikarya
+ 10.00	6	0	P	5204	            Basidiomycota
+ 10.00	6	0	P1	5302	              Agaricomycotina
+ 10.00	6	0	C	155619	                Agaricomycetes
+ 10.00	6	0	C1	452333	                  Agaricomycetidae
+ 10.00	6	0	O	5338	                    Agaricales
+  6.67	4	0	O1	2982305	                      Agaricineae
+  6.67	4	0	F	40562	                        Strophariaceae
+  6.67	4	0	G	71950	                          Psilocybe
+  6.67	4	4	S	181762	                            Psilocybe cubensis
+  3.33	2	0	O1	2982316	                      Marasmiineae
+  3.33	2	0	F	654128	                        Marasmiaceae
+  3.33	2	0	G	34448	                          Marasmius
+  3.33	2	2	S	181124	                            Marasmius oreades
+  3.33	2	0	P	4890	            Ascomycota
+  3.33	2	0	P1	716545	              saccharomyceta
+  3.33	2	0	P2	147538	                Pezizomycotina
+  3.33	2	0	P3	716546	                  leotiomyceta
+  1.67	1	0	P4	715962	                    dothideomyceta
+  1.67	1	0	C	147541	                      Dothideomycetes
+  1.67	1	0	C1	451868	                        Pleosporomycetidae
+  1.67	1	0	O	92860	                          Pleosporales
+  1.67	1	0	O1	715340	                            Pleosporineae
+  1.67	1	0	F	683158	                              Didymellaceae
+  1.67	1	0	G	5453	                                Ascochyta
+  1.67	1	1	S	5454	                                  Ascochyta rabiei
+  1.67	1	0	P4	715989	                    sordariomyceta
+  1.67	1	0	C	147548	                      Leotiomycetes
+  1.67	1	0	O	5178	                        Helotiales
+  1.67	1	0	F	28983	                          Sclerotiniaceae
+  1.67	1	0	G	33196	                            Botrytis
+  1.67	1	0	S	40559	                              Botrytis cinerea
+  1.67	1	1	S1	332648	                                Botrytis cinerea B05.10
+ 11.67	7	0	K	33208	        Metazoa
+ 11.67	7	0	K1	6072	          Eumetazoa
+ 11.67	7	0	K2	33213	            Bilateria
+ 11.67	7	0	K3	33511	              Deuterostomia
+ 11.67	7	0	P	7711	                Chordata
+ 11.67	7	0	P1	89593	                  Craniata
+ 11.67	7	0	P2	7742	                    Vertebrata
+ 11.67	7	0	P3	7776	                      Gnathostomata
+ 11.67	7	0	P4	117570	                        Teleostomi
+ 11.67	7	0	P5	117571	                          Euteleostomi
+ 11.67	7	0	P6	8287	                            Sarcopterygii
+ 11.67	7	0	P7	1338369	                              Dipnotetrapodomorpha
+ 11.67	7	0	P8	32523	                                Tetrapoda
+ 11.67	7	0	P9	32524	                                  Amniota
+ 11.67	7	0	C	40674	                                    Mammalia
+ 11.67	7	0	C1	32525	                                      Theria
+ 11.67	7	0	C2	9347	                                        Eutheria
+ 11.67	7	0	C3	1437010	                                          Boreoeutheria
+ 11.67	7	0	C4	314146	                                            Euarchontoglires
+ 11.67	7	0	O	9443	                                              Primates
+ 11.67	7	0	O1	376913	                                                Haplorrhini
+ 11.67	7	0	O2	314293	                                                  Simiiformes
+ 11.67	7	0	O3	9526	                                                    Catarrhini
+ 11.67	7	0	O4	314295	                                                      Hominoidea
+ 11.67	7	0	F	9604	                                                        Hominidae
+ 11.67	7	0	F1	207598	                                                          Homininae
+ 11.67	7	0	G	9605	                                                            Homo
+ 11.67	7	7	S	9606	                                                              Homo sapiens
+  8.33	5	1	D	2	    Bacteria
+  3.33	2	1	P	1224	      Pseudomonadota
+  1.67	1	0	C	1236	        Gammaproteobacteria
+  1.67	1	0	O	72274	          Pseudomonadales
+  1.67	1	0	F	135621	            Pseudomonadaceae
+  1.67	1	0	G	286	              Pseudomonas
+  1.67	1	0	G1	196821	                unclassified Pseudomonas
+  1.67	1	1	S	2201356	                  Pseudomonas sp. 31-12
+  1.67	1	0	D1	1783272	      Terrabacteria group
+  1.67	1	0	P	1239	        Bacillota
+  1.67	1	0	C	91061	          Bacilli
+  1.67	1	0	O	1385	            Bacillales
+  1.67	1	0	F	186817	              Bacillaceae
+  1.67	1	0	G	2675234	                Alkalihalobacillus
+  1.67	1	0	G1	2675276	                  unclassified Alkalihalobacillus
+  1.67	1	1	S	2924032	                    Alkalihalobacillus sp. LMS39
+  1.67	1	0	D1	1783270	      FCB group
+  1.67	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  1.67	1	0	P	976	          Bacteroidota
+  1.67	1	0	C	117743	            Flavobacteriia
+  1.67	1	1	O	200644	              Flavobacteriales

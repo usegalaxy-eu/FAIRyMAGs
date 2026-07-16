@@ -1,0 +1,84 @@
+ 75.00	30	30	U	0	unclassified
+ 25.00	10	0	R	1	root
+ 25.00	10	3	R1	131567	  cellular organisms
+ 12.50	5	0	D	2759	    Eukaryota
+ 10.00	4	0	D1	33154	      Opisthokonta
+  7.50	3	0	K	4751	        Fungi
+  7.50	3	0	K1	451864	          Dikarya
+  7.50	3	0	P	5204	            Basidiomycota
+  2.50	1	0	P1	5302	              Agaricomycotina
+  2.50	1	0	C	155619	                Agaricomycetes
+  2.50	1	0	C1	452333	                  Agaricomycetidae
+  2.50	1	0	O	5338	                    Agaricales
+  2.50	1	0	O1	2982305	                      Agaricineae
+  2.50	1	0	F	40562	                        Strophariaceae
+  2.50	1	0	G	71950	                          Psilocybe
+  2.50	1	1	S	181762	                            Psilocybe cubensis
+  2.50	1	0	P1	29000	              Pucciniomycotina
+  2.50	1	0	C	162484	                Pucciniomycetes
+  2.50	1	0	O	5258	                  Pucciniales
+  2.50	1	0	F	5262	                    Pucciniaceae
+  2.50	1	0	G	5296	                      Puccinia
+  2.50	1	0	S	27350	                        Puccinia striiformis
+  2.50	1	1	S1	168172	                          Puccinia striiformis f. sp. tritici
+  2.50	1	0	P1	452284	              Ustilaginomycotina
+  2.50	1	0	C	5257	                Ustilaginomycetes
+  2.50	1	0	O	5267	                  Ustilaginales
+  2.50	1	0	F	5268	                    Ustilaginaceae
+  2.50	1	0	G	63265	                      Sporisorium
+  2.50	1	1	S	280036	                        Sporisorium graminicola
+  2.50	1	0	K	33208	        Metazoa
+  2.50	1	0	K1	6072	          Eumetazoa
+  2.50	1	0	K2	33213	            Bilateria
+  2.50	1	0	K3	33511	              Deuterostomia
+  2.50	1	0	P	7711	                Chordata
+  2.50	1	0	P1	89593	                  Craniata
+  2.50	1	0	P2	7742	                    Vertebrata
+  2.50	1	0	P3	7776	                      Gnathostomata
+  2.50	1	0	P4	117570	                        Teleostomi
+  2.50	1	0	P5	117571	                          Euteleostomi
+  2.50	1	0	P6	8287	                            Sarcopterygii
+  2.50	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  2.50	1	0	P8	32523	                                Tetrapoda
+  2.50	1	0	P9	32524	                                  Amniota
+  2.50	1	0	C	40674	                                    Mammalia
+  2.50	1	0	C1	32525	                                      Theria
+  2.50	1	0	C2	9347	                                        Eutheria
+  2.50	1	0	C3	1437010	                                          Boreoeutheria
+  2.50	1	0	C4	314146	                                            Euarchontoglires
+  2.50	1	0	O	9443	                                              Primates
+  2.50	1	0	O1	376913	                                                Haplorrhini
+  2.50	1	0	O2	314293	                                                  Simiiformes
+  2.50	1	0	O3	9526	                                                    Catarrhini
+  2.50	1	0	O4	314295	                                                      Hominoidea
+  2.50	1	0	F	9604	                                                        Hominidae
+  2.50	1	0	F1	207598	                                                          Homininae
+  2.50	1	0	G	9605	                                                            Homo
+  2.50	1	1	S	9606	                                                              Homo sapiens
+  2.50	1	0	D1	2698737	      Sar
+  2.50	1	0	D2	33630	        Alveolata
+  2.50	1	0	P	5794	          Apicomplexa
+  2.50	1	0	C	1280412	            Conoidasida
+  2.50	1	0	C1	5796	              Coccidia
+  2.50	1	0	O	75739	                Eucoccidiorida
+  2.50	1	0	O1	423054	                  Eimeriorina
+  2.50	1	0	F	35082	                    Cryptosporidiidae
+  2.50	1	0	G	5806	                      Cryptosporidium
+  2.50	1	0	S	5807	                        Cryptosporidium parvum
+  2.50	1	1	S1	353152	                          Cryptosporidium parvum Iowa II
+  5.00	2	0	D	2	    Bacteria
+  2.50	1	0	D1	1783272	      Terrabacteria group
+  2.50	1	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  2.50	1	0	P	1117	          Cyanobacteriota
+  2.50	1	0	C	3028117	            Cyanophyceae
+  2.50	1	0	O	1161	              Nostocales
+  2.50	1	0	F	1892263	                Hapalosiphonaceae
+  2.50	1	0	G	1190	                  Fischerella
+  2.50	1	0	G1	494603	                    unclassified Fischerella
+  2.50	1	1	S	2597771	                      Fischerella sp. JS2
+  2.50	1	0	P	1224	      Pseudomonadota
+  2.50	1	0	C	1236	        Gammaproteobacteria
+  2.50	1	0	O	135622	          Alteromonadales
+  2.50	1	0	F	267890	            Shewanellaceae
+  2.50	1	0	G	22	              Shewanella
+  2.50	1	1	S	2814292	                Shewanella cyperi

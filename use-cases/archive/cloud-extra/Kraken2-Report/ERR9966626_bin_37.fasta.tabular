@@ -1,0 +1,16 @@
+ 98.96	95	95	U	0	unclassified
+  1.04	1	0	R	1	root
+  1.04	1	0	R1	131567	  cellular organisms
+  1.04	1	0	D	2759	    Eukaryota
+  1.04	1	0	D1	33154	      Opisthokonta
+  1.04	1	0	K	4751	        Fungi
+  1.04	1	0	K1	451864	          Dikarya
+  1.04	1	0	P	5204	            Basidiomycota
+  1.04	1	0	P1	5302	              Agaricomycotina
+  1.04	1	0	C	155619	                Agaricomycetes
+  1.04	1	0	C1	452333	                  Agaricomycetidae
+  1.04	1	0	O	5338	                    Agaricales
+  1.04	1	0	O1	2982305	                      Agaricineae
+  1.04	1	0	F	40562	                        Strophariaceae
+  1.04	1	0	G	71950	                          Psilocybe
+  1.04	1	1	S	181762	                            Psilocybe cubensis

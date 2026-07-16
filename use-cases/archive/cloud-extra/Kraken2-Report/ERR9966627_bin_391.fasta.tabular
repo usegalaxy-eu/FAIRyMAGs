@@ -1,0 +1,42 @@
+ 90.74	98	98	U	0	unclassified
+  9.26	10	0	R	1	root
+  9.26	10	0	R1	131567	  cellular organisms
+  4.63	5	1	D	2	    Bacteria
+  2.78	3	0	D1	1783272	      Terrabacteria group
+  2.78	3	0	P	201174	        Actinomycetota
+  2.78	3	0	C	1760	          Actinomycetes
+  0.93	1	0	O	85007	            Mycobacteriales
+  0.93	1	0	F	85025	              Nocardiaceae
+  0.93	1	0	G	1827	                Rhodococcus
+  0.93	1	0	G1	192944	                  unclassified Rhodococcus (in: high G+C Gram-positive bacteria)
+  0.93	1	1	S	2962047	                    Rhodococcus sp. Z13
+  0.93	1	0	O	85009	            Propionibacteriales
+  0.93	1	0	F	85015	              Nocardioidaceae
+  0.93	1	0	G	1839	                Nocardioides
+  0.93	1	0	G1	2615069	                  unclassified Nocardioides
+  0.93	1	1	S	2917724	                    Nocardioides sp. TF02-7
+  0.93	1	0	O	85010	            Pseudonocardiales
+  0.93	1	0	F	2070	              Pseudonocardiaceae
+  0.93	1	1	G	65496	                Actinoalloteichus
+  0.93	1	0	P	1224	      Pseudomonadota
+  0.93	1	0	C	1236	        Gammaproteobacteria
+  0.93	1	0	O	91347	          Enterobacterales
+  0.93	1	0	F	543	            Enterobacteriaceae
+  0.93	1	1	G	547	              Enterobacter
+  4.63	5	0	D	2759	    Eukaryota
+  4.63	5	0	D1	33154	      Opisthokonta
+  4.63	5	0	K	4751	        Fungi
+  4.63	5	0	K1	451864	          Dikarya
+  4.63	5	0	P	5204	            Basidiomycota
+  4.63	5	0	P1	5302	              Agaricomycotina
+  4.63	5	0	C	155619	                Agaricomycetes
+  4.63	5	0	C1	452333	                  Agaricomycetidae
+  4.63	5	0	O	5338	                    Agaricales
+  3.70	4	0	O1	2982305	                      Agaricineae
+  3.70	4	0	F	40562	                        Strophariaceae
+  3.70	4	0	G	71950	                          Psilocybe
+  3.70	4	4	S	181762	                            Psilocybe cubensis
+  0.93	1	0	O1	2982316	                      Marasmiineae
+  0.93	1	0	F	654128	                        Marasmiaceae
+  0.93	1	0	G	34448	                          Marasmius
+  0.93	1	1	S	181124	                            Marasmius oreades

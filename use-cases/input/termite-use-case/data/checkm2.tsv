@@ -1,0 +1,15 @@
+Name	Completeness	Contamination	Completeness_Model_Used	Translation_Table_Used	Coding_Density	Contig_N50	Average_Gene_Length	Genome_Size	GC_Content	Total_Coding_Sequences	Total_Contigs	Max_Contig_Length	Additional_Notes
+group_2_bin_247412.fasta	88.1	0.36	Gradient Boost (General Model)	11	0.89	9395	303.3151950718686	2979638	0.55	2922	395	28613	None
+group_2_bin_253990.fasta	92.43	0.92	Gradient Boost (General Model)	11	0.872	3846	255.24212121212122	2887398	0.61	3300	909	22597	None
+group_2_bin_256516.fasta	85.39	2.55	Gradient Boost (General Model)	11	0.886	11614	333.0506771515946	2575265	0.55	2289	271	37899	None
+group_2_bin_312419.fasta	99.89	0.13	Gradient Boost (General Model)	11	0.915	24341	293.5393325387366	1611363	0.5	1678	102	87664	None
+group_2_bin_360825.fasta	78.37	3.72	Neural Network (Specific Model)	11	0.863	8859	296.58179126572907	2778375	0.52	2702	352	33671	None
+group_2_bin_374764.fasta	81.61	0.81	Neural Network (Specific Model)	11	0.859	8581	332.84867075664624	2837631	0.56	2445	386	30560	None
+group_2_bin_453546.fasta	72.04	2.43	Neural Network (Specific Model)	11	0.906	3229	292.76094965206715	2364462	0.59	2443	862	12536	None
+group_2_bin_518144.fasta	92.18	1.21	Gradient Boost (General Model)	11	0.891	10476	318.57765765765765	2969680	0.54	2775	340	43857	None
+group_2_bin_643563.fasta	91.46	3.88	Gradient Boost (General Model)	11	0.863	7314	324.98262864634546	3442464	0.54	3051	599	30967	None
+group_2_bin_645825.fasta	74.58	5.14	Gradient Boost (General Model)	11	0.856	4700	260.4219323277619	2231464	0.43	2453	506	16202	None
+group_2_bin_94618.fasta	82.04	8.05	Neural Network (Specific Model)	11	0.909	11879	337.6782178217822	2920070	0.58	2626	315	30890	None
+group_4_bin_37618.fasta	100.0	9.97	Neural Network (Specific Model)	11	0.351	4379	71.47032232087531	670972209	0.41	1115131	232467	51795	Low confidence prediction - substantial (62%) disagreement between completeness prediction models
+group_5_bin_1238.fasta	98.41	0.42	Gradient Boost (General Model)	11	0.452	1661	106.50539849410427	9845212	0.4	14078	5557	39843	None
+group_7_bin_7843.fasta	100.0	0.49	Gradient Boost (General Model)	11	0.582	4412	259.89238119185313	5319493	0.6	3977	1217	53322	None

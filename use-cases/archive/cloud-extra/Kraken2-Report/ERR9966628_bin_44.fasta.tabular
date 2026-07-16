@@ -1,0 +1,91 @@
+ 78.85	41	41	U	0	unclassified
+ 21.15	11	0	R	1	root
+ 21.15	11	0	R1	131567	  cellular organisms
+ 13.46	7	1	D	2	    Bacteria
+  5.77	3	0	D1	1783272	      Terrabacteria group
+  5.77	3	0	P	201174	        Actinomycetota
+  5.77	3	0	C	1760	          Actinomycetes
+  3.85	2	0	O	85010	            Pseudonocardiales
+  3.85	2	0	F	2070	              Pseudonocardiaceae
+  1.92	1	0	G	1835	                Saccharopolyspora
+  1.92	1	1	S	524884	                  Saccharopolyspora rosea
+  1.92	1	0	G	1847	                Pseudonocardia
+  1.92	1	1	G1	2619320	                  unclassified Pseudonocardia
+  1.92	1	0	O	85007	            Mycobacteriales
+  1.92	1	0	F	85026	              Gordoniaceae
+  1.92	1	1	G	2053	                Gordonia
+  5.77	3	0	P	1224	      Pseudomonadota
+  3.85	2	0	C	28211	        Alphaproteobacteria
+  1.92	1	0	O	204455	          Rhodobacterales
+  1.92	1	0	F	31989	            Paracoccaceae
+  1.92	1	0	G	285107	              Thioclava
+  1.92	1	1	S	1549850	                Thioclava electrotropha
+  1.92	1	0	O	356	          Hyphomicrobiales
+  1.92	1	0	F	2831106	            Devosiaceae
+  1.92	1	0	G	46913	              Devosia
+  1.92	1	1	S	2801335	                Devosia oryziradicis
+  1.92	1	0	C	1236	        Gammaproteobacteria
+  1.92	1	0	O	135614	          Xanthomonadales
+  1.92	1	0	F	32033	            Xanthomonadaceae
+  1.92	1	0	G	141948	              Thermomonas
+  1.92	1	0	G1	2633315	                unclassified Thermomonas
+  1.92	1	1	S	2771436	                  Thermomonas sp. XSG
+  7.69	4	0	D	2759	    Eukaryota
+  7.69	4	0	D1	33154	      Opisthokonta
+  5.77	3	0	K	4751	        Fungi
+  5.77	3	0	K1	451864	          Dikarya
+  5.77	3	0	P	4890	            Ascomycota
+  5.77	3	0	P1	716545	              saccharomyceta
+  5.77	3	0	P2	147538	                Pezizomycotina
+  5.77	3	0	P3	716546	                  leotiomyceta
+  3.85	2	0	P4	715989	                    sordariomyceta
+  1.92	1	0	C	147548	                      Leotiomycetes
+  1.92	1	0	O	5178	                        Helotiales
+  1.92	1	0	F	28983	                          Sclerotiniaceae
+  1.92	1	0	G	33196	                            Botrytis
+  1.92	1	0	S	40559	                              Botrytis cinerea
+  1.92	1	1	S1	332648	                                Botrytis cinerea B05.10
+  1.92	1	0	C	147550	                      Sordariomycetes
+  1.92	1	0	C1	222543	                        Hypocreomycetidae
+  1.92	1	0	O	1028384	                          Glomerellales
+  1.92	1	0	F	681950	                            Glomerellaceae
+  1.92	1	0	G	5455	                              Colletotrichum
+  1.92	1	0	G1	2707350	                                Colletotrichum destructivum species complex
+  1.92	1	0	S	80884	                                  Colletotrichum higginsianum
+  1.92	1	1	S1	759273	                                    Colletotrichum higginsianum IMI 349063
+  1.92	1	0	P4	715962	                    dothideomyceta
+  1.92	1	0	C	147541	                      Dothideomycetes
+  1.92	1	0	C1	451868	                        Pleosporomycetidae
+  1.92	1	0	O	92860	                          Pleosporales
+  1.92	1	0	O1	715340	                            Pleosporineae
+  1.92	1	0	F	683158	                              Didymellaceae
+  1.92	1	0	G	5453	                                Ascochyta
+  1.92	1	1	S	5454	                                  Ascochyta rabiei
+  1.92	1	0	K	33208	        Metazoa
+  1.92	1	0	K1	6072	          Eumetazoa
+  1.92	1	0	K2	33213	            Bilateria
+  1.92	1	0	K3	33511	              Deuterostomia
+  1.92	1	0	P	7711	                Chordata
+  1.92	1	0	P1	89593	                  Craniata
+  1.92	1	0	P2	7742	                    Vertebrata
+  1.92	1	0	P3	7776	                      Gnathostomata
+  1.92	1	0	P4	117570	                        Teleostomi
+  1.92	1	0	P5	117571	                          Euteleostomi
+  1.92	1	0	P6	8287	                            Sarcopterygii
+  1.92	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.92	1	0	P8	32523	                                Tetrapoda
+  1.92	1	0	P9	32524	                                  Amniota
+  1.92	1	0	C	40674	                                    Mammalia
+  1.92	1	0	C1	32525	                                      Theria
+  1.92	1	0	C2	9347	                                        Eutheria
+  1.92	1	0	C3	1437010	                                          Boreoeutheria
+  1.92	1	0	C4	314146	                                            Euarchontoglires
+  1.92	1	0	O	9443	                                              Primates
+  1.92	1	0	O1	376913	                                                Haplorrhini
+  1.92	1	0	O2	314293	                                                  Simiiformes
+  1.92	1	0	O3	9526	                                                    Catarrhini
+  1.92	1	0	O4	314295	                                                      Hominoidea
+  1.92	1	0	F	9604	                                                        Hominidae
+  1.92	1	0	F1	207598	                                                          Homininae
+  1.92	1	0	G	9605	                                                            Homo
+  1.92	1	1	S	9606	                                                              Homo sapiens

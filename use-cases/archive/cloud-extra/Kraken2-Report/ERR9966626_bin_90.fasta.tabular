@@ -1,0 +1,39 @@
+ 84.78	39	39	U	0	unclassified
+ 15.22	7	0	R	1	root
+ 15.22	7	0	R1	131567	  cellular organisms
+  8.70	4	0	D	2	    Bacteria
+  6.52	3	1	P	1224	      Pseudomonadota
+  2.17	1	0	C	28211	        Alphaproteobacteria
+  2.17	1	0	O	204455	          Rhodobacterales
+  2.17	1	0	F	31989	            Paracoccaceae
+  2.17	1	0	G	265	              Paracoccus
+  2.17	1	1	S	147645	                Paracoccus yeei
+  2.17	1	0	C	28216	        Betaproteobacteria
+  2.17	1	0	O	80840	          Burkholderiales
+  2.17	1	0	F	119060	            Burkholderiaceae
+  2.17	1	1	G	1822464	              Paraburkholderia
+  2.17	1	0	D1	1783272	      Terrabacteria group
+  2.17	1	0	P	201174	        Actinomycetota
+  2.17	1	0	C	1760	          Actinomycetes
+  2.17	1	0	O	85006	            Micrococcales
+  2.17	1	0	F	85019	              Brevibacteriaceae
+  2.17	1	1	G	1696	                Brevibacterium
+  6.52	3	0	D	2759	    Eukaryota
+  6.52	3	1	D1	33154	      Opisthokonta
+  4.35	2	0	K	4751	        Fungi
+  4.35	2	0	K1	451864	          Dikarya
+  4.35	2	0	P	4890	            Ascomycota
+  4.35	2	0	P1	716545	              saccharomyceta
+  4.35	2	0	P2	147538	                Pezizomycotina
+  4.35	2	0	P3	716546	                  leotiomyceta
+  4.35	2	0	P4	715989	                    sordariomyceta
+  4.35	2	0	C	147550	                      Sordariomycetes
+  2.17	1	0	C1	222543	                        Hypocreomycetidae
+  2.17	1	0	O	1028384	                          Glomerellales
+  2.17	1	0	F	681950	                            Glomerellaceae
+  2.17	1	0	G	5455	                              Colletotrichum
+  2.17	1	0	G1	2707335	                                Colletotrichum acutatum species complex
+  2.17	1	1	S	145971	                                  Colletotrichum lupini
+  2.17	1	0	C1	222544	                        Sordariomycetidae
+  2.17	1	0	O	5139	                          Sordariales
+  2.17	1	1	F	35718	                            Chaetomiaceae

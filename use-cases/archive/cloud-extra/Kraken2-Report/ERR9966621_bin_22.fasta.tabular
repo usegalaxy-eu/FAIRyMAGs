@@ -1,0 +1,12 @@
+ 96.55	28	28	U	0	unclassified
+  3.45	1	0	R	1	root
+  3.45	1	0	R1	131567	  cellular organisms
+  3.45	1	0	D	2	    Bacteria
+  3.45	1	0	D1	1783270	      FCB group
+  3.45	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  3.45	1	0	P	976	          Bacteroidota
+  3.45	1	0	C	117743	            Flavobacteriia
+  3.45	1	0	O	200644	              Flavobacteriales
+  3.45	1	0	F	49546	                Flavobacteriaceae
+  3.45	1	0	G	2706948	                  Aureibaculum
+  3.45	1	1	S	2584122	                    Aureibaculum algae

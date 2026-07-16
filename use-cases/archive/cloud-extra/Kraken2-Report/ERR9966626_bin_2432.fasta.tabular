@@ -1,0 +1,29 @@
+ 88.10	37	37	U	0	unclassified
+ 11.90	5	0	R	1	root
+ 11.90	5	0	R1	131567	  cellular organisms
+ 11.90	5	1	D	2	    Bacteria
+  7.14	3	0	D1	1783272	      Terrabacteria group
+  4.76	2	0	P	201174	        Actinomycetota
+  4.76	2	0	C	1760	          Actinomycetes
+  2.38	1	0	O	85009	            Propionibacteriales
+  2.38	1	0	F	85015	              Nocardioidaceae
+  2.38	1	0	G	1839	                Nocardioides
+  2.38	1	1	S	642780	                  Nocardioides scoriae
+  2.38	1	0	O	85011	            Kitasatosporales
+  2.38	1	0	F	2062	              Streptomycetaceae
+  2.38	1	0	G	1883	                Streptomyces
+  2.38	1	0	G1	2593676	                  unclassified Streptomyces
+  2.38	1	1	S	2692234	                    Streptomyces sp. GS7
+  2.38	1	0	P	1239	        Bacillota
+  2.38	1	0	C	91061	          Bacilli
+  2.38	1	0	O	1385	            Bacillales
+  2.38	1	0	F	186824	              Thermoactinomycetaceae
+  2.38	1	0	G	1274351	                Kroppenstedtia
+  2.38	1	1	S	714067	                  Kroppenstedtia eburnea
+  2.38	1	0	P	200940	      Thermodesulfobacteriota
+  2.38	1	0	C	3031451	        Desulfobulbia
+  2.38	1	0	O	3024411	          Desulfobulbales
+  2.38	1	0	F	2886822	            Desulfocapsaceae
+  2.38	1	0	G	429014	              Desulfopila
+  2.38	1	0	G1	2622240	                unclassified Desulfopila
+  2.38	1	1	S	2653858	                  Desulfopila sp. IMCC35008

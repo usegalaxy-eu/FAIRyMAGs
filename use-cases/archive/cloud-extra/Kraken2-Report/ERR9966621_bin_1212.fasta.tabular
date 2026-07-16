@@ -1,0 +1,38 @@
+ 83.33	20	20	U	0	unclassified
+ 16.67	4	0	R	1	root
+ 16.67	4	0	R1	131567	  cellular organisms
+  8.33	2	0	D	2	    Bacteria
+  8.33	2	0	P	1224	      Pseudomonadota
+  8.33	2	0	C	28216	        Betaproteobacteria
+  8.33	2	0	O	80840	          Burkholderiales
+  4.17	1	0	F	80864	            Comamonadaceae
+  4.17	1	0	G	47420	              Hydrogenophaga
+  4.17	1	0	G1	2610897	                unclassified Hydrogenophaga
+  4.17	1	1	S	795665	                  Hydrogenophaga sp. PBC
+  4.17	1	0	F	119060	            Burkholderiaceae
+  4.17	1	0	G	1822464	              Paraburkholderia
+  4.17	1	0	S	148447	                Paraburkholderia phymatum
+  4.17	1	1	S1	391038	                  Paraburkholderia phymatum STM815
+  8.33	2	0	D	2759	    Eukaryota
+  8.33	2	0	D1	33154	      Opisthokonta
+  8.33	2	0	K	4751	        Fungi
+  8.33	2	0	K1	451864	          Dikarya
+  4.17	1	0	P	4890	            Ascomycota
+  4.17	1	0	P1	716545	              saccharomyceta
+  4.17	1	0	P2	147538	                Pezizomycotina
+  4.17	1	0	P3	716546	                  leotiomyceta
+  4.17	1	0	P4	715989	                    sordariomyceta
+  4.17	1	0	C	147550	                      Sordariomycetes
+  4.17	1	0	C1	222543	                        Hypocreomycetidae
+  4.17	1	0	O	5125	                          Hypocreales
+  4.17	1	0	F	110618	                            Nectriaceae
+  4.17	1	0	G	5506	                              Fusarium
+  4.17	1	0	G1	569360	                                Fusarium sambucinum species complex
+  4.17	1	1	S	56646	                                  Fusarium venenatum
+  4.17	1	0	P	5204	            Basidiomycota
+  4.17	1	0	P1	452284	              Ustilaginomycotina
+  4.17	1	0	C	1538075	                Malasseziomycetes
+  4.17	1	0	O	162474	                  Malasseziales
+  4.17	1	0	F	742845	                    Malasseziaceae
+  4.17	1	0	G	55193	                      Malassezia
+  4.17	1	1	S	2020962	                        Malassezia vespertilionis

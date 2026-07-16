@@ -1,0 +1,114 @@
+ 36.36	16	16	U	0	unclassified
+ 63.64	28	0	R	1	root
+ 63.64	28	3	R1	131567	  cellular organisms
+ 36.36	16	0	D	2759	    Eukaryota
+ 36.36	16	0	D1	33154	      Opisthokonta
+ 34.09	15	0	K	4751	        Fungi
+ 34.09	15	0	K1	451864	          Dikarya
+ 34.09	15	0	P	4890	            Ascomycota
+ 34.09	15	0	P1	716545	              saccharomyceta
+ 34.09	15	0	P2	147538	                Pezizomycotina
+ 34.09	15	0	P3	716546	                  leotiomyceta
+ 29.55	13	0	P4	715989	                    sordariomyceta
+ 27.27	12	0	C	147550	                      Sordariomycetes
+ 15.91	7	1	C1	222543	                        Hypocreomycetidae
+  9.09	4	0	O	1028384	                          Glomerellales
+  9.09	4	0	F	681950	                            Glomerellaceae
+  9.09	4	1	G	5455	                              Colletotrichum
+  4.55	2	0	G1	2707350	                                Colletotrichum destructivum species complex
+  4.55	2	0	S	80884	                                  Colletotrichum higginsianum
+  4.55	2	2	S1	759273	                                    Colletotrichum higginsianum IMI 349063
+  2.27	1	0	G1	2707335	                                Colletotrichum acutatum species complex
+  2.27	1	1	S	145971	                                  Colletotrichum lupini
+  4.55	2	0	O	5125	                          Hypocreales
+  2.27	1	0	F	110618	                            Nectriaceae
+  2.27	1	0	G	5506	                              Fusarium
+  2.27	1	1	G1	232080	                                Fusarium solani species complex
+  2.27	1	0	F	474942	                            Ophiocordycipitaceae
+  2.27	1	0	G	1052105	                              Purpureocillium
+  2.27	1	1	S	2060973	                                Purpureocillium takamizusanense
+ 11.36	5	0	C1	222544	                        Sordariomycetidae
+  9.09	4	0	O	5139	                          Sordariales
+  6.82	3	0	F	35718	                            Chaetomiaceae
+  6.82	3	0	G	1920207	                              Thermothelomyces
+  6.82	3	0	S	78579	                                Thermothelomyces thermophilus
+  6.82	3	3	S1	573729	                                  Thermothelomyces thermophilus ATCC 42464
+  2.27	1	0	F	5148	                            Sordariaceae
+  2.27	1	0	G	5140	                              Neurospora
+  2.27	1	0	S	5141	                                Neurospora crassa
+  2.27	1	1	S1	367110	                                  Neurospora crassa OR74A
+  2.27	1	0	O	639021	                          Magnaporthales
+  2.27	1	0	F	2528436	                            Pyriculariaceae
+  2.27	1	0	G	48558	                              Pyricularia
+  2.27	1	1	S	148305	                                Pyricularia grisea
+  2.27	1	0	C	147548	                      Leotiomycetes
+  2.27	1	0	O	5178	                        Helotiales
+  2.27	1	0	F	28983	                          Sclerotiniaceae
+  2.27	1	0	G	33196	                            Botrytis
+  2.27	1	0	S	40559	                              Botrytis cinerea
+  2.27	1	1	S1	332648	                                Botrytis cinerea B05.10
+  4.55	2	0	C	147545	                    Eurotiomycetes
+  4.55	2	0	C1	451871	                      Eurotiomycetidae
+  4.55	2	0	O	5042	                        Eurotiales
+  4.55	2	0	F	1131492	                          Aspergillaceae
+  4.55	2	0	G	5052	                            Aspergillus
+  2.27	1	1	S	182096	                              Aspergillus chevalieri
+  2.27	1	0	G1	2720870	                              Aspergillus subgen. Nidulantes
+  2.27	1	0	S	162425	                                Aspergillus nidulans
+  2.27	1	1	S1	227321	                                  Aspergillus nidulans FGSC A4
+  2.27	1	0	K	33208	        Metazoa
+  2.27	1	0	K1	6072	          Eumetazoa
+  2.27	1	0	K2	33213	            Bilateria
+  2.27	1	0	K3	33511	              Deuterostomia
+  2.27	1	0	P	7711	                Chordata
+  2.27	1	0	P1	89593	                  Craniata
+  2.27	1	0	P2	7742	                    Vertebrata
+  2.27	1	0	P3	7776	                      Gnathostomata
+  2.27	1	0	P4	117570	                        Teleostomi
+  2.27	1	0	P5	117571	                          Euteleostomi
+  2.27	1	0	P6	8287	                            Sarcopterygii
+  2.27	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  2.27	1	0	P8	32523	                                Tetrapoda
+  2.27	1	0	P9	32524	                                  Amniota
+  2.27	1	0	C	40674	                                    Mammalia
+  2.27	1	0	C1	32525	                                      Theria
+  2.27	1	0	C2	9347	                                        Eutheria
+  2.27	1	0	C3	1437010	                                          Boreoeutheria
+  2.27	1	0	C4	314146	                                            Euarchontoglires
+  2.27	1	0	O	9443	                                              Primates
+  2.27	1	0	O1	376913	                                                Haplorrhini
+  2.27	1	0	O2	314293	                                                  Simiiformes
+  2.27	1	0	O3	9526	                                                    Catarrhini
+  2.27	1	0	O4	314295	                                                      Hominoidea
+  2.27	1	0	F	9604	                                                        Hominidae
+  2.27	1	0	F1	207598	                                                          Homininae
+  2.27	1	0	G	9605	                                                            Homo
+  2.27	1	1	S	9606	                                                              Homo sapiens
+ 20.45	9	0	D	2	    Bacteria
+ 15.91	7	0	D1	1783272	      Terrabacteria group
+ 15.91	7	0	P	201174	        Actinomycetota
+ 15.91	7	1	C	1760	          Actinomycetes
+  6.82	3	0	O	85006	            Micrococcales
+  4.55	2	0	F	85023	              Microbacteriaceae
+  2.27	1	0	G	33882	                Microbacterium
+  2.27	1	1	S	462710	                  Microbacterium binotii
+  2.27	1	0	G	46352	                Agrococcus
+  2.27	1	0	G1	2615065	                  unclassified Agrococcus
+  2.27	1	1	S	2810513	                    Agrococcus sp. Marseille-Q4369
+  2.27	1	0	F	2805590	              Ornithinimicrobiaceae
+  2.27	1	0	G	125287	                Ornithinimicrobium
+  2.27	1	1	S	2594265	                  Ornithinimicrobium ciconiae
+  4.55	2	0	O	85011	            Kitasatosporales
+  4.55	2	0	F	2062	              Streptomycetaceae
+  4.55	2	0	G	1883	                Streptomyces
+  2.27	1	1	S	66871	                  Streptomyces aureoverticillatus
+  2.27	1	0	G1	2839105	                  Streptomyces violaceusniger group
+  2.27	1	0	S	1226757	                    Streptomyces rapamycinicus
+  2.27	1	1	S1	1343740	                      Streptomyces rapamycinicus NRRL 5491
+  2.27	1	1	O	85007	            Mycobacteriales
+  4.55	2	1	P	1224	      Pseudomonadota
+  2.27	1	0	C	28211	        Alphaproteobacteria
+  2.27	1	0	O	204455	          Rhodobacterales
+  2.27	1	0	F	31989	            Paracoccaceae
+  2.27	1	0	G	1679449	              Pseudooceanicola
+  2.27	1	1	S	2613965	                Pseudooceanicola spongiae

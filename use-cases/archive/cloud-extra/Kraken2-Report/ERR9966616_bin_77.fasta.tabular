@@ -1,0 +1,50 @@
+ 84.38	27	27	U	0	unclassified
+ 15.62	5	0	R	1	root
+ 15.62	5	0	R1	131567	  cellular organisms
+  9.38	3	0	D	2	    Bacteria
+  9.38	3	0	P	1224	      Pseudomonadota
+  6.25	2	0	C	1236	        Gammaproteobacteria
+  3.12	1	0	O	91347	          Enterobacterales
+  3.12	1	0	F	1903411	            Yersiniaceae
+  3.12	1	0	G	629	              Yersinia
+  3.12	1	0	G1	1649845	                Yersinia pseudotuberculosis complex
+  3.12	1	1	S	367190	                  Yersinia similis
+  3.12	1	0	O	2887326	          Moraxellales
+  3.12	1	0	F	468	            Moraxellaceae
+  3.12	1	0	G	469	              Acinetobacter
+  3.12	1	1	G1	196816	                unclassified Acinetobacter
+  3.12	1	0	C	28216	        Betaproteobacteria
+  3.12	1	0	O	80840	          Burkholderiales
+  3.12	1	0	F	119060	            Burkholderiaceae
+  3.12	1	0	G	32008	              Burkholderia
+  3.12	1	1	S	28095	                Burkholderia gladioli
+  6.25	2	0	D	2759	    Eukaryota
+  6.25	2	0	D1	33154	      Opisthokonta
+  6.25	2	0	K	33208	        Metazoa
+  6.25	2	0	K1	6072	          Eumetazoa
+  6.25	2	0	K2	33213	            Bilateria
+  6.25	2	0	K3	33511	              Deuterostomia
+  6.25	2	0	P	7711	                Chordata
+  6.25	2	0	P1	89593	                  Craniata
+  6.25	2	0	P2	7742	                    Vertebrata
+  6.25	2	0	P3	7776	                      Gnathostomata
+  6.25	2	0	P4	117570	                        Teleostomi
+  6.25	2	0	P5	117571	                          Euteleostomi
+  6.25	2	0	P6	8287	                            Sarcopterygii
+  6.25	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  6.25	2	0	P8	32523	                                Tetrapoda
+  6.25	2	0	P9	32524	                                  Amniota
+  6.25	2	0	C	40674	                                    Mammalia
+  6.25	2	0	C1	32525	                                      Theria
+  6.25	2	0	C2	9347	                                        Eutheria
+  6.25	2	0	C3	1437010	                                          Boreoeutheria
+  6.25	2	0	C4	314146	                                            Euarchontoglires
+  6.25	2	0	O	9443	                                              Primates
+  6.25	2	0	O1	376913	                                                Haplorrhini
+  6.25	2	0	O2	314293	                                                  Simiiformes
+  6.25	2	0	O3	9526	                                                    Catarrhini
+  6.25	2	0	O4	314295	                                                      Hominoidea
+  6.25	2	0	F	9604	                                                        Hominidae
+  6.25	2	0	F1	207598	                                                          Homininae
+  6.25	2	0	G	9605	                                                            Homo
+  6.25	2	2	S	9606	                                                              Homo sapiens

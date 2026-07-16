@@ -1,0 +1,80 @@
+ 76.47	52	52	U	0	unclassified
+ 23.53	16	1	R	1	root
+ 22.06	15	2	R1	131567	  cellular organisms
+ 13.24	9	0	D	2759	    Eukaryota
+ 13.24	9	0	D1	33154	      Opisthokonta
+  7.35	5	0	K	4751	        Fungi
+  7.35	5	0	K1	451864	          Dikarya
+  5.88	4	0	P	4890	            Ascomycota
+  5.88	4	0	P1	716545	              saccharomyceta
+  5.88	4	0	P2	147538	                Pezizomycotina
+  5.88	4	0	P3	716546	                  leotiomyceta
+  4.41	3	0	P4	715989	                    sordariomyceta
+  4.41	3	0	C	147550	                      Sordariomycetes
+  4.41	3	0	C1	222543	                        Hypocreomycetidae
+  4.41	3	0	O	5125	                          Hypocreales
+  2.94	2	0	F	110618	                            Nectriaceae
+  2.94	2	0	G	5506	                              Fusarium
+  2.94	2	0	G1	232080	                                Fusarium solani species complex
+  1.47	1	1	S	195108	                                  Fusarium falciforme
+  1.47	1	1	S	1328300	                                  Fusarium keratoplasticum
+  1.47	1	0	F	474942	                            Ophiocordycipitaceae
+  1.47	1	0	G	98402	                              Drechmeria
+  1.47	1	1	S	98403	                                Drechmeria coniospora
+  1.47	1	0	P4	715962	                    dothideomyceta
+  1.47	1	0	C	147541	                      Dothideomycetes
+  1.47	1	0	C1	451867	                        Dothideomycetidae
+  1.47	1	0	O	2726947	                          Mycosphaerellales
+  1.47	1	0	F	93133	                            Mycosphaerellaceae
+  1.47	1	0	G	29002	                              Cercospora
+  1.47	1	1	S	122368	                                Cercospora beticola
+  1.47	1	0	P	5204	            Basidiomycota
+  1.47	1	0	P1	5302	              Agaricomycotina
+  1.47	1	0	C	155616	                Tremellomycetes
+  1.47	1	0	O	1851469	                  Trichosporonales
+  1.47	1	0	F	1759442	                    Trichosporonaceae
+  1.47	1	0	G	1838142	                      Cutaneotrichosporon
+  1.47	1	1	S	279322	                        Cutaneotrichosporon cavernicola
+  5.88	4	0	K	33208	        Metazoa
+  5.88	4	0	K1	6072	          Eumetazoa
+  5.88	4	0	K2	33213	            Bilateria
+  5.88	4	0	K3	33511	              Deuterostomia
+  5.88	4	0	P	7711	                Chordata
+  5.88	4	0	P1	89593	                  Craniata
+  5.88	4	0	P2	7742	                    Vertebrata
+  5.88	4	0	P3	7776	                      Gnathostomata
+  5.88	4	0	P4	117570	                        Teleostomi
+  5.88	4	0	P5	117571	                          Euteleostomi
+  5.88	4	0	P6	8287	                            Sarcopterygii
+  5.88	4	0	P7	1338369	                              Dipnotetrapodomorpha
+  5.88	4	0	P8	32523	                                Tetrapoda
+  5.88	4	0	P9	32524	                                  Amniota
+  5.88	4	0	C	40674	                                    Mammalia
+  5.88	4	0	C1	32525	                                      Theria
+  5.88	4	0	C2	9347	                                        Eutheria
+  5.88	4	0	C3	1437010	                                          Boreoeutheria
+  5.88	4	0	C4	314146	                                            Euarchontoglires
+  5.88	4	0	O	9443	                                              Primates
+  5.88	4	0	O1	376913	                                                Haplorrhini
+  5.88	4	0	O2	314293	                                                  Simiiformes
+  5.88	4	0	O3	9526	                                                    Catarrhini
+  5.88	4	0	O4	314295	                                                      Hominoidea
+  5.88	4	0	F	9604	                                                        Hominidae
+  5.88	4	0	F1	207598	                                                          Homininae
+  5.88	4	0	G	9605	                                                            Homo
+  5.88	4	4	S	9606	                                                              Homo sapiens
+  5.88	4	2	D	2	    Bacteria
+  1.47	1	0	D1	1783272	      Terrabacteria group
+  1.47	1	0	P	1239	        Bacillota
+  1.47	1	0	C	186801	          Clostridia
+  1.47	1	0	O	186802	            Eubacteriales
+  1.47	1	0	F	216572	              Oscillospiraceae
+  1.47	1	0	G	2304691	                Thermoclostridium
+  1.47	1	1	S	1510	                  Thermoclostridium stercorarium
+  1.47	1	0	P	1224	      Pseudomonadota
+  1.47	1	0	C	1236	        Gammaproteobacteria
+  1.47	1	0	O	135613	          Chromatiales
+  1.47	1	0	F	72276	            Ectothiorhodospiraceae
+  1.47	1	0	G	106633	              Thioalkalivibrio
+  1.47	1	0	S	108010	                Thioalkalivibrio paradoxus
+  1.47	1	1	S1	713585	                  Thioalkalivibrio paradoxus ARh 1

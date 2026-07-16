@@ -1,0 +1,83 @@
+ 77.97	46	46	U	0	unclassified
+ 22.03	13	0	R	1	root
+ 22.03	13	2	R1	131567	  cellular organisms
+ 11.86	7	0	D	2	    Bacteria
+  6.78	4	0	D1	1783272	      Terrabacteria group
+  3.39	2	0	P	1239	        Bacillota
+  1.69	1	0	C	91061	          Bacilli
+  1.69	1	0	O	1385	            Bacillales
+  1.69	1	0	F	186817	              Bacillaceae
+  1.69	1	0	G	1386	                Bacillus
+  1.69	1	1	S	1664069	                  Bacillus glycinifermentans
+  1.69	1	0	C	186801	          Clostridia
+  1.69	1	0	O	186802	            Eubacteriales
+  1.69	1	0	F	186803	              Lachnospiraceae
+  1.69	1	0	G	1506553	                Lachnoclostridium
+  1.69	1	1	S	29347	                  [Clostridium] scindens
+  3.39	2	0	P	201174	        Actinomycetota
+  3.39	2	0	C	1760	          Actinomycetes
+  1.69	1	0	O	85006	            Micrococcales
+  1.69	1	0	F	125316	              Beutenbergiaceae
+  1.69	1	0	G	84756	                Beutenbergia
+  1.69	1	0	S	84757	                  Beutenbergia cavernae
+  1.69	1	1	S1	471853	                    Beutenbergia cavernae DSM 12333
+  1.69	1	0	O	85011	            Kitasatosporales
+  1.69	1	0	F	2062	              Streptomycetaceae
+  1.69	1	0	G	1883	                Streptomyces
+  1.69	1	0	G1	2839105	                  Streptomyces violaceusniger group
+  1.69	1	1	S	1912	                    Streptomyces hygroscopicus
+  1.69	1	0	D1	1783270	      FCB group
+  1.69	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  1.69	1	0	P	976	          Bacteroidota
+  1.69	1	0	C	117743	            Flavobacteriia
+  1.69	1	0	O	200644	              Flavobacteriales
+  1.69	1	0	F	49546	                Flavobacteriaceae
+  1.69	1	0	G	417127	                  Zunongwangia
+  1.69	1	0	G1	2632541	                    unclassified Zunongwangia
+  1.69	1	1	S	2779359	                      Zunongwangia sp. SCSIO 43204
+  1.69	1	0	P	200940	      Thermodesulfobacteriota
+  1.69	1	0	C	3031647	        Desulfobaccia
+  1.69	1	0	O	3031655	          Desulfobaccales
+  1.69	1	0	F	3031656	            Desulfobaccaceae
+  1.69	1	0	G	60892	              Desulfobacca
+  1.69	1	0	S	60893	                Desulfobacca acetoxidans
+  1.69	1	1	S1	880072	                  Desulfobacca acetoxidans DSM 11109
+  1.69	1	0	P	1224	      Pseudomonadota
+  1.69	1	0	C	28211	        Alphaproteobacteria
+  1.69	1	0	O	356	          Hyphomicrobiales
+  1.69	1	0	F	69277	            Phyllobacteriaceae
+  1.69	1	0	G	28100	              Phyllobacterium
+  1.69	1	0	G1	2638441	                unclassified Phyllobacterium
+  1.69	1	1	S	555317	                  Phyllobacterium sp. T1293
+  6.78	4	0	D	2759	    Eukaryota
+  6.78	4	0	D1	33154	      Opisthokonta
+  6.78	4	0	K	4751	        Fungi
+  6.78	4	0	K1	451864	          Dikarya
+  3.39	2	0	P	4890	            Ascomycota
+  3.39	2	0	P1	716545	              saccharomyceta
+  3.39	2	0	P2	147538	                Pezizomycotina
+  3.39	2	1	P3	716546	                  leotiomyceta
+  1.69	1	0	P4	715989	                    sordariomyceta
+  1.69	1	0	C	147550	                      Sordariomycetes
+  1.69	1	0	C1	222544	                        Sordariomycetidae
+  1.69	1	0	O	639021	                          Magnaporthales
+  1.69	1	0	F	2528436	                            Pyriculariaceae
+  1.69	1	0	G	48558	                              Pyricularia
+  1.69	1	0	S	318829	                                Pyricularia oryzae
+  1.69	1	1	S1	242507	                                  Pyricularia oryzae 70-15
+  3.39	2	0	P	5204	            Basidiomycota
+  1.69	1	0	P1	5302	              Agaricomycotina
+  1.69	1	0	C	155619	                Agaricomycetes
+  1.69	1	0	C1	452333	                  Agaricomycetidae
+  1.69	1	0	O	5338	                    Agaricales
+  1.69	1	0	O1	2982305	                      Agaricineae
+  1.69	1	0	F	40562	                        Strophariaceae
+  1.69	1	0	G	71950	                          Psilocybe
+  1.69	1	1	S	181762	                            Psilocybe cubensis
+  1.69	1	0	P1	29000	              Pucciniomycotina
+  1.69	1	0	C	162484	                Pucciniomycetes
+  1.69	1	0	O	5258	                  Pucciniales
+  1.69	1	0	F	5262	                    Pucciniaceae
+  1.69	1	0	G	5296	                      Puccinia
+  1.69	1	0	S	27350	                        Puccinia striiformis
+  1.69	1	1	S1	168172	                          Puccinia striiformis f. sp. tritici

@@ -1,0 +1,37 @@
+ 78.46	51	51	U	0	unclassified
+ 21.54	14	0	R	1	root
+ 21.54	14	0	R1	131567	  cellular organisms
+ 20.00	13	0	D	2759	    Eukaryota
+ 20.00	13	1	D1	33154	      Opisthokonta
+ 18.46	12	0	K	4751	        Fungi
+ 18.46	12	2	K1	451864	          Dikarya
+ 15.38	10	0	P	5204	            Basidiomycota
+ 13.85	9	0	P1	5302	              Agaricomycotina
+ 12.31	8	0	C	155619	                Agaricomycetes
+ 12.31	8	0	C1	452333	                  Agaricomycetidae
+ 12.31	8	1	O	5338	                    Agaricales
+  9.23	6	0	O1	2982305	                      Agaricineae
+  9.23	6	0	F	40562	                        Strophariaceae
+  9.23	6	0	G	71950	                          Psilocybe
+  9.23	6	6	S	181762	                            Psilocybe cubensis
+  1.54	1	0	O1	2982316	                      Marasmiineae
+  1.54	1	0	F	654128	                        Marasmiaceae
+  1.54	1	0	G	34448	                          Marasmius
+  1.54	1	1	S	181124	                            Marasmius oreades
+  1.54	1	0	C	155616	                Tremellomycetes
+  1.54	1	0	O	5234	                  Tremellales
+  1.54	1	0	F	1884633	                    Cryptococcaceae
+  1.54	1	1	G	5206	                      Cryptococcus
+  1.54	1	0	P1	452284	              Ustilaginomycotina
+  1.54	1	0	C	5257	                Ustilaginomycetes
+  1.54	1	0	O	5267	                  Ustilaginales
+  1.54	1	0	F	5268	                    Ustilaginaceae
+  1.54	1	0	G	63265	                      Sporisorium
+  1.54	1	1	S	280036	                        Sporisorium graminicola
+  1.54	1	0	D	2	    Bacteria
+  1.54	1	0	P	29547	      Campylobacterota
+  1.54	1	0	C	3031852	        Epsilonproteobacteria
+  1.54	1	0	O	213849	          Campylobacterales
+  1.54	1	0	F	72293	            Helicobacteraceae
+  1.54	1	0	G	209	              Helicobacter
+  1.54	1	1	S	210	                Helicobacter pylori

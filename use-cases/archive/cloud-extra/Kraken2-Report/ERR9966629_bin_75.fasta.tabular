@@ -1,0 +1,80 @@
+ 71.64	48	48	U	0	unclassified
+ 28.36	19	0	R	1	root
+ 28.36	19	0	R1	131567	  cellular organisms
+ 25.37	17	0	D	2759	    Eukaryota
+ 25.37	17	1	D1	33154	      Opisthokonta
+ 11.94	8	0	K	4751	        Fungi
+ 11.94	8	0	K1	451864	          Dikarya
+  8.96	6	0	P	5204	            Basidiomycota
+  7.46	5	0	P1	5302	              Agaricomycotina
+  7.46	5	0	C	155619	                Agaricomycetes
+  7.46	5	0	C1	452333	                  Agaricomycetidae
+  7.46	5	0	O	5338	                    Agaricales
+  5.97	4	0	O1	2982305	                      Agaricineae
+  5.97	4	0	F	40562	                        Strophariaceae
+  5.97	4	0	G	71950	                          Psilocybe
+  5.97	4	4	S	181762	                            Psilocybe cubensis
+  1.49	1	0	O1	2982316	                      Marasmiineae
+  1.49	1	0	F	654128	                        Marasmiaceae
+  1.49	1	0	G	34448	                          Marasmius
+  1.49	1	1	S	181124	                            Marasmius oreades
+  1.49	1	0	P1	29000	              Pucciniomycotina
+  1.49	1	0	C	162484	                Pucciniomycetes
+  1.49	1	0	O	5258	                  Pucciniales
+  1.49	1	0	F	5262	                    Pucciniaceae
+  1.49	1	0	G	5296	                      Puccinia
+  1.49	1	0	S	27350	                        Puccinia striiformis
+  1.49	1	1	S1	168172	                          Puccinia striiformis f. sp. tritici
+  2.99	2	0	P	4890	            Ascomycota
+  2.99	2	0	P1	716545	              saccharomyceta
+  2.99	2	0	P2	147538	                Pezizomycotina
+  2.99	2	0	P3	716546	                  leotiomyceta
+  1.49	1	0	P4	715962	                    dothideomyceta
+  1.49	1	0	C	147541	                      Dothideomycetes
+  1.49	1	0	C1	451867	                        Dothideomycetidae
+  1.49	1	0	O	2726947	                          Mycosphaerellales
+  1.49	1	0	F	93133	                            Mycosphaerellaceae
+  1.49	1	0	G	2897311	                              Fulvia
+  1.49	1	1	S	5499	                                Fulvia fulva
+  1.49	1	0	P4	715989	                    sordariomyceta
+  1.49	1	0	C	147548	                      Leotiomycetes
+  1.49	1	0	O	5178	                        Helotiales
+  1.49	1	0	F	28983	                          Sclerotiniaceae
+  1.49	1	0	G	33196	                            Botrytis
+  1.49	1	0	S	40559	                              Botrytis cinerea
+  1.49	1	1	S1	332648	                                Botrytis cinerea B05.10
+ 11.94	8	0	K	33208	        Metazoa
+ 11.94	8	0	K1	6072	          Eumetazoa
+ 11.94	8	0	K2	33213	            Bilateria
+ 11.94	8	0	K3	33511	              Deuterostomia
+ 11.94	8	0	P	7711	                Chordata
+ 11.94	8	0	P1	89593	                  Craniata
+ 11.94	8	0	P2	7742	                    Vertebrata
+ 11.94	8	0	P3	7776	                      Gnathostomata
+ 11.94	8	0	P4	117570	                        Teleostomi
+ 11.94	8	0	P5	117571	                          Euteleostomi
+ 11.94	8	0	P6	8287	                            Sarcopterygii
+ 11.94	8	0	P7	1338369	                              Dipnotetrapodomorpha
+ 11.94	8	0	P8	32523	                                Tetrapoda
+ 11.94	8	0	P9	32524	                                  Amniota
+ 11.94	8	0	C	40674	                                    Mammalia
+ 11.94	8	0	C1	32525	                                      Theria
+ 11.94	8	0	C2	9347	                                        Eutheria
+ 11.94	8	0	C3	1437010	                                          Boreoeutheria
+ 11.94	8	0	C4	314146	                                            Euarchontoglires
+ 11.94	8	0	O	9443	                                              Primates
+ 11.94	8	0	O1	376913	                                                Haplorrhini
+ 11.94	8	0	O2	314293	                                                  Simiiformes
+ 11.94	8	0	O3	9526	                                                    Catarrhini
+ 11.94	8	0	O4	314295	                                                      Hominoidea
+ 11.94	8	0	F	9604	                                                        Hominidae
+ 11.94	8	0	F1	207598	                                                          Homininae
+ 11.94	8	0	G	9605	                                                            Homo
+ 11.94	8	8	S	9606	                                                              Homo sapiens
+  2.99	2	1	D	2	    Bacteria
+  1.49	1	0	P	1224	      Pseudomonadota
+  1.49	1	0	C	28216	        Betaproteobacteria
+  1.49	1	0	O	206389	          Rhodocyclales
+  1.49	1	0	F	2008794	            Zoogloeaceae
+  1.49	1	0	G	12960	              Azoarcus
+  1.49	1	1	S	418699	                Azoarcus olearius

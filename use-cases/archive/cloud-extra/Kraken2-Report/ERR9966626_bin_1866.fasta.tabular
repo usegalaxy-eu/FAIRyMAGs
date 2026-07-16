@@ -1,0 +1,120 @@
+ 88.18	179	179	U	0	unclassified
+ 11.82	24	0	R	1	root
+ 11.82	24	2	R1	131567	  cellular organisms
+  5.42	11	1	D	2	    Bacteria
+  2.96	6	1	P	1224	      Pseudomonadota
+  1.48	3	0	C	1236	        Gammaproteobacteria
+  0.99	2	0	O	72274	          Pseudomonadales
+  0.99	2	0	F	135621	            Pseudomonadaceae
+  0.99	2	0	G	286	              Pseudomonas
+  0.49	1	1	S	1163398	                Pseudomonas donghuensis
+  0.49	1	0	G1	196821	                unclassified Pseudomonas
+  0.49	1	1	S	2895475	                  Pseudomonas sp. B21-019
+  0.49	1	0	O	72273	          Thiotrichales
+  0.49	1	0	F	34064	            Francisellaceae
+  0.49	1	1	G	262	              Francisella
+  0.49	1	0	C	28211	        Alphaproteobacteria
+  0.49	1	0	O	356	          Hyphomicrobiales
+  0.49	1	0	F	772	            Bartonellaceae
+  0.49	1	0	G	773	              Bartonella
+  0.49	1	1	S	2750929	                Bartonella apihabitans
+  0.49	1	0	C	28216	        Betaproteobacteria
+  0.49	1	0	O	80840	          Burkholderiales
+  0.49	1	0	F	75682	            Oxalobacteraceae
+  0.49	1	0	G	963	              Herbaspirillum
+  0.49	1	1	S	80842	                Herbaspirillum rubrisubalbicans
+  1.97	4	1	D1	1783272	      Terrabacteria group
+  0.99	2	0	P	201174	        Actinomycetota
+  0.49	1	1	C	1760	          Actinomycetes
+  0.49	1	0	C	1497346	          Thermoleophilia
+  0.49	1	0	O	588673	            Solirubrobacterales
+  0.49	1	0	F	2600303	              Baekduiaceae
+  0.49	1	0	G	2600304	                Baekduia
+  0.49	1	1	S	2997333	                  Baekduia alba
+  0.49	1	0	P	1239	        Bacillota
+  0.49	1	0	C	526524	          Erysipelotrichia
+  0.49	1	0	O	526525	            Erysipelotrichales
+  0.49	1	0	F	2810280	              Coprobacillaceae
+  0.49	1	0	G	3025755	                Thomasclavelia
+  0.49	1	1	S	1547	                  Thomasclavelia ramosa
+  5.42	11	0	D	2759	    Eukaryota
+  4.93	10	0	D1	33154	      Opisthokonta
+  4.43	9	0	K	4751	        Fungi
+  4.43	9	0	K1	451864	          Dikarya
+  3.94	8	0	P	5204	            Basidiomycota
+  2.96	6	0	P1	5302	              Agaricomycotina
+  2.96	6	0	C	155619	                Agaricomycetes
+  2.46	5	0	C1	452333	                  Agaricomycetidae
+  2.46	5	0	O	5338	                    Agaricales
+  2.46	5	0	O1	2982305	                      Agaricineae
+  2.46	5	0	F	40562	                        Strophariaceae
+  2.46	5	0	G	71950	                          Psilocybe
+  2.46	5	5	S	181762	                            Psilocybe cubensis
+  0.49	1	0	C1	355688	                  Agaricomycetes incertae sedis
+  0.49	1	0	O	36064	                    Cantharellales
+  0.49	1	0	F	5250	                      Ceratobasidiaceae
+  0.49	1	0	G	1322061	                        Rhizoctonia
+  0.49	1	1	S	456999	                          Rhizoctonia solani
+  0.99	2	0	P1	452284	              Ustilaginomycotina
+  0.49	1	0	C	5257	                Ustilaginomycetes
+  0.49	1	0	O	5267	                  Ustilaginales
+  0.49	1	0	F	5268	                    Ustilaginaceae
+  0.49	1	0	G	5269	                      Ustilago
+  0.49	1	0	S	5270	                        Ustilago maydis
+  0.49	1	1	S1	237631	                          Ustilago maydis 521
+  0.49	1	0	C	1538075	                Malasseziomycetes
+  0.49	1	0	O	162474	                  Malasseziales
+  0.49	1	0	F	742845	                    Malasseziaceae
+  0.49	1	0	G	55193	                      Malassezia
+  0.49	1	1	S	76775	                        Malassezia restricta
+  0.49	1	0	P	4890	            Ascomycota
+  0.49	1	0	P1	716545	              saccharomyceta
+  0.49	1	0	P2	147538	                Pezizomycotina
+  0.49	1	0	P3	716546	                  leotiomyceta
+  0.49	1	0	P4	715989	                    sordariomyceta
+  0.49	1	0	C	147550	                      Sordariomycetes
+  0.49	1	0	C1	222543	                        Hypocreomycetidae
+  0.49	1	0	O	1028384	                          Glomerellales
+  0.49	1	0	F	681950	                            Glomerellaceae
+  0.49	1	0	G	5455	                              Colletotrichum
+  0.49	1	0	G1	2707350	                                Colletotrichum destructivum species complex
+  0.49	1	0	S	80884	                                  Colletotrichum higginsianum
+  0.49	1	1	S1	759273	                                    Colletotrichum higginsianum IMI 349063
+  0.49	1	0	K	33208	        Metazoa
+  0.49	1	0	K1	6072	          Eumetazoa
+  0.49	1	0	K2	33213	            Bilateria
+  0.49	1	0	K3	33511	              Deuterostomia
+  0.49	1	0	P	7711	                Chordata
+  0.49	1	0	P1	89593	                  Craniata
+  0.49	1	0	P2	7742	                    Vertebrata
+  0.49	1	0	P3	7776	                      Gnathostomata
+  0.49	1	0	P4	117570	                        Teleostomi
+  0.49	1	0	P5	117571	                          Euteleostomi
+  0.49	1	0	P6	8287	                            Sarcopterygii
+  0.49	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  0.49	1	0	P8	32523	                                Tetrapoda
+  0.49	1	0	P9	32524	                                  Amniota
+  0.49	1	0	C	40674	                                    Mammalia
+  0.49	1	0	C1	32525	                                      Theria
+  0.49	1	0	C2	9347	                                        Eutheria
+  0.49	1	0	C3	1437010	                                          Boreoeutheria
+  0.49	1	0	C4	314146	                                            Euarchontoglires
+  0.49	1	0	O	9443	                                              Primates
+  0.49	1	0	O1	376913	                                                Haplorrhini
+  0.49	1	0	O2	314293	                                                  Simiiformes
+  0.49	1	0	O3	9526	                                                    Catarrhini
+  0.49	1	0	O4	314295	                                                      Hominoidea
+  0.49	1	0	F	9604	                                                        Hominidae
+  0.49	1	0	F1	207598	                                                          Homininae
+  0.49	1	0	G	9605	                                                            Homo
+  0.49	1	1	S	9606	                                                              Homo sapiens
+  0.49	1	0	D1	2698737	      Sar
+  0.49	1	0	D2	33630	        Alveolata
+  0.49	1	0	P	5794	          Apicomplexa
+  0.49	1	0	C	422676	            Aconoidasida
+  0.49	1	0	O	5819	              Haemosporida
+  0.49	1	0	F	1639119	                Plasmodiidae
+  0.49	1	0	G	5820	                  Plasmodium
+  0.49	1	0	G1	418103	                    Plasmodium (Plasmodium)
+  0.49	1	0	S	5850	                      Plasmodium knowlesi
+  0.49	1	1	S1	5851	                        Plasmodium knowlesi strain H

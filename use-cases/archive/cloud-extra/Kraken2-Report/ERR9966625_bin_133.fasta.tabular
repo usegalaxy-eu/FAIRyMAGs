@@ -1,0 +1,115 @@
+  4.35	1	1	U	0	unclassified
+ 95.65	22	0	R	1	root
+ 95.65	22	1	R1	131567	  cellular organisms
+ 69.57	16	0	D	2759	    Eukaryota
+ 65.22	15	0	D1	33154	      Opisthokonta
+ 43.48	10	0	K	4751	        Fungi
+ 43.48	10	0	K1	451864	          Dikarya
+ 26.09	6	0	P	4890	            Ascomycota
+ 26.09	6	0	P1	716545	              saccharomyceta
+ 26.09	6	0	P2	147538	                Pezizomycotina
+ 26.09	6	1	P3	716546	                  leotiomyceta
+ 13.04	3	0	P4	715962	                    dothideomyceta
+ 13.04	3	1	C	147541	                      Dothideomycetes
+  4.35	1	0	C1	451867	                        Dothideomycetidae
+  4.35	1	0	O	2726947	                          Mycosphaerellales
+  4.35	1	0	F	93133	                            Mycosphaerellaceae
+  4.35	1	0	G	29002	                              Cercospora
+  4.35	1	1	S	122368	                                Cercospora beticola
+  4.35	1	0	C1	451868	                        Pleosporomycetidae
+  4.35	1	0	O	92860	                          Pleosporales
+  4.35	1	0	O1	715340	                            Pleosporineae
+  4.35	1	0	F	683158	                              Didymellaceae
+  4.35	1	0	G	5453	                                Ascochyta
+  4.35	1	1	S	5454	                                  Ascochyta rabiei
+  8.70	2	0	P4	715989	                    sordariomyceta
+  8.70	2	0	C	147550	                      Sordariomycetes
+  8.70	2	0	C1	222543	                        Hypocreomycetidae
+  8.70	2	0	O	5125	                          Hypocreales
+  4.35	1	0	F	34397	                            Clavicipitaceae
+  4.35	1	0	G	124426	                              Ustilaginoidea
+  4.35	1	1	S	1159556	                                Ustilaginoidea virens
+  4.35	1	0	F	110618	                            Nectriaceae
+  4.35	1	0	G	5506	                              Fusarium
+  4.35	1	0	G1	569360	                                Fusarium sambucinum species complex
+  4.35	1	0	S	101028	                                  Fusarium pseudograminearum
+  4.35	1	1	S1	1028729	                                    Fusarium pseudograminearum CS3096
+ 17.39	4	0	P	5204	            Basidiomycota
+ 17.39	4	0	P1	5302	              Agaricomycotina
+ 17.39	4	0	C	155619	                Agaricomycetes
+ 17.39	4	0	C1	452333	                  Agaricomycetidae
+ 17.39	4	0	O	5338	                    Agaricales
+  8.70	2	0	O1	2982305	                      Agaricineae
+  8.70	2	0	F	40562	                        Strophariaceae
+  8.70	2	0	G	71950	                          Psilocybe
+  8.70	2	2	S	181762	                            Psilocybe cubensis
+  8.70	2	0	O1	2982316	                      Marasmiineae
+  8.70	2	0	F	654128	                        Marasmiaceae
+  8.70	2	0	G	34448	                          Marasmius
+  8.70	2	2	S	181124	                            Marasmius oreades
+ 21.74	5	0	K	33208	        Metazoa
+ 21.74	5	0	K1	6072	          Eumetazoa
+ 21.74	5	0	K2	33213	            Bilateria
+ 21.74	5	0	K3	33511	              Deuterostomia
+ 21.74	5	0	P	7711	                Chordata
+ 21.74	5	0	P1	89593	                  Craniata
+ 21.74	5	0	P2	7742	                    Vertebrata
+ 21.74	5	0	P3	7776	                      Gnathostomata
+ 21.74	5	0	P4	117570	                        Teleostomi
+ 21.74	5	0	P5	117571	                          Euteleostomi
+ 21.74	5	0	P6	8287	                            Sarcopterygii
+ 21.74	5	0	P7	1338369	                              Dipnotetrapodomorpha
+ 21.74	5	0	P8	32523	                                Tetrapoda
+ 21.74	5	0	P9	32524	                                  Amniota
+ 21.74	5	0	C	40674	                                    Mammalia
+ 21.74	5	0	C1	32525	                                      Theria
+ 21.74	5	0	C2	9347	                                        Eutheria
+ 21.74	5	0	C3	1437010	                                          Boreoeutheria
+ 21.74	5	0	C4	314146	                                            Euarchontoglires
+ 21.74	5	0	O	9443	                                              Primates
+ 21.74	5	0	O1	376913	                                                Haplorrhini
+ 21.74	5	0	O2	314293	                                                  Simiiformes
+ 21.74	5	0	O3	9526	                                                    Catarrhini
+ 21.74	5	0	O4	314295	                                                      Hominoidea
+ 21.74	5	0	F	9604	                                                        Hominidae
+ 21.74	5	0	F1	207598	                                                          Homininae
+ 21.74	5	0	G	9605	                                                            Homo
+ 21.74	5	5	S	9606	                                                              Homo sapiens
+  4.35	1	0	D1	2698737	      Sar
+  4.35	1	0	D2	33630	        Alveolata
+  4.35	1	0	P	5794	          Apicomplexa
+  4.35	1	0	C	422676	            Aconoidasida
+  4.35	1	0	O	5819	              Haemosporida
+  4.35	1	0	F	1639119	                Plasmodiidae
+  4.35	1	0	G	5820	                  Plasmodium
+  4.35	1	0	G1	418104	                    Plasmodium (Haemamoeba)
+  4.35	1	1	S	85471	                      Plasmodium relictum
+ 17.39	4	1	D	2	    Bacteria
+  8.70	2	0	D1	1783272	      Terrabacteria group
+  8.70	2	0	P	201174	        Actinomycetota
+  8.70	2	0	C	1760	          Actinomycetes
+  4.35	1	0	O	85011	            Kitasatosporales
+  4.35	1	0	F	2062	              Streptomycetaceae
+  4.35	1	0	G	1883	                Streptomyces
+  4.35	1	1	S	424188	                  Streptomyces deccanensis
+  4.35	1	0	O	85012	            Streptosporangiales
+  4.35	1	0	F	83676	              Nocardiopsaceae
+  4.35	1	0	G	2913367	                Spiractinospora
+  4.35	1	1	S	2820884	                  Spiractinospora alimapuensis
+  4.35	1	0	D1	1783270	      FCB group
+  4.35	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  4.35	1	0	P	976	          Bacteroidota
+  4.35	1	0	C	117743	            Flavobacteriia
+  4.35	1	0	O	200644	              Flavobacteriales
+  4.35	1	0	F	49546	                Flavobacteriaceae
+  4.35	1	0	G	104267	                  Tenacibaculum
+  4.35	1	1	S	3018315	                    Tenacibaculum retecalamus
+  4.35	1	0	D	2157	    Archaea
+  4.35	1	0	P	28890	      Euryarchaeota
+  4.35	1	0	P1	2283794	        Methanomada group
+  4.35	1	0	C	183939	          Methanococci
+  4.35	1	0	O	2182	            Methanococcales
+  4.35	1	0	F	196117	              Methanocaldococcaceae
+  4.35	1	0	G	196118	                Methanocaldococcus
+  4.35	1	0	S	73913	                  Methanocaldococcus vulcanius
+  4.35	1	1	S1	579137	                    Methanocaldococcus vulcanius M7

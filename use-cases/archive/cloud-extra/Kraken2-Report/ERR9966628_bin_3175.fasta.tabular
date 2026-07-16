@@ -1,0 +1,82 @@
+ 89.94	152	152	U	0	unclassified
+ 10.06	17	0	R	1	root
+ 10.06	17	1	R1	131567	  cellular organisms
+  5.33	9	0	D	2	    Bacteria
+  2.37	4	0	D1	1783272	      Terrabacteria group
+  1.78	3	0	P	201174	        Actinomycetota
+  1.78	3	0	C	1760	          Actinomycetes
+  0.59	1	0	O	85006	            Micrococcales
+  0.59	1	0	F	1268	              Micrococcaceae
+  0.59	1	0	G	1663	                Arthrobacter
+  0.59	1	0	G1	235627	                  unclassified Arthrobacter
+  0.59	1	1	S	1494608	                    Arthrobacter sp. PAMC 25486
+  0.59	1	0	O	85007	            Mycobacteriales
+  0.59	1	0	F	1762	              Mycobacteriaceae
+  0.59	1	0	G	1073531	                Mycolicibacter
+  0.59	1	0	G1	2642523	                  unclassified Mycolicibacter
+  0.59	1	1	S	2872311	                    Mycolicibacter sp. MYC101
+  0.59	1	0	O	85011	            Kitasatosporales
+  0.59	1	0	F	2062	              Streptomycetaceae
+  0.59	1	0	G	1883	                Streptomyces
+  0.59	1	0	G1	2593676	                  unclassified Streptomyces
+  0.59	1	1	S	2892996	                    Streptomyces sp. SCSIO ZS0520
+  0.59	1	0	P	1239	        Bacillota
+  0.59	1	0	C	91061	          Bacilli
+  0.59	1	0	O	1385	            Bacillales
+  0.59	1	0	F	186817	              Bacillaceae
+  0.59	1	0	G	1386	                Bacillus
+  0.59	1	0	G1	653685	                  Bacillus subtilis group
+  0.59	1	0	G2	1938374	                    Bacillus amyloliquefaciens group
+  0.59	1	1	S	659243	                      Bacillus siamensis
+  2.37	4	0	P	1224	      Pseudomonadota
+  1.78	3	1	C	1236	        Gammaproteobacteria
+  0.59	1	0	O	1706369	          Cellvibrionales
+  0.59	1	0	F	1706373	            Microbulbiferaceae
+  0.59	1	0	G	48073	              Microbulbifer
+  0.59	1	0	G1	2619833	                unclassified Microbulbifer
+  0.59	1	1	S	2904242	                  Microbulbifer sp. YPW16
+  0.59	1	0	O	135622	          Alteromonadales
+  0.59	1	0	F	267893	            Idiomarinaceae
+  0.59	1	0	G	135575	              Idiomarina
+  0.59	1	0	G1	2614829	                unclassified Idiomarina
+  0.59	1	1	S	1874361	                  Idiomarina sp.
+  0.59	1	0	C	28211	        Alphaproteobacteria
+  0.59	1	0	O	204457	          Sphingomonadales
+  0.59	1	0	F	41297	            Sphingomonadaceae
+  0.59	1	0	G	13687	              Sphingomonas
+  0.59	1	1	S	424800	                Sphingomonas insulae
+  0.59	1	0	P	32066	      Fusobacteriota
+  0.59	1	0	C	203490	        Fusobacteriia
+  0.59	1	0	O	203491	          Fusobacteriales
+  0.59	1	0	F	1129771	            Leptotrichiaceae
+  0.59	1	0	G	32067	              Leptotrichia
+  0.59	1	1	S	157691	                Leptotrichia shahii
+  4.14	7	0	D	2759	    Eukaryota
+  4.14	7	0	D1	33154	      Opisthokonta
+  4.14	7	0	K	4751	        Fungi
+  4.14	7	0	K1	451864	          Dikarya
+  3.55	6	0	P	5204	            Basidiomycota
+  3.55	6	0	P1	5302	              Agaricomycotina
+  3.55	6	0	C	155619	                Agaricomycetes
+  3.55	6	0	C1	452333	                  Agaricomycetidae
+  3.55	6	0	O	5338	                    Agaricales
+  2.96	5	0	O1	2982316	                      Marasmiineae
+  2.96	5	0	F	654128	                        Marasmiaceae
+  2.96	5	0	G	34448	                          Marasmius
+  2.96	5	5	S	181124	                            Marasmius oreades
+  0.59	1	0	O1	2982305	                      Agaricineae
+  0.59	1	0	F	40562	                        Strophariaceae
+  0.59	1	0	G	71950	                          Psilocybe
+  0.59	1	1	S	181762	                            Psilocybe cubensis
+  0.59	1	0	P	4890	            Ascomycota
+  0.59	1	0	P1	716545	              saccharomyceta
+  0.59	1	0	P2	147538	                Pezizomycotina
+  0.59	1	0	P3	716546	                  leotiomyceta
+  0.59	1	0	C	147545	                    Eurotiomycetes
+  0.59	1	0	C1	451871	                      Eurotiomycetidae
+  0.59	1	0	O	5042	                        Eurotiales
+  0.59	1	0	F	1131492	                          Aspergillaceae
+  0.59	1	0	G	5052	                            Aspergillus
+  0.59	1	0	G1	2720870	                              Aspergillus subgen. Nidulantes
+  0.59	1	0	S	162425	                                Aspergillus nidulans
+  0.59	1	1	S1	227321	                                  Aspergillus nidulans FGSC A4

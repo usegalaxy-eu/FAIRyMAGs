@@ -1,0 +1,54 @@
+ 70.00	35	35	U	0	unclassified
+ 30.00	15	0	R	1	root
+ 30.00	15	0	R1	131567	  cellular organisms
+ 24.00	12	0	D	2759	    Eukaryota
+ 24.00	12	0	D1	33154	      Opisthokonta
+ 24.00	12	0	K	4751	        Fungi
+ 24.00	12	0	K1	451864	          Dikarya
+ 22.00	11	0	P	5204	            Basidiomycota
+ 22.00	11	0	P1	5302	              Agaricomycotina
+ 22.00	11	0	C	155619	                Agaricomycetes
+ 22.00	11	0	C1	452333	                  Agaricomycetidae
+ 22.00	11	0	O	5338	                    Agaricales
+ 16.00	8	0	O1	2982305	                      Agaricineae
+ 16.00	8	0	F	40562	                        Strophariaceae
+ 16.00	8	0	G	71950	                          Psilocybe
+ 16.00	8	8	S	181762	                            Psilocybe cubensis
+  6.00	3	0	O1	2982316	                      Marasmiineae
+  6.00	3	0	F	654128	                        Marasmiaceae
+  6.00	3	0	G	34448	                          Marasmius
+  6.00	3	3	S	181124	                            Marasmius oreades
+  2.00	1	0	P	4890	            Ascomycota
+  2.00	1	0	P1	716545	              saccharomyceta
+  2.00	1	0	P2	147538	                Pezizomycotina
+  2.00	1	0	P3	716546	                  leotiomyceta
+  2.00	1	0	C	147545	                    Eurotiomycetes
+  2.00	1	0	C1	451871	                      Eurotiomycetidae
+  2.00	1	0	O	5042	                        Eurotiales
+  2.00	1	0	F	1131492	                          Aspergillaceae
+  2.00	1	0	G	5052	                            Aspergillus
+  2.00	1	1	G1	2720871	                              Aspergillus subgen. Circumdati
+  6.00	3	0	D	2	    Bacteria
+  4.00	2	0	P	1224	      Pseudomonadota
+  2.00	1	0	C	1236	        Gammaproteobacteria
+  2.00	1	0	O	72274	          Pseudomonadales
+  2.00	1	0	F	135621	            Pseudomonadaceae
+  2.00	1	0	G	286	              Pseudomonas
+  2.00	1	0	G1	136849	                Pseudomonas syringae group
+  2.00	1	0	G2	251695	                  Pseudomonas syringae group genomosp. 1
+  2.00	1	0	S	317	                    Pseudomonas syringae
+  2.00	1	1	S1	663959	                      Pseudomonas syringae pv. avii
+  2.00	1	0	C	28211	        Alphaproteobacteria
+  2.00	1	0	O	766	          Rickettsiales
+  2.00	1	0	F	775	            Rickettsiaceae
+  2.00	1	0	F1	33988	              Rickettsieae
+  2.00	1	0	G	780	                Rickettsia
+  2.00	1	0	G1	1129742	                  belli group
+  2.00	1	1	S	33990	                    Rickettsia bellii
+  2.00	1	0	D1	1783272	      Terrabacteria group
+  2.00	1	0	P	201174	        Actinomycetota
+  2.00	1	0	C	1760	          Actinomycetes
+  2.00	1	0	O	85007	            Mycobacteriales
+  2.00	1	0	F	85025	              Nocardiaceae
+  2.00	1	0	G	1827	                Rhodococcus
+  2.00	1	1	S	1830	                  Rhodococcus ruber

@@ -1,0 +1,35 @@
+ 84.38	27	27	U	0	unclassified
+ 15.62	5	0	R	1	root
+ 15.62	5	1	R1	131567	  cellular organisms
+  9.38	3	0	D	2	    Bacteria
+  6.25	2	0	D1	1783272	      Terrabacteria group
+  3.12	1	0	P	201174	        Actinomycetota
+  3.12	1	0	C	1760	          Actinomycetes
+  3.12	1	0	O	85011	            Kitasatosporales
+  3.12	1	0	F	2062	              Streptomycetaceae
+  3.12	1	0	G	1883	                Streptomyces
+  3.12	1	0	G1	2593676	                  unclassified Streptomyces
+  3.12	1	1	S	3075432	                    Streptomyces sp. Li-HN-5-11
+  3.12	1	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  3.12	1	0	P	1117	          Cyanobacteriota
+  3.12	1	0	C	3028117	            Cyanophyceae
+  3.12	1	0	O	1890424	              Synechococcales
+  3.12	1	0	F	1890426	                Synechococcaceae
+  3.12	1	0	G	1129	                  Synechococcus
+  3.12	1	0	G1	2626047	                    unclassified Synechococcus
+  3.12	1	1	S	1442551	                      Synechococcus sp. BMK-MC-1
+  3.12	1	0	P	200940	      Thermodesulfobacteriota
+  3.12	1	0	C	3031651	        Desulfuromonadia
+  3.12	1	0	O	3031668	          Geobacterales
+  3.12	1	0	F	213422	            Geobacteraceae
+  3.12	1	0	G	2883512	              Citrifermentans
+  3.12	1	0	S	225194	                Citrifermentans bemidjiense
+  3.12	1	1	S1	404380	                  Citrifermentans bemidjiense Bem
+  3.12	1	0	D	2759	    Eukaryota
+  3.12	1	0	D1	2611341	      Metamonada
+  3.12	1	0	P	207245	        Fornicata
+  3.12	1	0	O	5738	          Diplomonadida
+  3.12	1	0	F	5739	            Hexamitidae
+  3.12	1	0	F1	68459	              Giardiinae
+  3.12	1	0	G	5740	                Giardia
+  3.12	1	1	S	5741	                  Giardia intestinalis

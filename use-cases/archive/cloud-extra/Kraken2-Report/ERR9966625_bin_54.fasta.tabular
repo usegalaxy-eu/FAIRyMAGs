@@ -1,0 +1,33 @@
+ 73.68	14	14	U	0	unclassified
+ 26.32	5	0	R	1	root
+ 26.32	5	1	R1	131567	  cellular organisms
+ 15.79	3	0	D	2759	    Eukaryota
+ 15.79	3	0	D1	33154	      Opisthokonta
+ 15.79	3	0	K	4751	        Fungi
+ 15.79	3	0	K1	451864	          Dikarya
+ 10.53	2	0	P	4890	            Ascomycota
+ 10.53	2	0	P1	716545	              saccharomyceta
+ 10.53	2	0	P2	147538	                Pezizomycotina
+ 10.53	2	1	P3	716546	                  leotiomyceta
+  5.26	1	0	P4	715962	                    dothideomyceta
+  5.26	1	0	C	147541	                      Dothideomycetes
+  5.26	1	0	C1	451868	                        Pleosporomycetidae
+  5.26	1	0	O	92860	                          Pleosporales
+  5.26	1	0	O1	715340	                            Pleosporineae
+  5.26	1	0	F	683158	                              Didymellaceae
+  5.26	1	0	G	5453	                                Ascochyta
+  5.26	1	1	S	5454	                                  Ascochyta rabiei
+  5.26	1	0	P	5204	            Basidiomycota
+  5.26	1	0	P1	5302	              Agaricomycotina
+  5.26	1	0	C	155619	                Agaricomycetes
+  5.26	1	0	C1	355688	                  Agaricomycetes incertae sedis
+  5.26	1	0	O	36064	                    Cantharellales
+  5.26	1	0	F	5250	                      Ceratobasidiaceae
+  5.26	1	0	G	1322061	                        Rhizoctonia
+  5.26	1	1	S	456999	                          Rhizoctonia solani
+  5.26	1	0	D	2	    Bacteria
+  5.26	1	0	P	1224	      Pseudomonadota
+  5.26	1	0	C	1236	        Gammaproteobacteria
+  5.26	1	0	O	135614	          Xanthomonadales
+  5.26	1	0	F	32033	            Xanthomonadaceae
+  5.26	1	1	G	68	              Lysobacter

@@ -1,0 +1,69 @@
+ 62.50	10	10	U	0	unclassified
+ 37.50	6	0	R	1	root
+ 37.50	6	0	R1	131567	  cellular organisms
+ 25.00	4	0	D	2	    Bacteria
+ 12.50	2	0	P	1224	      Pseudomonadota
+  6.25	1	0	C	1236	        Gammaproteobacteria
+  6.25	1	0	O	72274	          Pseudomonadales
+  6.25	1	0	F	135621	            Pseudomonadaceae
+  6.25	1	0	G	286	              Pseudomonas
+  6.25	1	0	G1	196821	                unclassified Pseudomonas
+  6.25	1	1	S	3016341	                  Pseudomonas sp. PSE14
+  6.25	1	1	C	28211	        Alphaproteobacteria
+  6.25	1	0	P	29547	      Campylobacterota
+  6.25	1	0	C	3031852	        Epsilonproteobacteria
+  6.25	1	0	O	213849	          Campylobacterales
+  6.25	1	0	F	72294	            Campylobacteraceae
+  6.25	1	0	G	194	              Campylobacter
+  6.25	1	1	S	199	                Campylobacter concisus
+  6.25	1	0	D1	1783272	      Terrabacteria group
+  6.25	1	0	P	1239	        Bacillota
+  6.25	1	0	C	909932	          Negativicutes
+  6.25	1	0	O	909929	            Selenomonadales
+  6.25	1	0	F	1843490	              Sporomusaceae
+  6.25	1	0	G	81463	                Anaeromusa
+  6.25	1	0	G1	673272	                  environmental samples
+  6.25	1	1	S	673273	                    uncultured Anaeromusa sp.
+ 12.50	2	0	D	2759	    Eukaryota
+ 12.50	2	0	D1	33154	      Opisthokonta
+  6.25	1	0	K	4751	        Fungi
+  6.25	1	0	K1	451864	          Dikarya
+  6.25	1	0	P	4890	            Ascomycota
+  6.25	1	0	P1	716545	              saccharomyceta
+  6.25	1	0	P2	147538	                Pezizomycotina
+  6.25	1	0	P3	716546	                  leotiomyceta
+  6.25	1	0	C	147545	                    Eurotiomycetes
+  6.25	1	0	C1	451871	                      Eurotiomycetidae
+  6.25	1	0	O	5042	                        Eurotiales
+  6.25	1	0	F	28568	                          Trichocomaceae
+  6.25	1	0	G	5094	                            Talaromyces
+  6.25	1	0	G1	2752542	                              Talaromyces sect. Islandici
+  6.25	1	1	S	121627	                                Talaromyces rugulosus
+  6.25	1	0	K	33208	        Metazoa
+  6.25	1	0	K1	6072	          Eumetazoa
+  6.25	1	0	K2	33213	            Bilateria
+  6.25	1	0	K3	33511	              Deuterostomia
+  6.25	1	0	P	7711	                Chordata
+  6.25	1	0	P1	89593	                  Craniata
+  6.25	1	0	P2	7742	                    Vertebrata
+  6.25	1	0	P3	7776	                      Gnathostomata
+  6.25	1	0	P4	117570	                        Teleostomi
+  6.25	1	0	P5	117571	                          Euteleostomi
+  6.25	1	0	P6	8287	                            Sarcopterygii
+  6.25	1	0	P7	1338369	                              Dipnotetrapodomorpha
+  6.25	1	0	P8	32523	                                Tetrapoda
+  6.25	1	0	P9	32524	                                  Amniota
+  6.25	1	0	C	40674	                                    Mammalia
+  6.25	1	0	C1	32525	                                      Theria
+  6.25	1	0	C2	9347	                                        Eutheria
+  6.25	1	0	C3	1437010	                                          Boreoeutheria
+  6.25	1	0	C4	314146	                                            Euarchontoglires
+  6.25	1	0	O	9443	                                              Primates
+  6.25	1	0	O1	376913	                                                Haplorrhini
+  6.25	1	0	O2	314293	                                                  Simiiformes
+  6.25	1	0	O3	9526	                                                    Catarrhini
+  6.25	1	0	O4	314295	                                                      Hominoidea
+  6.25	1	0	F	9604	                                                        Hominidae
+  6.25	1	0	F1	207598	                                                          Homininae
+  6.25	1	0	G	9605	                                                            Homo
+  6.25	1	1	S	9606	                                                              Homo sapiens

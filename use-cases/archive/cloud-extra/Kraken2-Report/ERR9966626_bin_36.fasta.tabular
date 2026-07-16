@@ -1,0 +1,15 @@
+ 95.56	43	43	U	0	unclassified
+  4.44	2	0	R	1	root
+  4.44	2	0	R1	131567	  cellular organisms
+  4.44	2	0	D	2759	    Eukaryota
+  4.44	2	0	D1	33154	      Opisthokonta
+  4.44	2	0	K	4751	        Fungi
+  4.44	2	0	K1	451864	          Dikarya
+  4.44	2	0	P	5204	            Basidiomycota
+  4.44	2	0	P1	5302	              Agaricomycotina
+  4.44	2	0	C	155619	                Agaricomycetes
+  4.44	2	0	C1	355688	                  Agaricomycetes incertae sedis
+  4.44	2	0	O	36064	                    Cantharellales
+  4.44	2	0	F	5250	                      Ceratobasidiaceae
+  4.44	2	0	G	1322061	                        Rhizoctonia
+  4.44	2	2	S	456999	                          Rhizoctonia solani

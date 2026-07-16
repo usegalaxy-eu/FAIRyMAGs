@@ -97,7 +97,7 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 
 ---
 
-### Run Analysis Scripts
+## Run Analysis Scripts
 
 1. **Install conda**
 
@@ -116,12 +116,12 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 
 ---
 
-#### Pipeline Benchmark
+### Pipeline Benchmark
 
 * Follow the step-by-step guide in the [pipeline-benchmark README](pipeline-benchmark/README.md)
 
 ---
 
-#### Use case summary plots
+### Use case summary plots
 
 * Follow the step-by-step guide in the [use-cases README](use-cases/README.md)

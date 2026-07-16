@@ -1,0 +1,40 @@
+ 89.80	44	44	U	0	unclassified
+ 10.20	5	0	R	1	root
+ 10.20	5	1	R1	131567	  cellular organisms
+  6.12	3	0	D	2759	    Eukaryota
+  6.12	3	0	D1	33154	      Opisthokonta
+  6.12	3	0	K	33208	        Metazoa
+  6.12	3	0	K1	6072	          Eumetazoa
+  6.12	3	0	K2	33213	            Bilateria
+  6.12	3	0	K3	33511	              Deuterostomia
+  6.12	3	0	P	7711	                Chordata
+  6.12	3	0	P1	89593	                  Craniata
+  6.12	3	0	P2	7742	                    Vertebrata
+  6.12	3	0	P3	7776	                      Gnathostomata
+  6.12	3	0	P4	117570	                        Teleostomi
+  6.12	3	0	P5	117571	                          Euteleostomi
+  6.12	3	0	P6	8287	                            Sarcopterygii
+  6.12	3	0	P7	1338369	                              Dipnotetrapodomorpha
+  6.12	3	0	P8	32523	                                Tetrapoda
+  6.12	3	0	P9	32524	                                  Amniota
+  6.12	3	0	C	40674	                                    Mammalia
+  6.12	3	0	C1	32525	                                      Theria
+  6.12	3	0	C2	9347	                                        Eutheria
+  6.12	3	0	C3	1437010	                                          Boreoeutheria
+  6.12	3	0	C4	314146	                                            Euarchontoglires
+  6.12	3	0	O	9443	                                              Primates
+  6.12	3	0	O1	376913	                                                Haplorrhini
+  6.12	3	0	O2	314293	                                                  Simiiformes
+  6.12	3	0	O3	9526	                                                    Catarrhini
+  6.12	3	0	O4	314295	                                                      Hominoidea
+  6.12	3	0	F	9604	                                                        Hominidae
+  6.12	3	0	F1	207598	                                                          Homininae
+  6.12	3	0	G	9605	                                                            Homo
+  6.12	3	3	S	9606	                                                              Homo sapiens
+  2.04	1	0	D	2	    Bacteria
+  2.04	1	0	P	1224	      Pseudomonadota
+  2.04	1	0	C	28211	        Alphaproteobacteria
+  2.04	1	0	O	204457	          Sphingomonadales
+  2.04	1	0	F	41297	            Sphingomonadaceae
+  2.04	1	0	G	165696	              Novosphingobium
+  2.04	1	1	S	1176536	                Novosphingobium ginsenosidimutans

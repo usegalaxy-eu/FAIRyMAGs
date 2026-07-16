@@ -1,0 +1,44 @@
+ 43.28	29	29	U	0	unclassified
+ 56.72	38	0	R	1	root
+ 56.72	38	0	R1	131567	  cellular organisms
+ 52.24	35	0	D	2759	    Eukaryota
+ 52.24	35	0	D1	33154	      Opisthokonta
+ 52.24	35	0	K	4751	        Fungi
+ 52.24	35	0	K1	451864	          Dikarya
+ 52.24	35	0	P	5204	            Basidiomycota
+ 52.24	35	0	P1	5302	              Agaricomycotina
+ 52.24	35	1	C	155619	                Agaricomycetes
+ 38.81	26	0	C1	452333	                  Agaricomycetidae
+ 38.81	26	9	O	5338	                    Agaricales
+ 23.88	16	0	O1	2982305	                      Agaricineae
+ 23.88	16	0	F	40562	                        Strophariaceae
+ 23.88	16	0	G	71950	                          Psilocybe
+ 23.88	16	16	S	181762	                            Psilocybe cubensis
+  1.49	1	0	O1	2982316	                      Marasmiineae
+  1.49	1	0	F	654128	                        Marasmiaceae
+  1.49	1	0	G	34448	                          Marasmius
+  1.49	1	1	S	181124	                            Marasmius oreades
+ 11.94	8	0	C1	355688	                  Agaricomycetes incertae sedis
+ 11.94	8	0	O	36064	                    Cantharellales
+ 11.94	8	0	F	5250	                      Ceratobasidiaceae
+ 11.94	8	0	G	1322061	                        Rhizoctonia
+ 11.94	8	8	S	456999	                          Rhizoctonia solani
+  4.48	3	0	D	2	    Bacteria
+  2.99	2	0	P	1224	      Pseudomonadota
+  2.99	2	0	C	1236	        Gammaproteobacteria
+  1.49	1	0	O	72273	          Thiotrichales
+  1.49	1	0	F	34064	            Francisellaceae
+  1.49	1	1	G	262	              Francisella
+  1.49	1	0	O	2887326	          Moraxellales
+  1.49	1	0	F	468	            Moraxellaceae
+  1.49	1	0	G	497	              Psychrobacter
+  1.49	1	0	S	334543	                Psychrobacter arcticus
+  1.49	1	1	S1	259536	                  Psychrobacter arcticus 273-4
+  1.49	1	0	D1	1783272	      Terrabacteria group
+  1.49	1	0	D2	1798711	        Cyanobacteriota/Melainabacteria group
+  1.49	1	0	P	1117	          Cyanobacteriota
+  1.49	1	0	C	3028117	            Cyanophyceae
+  1.49	1	0	O	1161	              Nostocales
+  1.49	1	0	F	1892263	                Hapalosiphonaceae
+  1.49	1	0	G	1190	                  Fischerella
+  1.49	1	1	G1	494603	                    unclassified Fischerella

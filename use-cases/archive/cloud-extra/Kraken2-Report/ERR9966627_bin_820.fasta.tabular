@@ -1,0 +1,19 @@
+ 96.43	54	54	U	0	unclassified
+  3.57	2	0	R	1	root
+  3.57	2	0	R1	131567	  cellular organisms
+  3.57	2	0	D	2	    Bacteria
+  1.79	1	0	D1	1783272	      Terrabacteria group
+  1.79	1	0	P	1239	        Bacillota
+  1.79	1	0	C	91061	          Bacilli
+  1.79	1	0	O	1385	            Bacillales
+  1.79	1	0	F	186817	              Bacillaceae
+  1.79	1	0	G	2675232	                Neobacillus
+  1.79	1	0	G1	2675272	                  unclassified Neobacillus
+  1.79	1	1	S	3070683	                    Neobacillus sp. OS1-33
+  1.79	1	0	P	1224	      Pseudomonadota
+  1.79	1	0	C	28211	        Alphaproteobacteria
+  1.79	1	0	O	356	          Hyphomicrobiales
+  1.79	1	0	F	82115	            Rhizobiaceae
+  1.79	1	0	G	323620	              Shinella
+  1.79	1	0	G1	2643062	                unclassified Shinella
+  1.79	1	1	S	2877941	                  Shinella sp. XGS7

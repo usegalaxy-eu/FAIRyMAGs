@@ -1,0 +1,49 @@
+ 78.43	40	40	U	0	unclassified
+ 21.57	11	0	R	1	root
+ 21.57	11	3	R1	131567	  cellular organisms
+ 11.76	6	1	D	2	    Bacteria
+  7.84	4	0	P	1224	      Pseudomonadota
+  5.88	3	0	C	1236	        Gammaproteobacteria
+  1.96	1	0	O	72273	          Thiotrichales
+  1.96	1	0	F	135616	            Piscirickettsiaceae
+  1.96	1	0	G	2039723	              Thiomicrorhabdus
+  1.96	1	1	S	2267253	                Thiomicrorhabdus indica
+  1.96	1	0	O	91347	          Enterobacterales
+  1.96	1	0	F	1903411	            Yersiniaceae
+  1.96	1	0	G	613	              Serratia
+  1.96	1	0	G1	2647522	                unclassified Serratia (in: enterobacteria)
+  1.96	1	1	S	2986763	                  Serratia sp. UGAL515B_01
+  1.96	1	0	O	1706369	          Cellvibrionales
+  1.96	1	0	F	1706373	            Microbulbiferaceae
+  1.96	1	0	G	48073	              Microbulbifer
+  1.96	1	1	S	48074	                Microbulbifer hydrolyticus
+  1.96	1	0	C	28216	        Betaproteobacteria
+  1.96	1	0	O	80840	          Burkholderiales
+  1.96	1	0	F	119060	            Burkholderiaceae
+  1.96	1	0	G	32008	              Burkholderia
+  1.96	1	0	G1	87882	                Burkholderia cepacia complex
+  1.96	1	1	S	60552	                  Burkholderia vietnamiensis
+  1.96	1	0	D1	1783272	      Terrabacteria group
+  1.96	1	0	P	1239	        Bacillota
+  1.96	1	0	C	91061	          Bacilli
+  1.96	1	0	O	1385	            Bacillales
+  1.96	1	0	F	186822	              Paenibacillaceae
+  1.96	1	0	G	44249	                Paenibacillus
+  1.96	1	1	S	198119	                  Paenibacillus barcinonensis
+  3.92	2	0	D	2759	    Eukaryota
+  3.92	2	0	D1	33154	      Opisthokonta
+  3.92	2	0	K	4751	        Fungi
+  3.92	2	0	K1	451864	          Dikarya
+  3.92	2	0	P	5204	            Basidiomycota
+  3.92	2	0	P1	5302	              Agaricomycotina
+  3.92	2	0	C	155619	                Agaricomycetes
+  3.92	2	0	C1	452333	                  Agaricomycetidae
+  3.92	2	0	O	5338	                    Agaricales
+  1.96	1	0	O1	2982305	                      Agaricineae
+  1.96	1	0	F	40562	                        Strophariaceae
+  1.96	1	0	G	71950	                          Psilocybe
+  1.96	1	1	S	181762	                            Psilocybe cubensis
+  1.96	1	0	O1	2982316	                      Marasmiineae
+  1.96	1	0	F	654128	                        Marasmiaceae
+  1.96	1	0	G	34448	                          Marasmius
+  1.96	1	1	S	181124	                            Marasmius oreades

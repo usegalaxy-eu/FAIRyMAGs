@@ -1,0 +1,30 @@
+ 92.63	88	88	U	0	unclassified
+  7.37	7	0	R	1	root
+  7.37	7	2	R1	131567	  cellular organisms
+  4.21	4	2	D	2	    Bacteria
+  1.05	1	0	D1	1783272	      Terrabacteria group
+  1.05	1	0	P	201174	        Actinomycetota
+  1.05	1	0	C	1760	          Actinomycetes
+  1.05	1	0	O	85011	            Kitasatosporales
+  1.05	1	0	F	2062	              Streptomycetaceae
+  1.05	1	1	G	1883	                Streptomyces
+  1.05	1	0	P	1224	      Pseudomonadota
+  1.05	1	0	C	1236	        Gammaproteobacteria
+  1.05	1	0	O	135614	          Xanthomonadales
+  1.05	1	0	F	32033	            Xanthomonadaceae
+  1.05	1	0	G	40323	              Stenotrophomonas
+  1.05	1	0	G1	995085	                Stenotrophomonas maltophilia group
+  1.05	1	1	S	40324	                  Stenotrophomonas maltophilia
+  1.05	1	0	D	2759	    Eukaryota
+  1.05	1	0	D1	33154	      Opisthokonta
+  1.05	1	0	K	4751	        Fungi
+  1.05	1	0	K1	451864	          Dikarya
+  1.05	1	0	P	5204	            Basidiomycota
+  1.05	1	0	P1	5302	              Agaricomycotina
+  1.05	1	0	C	155616	                Tremellomycetes
+  1.05	1	0	O	5234	                  Tremellales
+  1.05	1	0	F	1884633	                    Cryptococcaceae
+  1.05	1	0	G	5206	                      Cryptococcus
+  1.05	1	0	G1	1884637	                        Cryptococcus gattii species complex
+  1.05	1	0	S	37769	                          Cryptococcus gattii
+  1.05	1	1	S1	367775	                            Cryptococcus gattii WM276

@@ -1,0 +1,72 @@
+ 60.71	34	34	U	0	unclassified
+ 39.29	22	0	R	1	root
+ 39.29	22	0	R1	131567	  cellular organisms
+ 37.50	21	3	D	2	    Bacteria
+ 17.86	10	0	P	1224	      Pseudomonadota
+ 10.71	6	0	C	28216	        Betaproteobacteria
+ 10.71	6	0	O	80840	          Burkholderiales
+ 10.71	6	0	F	119060	            Burkholderiaceae
+  8.93	5	0	G	1810868	              Mycoavidus
+  5.36	3	3	S	1553431	                Mycoavidus cysteinexigens
+  3.57	2	1	G1	2649241	                unclassified Mycoavidus
+  1.79	1	1	S	2840467	                  Mycoavidus sp. HKI
+  1.79	1	0	G	32008	              Burkholderia
+  1.79	1	0	G1	2613784	                unclassified Burkholderia
+  1.79	1	1	S	1494466	                  Burkholderia sp. FERM BP-3421
+  5.36	3	1	C	1236	        Gammaproteobacteria
+  3.57	2	0	O	135614	          Xanthomonadales
+  3.57	2	0	F	32033	            Xanthomonadaceae
+  3.57	2	0	G	338	              Xanthomonas
+  1.79	1	1	S	2053930	                Xanthomonas prunicola
+  1.79	1	1	S	56458	                Xanthomonas sacchari
+  1.79	1	0	C	28211	        Alphaproteobacteria
+  1.79	1	0	O	356	          Hyphomicrobiales
+  1.79	1	0	F	69277	            Phyllobacteriaceae
+  1.79	1	0	G	1915401	              Roseitalea
+  1.79	1	1	S	1852022	                Roseitalea porphyridii
+  8.93	5	1	D1	1783272	      Terrabacteria group
+  5.36	3	0	P	201174	        Actinomycetota
+  5.36	3	0	C	1760	          Actinomycetes
+  3.57	2	0	O	85013	            Frankiales
+  3.57	2	0	F	74712	              Frankiaceae
+  3.57	2	0	G	2994361	                Protofrankia
+  3.57	2	2	S	2716812	                  Candidatus Protofrankia datiscae
+  1.79	1	0	O	85004	            Bifidobacteriales
+  1.79	1	0	F	31953	              Bifidobacteriaceae
+  1.79	1	0	G	1678	                Bifidobacterium
+  1.79	1	0	G1	2608897	                  unclassified Bifidobacterium
+  1.79	1	1	S	2983214	                    Bifidobacterium sp. ESL0690
+  1.79	1	0	P	1239	        Bacillota
+  1.79	1	0	C	91061	          Bacilli
+  1.79	1	0	O	1385	            Bacillales
+  1.79	1	0	F	186822	              Paenibacillaceae
+  1.79	1	1	G	55080	                Brevibacillus
+  3.57	2	0	D1	1783270	      FCB group
+  3.57	2	0	D2	68336	        Bacteroidota/Chlorobiota group
+  3.57	2	0	P	976	          Bacteroidota
+  1.79	1	0	C	117747	            Sphingobacteriia
+  1.79	1	0	O	200666	              Sphingobacteriales
+  1.79	1	0	F	84566	                Sphingobacteriaceae
+  1.79	1	0	G	84567	                  Pedobacter
+  1.79	1	0	G1	2628915	                    unclassified Pedobacter
+  1.79	1	1	S	2714940	                      Pedobacter sp. HDW13
+  1.79	1	0	C	200643	            Bacteroidia
+  1.79	1	0	O	171549	              Bacteroidales
+  1.79	1	0	F	171550	                Rikenellaceae
+  1.79	1	0	G	239759	                  Alistipes
+  1.79	1	1	S	328813	                    Alistipes onderdonkii
+  1.79	1	0	P	2818505	      Myxococcota
+  1.79	1	0	C	32015	        Myxococcia
+  1.79	1	0	O	29	          Myxococcales
+  1.79	1	0	O1	80811	            Cystobacterineae
+  1.79	1	0	F	39	              Archangiaceae
+  1.79	1	0	G	47	                Archangium
+  1.79	1	1	S	83451	                  Archangium violaceum
+  1.79	1	0	D	2157	    Archaea
+  1.79	1	0	P	28890	      Euryarchaeota
+  1.79	1	0	P1	2290931	        Stenosarchaea group
+  1.79	1	0	C	183963	          Halobacteria
+  1.79	1	0	O	2235	            Halobacteriales
+  1.79	1	0	F	3064797	              Haladaptataceae
+  1.79	1	0	G	367188	                Haladaptatus
+  1.79	1	1	S	1008152	                  Haladaptatus pallidirubidus

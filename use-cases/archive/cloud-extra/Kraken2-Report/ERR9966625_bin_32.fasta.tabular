@@ -1,0 +1,100 @@
+ 85.22	98	98	U	0	unclassified
+ 14.78	17	0	R	1	root
+ 14.78	17	2	R1	131567	  cellular organisms
+  7.83	9	1	D	2	    Bacteria
+  4.35	5	1	P	1224	      Pseudomonadota
+  2.61	3	2	C	1236	        Gammaproteobacteria
+  0.87	1	0	O	135622	          Alteromonadales
+  0.87	1	0	F	267891	            Moritellaceae
+  0.87	1	0	G	58050	              Moritella
+  0.87	1	0	G1	2637987	                unclassified Moritella
+  0.87	1	1	S	2746230	                  Moritella sp. 24
+  0.87	1	0	C	28211	        Alphaproteobacteria
+  0.87	1	0	O	204457	          Sphingomonadales
+  0.87	1	0	F	41297	            Sphingomonadaceae
+  0.87	1	0	G	165697	              Sphingopyxis
+  0.87	1	0	G1	2614943	                unclassified Sphingopyxis
+  0.87	1	1	S	1874061	                  Sphingopyxis sp. EG6
+  0.87	1	0	D1	1783272	      Terrabacteria group
+  0.87	1	0	P	201174	        Actinomycetota
+  0.87	1	0	C	1760	          Actinomycetes
+  0.87	1	0	O	85006	            Micrococcales
+  0.87	1	0	F	85023	              Microbacteriaceae
+  0.87	1	0	G	33882	                Microbacterium
+  0.87	1	0	G1	2609290	                  unclassified Microbacterium
+  0.87	1	1	S	3049070	                    Microbacterium sp. zg-B185
+  0.87	1	0	D1	1783270	      FCB group
+  0.87	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  0.87	1	0	P	976	          Bacteroidota
+  0.87	1	0	C	768503	            Cytophagia
+  0.87	1	0	O	768507	              Cytophagales
+  0.87	1	0	F	1853232	                Hymenobacteraceae
+  0.87	1	0	G	89966	                  Hymenobacter
+  0.87	1	1	S	497967	                    Hymenobacter tibetensis
+  0.87	1	0	D1	1783257	      PVC group
+  0.87	1	0	P	203682	        Planctomycetota
+  0.87	1	0	C	203683	          Planctomycetia
+  0.87	1	0	O	112	            Planctomycetales
+  0.87	1	0	F	126	              Planctomycetaceae
+  0.87	1	0	G	1936111	                Fuerstiella
+  0.87	1	1	S	1891926	                  Fuerstiella marisgermanici
+  5.22	6	0	D	2759	    Eukaryota
+  5.22	6	0	D1	33154	      Opisthokonta
+  3.48	4	0	K	4751	        Fungi
+  3.48	4	0	K1	451864	          Dikarya
+  1.74	2	0	P	4890	            Ascomycota
+  1.74	2	0	P1	716545	              saccharomyceta
+  1.74	2	0	P2	147538	                Pezizomycotina
+  1.74	2	0	P3	716546	                  leotiomyceta
+  0.87	1	0	C	147545	                    Eurotiomycetes
+  0.87	1	0	C1	451871	                      Eurotiomycetidae
+  0.87	1	0	O	5042	                        Eurotiales
+  0.87	1	0	F	28568	                          Trichocomaceae
+  0.87	1	0	G	5094	                            Talaromyces
+  0.87	1	0	G1	2752537	                              Talaromyces sect. Talaromyces
+  0.87	1	1	S	37727	                                Talaromyces marneffei
+  0.87	1	0	P4	715989	                    sordariomyceta
+  0.87	1	0	C	147550	                      Sordariomycetes
+  0.87	1	0	C1	222543	                        Hypocreomycetidae
+  0.87	1	0	O	5125	                          Hypocreales
+  0.87	1	0	F	34397	                            Clavicipitaceae
+  0.87	1	0	G	243023	                              Pochonia
+  0.87	1	0	S	280754	                                Pochonia chlamydosporia
+  0.87	1	1	S1	1380566	                                  Pochonia chlamydosporia 170
+  1.74	2	0	P	5204	            Basidiomycota
+  1.74	2	0	P1	5302	              Agaricomycotina
+  1.74	2	0	C	155619	                Agaricomycetes
+  1.74	2	0	C1	452333	                  Agaricomycetidae
+  1.74	2	0	O	5338	                    Agaricales
+  1.74	2	0	O1	2982305	                      Agaricineae
+  1.74	2	0	F	40562	                        Strophariaceae
+  1.74	2	0	G	71950	                          Psilocybe
+  1.74	2	2	S	181762	                            Psilocybe cubensis
+  1.74	2	0	K	33208	        Metazoa
+  1.74	2	0	K1	6072	          Eumetazoa
+  1.74	2	0	K2	33213	            Bilateria
+  1.74	2	0	K3	33511	              Deuterostomia
+  1.74	2	0	P	7711	                Chordata
+  1.74	2	0	P1	89593	                  Craniata
+  1.74	2	0	P2	7742	                    Vertebrata
+  1.74	2	0	P3	7776	                      Gnathostomata
+  1.74	2	0	P4	117570	                        Teleostomi
+  1.74	2	0	P5	117571	                          Euteleostomi
+  1.74	2	0	P6	8287	                            Sarcopterygii
+  1.74	2	0	P7	1338369	                              Dipnotetrapodomorpha
+  1.74	2	0	P8	32523	                                Tetrapoda
+  1.74	2	0	P9	32524	                                  Amniota
+  1.74	2	0	C	40674	                                    Mammalia
+  1.74	2	0	C1	32525	                                      Theria
+  1.74	2	0	C2	9347	                                        Eutheria
+  1.74	2	0	C3	1437010	                                          Boreoeutheria
+  1.74	2	0	C4	314146	                                            Euarchontoglires
+  1.74	2	0	O	9443	                                              Primates
+  1.74	2	0	O1	376913	                                                Haplorrhini
+  1.74	2	0	O2	314293	                                                  Simiiformes
+  1.74	2	0	O3	9526	                                                    Catarrhini
+  1.74	2	0	O4	314295	                                                      Hominoidea
+  1.74	2	0	F	9604	                                                        Hominidae
+  1.74	2	0	F1	207598	                                                          Homininae
+  1.74	2	0	G	9605	                                                            Homo
+  1.74	2	2	S	9606	                                                              Homo sapiens

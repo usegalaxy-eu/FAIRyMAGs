@@ -1,0 +1,15 @@
+MAG	Taxonomy	Cluster members	L50	N50 (kb)	Completeness	Contamination
+group_4_bin_37618	unclassified	1	48342	4.4	100.0%	9.97%
+group_7_bin_7843	Truepera radiovictrix	6	288	4.4	100.0%	0.49%
+group_2_bin_312419	Margulisbacteria (phylum)	1	20	24.3	99.9%	0.13%
+group_5_bin_1238	Wolbachia sp000829315	3	1423	1.7	98.4%	0.42%
+group_2_bin_253990	Propionivibrio (genus)	1	244	3.8	92.4%	0.92%
+group_2_bin_518144	JAIRRR01 (genus)	1	88	10.5	92.2%	1.21%
+group_2_bin_643563	JAITMY01 (genus)	1	144	7.3	91.5%	3.88%
+group_2_bin_247412	WQXQ01 (genus)	1	111	9.4	88.1%	0.36%
+group_2_bin_256516	JAIRMO01 (genus)	1	71	11.6	85.4%	2.55%
+group_2_bin_94618	JAISFT01 sp031258225	1	81	11.9	82.0%	8.05%
+group_2_bin_374764	JAISFT01 sp031258265	1	103	8.6	81.6%	0.81%
+group_2_bin_360825	JAIRMT01 sp031258505	1	97	8.9	78.4%	3.72%
+group_2_bin_645825	WRFZ01 (genus)	1	160	4.7	74.6%	5.14%
+group_2_bin_453546	JAIRKS01 (genus)	1	241	3.2	72.0%	2.43%

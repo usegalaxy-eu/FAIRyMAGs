@@ -1,0 +1,24 @@
+  0.50	1	1	U	0	unclassified
+ 99.50	201	0	R	1	root
+ 99.50	201	0	R1	131567	  cellular organisms
+ 99.50	201	0	D	2	    Bacteria
+ 99.01	200	0	P	1224	      Pseudomonadota
+ 99.01	200	0	C	28211	        Alphaproteobacteria
+ 99.01	200	0	O	204455	          Rhodobacterales
+ 98.51	199	0	F	31989	            Paracoccaceae
+ 98.51	199	1	G	265	              Paracoccus
+ 96.04	194	194	S	147645	                Paracoccus yeei
+  0.99	2	0	G1	2688777	                unclassified Paracoccus (in: a-proteobacteria)
+  0.99	2	2	S	2589076	                  Paracoccus sp. AK26
+  0.50	1	1	S	59779	                Paracoccus marcusii
+  0.50	1	1	S	2560053	                Paracoccus liaowanqingii
+  0.50	1	0	F	2854170	            Roseobacteraceae
+  0.50	1	0	G	60136	              Sulfitobacter
+  0.50	1	1	S	218673	                Sulfitobacter dubius
+  0.50	1	0	D1	1783272	      Terrabacteria group
+  0.50	1	0	P	201174	        Actinomycetota
+  0.50	1	0	C	1760	          Actinomycetes
+  0.50	1	0	O	85007	            Mycobacteriales
+  0.50	1	0	F	85025	              Nocardiaceae
+  0.50	1	0	G	1817	                Nocardia
+  0.50	1	1	S	2382165	                  Nocardia yunnanensis

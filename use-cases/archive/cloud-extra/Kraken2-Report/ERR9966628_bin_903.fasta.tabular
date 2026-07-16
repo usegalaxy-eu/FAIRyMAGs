@@ -1,0 +1,34 @@
+ 91.43	32	32	U	0	unclassified
+  8.57	3	0	R	1	root
+  8.57	3	0	R1	131567	  cellular organisms
+  5.71	2	0	D	2759	    Eukaryota
+  5.71	2	0	D1	33154	      Opisthokonta
+  5.71	2	0	K	4751	        Fungi
+  5.71	2	0	K1	451864	          Dikarya
+  5.71	2	0	P	4890	            Ascomycota
+  5.71	2	0	P1	716545	              saccharomyceta
+  5.71	2	0	P2	147538	                Pezizomycotina
+  5.71	2	0	P3	716546	                  leotiomyceta
+  2.86	1	0	C	147545	                    Eurotiomycetes
+  2.86	1	0	C1	451871	                      Eurotiomycetidae
+  2.86	1	0	O	5042	                        Eurotiales
+  2.86	1	0	F	1131492	                          Aspergillaceae
+  2.86	1	0	G	5052	                            Aspergillus
+  2.86	1	1	S	1069201	                              Aspergillus luchuensis
+  2.86	1	0	P4	715989	                    sordariomyceta
+  2.86	1	0	C	147550	                      Sordariomycetes
+  2.86	1	0	C1	222543	                        Hypocreomycetidae
+  2.86	1	0	O	5125	                          Hypocreales
+  2.86	1	0	F	110618	                            Nectriaceae
+  2.86	1	0	G	5506	                              Fusarium
+  2.86	1	0	G1	569360	                                Fusarium sambucinum species complex
+  2.86	1	1	S	36050	                                  Fusarium poae
+  2.86	1	0	D	2	    Bacteria
+  2.86	1	0	D1	1783270	      FCB group
+  2.86	1	0	D2	68336	        Bacteroidota/Chlorobiota group
+  2.86	1	0	P	976	          Bacteroidota
+  2.86	1	0	C	117747	            Sphingobacteriia
+  2.86	1	0	O	200666	              Sphingobacteriales
+  2.86	1	0	F	84566	                Sphingobacteriaceae
+  2.86	1	0	G	84567	                  Pedobacter
+  2.86	1	1	S	2201271	                    Pedobacter schmidteae

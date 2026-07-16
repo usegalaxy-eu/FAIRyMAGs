@@ -2,7 +2,7 @@
 
 **A FAIR Galaxy Metagenome-Assembled Genomes (MAGs) Workflow**
 
-![FAIRyMAGs Overview](doc/paper/fairymags_overview_v2.png)
+![FAIRyMAGs Overview](docs/img/fairymags_overview_v2.png)
 
 ## Introduction
 
@@ -39,7 +39,7 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 * Paul Zierep (Project lead) - University of Freiburg, ELIXIR Germany
 * Bérénice Batut (Project lead) - LMGE, Université Clermont Auvergne / IFB, ELIXIR France
 * Martin Beracochea - EMBL-EBI, EMBL-EBI
-* Santiago Sanchez Fragoso - EMBL, EMBL
+* Santiago Sanchez Fragoso - EMBL-EBI, EMBL-EBI
 * Giuseppe Defazio - University of Bari Aldo Moro, ELIXIR Italy
 * Bruno Fosso - University of Bari Aldo Moro, ELIXIR Italy
 

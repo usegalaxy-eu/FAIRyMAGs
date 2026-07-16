@@ -53,12 +53,29 @@ Plots for individual use cases are created in a separate repository:
 - **GitHub**: https://github.com/usegalaxy-eu/MAGs-visualization/tree/main/use-cases
 - These include detailed visualizations like heatmaps, Sankey plots, functional annotations, and more
 
+---
+
+### `use-case-bee-microbiome-expert-evaluation.ipynb`
+Explores expert curation results for the bee microbiome MAG use case.
+
+| | |
+|---|---|
+| **Input** | `../data/use-cases/bee-microbiome/expert_evaluation.xlsx` |
+| **Output** | Summary tables, violin/strip plots comparing completeness/contamination distributions |
+
+**Analyses:**
+- Basic dataset overview (rows, columns, taxonomy assignment coverage)
+- Taxonomic summaries by phylum (counts, percentages, species-level MAG totals)
+- Origin-based summaries for MAGs listed vs not listed in the paper
+- Quality metric comparisons (completeness and contamination) between concordant and non-concordant MAGs
+
 ## Files
 
 | File | Description |
 |------|-------------|
 | `use-case-analysis.ipynb` | Main analysis notebook for MAGs quality and summary tables |
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
+| `use-case-bee-microbiome-expert-evaluation.ipynb` | Expert curation evaluation for bee microbiome |
 | `README.md` | This file |
 
 ## Use Cases

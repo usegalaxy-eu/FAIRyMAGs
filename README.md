@@ -12,7 +12,7 @@ The workflows can be executed on any major Galaxy server, including usegalaxy.eu
 
 The workflows support both paired-end short-read metagenomes and the optional inclusion of long-read shotgun sequencing data. At present, the short-read workflow is the most thoroughly validated. Long-read support is available through version 5 of the main workflow but has not yet been evaluated as extensively.
 
-This repository also includes the scripts and step-by-step instructions required to reproduce all analyses presented in the accompanying manuscript (DOI: to be added). This includes: the notebook to generate the plots for the comparison of different MAGs workflows as well as the plots to visualize the 4 investigated use cases.
+This repository also includes the scripts and step-by-step instructions required to reproduce all analyses presented in the accompanying manuscript (DOI: to be added). This includes: the notebook to generate the plots for the [comparison of different MAGs workflows](pipeline-benchmark/README.md) as well as the plots to [visualize the 4 investigated use cases](use-cases/README.md).
 
 The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.org/how-we-work/scientific-programme/science/bfsp/fairymags) under the [ELIXIR Scientific Programme 2024–28](https://elixir-europe.org/how-we-work/scientific-programme).
 

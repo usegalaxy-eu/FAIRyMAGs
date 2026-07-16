@@ -12,7 +12,7 @@ The workflows can be executed on any major Galaxy server, including usegalaxy.eu
 
 The workflows support both paired-end short-read metagenomes and the optional inclusion of long-read shotgun sequencing data. At present, the short-read workflow is the most thoroughly validated. Long-read support is available through version 5 of the main workflow but has not yet been evaluated as extensively.
 
-This repository also includes the scripts and step-by-step instructions required to reproduce all analyses presented in the accompanying manuscript (DOI: to be added). This includes: the notebook to generate the plots for the [comparison of different MAGs workflows](pipeline-benchmark/README.md) as well as the plots to [visualize the 4 investigated use cases](use-cases/README.md).
+This repository also includes the scripts and step-by-step instructions required to reproduce all analyses presented in the accompanying manuscript. This includes: the notebook to generate the plots for the [comparison of different MAGs workflows](bin/README.md) as well as the plots to [visualize the 4 investigated use cases](bin/README.md).
 
 The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.org/how-we-work/scientific-programme/science/bfsp/fairymags) under the [ELIXIR Scientific Programme 2024–28](https://elixir-europe.org/how-we-work/scientific-programme).
 
@@ -97,7 +97,13 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 
 ---
 
-## Run Analysis Scripts
+## Reproduce Analyses
+
+### Requirements
+
+This project uses Python 3 and the packages listed in [`requirements.txt`](requirements.txt).
+
+Install in a conda environment:
 
 1. **Install conda**
 
@@ -106,22 +112,20 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 2. **Install dependencies**
 
    ```bash
-   conda create -n fairymags_env -c conda-forge -c bioconda --file requirements.txt -y
+   conda create -n fairymags -c conda-forge -c bioconda --file requirements.txt -y
+   conda activate fairymags
    ```
 
 3. **Add Galaxy API key**
 
-   Add the API key to .env like `GALAXY_API=<key>`
-
-
----
-
-### Pipeline Benchmark
-
-* Follow the step-by-step guide in the [pipeline-benchmark README](pipeline-benchmark/README.md)
+   Add the API key to `.env` like `GALAXY_API=<key>`
 
 ---
 
-### Use case summary plots
+### Benchmarking
 
-* Follow the step-by-step guide in the [use-cases README](use-cases/README.md)
+* Follow the step-by-step guide in the [bin/README.md](bin/README.md)
+
+### Use cases
+
+* Follow the step-by-step guide in the [bin/README.md](bin/README.md)

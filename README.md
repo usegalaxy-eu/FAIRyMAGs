@@ -125,9 +125,3 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 #### Use case summary plots
 
 * Follow the step-by-step guide in the [use-cases README](use-cases/README.md)
-
----
-
-#### Binning evaluation plots
-
-* Follow the step-by-step guide in the [binning-evaluation README](binning-evaluation/README.md)

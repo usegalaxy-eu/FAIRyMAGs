@@ -16,6 +16,10 @@ This repository also includes the scripts and step-by-step instructions required
 
 The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.org/how-we-work/scientific-programme/science/bfsp/fairymags) under the [ELIXIR Scientific Programme 2024–28](https://elixir-europe.org/how-we-work/scientific-programme).
 
+### Related Project: MetaSPAdes Memory Prediction
+
+We developed a machine learning framework to predict memory requirements for MetaSPAdes assembly jobs based on k-mer statistics, biome metadata, and input file size. This work reduces retry-driven failures and wasted compute resources in production metagenomics workflows. The preprint is available at [doi:10.64898/2026.05.12.724571](https://doi.org/10.64898/2026.05.12.724571) and the code at [usegalaxy-eu/metaspades-memory-prediction](https://github.com/usegalaxy-eu/metaspades-memory-prediction).
+
 ---
 
 ## Project Deliverables
@@ -94,6 +98,27 @@ The workflows were developed by the [FAIRyMAGs project](https://elixir-europe.or
 
 * [MaAsLin 2 Differential Analysis](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmaaslin2%2Fmaaslin2%2F1.18.0%2Bgalaxy0&version=latest)
 * [MaAsLin 3 Differential Analysis](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmaaslin3%2Fmaaslin3%2F0.99.16%2Bgalaxy0&version=latest)
+
+---
+
+## Workflow Summary
+
+| Workflow | Description | Link |
+|----------|-------------|------|
+| **QC & Preprocessing** | | |
+| Short-read QC & Trimming | Quality control, adapter trimming, and filtering for paired-end reads | [IWC](https://iwc.galaxyproject.org/workflow/short-read-qc-trimming-main/) |
+| Host Contamination Removal | Remove host sequences from metagenomic reads | [IWC](https://iwc.galaxyproject.org/workflow/host-contamination-removal-short-reads-main/) |
+| Read grouping tool | Group reads for co-assembly or grouped assembly | [Read grouping tool](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Ffastq_groupmerge%2Ffastq_groupmerge%2F1.0.2%2Bgalaxy0&version=latest) |
+| **Assembly & Binning** | | |
+| MAGs Building | Assembly, binning, and quality assessment of metagenome-assembled genomes | [IWC](https://iwc.galaxyproject.org/workflow/mags-building-main/) |
+| **Annotation** | | |
+| Taxonomy Annotation | GTDB-Tk taxonomy classification of MAGs | [IWC](https://iwc.galaxyproject.org/workflow/mags-taxonomy-annotation-main/) |
+| Bacterial Genome Annotation | BAKTA-based genome annotation | [IWC](https://iwc.galaxyproject.org/workflow/bacterial_genome_annotation-main/) |
+| Functional Annotation | EggNOG-mapper functional annotation of protein sequences | [IWC](https://iwc.galaxyproject.org/workflow/functional-annotation-protein-sequences-main/) |
+| AMR Gene Detection | Antimicrobial resistance gene identification | [IWC](https://iwc.galaxyproject.org/workflow/amr_gene_detection-main/) |
+| **Analysis** | | |
+| MaAsLin 2 | Multivariable associations with linear models | [UseGalaxy.eu](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmaaslin2%2Fmaaslin2%2F1.18.0%2Bgalaxy0&version=latest) |
+| MaAsLin 3 | Multivariable associations with linear models (v3) | [UseGalaxy.eu](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmaaslin3%2Fmaaslin3%2F0.99.16%2Bgalaxy0&version=latest) |
 
 ---
 

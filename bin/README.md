@@ -55,8 +55,8 @@ Plots for individual use cases are created in a separate repository:
 
 ---
 
-### `use-case-bee-microbiome-expert-evaluation.ipynb`
-Explores expert curation results for the bee microbiome MAG use case.
+### `use-case-bee-microbiome-exploration.ipynb`
+Explores MAGs results and expert curation for the bee microbiome MAG use case.
 
 | | |
 |---|---|
@@ -75,7 +75,7 @@ Explores expert curation results for the bee microbiome MAG use case.
 |------|-------------|
 | `use-case-analysis.ipynb` | Main analysis notebook for MAGs quality and summary tables |
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
-| `use-case-bee-microbiome-expert-evaluation.ipynb` | Expert curation evaluation for bee microbiome |
+| `use-case-bee-microbiome-exploration.ipynb` | Expert curation evaluation for bee microbiome |
 | `README.md` | This file |
 
 ## Use Cases

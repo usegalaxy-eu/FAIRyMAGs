@@ -60,7 +60,7 @@ Explores MAGs results and expert curation for the bee microbiome MAG use case.
 
 | | |
 |---|---|
-| **Input** | `../data/use-cases/bee-microbiome/expert_evaluation.xlsx`, `../results/bee-use-cases/reps_bee.tsv` |
+| **Input** | `../data/use-cases/bee-microbiome/expert_evaluation.xlsx`, `../data/bee-use-case/metadata.tsv`, `../data/bee-use-case/coverm.tsv`, `../results/bee-use-cases/reps_bee.tsv` |
 | **Output** | Summary tables, violin/strip plots comparing completeness/contamination distributions |
 
 **Analyses:**

@@ -61,11 +61,12 @@ Explores MAGs results and expert curation for the bee microbiome MAG use case.
 | | |
 |---|---|
 | **Input** | `../data/use-cases/bee-microbiome/expert_evaluation.xlsx`, `../data/bee-use-case/metadata.tsv`, `../data/bee-use-case/coverm.tsv`, `../results/bee-use-cases/reps_bee.tsv` |
-| **Output** | Summary tables, violin/strip plots comparing completeness/contamination distributions |
+| **Output** | Summary tables, abundace barplots and PCAs, violin/strip plots comparing completeness/contamination distributions |
 
 **Analyses:**
 - Basic dataset overview (rows, columns, taxonomy assignment coverage)
 - Taxonomic summaries by phylum (counts, percentages, species-level MAG totals)
+- Relative abundance (barplot, PCA)
 - Origin-based summaries for MAGs listed vs not listed in the paper
 - Quality metric comparisons (completeness and contamination) between concordant and non-concordant MAGs
 
@@ -75,7 +76,7 @@ Explores MAGs results and expert curation for the bee microbiome MAG use case.
 |------|-------------|
 | `use-case-analysis.ipynb` | Main analysis notebook for MAGs quality and summary tables |
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
-| `use-case-bee-microbiome-exploration.ipynb` | Expert curation evaluation for bee microbiome |
+| `use-case-bee-microbiome-exploration.ipynb` | Exploration for bee microbiome |
 | `README.md` | This file |
 
 ## Use Cases

@@ -87,10 +87,10 @@ def print_stats(df: pd.DataFrame) -> None:
     for column in df.columns:
         if pd.api.types.is_numeric_dtype(df[column]):
             print(
-                f"{column}: {df[column].mean():.2f} ± {df[column].std():.2f}, "
-                f"Median={df[column].median():.2f}, "
-                f"IQR={df[column].quantile(0.25):.2f}-{df[column].quantile(0.75):.2f}, "
-                f"Range={df[column].min():.2f}-{df[column].max():.2f}"
+                f"{column}: {df.loc['mean', column]:.2f} ± {df.loc['std', column]:.2f}, "
+                f"Median={df.loc['50%', column]:.2f}, "
+                f"IQR={df.loc['25%', column]:.2f}-{df.loc['75%', column]:.2f}, "
+                f"Range={df.loc['min', column]:.2f}-{df.loc['max', column]:.2f}"
             )
 
 
@@ -112,7 +112,7 @@ def compute_print_stats(df: pd.DataFrame) -> None:
     """
     columns = ["Cluster members", "Contamination", "Completeness", TOTAL_LENGTH_COLUMN]
     stats = df[columns].describe()
-    stats[TOTAL_LENGTH_COLUMN] = stats[TOTAL_LENGTH_COLUMN] / 1_000_000
+    stats[TOTAL_LENGTH_COLUMN] = stats[TOTAL_LENGTH_COLUMN] / 1000000
     stats = stats.T
     stats["missing_values"] = df.isnull().sum()
 

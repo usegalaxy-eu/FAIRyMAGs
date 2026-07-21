@@ -89,6 +89,30 @@ Explores the aeromicrobiome (cloud-use-case) dataset from MAG quality to taxonom
 - Relative abundance summaries aggregated at Family, Genus, and Species levels using CoverM coverage
 - Functional annotation summaries using Bakta features and KEGG pathway completeness columns
 
+---
+
+### `helpers.py`
+Reusable notebook functions are placed in helper files under `bin/` to avoid duplicating logic in notebooks.
+
+**Provides:**
+- Data loading utilities (`load_dfs`)
+- Quality summary utilities (`compute_print_stats`, `explore_species_level_clusters_all`)
+- Taxonomy summaries (`compute_taxo_classification_summary`, `get_all_taxo_levels`)
+- Relative abundance summaries (`get_relative_abund_taxo_levels`)
+- Functional summaries (`get_bakta_annot_df`, `get_kegg_path_df`)
+
+#### Import Pattern Used in Notebooks
+
+```python
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str((Path.cwd() / "bin").resolve()))
+sys.path.insert(0, str(Path.cwd().resolve()))
+
+from helpers import ...
+```
+
 ## Files
 
 | File | Description |
@@ -97,6 +121,8 @@ Explores the aeromicrobiome (cloud-use-case) dataset from MAG quality to taxonom
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
 | `use-case-bee-microbiome-expert-evaluation.ipynb` | Expert curation evaluation for bee microbiome |
 | `use-case-aeromicrobiome-exploration.ipynb` | Aeromicrobiome exploratory analysis (quality, taxonomy, abundance, and function) |
+| `helpers.py` | Shared helper functions imported by use-case exploration notebooks |
+| `bee_microbiome_helpers.py` | Bee-specific helper functions for reusable summary logic |
 | `README.md` | This file |
 
 ## Use Cases

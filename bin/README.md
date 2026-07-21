@@ -91,6 +91,46 @@ Explores the aeromicrobiome (cloud-use-case) dataset from MAG quality to taxonom
 
 ---
 
+### `use-case-macroalgal-microbiome-exploration.ipynb`
+Explores the macroalgal microbiome (marine-use-case) dataset from MAG quality to taxonomy, abundance, and functional summaries.
+
+| | |
+|---|---|
+| **Input** | `../data/marine-use-case/`: `metadata.tsv`, `coverm.tsv` |
+| **Input** | `../results/marine-use-case/reps_marine.tsv` |
+| **Output** | In-notebook summary tables for HQ/MQ/LQ clusters, taxonomy classification, and abundance statistics |
+| **Output** | Functional summary tables derived from Bakta and KEGG annotations |
+
+**Analyses:**
+- Data loading and preprocessing of representative cluster table (`reps_marine.tsv`)
+- MAG quality summaries and MIMAG-like partitioning into HQ, MQ, and LQ subsets
+- Taxonomy classification summaries from Domain to Species, including classified/unclassified counts and percentages
+- Taxonomic level summaries (cluster counts and MAG counts) across all ranks
+- Relative abundance summaries aggregated at Family, Genus, and Species levels using CoverM coverage
+- Functional annotation summaries using Bakta features and KEGG pathway completeness columns
+
+---
+
+### `use-case-termite-head-microbiome-exploration.ipynb`
+Explores the termite head microbiome (termite-use-case) dataset from MAG quality to taxonomy, abundance, and functional summaries.
+
+| | |
+|---|---|
+| **Input** | `../data/termite-use-case/`: `metadata.tsv`, `coverm.tsv` |
+| **Input** | `../results/termite-use-case/reps_termite.tsv` |
+| **Output** | In-notebook summary tables for HQ/MQ/LQ clusters, taxonomy classification, and abundance statistics |
+| **Output** | Functional summary tables derived from Bakta and KEGG annotations |
+
+**Analyses:**
+- Data loading and preprocessing of representative cluster table (`reps_termite.tsv`)
+- MAG quality summaries and MIMAG-like partitioning into HQ, MQ, and LQ subsets
+- Taxonomy classification summaries from Domain to Species, including classified/unclassified counts and percentages
+- Taxonomic level summaries (cluster counts and MAG counts) across all ranks
+- Relative abundance summaries aggregated at Family, Genus, and Species levels using CoverM coverage
+- Functional annotation summaries using Bakta features and KEGG pathway completeness columns
+
+---
+
 ### `helpers.py`
 Reusable notebook functions are placed in helper files under `bin/` to avoid duplicating logic in notebooks.
 
@@ -121,6 +161,8 @@ from helpers import ...
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
 | `use-case-bee-microbiome-expert-evaluation.ipynb` | Expert curation evaluation for bee microbiome |
 | `use-case-aeromicrobiome-exploration.ipynb` | Aeromicrobiome exploratory analysis (quality, taxonomy, abundance, and function) |
+| `use-case-macroalgal-microbiome-exploration.ipynb` | Macroalgal microbiome exploratory analysis (quality, taxonomy, abundance, and function) |
+| `use-case-termite-head-microbiome-exploration.ipynb` | Termite head microbiome exploratory analysis (quality, taxonomy, abundance, and function) |
 | `helpers.py` | Shared helper functions imported by use-case exploration notebooks |
 | `bee_microbiome_helpers.py` | Bee-specific helper functions for reusable summary logic |
 | `README.md` | This file |

@@ -70,6 +70,26 @@ Explores MAGs results and expert curation for the bee microbiome MAG use case.
 - Origin-based summaries for MAGs listed vs not listed in the paper
 - Quality metric comparisons (completeness and contamination) between concordant and non-concordant MAGs
 
+---
+
+### `use-case-aeromicrobiome-exploration.ipynb`
+Explores the aeromicrobiome (cloud-use-case) dataset from MAG quality to taxonomy, abundance, and functional summaries.
+
+| | |
+|---|---|
+| **Input** | `../data/cloud-use-case/`: `metadata.tsv`, `coverm.tsv` |
+| **Input** | `../results/cloud-use-case/reps_cloud.tsv` |
+| **Output** | In-notebook summary tables for HQ/MQ/LQ clusters, taxonomy classification, and abundance statistics |
+| **Output** | Functional summary tables derived from Bakta and KEGG annotations |
+
+**Analyses:**
+- Data loading and preprocessing of representative cluster table (`reps_cloud.tsv`)
+- MAG quality summaries and MIMAG-like partitioning into HQ, MQ, and LQ subsets
+- Taxonomy classification summaries from Domain to Species, including classified/unclassified counts and percentages
+- Taxonomic level summaries (cluster counts and MAG counts) across all ranks
+- Relative abundance summaries aggregated at Family, Genus, and Species levels using CoverM coverage
+- Functional annotation summaries using Bakta features and KEGG pathway completeness columns
+
 ## Files
 
 | File | Description |
@@ -77,6 +97,7 @@ Explores MAGs results and expert curation for the bee microbiome MAG use case.
 | `use-case-analysis.ipynb` | Main analysis notebook for MAGs quality and summary tables |
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
 | `use-case-bee-microbiome-exploration.ipynb` | Exploration for bee microbiome |
+| `use-case-aeromicrobiome-exploration.ipynb` | Aeromicrobiome exploratory analysis (quality, taxonomy, abundance, and function) |
 | `README.md` | This file |
 
 ## Use Cases

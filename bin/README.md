@@ -55,17 +55,18 @@ Plots for individual use cases are created in a separate repository:
 
 ---
 
-### `use-case-bee-microbiome-expert-evaluation.ipynb`
-Explores expert curation results for the bee microbiome MAG use case.
+### `use-case-bee-microbiome-exploration.ipynb`
+Explores MAGs results and expert curation for the bee microbiome MAG use case.
 
 | | |
 |---|---|
-| **Input** | `../data/use-cases/bee-microbiome/expert_evaluation.xlsx` |
-| **Output** | Summary tables, violin/strip plots comparing completeness/contamination distributions |
+| **Input** | `../data/use-cases/bee-microbiome/expert_evaluation.xlsx`, `../data/bee-use-case/metadata.tsv`, `../data/bee-use-case/coverm.tsv`, `../results/bee-use-cases/reps_bee.tsv` |
+| **Output** | Summary tables, abundace barplots and PCAs, violin/strip plots comparing completeness/contamination distributions |
 
 **Analyses:**
 - Basic dataset overview (rows, columns, taxonomy assignment coverage)
 - Taxonomic summaries by phylum (counts, percentages, species-level MAG totals)
+- Relative abundance (barplot, PCA)
 - Origin-based summaries for MAGs listed vs not listed in the paper
 - Quality metric comparisons (completeness and contamination) between concordant and non-concordant MAGs
 
@@ -159,7 +160,7 @@ from helpers import ...
 |------|-------------|
 | `use-case-analysis.ipynb` | Main analysis notebook for MAGs quality and summary tables |
 | `pipeline-benchmark.ipynb` | Pipeline comparison notebook |
-| `use-case-bee-microbiome-expert-evaluation.ipynb` | Expert curation evaluation for bee microbiome |
+| `use-case-bee-microbiome-exploration.ipynb` | Exploration for bee microbiome |
 | `use-case-aeromicrobiome-exploration.ipynb` | Aeromicrobiome exploratory analysis (quality, taxonomy, abundance, and function) |
 | `use-case-macroalgal-microbiome-exploration.ipynb` | Macroalgal microbiome exploratory analysis (quality, taxonomy, abundance, and function) |
 | `use-case-termite-head-microbiome-exploration.ipynb` | Termite head microbiome exploratory analysis (quality, taxonomy, abundance, and function) |

@@ -88,9 +88,9 @@ def print_stats(df: pd.DataFrame) -> None:
         if pd.api.types.is_numeric_dtype(df[column]):
             print(
                 f"{column}: {df.loc['mean', column]:.2f} ± {df.loc['std', column]:.2f}, "
-                f"Median={df.loc['50%', column]:.2f}, "
-                f"IQR={df.loc['25%', column]:.2f}-{df.loc['75%', column]:.2f}, "
-                f"Range={df.loc['min', column]:.2f}-{df.loc['max', column]:.2f}"
+                f"Median: {df.loc['50%', column]:.2f}, "
+                f"IQR: {df.loc['25%', column]:.2f}-{df.loc['75%', column]:.2f}, "
+                f"Range: {df.loc['min', column]:.2f}-{df.loc['max', column]:.2f}"
             )
 
 
@@ -356,4 +356,7 @@ def get_kegg_path_df(df: pd.DataFrame) -> pd.DataFrame:
     print("\nAfter removing rows and columns with only zeros:")
     print(f"Clusters: {kegg_path_df.shape[0]}")
     print(f"KEGG modules: {kegg_path_df.shape[1]}")
+    print()
+    non_zero_per_row = (kegg_path_df != 0).sum(axis=1)
+    print_stats(non_zero_per_row.describe().to_frame("KEGG modules"))
     return kegg_path_df

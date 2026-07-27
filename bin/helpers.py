@@ -284,7 +284,11 @@ def get_relative_abundance(df: pd.DataFrame, coverage_df: pd.DataFrame) -> pd.Da
     cov_taxo_df = cov_taxo_df.drop(columns=["Genome"], errors="ignore")
 
     abund_df = cov_taxo_df.groupby(["Family", "Genus", "Species"]).sum(numeric_only=True)
-    abund_df = abund_df.div(abund_df.sum(axis=0), axis=1) * 100
+    mapped = abund_df.sum(axis=0)
+    unmapped = 100 - mapped
+    print_stats(unmapped.describe().to_frame("Unmapped reads"))
+    print_stats(mapped.describe().to_frame("Mapped reads"))
+    abund_df = abund_df.div(mapped, axis=1) * 100
     return abund_df
 
 

@@ -364,3 +364,58 @@ def get_kegg_path_df(df: pd.DataFrame) -> pd.DataFrame:
     non_zero_per_row = (kegg_path_df != 0).sum(axis=1)
     print_stats(non_zero_per_row.describe().to_frame("KEGG modules"))
     return kegg_path_df
+
+
+def read_bakta_gff_file(mag: str, data_dp_2: Path) -> pd.DataFrame:
+    """
+    Read a Bakta GFF3 file for a given MAG.
+
+    Parameters
+    ----------
+    mag:
+        MAG identifier.
+    data_dp_2:
+        Path to the data directory containing the `bakta` subdirectory.
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame containing the parsed GFF3 file.
+    """
+    bakta_fp = data_dp_2 / "bakta" / f"{mag}.gff3"
+    return pd.read_csv(
+        bakta_fp,
+        sep="\t",
+        comment="#",
+        header=None,
+        names=["seqid", "source", "type", "start", "end", "score", "strand", "phase", "attributes"],
+    )
+
+
+def extract_gff_attributes(rrna_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Extract and normalize the attributes column from a GFF3 DataFrame.
+
+    Parameters
+    ----------
+    rrna_df:
+        Input GFF3 DataFrame containing an `attributes` column.
+
+    Returns
+    -------
+    pd.DataFrame
+        DataFrame with normalized attributes as separate columns.
+    """
+    attributes_series = rrna_df["attributes"].fillna("").astype(str)
+
+    # Convert semicolon-separated key=value pairs into a dict per row.
+    parsed_attrs = attributes_series.apply(
+        lambda attr: {
+            key: value
+            for item in attr.split(";")
+            if "=" in item
+            for key, value in [item.split("=", 1)]
+        }
+    )
+
+    return pd.json_normalize(parsed_attrs)

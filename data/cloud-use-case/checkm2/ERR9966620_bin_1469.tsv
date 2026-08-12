@@ -1,0 +1,7 @@
+Name	Completeness	Contamination	Completeness_Model_Used	Translation_Table_Used	Coding_Density	Contig_N50	Average_Gene_Length	Genome_Size	GC_Content	Total_Coding_Sequences	Total_Contigs	Max_Contig_Length	Additional_Notes
+ERR9966620_bin_1469	55.92	3.73	Gradient Boost (General Model)	4	0.836	1894	160.60743693975402	43499712	0.52	76752	22321	27845	Low confidence prediction - substantial (44%) disagreement between completeness prediction models
+ERR9966621_bin_11907	73.44	21.33	Gradient Boost (General Model)	4	0.817	1973	152.68166631273448	77758492	0.51	141270	41275	43054	Low confidence prediction - substantial (26%) disagreement between completeness prediction models
+ERR9966625_bin_1192	74.89	12.26	Gradient Boost (General Model)	4	0.789	2295	141.62627660689944	100689536	0.49	190740	48137	50108	Low confidence prediction - substantial (25%) disagreement between completeness prediction models
+ERR9966627_bin_1747	40.2	15.72	Gradient Boost (General Model)	4	0.827	9282	156.89048213106332	37844392	0.51	68135	4399	71270	Low confidence prediction - substantial (59%) disagreement between completeness prediction models
+ERR9966628_bin_19896	54.7	10.21	Gradient Boost (General Model)	4	0.832	4315	158.16595808383232	74576100	0.52	133600	22771	55726	Low confidence prediction - substantial (45%) disagreement between completeness prediction models
+ERR9966629_bin_12261	34.65	15.11	Gradient Boost (General Model)	4	0.837	7852	147.47076693798004	8970469	0.5	17446	1261	36983	Low confidence prediction - substantial (59%) disagreement between completeness prediction models

@@ -22,22 +22,6 @@ We developed a machine learning framework to predict memory requirements for Met
 
 ---
 
-## Project Deliverables
-
-1. [Workflow available on UseGalaxy Europe and UseGalaxy France servers](https://zenodo.org/records/20490822)
-2. [Tutorial hosted on the Galaxy Training Network and visible on ELIXIR's TeSS](https://zenodo.org/records/20491034)
-3. [Blogpost summarising the hackathon outcomes](https://zenodo.org/records/20491762)
-4. [Prototype and metadata of Galaxy workflow](https://zenodo.org/records/20492418)
-5. [Recovered MAGs for selection of three real-world datasets](https://zenodo.org/records/20492676)
-6. [Data from MGnify with computational resources used for metagenomics assembly](https://zenodo.org/records/20492964)
-7. [Hackathon in Freiburg](https://zenodo.org/records/20493091)
-8. [Blog post: Exploring Microbial Dark Matter: Outcomes of the FAIRyMAGs Hackathon](https://galaxyproject.org/news/2025-10-21-fairymags-hackathon-outcome)
-9. [FAIRyMAGs Hybrid Hackathon 2025: Event overview and objectives](https://galaxyproject.org/events/2025-10-06-fairy-mags-hackathon)
-10. [Training material: Galaxy Training Network: Metagenome-Assembled Genomes (MAGs)](https://galaxyproject.github.io/training-material/learning-pathways/mags.html)
-11. [Preprint: Machine learning-based prediction of memory requirements for metagenomics assembly](https://doi.org/10.64898/2026.05.12.724571)
-
----
-
 ## Project Members
 
 * Paul Zierep (Project lead) - University of Freiburg, ELIXIR Germany
@@ -156,6 +140,20 @@ Install in a conda environment:
 * Follow the step-by-step guide in the [bin/README.md](bin/README.md)
 
 ---
+
+## Project Deliverables
+
+1. [Workflow available on UseGalaxy Europe and UseGalaxy France servers](https://zenodo.org/records/20490822)
+2. [Tutorial hosted on the Galaxy Training Network and visible on ELIXIR's TeSS](https://zenodo.org/records/20491034)
+3. [Blogpost summarising the hackathon outcomes](https://zenodo.org/records/20491762)
+4. [Prototype and metadata of Galaxy workflow](https://zenodo.org/records/20492418)
+5. [Recovered MAGs for selection of three real-world datasets](https://zenodo.org/records/20492676)
+6. [Data from MGnify with computational resources used for metagenomics assembly](https://zenodo.org/records/20492964)
+7. [Hackathon in Freiburg](https://zenodo.org/records/20493091)
+8. [Blog post: Exploring Microbial Dark Matter: Outcomes of the FAIRyMAGs Hackathon](https://galaxyproject.org/news/2025-10-21-fairymags-hackathon-outcome)
+9. [FAIRyMAGs Hybrid Hackathon 2025: Event overview and objectives](https://galaxyproject.org/events/2025-10-06-fairy-mags-hackathon)
+10. [Training material: Galaxy Training Network: Metagenome-Assembled Genomes (MAGs)](https://galaxyproject.github.io/training-material/learning-pathways/mags.html)
+11. [Preprint: Machine learning-based prediction of memory requirements for metagenomics assembly](https://doi.org/10.64898/2026.05.12.724571)
 
 We aim to improve this workflows continuously ! 
 

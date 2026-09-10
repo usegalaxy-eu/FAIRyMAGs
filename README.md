@@ -154,3 +154,9 @@ Install in a conda environment:
 ### Use cases
 
 * Follow the step-by-step guide in the [bin/README.md](bin/README.md)
+
+---
+
+We aim to improve this workflows continuously ! 
+
+![FAIRyMAGs Overview](docs/img/graffiti.png)

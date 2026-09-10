@@ -159,4 +159,4 @@ Install in a conda environment:
 
 We aim to improve this workflows continuously ! 
 
-![FAIRyMAGs Overview](docs/img/graffiti.png)
+![FAIRyMAGs graffiti](docs/img/graffiti.png)

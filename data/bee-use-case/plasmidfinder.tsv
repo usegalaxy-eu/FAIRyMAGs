@@ -1,0 +1,11 @@
+Sample	Database	Plasmid	Identity	Query / Template length	Contig	Position in contig	Note	Accession number
+SRR24759597_binette_bin7.fasta	enterobacteriales	IncFII(pKP91)	100.0	230 / 230	k141_308448	3409..3638		CP000966
+SRR24759598_binette_bin109.fasta	enterobacteriales	IncFII(pKP91)	100.0	230 / 230	k141_121734	61826..62055		CP000966
+SRR24759598_binette_bin109.fasta	enterobacteriales	IncR	99.6	251 / 251	k141_121734	18820..19070		DQ449578
+SRR24759599_binette_bin37.fasta	enterobacteriales	IncR	99.6	251 / 251	k141_108187	563..813		DQ449578
+SRR24759605_binette_bin20.fasta	Inc18	repUS11	95.62	1506 / 1506	k141_900731	34121..35626	AE016832	
+SRR24759609_binette_bin33.fasta	RepA_N	rep9b	96.95	1016 / 1014	k141_492728	6584..7597	prgW(EF62pC)	CP002494
+SRR24759610_binette_bin60.fasta	Inc18	repUS11	97.01	1506 / 1506	k141_66104	3977..5482	AE016832	
+SRR24759610_binette_bin60.fasta	Rep_trans	repUS43	99.92	1206 / 1206	k141_204866	1437..2642	CDS12738(DOp1)	CP003584
+SRR24759613_binette_bin39.fasta	Rep_trans	repUS43	100.0	1206 / 1206	k141_629396	7762..8967	CDS12738(DOp1)	CP003584
+SRR24759614_binette_bin6.fasta	Rep_trans	repUS43	99.92	1206 / 1206	k141_768799	9489..10694	CDS12738(DOp1)	CP003584

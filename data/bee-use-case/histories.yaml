@@ -1,0 +1,52 @@
+use-case: bee
+galaxy-url: https://usegalaxy.eu
+required_tags:
+- publication
+- bee-use-case
+exclude_tags:
+- fail
+- rerun
+histories:
+- name: 'Bee Gut Microbiome: PRJNA977416'
+  id: 11ac94870d0bb33a60eb0c886213fc71
+- name: Short-read quality control and trimming
+  id: 11ac94870d0bb33a3173b1eced0cf524
+- name: Host or Contamination Removal on Short-Reads
+  id: 11ac94870d0bb33aa33b3757886d1d9b
+- name: Metagenome-Assembled Genomes
+  id: 11ac94870d0bb33a808dfa7d28b57a6a
+  datasets:
+  - tag: bin-assembly-quality
+    file: quast.tsv
+  - tag: bin-checkM2-quality
+    file: checkm2.tsv
+  - tag: bin-checkM-quality
+    file: checkm.tsv
+  - tag: bin-coverm-abundance
+    file: coverm.tsv
+  - tag: drep-cluster-assignment
+    file: drep.tsv
+- name: MAGs taxonomy annotation
+  id: 11ac94870d0bb33aee0e6dfbac468f3b
+  datasets:
+  - tag: gtdb-tk-summary
+    file: gtdb.tsv
+    concat: true
+  - tag: kmetashot-summary
+    file: kmetashot.tsv
+- name: MAG Genome Annotation
+  id: 11ac94870d0bb33adb14ea92bcc8b543
+  datasets:
+  - tag: bakta_cut_annotation_summary
+    file: bakta.tsv
+  - tag: intregon_finder_merged_output
+    file: intregon.tsv
+  - tag: isescan_merged_output
+    file: isescan.tsv
+  - tag: plasmidfinder_merged_summary
+    file: plasmidfinder.tsv
+- name: Functional annotation of sequences
+  id: 11ac94870d0bb33a4327dd5ec843282f
+  datasets:
+  - tag: kegg-contig-table
+    file: kegg_pathway_completeness.tsv

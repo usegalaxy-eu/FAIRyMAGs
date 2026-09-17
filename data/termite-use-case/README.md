@@ -6,6 +6,6 @@ Histories:
 * Host and contaminant read removal (step 2): https://usegalaxy.eu/u/paulzierep/h/host-or-contamination-removal-on-short-reads-cdom
 * Sample grouping: https://usegalaxy.eu/u/paulzierep/h/sample-grouping
 * MAGs building and quality control: https://usegalaxy.eu/u/paulzierep/h/metagenome-assembled-genomes-mags-generation-2
-* Taxonomy classification: running
+* Taxonomy classification: https://usegalaxy.eu/u/paulzierep/h/mags-taxonomy-annotation-1
 * Genome annotation: https://usegalaxy.eu/u/paulzierep/h/mag-genome-annotation-parallel-1 (running)
 * Functional annotation: https://usegalaxy.eu/u/paulzierep/h/functional-annotation-of-sequences-2 (running)

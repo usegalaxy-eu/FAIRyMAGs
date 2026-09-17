@@ -1,0 +1,54 @@
+use-case: marine
+galaxy-url: https://usegalaxy.eu
+required_tags:
+- publication
+- macroalgal-use-case
+exclude_tags:
+- fail
+- rerun
+histories:
+- name: 'Macroalgal Epiphytic Microbiome: PRJNA915238'
+  id: 11ac94870d0bb33add7d1de4be2eb7e3
+  datasets:
+  - tag: metadata
+    file: metadata.tsv
+    concat: true
+- name: Short-read quality control and trimming
+  id: 11ac94870d0bb33a22dfb723ebdbedf3
+- name: Metagenome-Assembled Genomes
+  id: 11ac94870d0bb33acf3632139ddbc8bb
+  datasets:
+  - tag: bin-assembly-quality
+    file: quast.tsv
+  - tag: bin-checkM2-quality
+    file: checkm2.tsv
+  - tag: bin-checkM-quality
+    file: checkm.tsv
+  - tag: bin-coverm-sample-coverage
+    file: coverm.tsv
+  - tag: drep-cluster-assignment
+    file: drep.tsv
+- name: MAGs taxonomy annotation
+  id: 11ac94870d0bb33ad272db1ee012e77f
+  datasets:
+  - tag: gtdb-tk-summary
+    file: gtdb.tsv
+    concat: true
+  - tag: kmetashot-summary
+    file: kmetashot.tsv
+- name: MAG Genome Annotation
+  id: 11ac94870d0bb33a57f7e3b10736086e
+  datasets:
+  - tag: bakta_cut_annotation_summary
+    file: bakta.tsv
+  - tag: intregon_finder_merged_output
+    file: intregon.tsv
+  - tag: isescan_merged_output
+    file: isescan.tsv
+  - tag: plasmidfinder_merged_summary
+    file: plasmidfinder.tsv
+- name: Functional annotation of sequences
+  id: 11ac94870d0bb33a20073dfc1ba40067
+  datasets:
+  - tag: kegg-contig-table
+    file: kegg_pathway_completeness.tsv

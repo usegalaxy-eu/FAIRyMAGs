@@ -73,10 +73,10 @@ We developed a machine learning framework to predict memory requirements for Met
 
 #### MAGs Annotation
 
-* [Taxonomy annotation](https://iwc.galaxyproject.org/workflow/mags-taxonomy-annotation-main/)
-* [AMR gene detection](https://iwc.galaxyproject.org/workflow/amr_gene_detection-main/)
-* [Bacterial genome annotation](https://iwc.galaxyproject.org/workflow/bacterial_genome_annotation-main/)
-* [Functional annotation of protein sequences](https://iwc.galaxyproject.org/workflow/functional-annotation-protein-sequences-main)
+* [MAGs Taxonomy Annotation](https://iwc.galaxyproject.org/workflow/mags-taxonomy-annotation-main/)
+* [AMR Gene Detection](https://iwc.galaxyproject.org/workflow/amr_gene_detection-main/)
+* [MAG Genome Annotation](https://iwc.galaxyproject.org/workflow/mag-genome-annotation-parallel-main/)
+* [Functional Annotation of Sequences](https://iwc.galaxyproject.org/workflow/functional-annotation-of-sequences-main/)
 
 #### Differential Abundance Analysis
 
@@ -96,9 +96,9 @@ We developed a machine learning framework to predict memory requirements for Met
 | **Assembly & Binning** | | |
 | MAGs Building | Assembly, binning, and quality assessment of metagenome-assembled genomes | [IWC](https://iwc.galaxyproject.org/workflow/mags-building-main/) |
 | **Annotation** | | |
-| Taxonomy Annotation | GTDB-Tk taxonomy classification of MAGs | [IWC](https://iwc.galaxyproject.org/workflow/mags-taxonomy-annotation-main/) |
-| Bacterial Genome Annotation | BAKTA-based genome annotation | [IWC](https://iwc.galaxyproject.org/workflow/bacterial_genome_annotation-main/) |
-| Functional Annotation | EggNOG-mapper functional annotation of protein sequences | [IWC](https://iwc.galaxyproject.org/workflow/functional-annotation-protein-sequences-main/) |
+| MAGs Taxonomy Annotation | GTDB-Tk taxonomy classification of MAGs | [IWC](https://iwc.galaxyproject.org/workflow/mags-taxonomy-annotation-main/) |
+| MAG Genome Annotation | BAKTA-based genome annotation | [IWC](https://iwc.galaxyproject.org/workflow/mag-genome-annotation-parallel-main/) |
+| Functional Annotation of Sequences | EggNOG-mapper functional annotation of protein sequences | [IWC](https://iwc.galaxyproject.org/workflow/functional-annotation-of-sequences-main/) |
 | AMR Gene Detection | Antimicrobial resistance gene identification | [IWC](https://iwc.galaxyproject.org/workflow/amr_gene_detection-main/) |
 | **Analysis** | | |
 | MaAsLin 2 | Multivariable associations with linear models | [UseGalaxy.eu](https://usegalaxy.eu/?tool_id=toolshed.g2.bx.psu.edu%2Frepos%2Fiuc%2Fmaaslin2%2Fmaaslin2%2F1.18.0%2Bgalaxy0&version=latest) |

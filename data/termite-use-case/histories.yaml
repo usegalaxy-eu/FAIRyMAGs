@@ -1,0 +1,58 @@
+use-case: termite
+galaxy-url: https://usegalaxy.eu
+required_tags:
+- publication
+- termite-use-case
+exclude_tags:
+- fail
+- rerun
+histories:
+- name: Termite Head Microbiome
+  id: 11ac94870d0bb33a67bb6eb8645af976
+- name: Termite_head_microbiome extra files
+  id: 11ac94870d0bb33a4a7704847d6fb137
+- name: Short-read quality control and trimming
+  id: 11ac94870d0bb33a60d55b8fe439d81b
+- name: Host or Contamination Removal on Short-Reads (Cryptotermes secundus isolate)
+  id: 11ac94870d0bb33a3a135de4bec155d5
+- name: Host or Contamination Removal on Short-Reads (Cdom)
+  id: 11ac94870d0bb33ada076e9856665380
+- name: Sample Grouping
+  id: 11ac94870d0bb33aa2437ee428efd50a
+- name: Metagenome-Assembled Genomes
+  id: 11ac94870d0bb33ac1eded115325db2a
+  datasets:
+  - tag: bin-assembly-quality
+    file: quast.tsv
+  - tag: bin-checkM2-quality
+    file: checkm2.tsv
+  - tag: bin-checkM-quality
+    file: checkm.tsv
+  - tag: bin-coverm-sample-coverage
+    file: coverm.tsv
+  - tag: drep-cluster-assignment
+    file: drep.tsv
+- name: MAGs taxonomy annotation
+  id: 11ac94870d0bb33a695a9345962254bc
+  datasets:
+  - tag: gtdb-tk-summary
+    file: gtdb.tsv
+    concat: true
+  - tag: kmetashot-summary
+    file: kmetashot.tsv
+- name: MAG Genome Annotation
+  id: 11ac94870d0bb33a7b42f3edecb9669f
+  datasets:
+  - tag: bakta_cut_annotation_summary
+    file: bakta.tsv
+  - tag: intregon_finder_merged_output
+    file: intregon.tsv
+  - tag: isescan_merged_output
+    file: isescan.tsv
+  - tag: plasmidfinder_merged_summary
+    file: plasmidfinder.tsv
+- name: Functional annotation of sequences
+  id: 11ac94870d0bb33a911115ddc90f2697
+  datasets:
+  - tag: kegg-contig-table
+    file: kegg_pathway_completeness.tsv

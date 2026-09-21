@@ -31,7 +31,7 @@ histories:
 - name: MAGs taxonomy annotation
   id: 11ac94870d0bb33ad272db1ee012e77f
   datasets:
-  - tag: gtdb-tk-summary
+  - tag: joined_gtdb_map
     file: gtdb.tsv
     concat: true
   - tag: kmetashot-summary

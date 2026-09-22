@@ -1,3 +1,5 @@
+# Termite head microbiome use case
+
 Histories: 
 * Input: https://usegalaxy.eu/u/paulzierep/h/termite-head-microbiome
 * Extra Files: https://usegalaxy.eu/u/paulzierep/h/termite-head-microbiome-extra-files (Reference genomes and a grouping file to group the reads for co-assembly)

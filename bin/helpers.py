@@ -33,6 +33,23 @@ def notebook_display(obj: object) -> None:
         print(obj)
 
 
+def resolve_uc_path(uc_name: str) -> tuple[Path, Path]:
+    """Resolve the data and result directories for a given use-case name.
+    
+    Parameters
+    ----------
+    uc_name:
+        Name of the use-case.
+
+    Returns
+    -------
+    tuple[Path, Path]
+        Data and result directories for the use-case.
+    """
+    data_dp = Path("../data/use-cases/") / uc_name
+    result_dp = Path("../results/use-cases/") / uc_name
+    return data_dp, result_dp
+
 def tax_label(classification):
     """Return lowest resolved rank with GTDB prefix if not species-level.
     
@@ -76,6 +93,8 @@ def clean_genome_name(genome_series: pd.Series, pattern: str = r"\.fasta$") -> p
     return genome_series.str.replace(pattern, "", regex=True)
 
 
+
+
 def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "", to_tranpose=False) -> pd.DataFrame:
     """Load a DataFrame and optionally clean genome names.
 
@@ -113,21 +132,21 @@ def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "
     return df
 
 
-def load_dfs(data_dp: Path, result_dp: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+def load_dfs(uc_name) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Load dataframes from the use-case data directories and merge them for analysis.
 
     Parameters
     ----------
-    data_dp:
-        Path to the use-case data directory containing `metadata.tsv` and `coverm.tsv`.
-    result_dp:
-        Path to the use-case results directory containing the representative MAG table.
+    uc_name:
+        Name of the use-case.
 
     Returns
     -------
     tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]
         Metadata, representative MAGs, and coverage DataFrames in that order.
     """
+    data_dp, result_dp = resolve_uc_path(uc_name)
+
     metadata_df = _load_metadata(data_dp)
     coverage_df = load_df(data_dp / "coverm.tsv")
 

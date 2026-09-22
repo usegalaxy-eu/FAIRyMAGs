@@ -8,6 +8,10 @@ from typing import Sequence
 
 import pandas as pd
 
+TOTAL_LENGTH_COLUMN = "Total length"
+UNCLASSIFIED_CLUSTERS_COLUMN = "Unclassified clusters"
+TAXONOMY_COLS = ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
+
 
 def notebook_display(obj: object) -> None:
     """Display an object in notebook environments with a safe console fallback.
@@ -28,47 +32,363 @@ def notebook_display(obj: object) -> None:
     except ImportError:
         print(obj)
 
-TOTAL_LENGTH_COLUMN = "Total length"
-UNCLASSIFIED_CLUSTERS_COLUMN = "Unclassified clusters"
-TAXONOMY_COLS = ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
 
+def tax_label(classification):
+    """Return lowest resolved rank with GTDB prefix if not species-level.
+    
+    Parameters
+    ----------
+    classification:
+        GTDB classification string.
 
-def load_dfs(data_dp_2: Path, result_dp: Path, rep_fn: str) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
-    """Load metadata, representative MAG table, and coverage table.
+    Returns
+    -------
+    str
+        Lowest resolved taxonomic rank with GTDB prefix if not species-level, or "no GTDB hit" if unavailable.
+    """
+    if pd.isna(classification):
+        return "no GTDB hit"
+    ranks = [("s__", None), ("g__", "g__"), ("f__", "f__"), ("p__", "p__")]
+    for prefix, label in ranks:
+        for part in str(classification).split(";"):
+            part = part.strip()
+            if part.startswith(prefix):
+                name = part[len(prefix):].strip()
+                if name:
+                    return name if label is None else f"{label}{name}"
+    return "no GTDB hit"
+
+def clean_genome_name(genome_series: pd.Series, pattern: str = r"\.fasta$") -> pd.Series:
+    """Remove specified suffix from genome names in a pandas Series.
 
     Parameters
     ----------
-    data_dp_2:
+    genome_series:
+        Pandas Series containing genome names.
+    pattern:
+        Regex pattern to match the suffix to remove (default is `.fasta`).
+
+    Returns
+    -------
+    pd.Series
+        Pandas Series with `.fasta` suffix removed from genome names.
+    """
+    return genome_series.str.replace(pattern, "", regex=True)
+
+
+def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "", to_tranpose=False) -> pd.DataFrame:
+    """Load a DataFrame and optionally clean genome names.
+
+    Parameters
+    ----------
+    df_dp:
+        Path to the CSV file containing the DataFrame to load.
+    sep:
+        Delimiter to use for parsing the CSV file (default is tab).
+    index_col:
+        Column index to use as the row labels of the DataFrame. If -1, no index column is used.
+    genome_name_col:
+        Column name to clean genome names in by removing `.fasta` suffix. If empty, no cleaning is done.
+    to_tranpose:
+        If True, transpose the DataFrame after loading and clean genome names in the index. 
+    clean_genome_name:
+        Column name to clean genome names in by removing `.fasta` suffix. If empty, no cleaning is done.
+
+    Returns
+    -------
+    pd.DataFrame
+        Processed DataFrame with optional genome name cleaning.
+    """
+    if index_col == -1:
+        df = pd.read_csv(df_dp, sep=sep)
+    else:
+        df = pd.read_csv(df_dp, sep=sep, index_col=index_col)
+    if genome_name_col != "" and genome_name_col in df.columns:
+        df[genome_name_col] = clean_genome_name(df[genome_name_col])
+    elif genome_name_col != "" and genome_name_col not in df.columns:
+        print(f"Warning: Column '{genome_name_col}' not found in DataFrame. No cleaning applied.")
+    if to_tranpose:
+        df = df.T
+        df.index = clean_genome_name(df.index)
+    return df
+
+
+def load_dfs(data_dp: Path, result_dp: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Load dataframes from the use-case data directories and merge them for analysis.
+
+    Parameters
+    ----------
+    data_dp:
         Path to the use-case data directory containing `metadata.tsv` and `coverm.tsv`.
     result_dp:
         Path to the use-case results directory containing the representative MAG table.
-    rep_fn:
-        File name of the representative MAG table (for example `reps_cloud.tsv`).
 
     Returns
     -------
     tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]
         Metadata, representative MAGs, and coverage DataFrames in that order.
     """
-    metadata_fp = data_dp_2 / "metadata.tsv"
+    metadata_df = _load_metadata(data_dp)
+    coverage_df = load_df(data_dp / "coverm.tsv")
+
+    reps_df, drep_df = _build_base_reps_df(data_dp)
+    reps_df = _add_taxonomy_ranks(reps_df)
+    reps_df = _add_cluster_sizes(reps_df, drep_df)
+
+    merged_cols: list[str] = []
+    for merge_fn in (_merge_quast, _merge_bakta, _merge_checkm_v1, _merge_coverm, _merge_kegg):
+        reps_df, cols = merge_fn(reps_df, data_dp)
+        merged_cols += cols
+
+    reps_df = _finalize_reps_df(reps_df, merged_cols)
+
+    reps_fp = result_dp / "reps.tsv"
+    reps_df.to_csv(reps_fp, sep="\t", index=False)
+
+    return metadata_df, reps_df, coverage_df
+
+
+def _load_metadata(data_dp: Path) -> pd.DataFrame:
+    """Load metadata table, returning an empty DataFrame if missing.
+    
+    Parameters
+    ----------
+    data_dp:
+        Path to the use-case data directory containing `metadata.tsv`.  
+    
+        
+    Returns
+    -------
+    pd.DataFrame
+        Metadata DataFrame if the file exists, otherwise an empty DataFrame.
+    """
+    metadata_fp = data_dp / "metadata.tsv"
     if not metadata_fp.exists():
         print(f"Metadata file not found: {metadata_fp}")
-        metadata_df = pd.DataFrame()
-    else:
-        metadata_df = pd.read_csv(metadata_fp, sep="\t")
+        return pd.DataFrame()
+    return load_df(metadata_fp)
 
-    reps_fp = result_dp / rep_fn
-    reps_df = pd.read_csv(reps_fp, sep="\t")
-    for column in ["Completeness", "Contamination"]:
-        if column in reps_df.columns:
-            reps_df[column] = pd.to_numeric(
-                reps_df[column].astype(str).str.replace("%", "", regex=False).str.strip(),
-                errors="coerce",
-            )
 
-    coverage_fp = data_dp_2 / "coverm.tsv"
-    coverage_df = pd.read_csv(coverage_fp, sep="\t")
-    return metadata_df, reps_df, coverage_df
+def _build_base_reps_df(data_dp: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Load CheckM2, GTDB, and drep tables, and merge them into a base reps DataFrame.
+
+    Returns
+    -------
+    tuple[pd.DataFrame, pd.DataFrame]
+        The merged representative MAGs DataFrame and the drep DataFrame.
+    """
+    drep_df = load_df(data_dp / "drep.tsv", genome_name_col="genome", sep=",")
+    checkm_df = load_df(data_dp / "checkm2.tsv", genome_name_col="Name")
+    gtdb_df = load_df(data_dp / "gtdb.tsv", genome_name_col="user_genome")
+
+    reps_df = pd.merge(checkm_df, gtdb_df, left_on="Name", right_on="user_genome", how="left")
+
+    reps_df = reps_df.sort_values("Completeness", ascending=False).copy()
+    reps_df["Completeness"] = reps_df["Completeness"].round(1)
+    reps_df["Contamination"] = reps_df["Contamination"].round(2)
+
+    return reps_df, drep_df
+
+
+def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
+    """Extract all taxonomy ranks from GTDB classification and handle missing species.
+    
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `classification` column.
+
+    Returns
+    -------
+    pd.DataFrame
+        Updated reps_df with separate columns for each taxonomy rank and missing species filled with "no GTDB hit".
+    """
+    for rank in ["domain", "phylum", "class", "order", "family", "genus", "species"]:
+        reps_df[rank] = reps_df["classification"].apply(lambda x: extract_rank(x, rank))
+    reps_df.loc[reps_df["species"].isna(), "species"] = "no GTDB hit"
+    return reps_df
+
+
+def _add_cluster_sizes(reps_df: pd.DataFrame, drep_df: pd.DataFrame) -> pd.DataFrame:
+    """Compute species-level cluster sizes and add them to reps_df.
+    
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    drep_df:
+        dRep clustering DataFrame containing `genome` and `secondary_cluster` columns.
+
+    Returns
+    -------
+    pd.DataFrame
+        Updated reps_df with a "Cluster members" column indicating species-level cluster sizes.
+    """
+    cluster_size_map = drep_df.groupby("secondary_cluster").size().to_dict()
+    genome_to_cluster = drep_df.set_index("genome")["secondary_cluster"].to_dict()
+    reps_df["Cluster members"] = reps_df["Name"].map(
+        lambda n: cluster_size_map.get(genome_to_cluster.get(n), 0)
+    )
+    return reps_df
+
+
+def _merge_quast(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+    """Load QUAST table and merge assembly stats into reps_df.
+    
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    data_dp:
+        Path to the use-case data directory containing `quast.tsv`.
+
+    Returns
+    -------
+    tuple[pd.DataFrame, list[str]]
+        Updated reps_df with QUAST assembly stats merged, and a list of the added column names
+    """
+    quast_df = load_df(data_dp / "quast.tsv", index_col=0, genome_name_col="", to_tranpose=True)
+    quast_cols = [c for c in quast_df.columns if c != "Assembly"]
+    quast_df = quast_df[quast_cols]
+    reps_df = pd.merge(reps_df, quast_df, left_on="Name", right_index=True, how="left")
+    return reps_df, quast_df.columns.tolist()
+
+
+def _merge_bakta(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+    """Load Bakta annotations and merge prefixed counts into reps_df.
+    
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    data_dp:
+        Path to the use-case data directory containing `bakta.tsv`.
+
+    Returns
+    -------
+    tuple[pd.DataFrame, list[str]]
+        Updated reps_df with Bakta annotation counts merged, and a list of the added column names
+    """
+    bakta_df = load_df(data_dp / "bakta.tsv", index_col=0, genome_name_col="", to_tranpose=True)
+    bakta_df.index = clean_genome_name(bakta_df.index, pattern=r"\.fasta_2$")
+    bakta_cols = [c for c in bakta_df.columns if c not in ("Annotation", "Count")]
+    bakta_df = bakta_df[bakta_cols].add_prefix("bakta_")
+    reps_df = pd.merge(reps_df, bakta_df, left_on="Name", right_index=True, how="left")
+    return reps_df, bakta_df.columns.tolist()
+
+
+def _merge_checkm_v1(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+    """Load CheckM (v1) stats and merge selected columns into reps_df.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    data_dp:
+        Path to the use-case data directory containing `checkm.tsv`.
+
+    Returns
+    -------
+    tuple[pd.DataFrame, list[str]]
+        Updated reps_df with CheckM (v1) stats merged, and a list of the added column names
+    """
+    checkm_v1_df = pd.read_csv(data_dp / "checkm.tsv", sep="\t")
+    checkm_v1_df["Bin Id"] = clean_genome_name(checkm_v1_df["Bin Id"])
+    checkm_v1_df = checkm_v1_df.set_index("Bin Id")
+    checkm_v1_cols = ["Strain heterogeneity", "# markers", "# marker sets"]
+    checkm_v1_df = checkm_v1_df[checkm_v1_cols]
+    reps_df = pd.merge(reps_df, checkm_v1_df, left_on="Name", right_index=True, how="left")
+    return reps_df, checkm_v1_df.columns.tolist()
+
+
+def _merge_coverm(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+    """Load CoverM stats, compute mean coverage per genome, and merge into reps_df.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    data_dp:
+        Path to the use-case data directory containing `coverm.tsv`.
+
+    Returns
+    -------
+    tuple[pd.DataFrame, list[str]]
+        Updated reps_df with CoverM mean coverage merged, and a list of the added column names
+    """
+    coverm_df = pd.read_csv(data_dp / "coverm.tsv", sep="\t")
+    coverm_df["Genome"] = clean_genome_name(coverm_df["Genome"])
+    coverm_df = coverm_df.set_index("Genome").mean(axis=1).rename("coverm_mean_coverage").to_frame()
+    reps_df = pd.merge(reps_df, coverm_df, left_on="Name", right_index=True, how="left")
+    return reps_df, coverm_df.columns.tolist()
+
+
+def _merge_kegg(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+    """Load KEGG pathway completeness table, pivot to wide format, and merge into reps_df.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    data_dp:
+        Path to the use-case data directory containing `kegg_pathway_completeness.tsv`.
+
+    Returns
+    -------
+    tuple[pd.DataFrame, list[str]]
+        Updated reps_df with KEGG pathway completeness merged, and a list of the added column names
+    """
+    kegg_df = pd.read_csv(data_dp / "kegg_pathway_completeness.tsv", sep="\t")
+    kegg_df["contig"] = clean_genome_name(kegg_df["contig"])
+    kegg_df = kegg_df.pivot_table(
+        index="contig", columns="pathway_name", values="completeness", aggfunc="max"
+    ).add_prefix("kegg_")
+    reps_df = pd.merge(reps_df, kegg_df, left_on="Name", right_index=True, how="left")
+    return reps_df, kegg_df.columns.tolist()
+
+
+def _finalize_reps_df(reps_df: pd.DataFrame, merged_cols: list[str]) -> pd.DataFrame:
+    """Rename base columns, select final column order, and reset the index.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `Name` column.
+    merged_cols:
+        List of column names that were merged into reps_df.
+
+    Returns
+    -------
+    pd.DataFrame
+        Finalized reps_df with renamed columns, selected order, and reset index.
+    """
+    reps_df = reps_df.rename(columns={
+        "Name": "MAG",
+        "domain": "Domain",
+        "phylum": "Phylum",
+        "class": "Class",
+        "order": "Order",
+        "family": "Family",
+        "genus": "Genus",
+        "species": "Species",
+    })
+
+    all_cols = [
+        "MAG",
+        "Domain",
+        "Phylum",
+        "Class",
+        "Order",
+        "Family",
+        "Genus",
+        "Species",
+        "Cluster members",
+        "Completeness",
+        "Contamination",
+    ]
+    all_cols += merged_cols
+    reps_df = reps_df[all_cols]
+    return reps_df.reset_index(drop=True)
 
 
 def print_stats(df: pd.DataFrame) -> None:
@@ -364,3 +684,40 @@ def get_kegg_path_df(df: pd.DataFrame) -> pd.DataFrame:
     non_zero_per_row = (kegg_path_df != 0).sum(axis=1)
     print_stats(non_zero_per_row.describe().to_frame("KEGG modules"))
     return kegg_path_df
+
+
+
+def extract_rank(classification, rank):
+    """Extract a GTDB rank from a classification string.
+    
+    Parameters
+    ----------
+    classification:
+        GTDB classification string (semicolon-separated).
+    rank:
+        Taxonomic rank to extract (one of "domain", "phylum", "class",
+                "order", "family", "genus", "species").
+
+    Returns
+    -------
+    str or None
+        Extracted taxonomic name for the specified rank, or "unclassified" if not found, or None if the classification is NaN or the rank is invalid.
+    """
+    prefix_map = {
+        "domain": "d__", "phylum": "p__", "class": "c__",
+        "order": "o__", "family": "f__", "genus": "g__", "species": "s__"
+    }
+    prefix = prefix_map.get(rank)
+    if pd.isna(classification) or not prefix:
+        return None
+    for part in str(classification).split(";"):
+        part = part.strip()
+        if part.startswith(prefix):
+            name = part[len(prefix):].strip()
+            return name if name else "unclassified"
+    if rank == "domain":
+        cls = str(classification).strip()
+        for domain_name in ["Bacteria", "Archaea"]:
+            if domain_name in cls:
+                return domain_name
+    return "unclassified"

@@ -1,3 +1,5 @@
+# Macroalgal epiphytic microbiome use case
+
 Histories: 
 * Input: https://usegalaxy.eu/u/paulzierep/h/macroalgal-epiphytic-microbiome-prjna915238
 * Quality control of raw data: https://usegalaxy.eu/u/paulzierep/h/short-read-quality-control-and-trimming-2

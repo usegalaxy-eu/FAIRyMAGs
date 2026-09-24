@@ -50,6 +50,7 @@ def resolve_uc_path(uc_name: str) -> tuple[Path, Path]:
     result_dp = Path("../results/use-cases/") / uc_name
     return data_dp, result_dp
 
+
 def tax_label(classification):
     """Return lowest resolved rank with GTDB prefix if not species-level.
     
@@ -64,7 +65,7 @@ def tax_label(classification):
         Lowest resolved taxonomic rank with GTDB prefix if not species-level, or "no GTDB hit" if unavailable.
     """
     if pd.isna(classification):
-        return "no GTDB hit"
+        return ""
     ranks = [("s__", None), ("g__", "g__"), ("f__", "f__"), ("p__", "p__")]
     for prefix, label in ranks:
         for part in str(classification).split(";"):
@@ -73,7 +74,8 @@ def tax_label(classification):
                 name = part[len(prefix):].strip()
                 if name:
                     return name if label is None else f"{label}{name}"
-    return "no GTDB hit"
+    return ""
+
 
 def clean_genome_name(genome_series: pd.Series, pattern: str = r"\.fasta$") -> pd.Series:
     """Remove specified suffix from genome names in a pandas Series.
@@ -91,8 +93,6 @@ def clean_genome_name(genome_series: pd.Series, pattern: str = r"\.fasta$") -> p
         Pandas Series with `.fasta` suffix removed from genome names.
     """
     return genome_series.str.replace(pattern, "", regex=True)
-
-
 
 
 def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "", to_tranpose=False) -> pd.DataFrame:
@@ -122,13 +122,13 @@ def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "
         df = pd.read_csv(df_dp, sep=sep)
     else:
         df = pd.read_csv(df_dp, sep=sep, index_col=index_col)
+    if to_tranpose:
+        df = df.T
+        df.index = clean_genome_name(df.index)
     if genome_name_col != "" and genome_name_col in df.columns:
         df[genome_name_col] = clean_genome_name(df[genome_name_col])
     elif genome_name_col != "" and genome_name_col not in df.columns:
         print(f"Warning: Column '{genome_name_col}' not found in DataFrame. No cleaning applied.")
-    if to_tranpose:
-        df = df.T
-        df.index = clean_genome_name(df.index)
     return df
 
 
@@ -174,7 +174,6 @@ def _load_metadata(data_dp: Path) -> pd.DataFrame:
     ----------
     data_dp:
         Path to the use-case data directory containing `metadata.tsv`.  
-    
         
     Returns
     -------
@@ -222,9 +221,13 @@ def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
     pd.DataFrame
         Updated reps_df with separate columns for each taxonomy rank and missing species filled with "no GTDB hit".
     """
+    taxonomy = reps_df["closest_genome_taxonomy"].combine_first(
+        reps_df["pplacer_taxonomy"]
+    )
     for rank in ["domain", "phylum", "class", "order", "family", "genus", "species"]:
-        reps_df[rank] = reps_df["classification"].apply(lambda x: extract_rank(x, rank))
-    reps_df.loc[reps_df["species"].isna(), "species"] = "no GTDB hit"
+        reps_df[rank] = taxonomy.apply(lambda value: extract_rank(value, rank))
+        reps_df[rank] = reps_df[rank].fillna("unclassified")
+
     return reps_df
 
 
@@ -288,8 +291,8 @@ def _merge_bakta(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, li
     tuple[pd.DataFrame, list[str]]
         Updated reps_df with Bakta annotation counts merged, and a list of the added column names
     """
-    bakta_df = load_df(data_dp / "bakta.tsv", index_col=0, genome_name_col="", to_tranpose=True)
-    bakta_df.index = clean_genome_name(bakta_df.index, pattern=r"\.fasta_2$")
+    bakta_df = load_df(data_dp / "bakta.tsv", index_col=0, to_tranpose=True)
+    bakta_df.index = clean_genome_name(bakta_df.index, pattern=r"\.fasta_Count$")
     bakta_cols = [c for c in bakta_df.columns if c not in ("Annotation", "Count")]
     bakta_df = bakta_df[bakta_cols].add_prefix("bakta_")
     reps_df = pd.merge(reps_df, bakta_df, left_on="Name", right_index=True, how="left")
@@ -499,8 +502,8 @@ def explore_species_level_clusters_all(df: pd.DataFrame) -> None:
         This function prints cluster summaries and does not return a value.
     """
     explore_species_level_clusters(df, 100)
-    explore_species_level_clusters(df, 5)
-    explore_species_level_clusters(df, 10)
+    #explore_species_level_clusters(df, 5)
+    #explore_species_level_clusters(df, 10)
 
 
 def compute_taxo_classification_summary(
@@ -621,9 +624,10 @@ def get_relative_abundance(df: pd.DataFrame, coverage_df: pd.DataFrame) -> pd.Da
         how="left",
     )
     cov_taxo_df = cov_taxo_df.drop(columns=["Genome"], errors="ignore")
-
+    
     abund_df = cov_taxo_df.groupby(["Family", "Genus", "Species"]).sum(numeric_only=True)
     mapped = abund_df.sum(axis=0)
+    #print(mapped)
     unmapped = 100 - mapped
     print_stats(unmapped.describe().to_frame("Unmapped reads"))
     print_stats(mapped.describe().to_frame("Mapped reads"))
@@ -705,7 +709,6 @@ def get_kegg_path_df(df: pd.DataFrame) -> pd.DataFrame:
     return kegg_path_df
 
 
-
 def extract_rank(classification, rank):
     """Extract a GTDB rank from a classification string.
     
@@ -723,8 +726,13 @@ def extract_rank(classification, rank):
         Extracted taxonomic name for the specified rank, or "unclassified" if not found, or None if the classification is NaN or the rank is invalid.
     """
     prefix_map = {
-        "domain": "d__", "phylum": "p__", "class": "c__",
-        "order": "o__", "family": "f__", "genus": "g__", "species": "s__"
+        "domain": "d__",
+        "phylum": "p__",
+        "class": "c__",
+        "order": "o__",
+        "family": "f__",
+        "genus": "g__",
+        "species": "s__",
     }
     prefix = prefix_map.get(rank)
     if pd.isna(classification) or not prefix:

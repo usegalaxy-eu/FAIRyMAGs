@@ -4,14 +4,14 @@ from __future__ import annotations
 
 import importlib
 from pathlib import Path
-from typing import Sequence
 
 import pandas as pd
+from Bio import Entrez
 
 TOTAL_LENGTH_COLUMN = "Total length"
 UNCLASSIFIED_CLUSTERS_COLUMN = "Unclassified clusters"
 TAXONOMY_COLS = ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
-
+Entrez.email = "berenice.batut@gmail.com"
 
 def notebook_display(obj: object) -> None:
     """Display an object in notebook environments with a safe console fallback.
@@ -108,10 +108,8 @@ def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "
         Column index to use as the row labels of the DataFrame. If -1, no index column is used.
     genome_name_col:
         Column name to clean genome names in by removing `.fasta` suffix. If empty, no cleaning is done.
-    to_tranpose:
-        If True, transpose the DataFrame after loading and clean genome names in the index. 
-    clean_genome_name:
-        Column name to clean genome names in by removing `.fasta` suffix. If empty, no cleaning is done.
+    to_transpose:
+        If True, transpose the DataFrame after loading and clean genome names in the index.
 
     Returns
     -------
@@ -199,13 +197,43 @@ def _build_base_reps_df(data_dp: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
     checkm_df = load_df(data_dp / "checkm2.tsv", genome_name_col="Name")
     gtdb_df = load_df(data_dp / "gtdb.tsv", genome_name_col="user_genome")
 
+    kmetashot_df = load_df(data_dp / "kmetashot.tsv", sep=",", index_col=0, genome_name_col="bin").add_prefix("kmetashot_")
+    kmetashot_df["kmetashot_bin"] = clean_genome_name(kmetashot_df["kmetashot_bin"])
+    kmetashot_df = kmetashot_df.astype(str).replace("nan", pd.NA)
+
     reps_df = pd.merge(checkm_df, gtdb_df, left_on="Name", right_on="user_genome", how="left")
+    reps_df = pd.merge(reps_df, kmetashot_df, left_on="Name", right_on="kmetashot_bin", how="left")
 
     reps_df = reps_df.sort_values("Completeness", ascending=False).copy()
     reps_df["Completeness"] = reps_df["Completeness"].round(1)
     reps_df["Contamination"] = reps_df["Contamination"].round(2)
 
     return reps_df, drep_df
+
+
+def get_ncbi_scientific_name(taxon_id: int) -> str:
+    """Retrieve the scientific name for a given NCBI taxon ID using Entrez.
+
+    Parameters
+    ----------
+    taxon_id:
+        NCBI taxon ID to look up.
+    
+    Returns
+    -------
+    str
+        Scientific name corresponding to the taxon ID, or "unclassified" if not found.
+    """
+    if taxon_id != 0:
+        try:
+            stream = Entrez.efetch(db="Taxonomy", id=str(taxon_id), retmode="xml")
+            records = Entrez.read(stream)
+            return records[0]["ScientificName"]
+        except Exception as e:
+            print(f"Error retrieving scientific name for taxon ID {taxon_id}: {e}")
+            return "unclassified"
+    else:
+        return "unclassified"
 
 
 def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
@@ -224,8 +252,15 @@ def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
     taxonomy = reps_df["closest_genome_taxonomy"].combine_first(
         reps_df["pplacer_taxonomy"]
     )
-    for rank in ["domain", "phylum", "class", "order", "family", "genus", "species"]:
-        reps_df[rank] = taxonomy.apply(lambda value: extract_rank(value, rank))
+    taxo_ranks = list(reversed([x.lower() for x in TAXONOMY_COLS]))
+
+    for rank_idx, rank in enumerate(taxo_ranks):
+        reps_df[f"gtdb_{rank}"] = taxonomy.apply(lambda value: extract_rank(value, rank))
+
+        kmeta_rank = "superkingdom" if rank == "domain" else rank
+        _fill_kmetashot_rank(reps_df, rank_idx, taxo_ranks)
+
+        reps_df[rank] = reps_df[f"gtdb_{rank}"].combine_first(reps_df[f"kmetashot_{kmeta_rank}"])
         reps_df[rank] = reps_df[rank].fillna("unclassified")
 
     return reps_df
@@ -393,6 +428,20 @@ def _finalize_reps_df(reps_df: pd.DataFrame, merged_cols: list[str]) -> pd.DataF
         "family": "Family",
         "genus": "Genus",
         "species": "Species",
+        "gtdb_domain": "Domain (GTDB)",
+        "gtdb_phylum": "Phylum (GTDB)",
+        "gtdb_class": "Class (GTDB)",
+        "gtdb_order": "Order (GTDB)",
+        "gtdb_family": "Family (GTDB)",
+        "gtdb_genus": "Genus (GTDB)",
+        "gtdb_species": "Species (GTDB)",
+        "kmetashot_superkingdom": "Domain (kmetashot)",
+        "kmetashot_phylum": "Phylum (kmetashot)",
+        "kmetashot_class": "Class (kmetashot)",
+        "kmetashot_order": "Order (kmetashot)",
+        "kmetashot_family": "Family (kmetashot)",
+        "kmetashot_genus": "Genus (kmetashot)",
+        "kmetashot_species": "Species (kmetashot)",
     })
 
     all_cols = [
@@ -404,6 +453,20 @@ def _finalize_reps_df(reps_df: pd.DataFrame, merged_cols: list[str]) -> pd.DataF
         "Family",
         "Genus",
         "Species",
+        "Domain (GTDB)",
+        "Phylum (GTDB)",
+        "Class (GTDB)",
+        "Order (GTDB)",
+        "Family (GTDB)",
+        "Genus (GTDB)",
+        "Species (GTDB)",
+        "Domain (kmetashot)",
+        "Phylum (kmetashot)",
+        "Class (kmetashot)",
+        "Order (kmetashot)",
+        "Family (kmetashot)",
+        "Genus (kmetashot)",
+        "Species (kmetashot)",
         "Cluster members",
         "Completeness",
         "Contamination",
@@ -748,3 +811,91 @@ def extract_rank(classification, rank):
             if domain_name in cls:
                 return domain_name
     return "unclassified"
+
+
+def _resolve_kmetashot_lineage(reps_df: pd.DataFrame, row_idx: int, rank_idx: int, taxo_ranks: list[str]) -> None:
+    """Fill kmetashot rank columns for a row using NCBI lineage of its taxon ID.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame being updated in place.
+    row_idx:
+        Row index to update.
+    rank_idx:
+        Index of the current rank within `taxo_ranks`.
+    taxo_ranks:
+        Ordered list of taxonomy ranks (from species to domain).
+    """
+    kmeta_rank = "superkingdom" if taxo_ranks[rank_idx] == "domain" else taxo_ranks[rank_idx]
+    col = f"kmetashot_{kmeta_rank}"
+    raw_value = reps_df.iat[row_idx, reps_df.columns.get_loc(col)]
+
+    if not str(raw_value).isdigit():
+        return
+
+    taxon_id = int(raw_value)
+    if taxon_id == 0 or pd.isna(taxon_id):
+        reps_df.iat[row_idx, reps_df.columns.get_loc(col)] = "unclassified"
+        return
+
+    stream = Entrez.efetch(db="Taxonomy", id=str(taxon_id), retmode="xml")
+    records = Entrez.read(stream)
+    lineage = records[0].get("Lineage", "")
+    lineage_parts = [part.strip() for part in lineage.split(";")]
+
+    for offset, part in enumerate(reversed(lineage_parts)):
+        target_idx = rank_idx + offset
+        if target_idx >= len(taxo_ranks):
+            break
+        target_rank = taxo_ranks[target_idx]
+        if target_rank == "domain":
+            target_rank = "superkingdom"
+        reps_df.iat[row_idx, reps_df.columns.get_loc(f"kmetashot_{target_rank}")] = part
+
+
+def _fill_kmetashot_rank(reps_df: pd.DataFrame, rank_idx: int, taxo_ranks: list[str]) -> None:
+    """Resolve kmetashot taxon IDs to names for every row at a given rank.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame being updated in place.
+    rank_idx:
+        Index of the current rank within `taxo_ranks`.
+    taxo_ranks:
+        Ordered list of taxonomy ranks (from species to domain).
+    """
+    kmeta_rank = "superkingdom" if taxo_ranks[rank_idx] == "domain" else taxo_ranks[rank_idx]
+    for row_idx in range(len(reps_df)):
+        _resolve_kmetashot_lineage(reps_df, row_idx, rank_idx, taxo_ranks)
+
+
+def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
+    """Extract all taxonomy ranks from GTDB classification and handle missing species.
+
+    Parameters
+    ----------
+    reps_df:
+        Representative MAGs DataFrame containing a `classification` column.
+
+    Returns
+    -------
+    pd.DataFrame
+        Updated reps_df with separate columns for each taxonomy rank and missing species filled with "no GTDB hit".
+    """
+    taxonomy = reps_df["closest_genome_taxonomy"].combine_first(
+        reps_df["pplacer_taxonomy"]
+    )
+    taxo_ranks = list(reversed([x.lower() for x in TAXONOMY_COLS]))
+
+    for rank_idx, rank in enumerate(taxo_ranks):
+        reps_df[f"gtdb_{rank}"] = taxonomy.apply(lambda value: extract_rank(value, rank))
+
+        kmeta_rank = "superkingdom" if rank == "domain" else rank
+        _fill_kmetashot_rank(reps_df, rank_idx, taxo_ranks)
+
+        reps_df[rank] = reps_df[f"gtdb_{rank}"].combine_first(reps_df[f"kmetashot_{kmeta_rank}"])
+        reps_df[rank] = reps_df[rank].fillna("unclassified")
+
+    return reps_df

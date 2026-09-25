@@ -12,7 +12,16 @@ from Bio import Entrez
 # Column name constants reused across summary functions to avoid typos/duplication
 TOTAL_LENGTH_COLUMN = "Total length"
 UNCLASSIFIED_CLUSTERS_COLUMN = "Unclassified clusters"
-TAXONOMY_COLS = ["Domain", "Phylum", "Class", "Order", "Family", "Genus", "Species"]
+TAXONOMY_COLS = [
+    "Domain",
+    "Kingdom",
+    "Phylum",
+    "Class",
+    "Order",
+    "Family",
+    "Genus",
+    "Species",
+]
 
 # Required by NCBI Entrez API to identify the requester
 Entrez.email = "berenice.batut@gmail.com"
@@ -42,7 +51,7 @@ def notebook_display(obj: object) -> None:
 
 def resolve_uc_path(uc_name: str) -> tuple[Path, Path]:
     """Resolve the data and result directories for a given use-case name.
-    
+
     Parameters
     ----------
     uc_name:
@@ -61,7 +70,7 @@ def resolve_uc_path(uc_name: str) -> tuple[Path, Path]:
 
 def tax_label(classification):
     """Return lowest resolved rank with GTDB prefix if not species-level.
-    
+
     Parameters
     ----------
     classification:
@@ -81,13 +90,15 @@ def tax_label(classification):
         for part in str(classification).split(";"):
             part = part.strip()
             if part.startswith(prefix):
-                name = part[len(prefix):].strip()
+                name = part[len(prefix) :].strip()
                 if name:
                     return name if label is None else f"{label}{name}"
     return ""
 
 
-def clean_genome_name(genome_series: pd.Series, pattern: str = r"\.fasta$") -> pd.Series:
+def clean_genome_name(
+    genome_series: pd.Series, pattern: str = r"\.fasta$"
+) -> pd.Series:
     """Remove specified suffix from genome names in a pandas Series.
 
     Parameters
@@ -107,7 +118,13 @@ def clean_genome_name(genome_series: pd.Series, pattern: str = r"\.fasta$") -> p
     return genome_series.str.replace(pattern, "", regex=True)
 
 
-def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "", to_tranpose=False) -> pd.DataFrame:
+def load_df(
+    df_dp: Path,
+    sep="\t",
+    index_col: int = -1,
+    genome_name_col: str = "",
+    to_tranpose=False,
+) -> pd.DataFrame:
     """Load a DataFrame and optionally clean genome names.
 
     Parameters
@@ -143,7 +160,9 @@ def load_df(df_dp: Path, sep="\t", index_col: int = -1, genome_name_col: str = "
     if genome_name_col != "" and genome_name_col in df.columns:
         df[genome_name_col] = clean_genome_name(df[genome_name_col])
     elif genome_name_col != "" and genome_name_col not in df.columns:
-        print(f"Warning: Column '{genome_name_col}' not found in DataFrame. No cleaning applied.")
+        print(
+            f"Warning: Column '{genome_name_col}' not found in DataFrame. No cleaning applied."
+        )
 
     return df
 
@@ -181,7 +200,13 @@ def load_dfs(uc_name) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     # Step 4: merge in additional annotation sources (assembly stats, gene annotation,
     # legacy CheckM stats, coverage, and KEGG pathway completeness)
     merged_cols: list[str] = []
-    for merge_fn in (_merge_quast, _merge_bakta, _merge_checkm_v1, _merge_coverm, _merge_kegg):
+    for merge_fn in (
+        _merge_quast,
+        _merge_bakta,
+        _merge_checkm_v1,
+        _merge_coverm,
+        _merge_kegg,
+    ):
         reps_df, cols = merge_fn(reps_df, data_dp)
         merged_cols += cols
 
@@ -197,12 +222,12 @@ def load_dfs(uc_name) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
 
 def _load_metadata(data_dp: Path) -> pd.DataFrame:
     """Load metadata table, returning an empty DataFrame if missing.
-    
+
     Parameters
     ----------
     data_dp:
-        Path to the use-case data directory containing `metadata.tsv`.  
-        
+        Path to the use-case data directory containing `metadata.tsv`.
+
     Returns
     -------
     pd.DataFrame
@@ -233,14 +258,24 @@ def _build_base_reps_df(data_dp: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
 
     # kmetashot.tsv is an alternative/backup taxonomic classifier (taxon IDs per rank),
     # used later to fill gaps where GTDB has no classification
-    kmetashot_df = load_df(data_dp / "kmetashot.tsv", sep=",", index_col=0, genome_name_col="bin").add_prefix("kmetashot_")
+    kmetashot_df = load_df(
+        data_dp / "kmetashot.tsv", sep=",", index_col=0, genome_name_col="bin"
+    ).add_prefix("kmetashot_")
     kmetashot_df["kmetashot_bin"] = clean_genome_name(kmetashot_df["kmetashot_bin"])
     # Normalize to string/NA so mixed int/NaN taxon ID columns can be handled uniformly downstream
     kmetashot_df = kmetashot_df.astype(str).replace("nan", pd.NA)
+    kmetashot_df = kmetashot_df.rename(
+        columns={"kmetashot_superkingdom": "kmetashot_kingdom"}
+    )
+    kmetashot_df["kmetashot_domain"] = kmetashot_df["kmetashot_kingdom"]
 
     # Left joins on genome identifiers: keep every CheckM2 genome, adding GTDB/kmetashot info where available
-    reps_df = pd.merge(checkm_df, gtdb_df, left_on="Name", right_on="user_genome", how="left")
-    reps_df = pd.merge(reps_df, kmetashot_df, left_on="Name", right_on="kmetashot_bin", how="left")
+    reps_df = pd.merge(
+        checkm_df, gtdb_df, left_on="Name", right_on="user_genome", how="left"
+    )
+    reps_df = pd.merge(
+        reps_df, kmetashot_df, left_on="Name", right_on="kmetashot_bin", how="left"
+    )
 
     # Sort by completeness (best MAGs first) and round quality metrics for readability
     reps_df = reps_df.sort_values("Completeness", ascending=False).copy()
@@ -250,35 +285,9 @@ def _build_base_reps_df(data_dp: Path) -> tuple[pd.DataFrame, pd.DataFrame]:
     return reps_df, drep_df
 
 
-def get_ncbi_scientific_name(taxon_id: int) -> str:
-    """Retrieve the scientific name for a given NCBI taxon ID using Entrez.
-
-    Parameters
-    ----------
-    taxon_id:
-        NCBI taxon ID to look up.
-    
-    Returns
-    -------
-    str
-        Scientific name corresponding to the taxon ID, or "unclassified" if not found.
-    """
-    if taxon_id != 0:
-        try:
-            # Query NCBI's Taxonomy database over the network via Entrez
-            stream = Entrez.efetch(db="Taxonomy", id=str(taxon_id), retmode="xml")
-            records = Entrez.read(stream)
-            return records[0]["ScientificName"]
-        except Exception as e:
-            # Network/parsing errors shouldn't crash the whole pipeline
-            print(f"Error retrieving scientific name for taxon ID {taxon_id}: {e}")
-            return "unclassified"
-    else:
-        # Taxon ID 0 conventionally means "no classification" in kmetashot output
-        return "unclassified"
-
-
-def _resolve_kmetashot_lineage(reps_df: pd.DataFrame, row_idx: int, rank_idx: int, taxo_ranks: list[str]) -> None:
+def _resolve_kmetashot_lineage(
+    reps_df: pd.DataFrame, row_idx: int, rank_idx: int, taxo_ranks: list[str]
+) -> None:
     """Fill kmetashot rank columns for a row using NCBI lineage of its taxon ID.
 
     Parameters
@@ -292,8 +301,7 @@ def _resolve_kmetashot_lineage(reps_df: pd.DataFrame, row_idx: int, rank_idx: in
     taxo_ranks:
         Ordered list of taxonomy ranks (from species to domain).
     """
-    # NCBI taxonomy uses "superkingdom" instead of GTDB's "domain"
-    kmeta_rank = "superkingdom" if taxo_ranks[rank_idx] == "domain" else taxo_ranks[rank_idx]
+    kmeta_rank = taxo_ranks[rank_idx]
     col = f"kmetashot_{kmeta_rank}"
     raw_value = reps_df.iat[row_idx, reps_df.columns.get_loc(col)]
 
@@ -311,22 +319,28 @@ def _resolve_kmetashot_lineage(reps_df: pd.DataFrame, row_idx: int, rank_idx: in
     # and any higher (less specific) ranks that are still unresolved
     stream = Entrez.efetch(db="Taxonomy", id=str(taxon_id), retmode="xml")
     records = Entrez.read(stream)
+    reps_df.iat[row_idx, reps_df.columns.get_loc(f"kmetashot_{kmeta_rank}")] = records[
+        0
+    ].get("ScientificName", "")
+
     lineage = records[0].get("Lineage", "")
     lineage_parts = [part.strip() for part in lineage.split(";")]
 
     # Lineage is ordered from most general to most specific; reverse to align with
     # taxo_ranks, which goes from species (index 0) to domain (last index)
     for offset, part in enumerate(reversed(lineage_parts)):
-        target_idx = rank_idx + offset
+        target_idx = (
+            rank_idx + offset + 1
+        )  # because NCBI lineage doesn't include the current rank, so we start filling from the next rank
         if target_idx >= len(taxo_ranks):
             break
         target_rank = taxo_ranks[target_idx]
-        if target_rank == "domain":
-            target_rank = "superkingdom"
         reps_df.iat[row_idx, reps_df.columns.get_loc(f"kmetashot_{target_rank}")] = part
 
 
-def _fill_kmetashot_rank(reps_df: pd.DataFrame, rank_idx: int, taxo_ranks: list[str]) -> None:
+def _fill_kmetashot_rank(
+    reps_df: pd.DataFrame, rank_idx: int, taxo_ranks: list[str]
+) -> None:
     """Resolve kmetashot taxon IDs to names for every row at a given rank.
 
     Parameters
@@ -367,14 +381,23 @@ def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
 
     for rank_idx, rank in enumerate(taxo_ranks):
         # Extract this rank's name directly from the GTDB classification string
-        reps_df[f"gtdb_{rank}"] = taxonomy.apply(lambda value: extract_rank(value, rank))
+        if rank == "kingdom":
+            # GTDB doesn't have a kingdom rank, so we use the domain value for kingdom
+            reps_df[f"gtdb_{rank}"] = taxonomy.apply(
+                lambda value: extract_rank(value, "domain")
+            )
+        else:
+            reps_df[f"gtdb_{rank}"] = taxonomy.apply(
+                lambda value: extract_rank(value, rank)
+            )
 
         # For MAGs without a GTDB result at this rank, resolve kmetashot taxon IDs via NCBI
-        kmeta_rank = "superkingdom" if rank == "domain" else rank
         _fill_kmetashot_rank(reps_df, rank_idx, taxo_ranks)
 
         # Final rank column: prefer GTDB, fall back to kmetashot, default to "unclassified"
-        reps_df[rank] = reps_df[f"gtdb_{rank}"].combine_first(reps_df[f"kmetashot_{kmeta_rank}"])
+        reps_df[rank] = reps_df[f"gtdb_{rank}"].combine_first(
+            reps_df[f"kmetashot_{rank}"]
+        )
         reps_df[rank] = reps_df[rank].fillna("unclassified")
 
     return reps_df
@@ -382,7 +405,7 @@ def _add_taxonomy_ranks(reps_df: pd.DataFrame) -> pd.DataFrame:
 
 def _add_cluster_sizes(reps_df: pd.DataFrame, drep_df: pd.DataFrame) -> pd.DataFrame:
     """Compute species-level cluster sizes and add them to reps_df.
-    
+
     Parameters
     ----------
     reps_df:
@@ -405,9 +428,11 @@ def _add_cluster_sizes(reps_df: pd.DataFrame, drep_df: pd.DataFrame) -> pd.DataF
     return reps_df
 
 
-def _merge_quast(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+def _merge_quast(
+    reps_df: pd.DataFrame, data_dp: Path
+) -> tuple[pd.DataFrame, list[str]]:
     """Load QUAST table and merge assembly stats into reps_df.
-    
+
     Parameters
     ----------
     reps_df:
@@ -421,7 +446,9 @@ def _merge_quast(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, li
         Updated reps_df with QUAST assembly stats merged, and a list of the added column names
     """
     # QUAST output is wide (metrics as rows, genomes as columns); transpose to genomes-as-rows
-    quast_df = load_df(data_dp / "quast.tsv", index_col=0, genome_name_col="", to_tranpose=True)
+    quast_df = load_df(
+        data_dp / "quast.tsv", index_col=0, genome_name_col="", to_tranpose=True
+    )
     # "Assembly" is a redundant identifier column, drop it before merging
     quast_cols = [c for c in quast_df.columns if c != "Assembly"]
     quast_df = quast_df[quast_cols]
@@ -429,9 +456,11 @@ def _merge_quast(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, li
     return reps_df, quast_df.columns.tolist()
 
 
-def _merge_bakta(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+def _merge_bakta(
+    reps_df: pd.DataFrame, data_dp: Path
+) -> tuple[pd.DataFrame, list[str]]:
     """Load Bakta annotations and merge prefixed counts into reps_df.
-    
+
     Parameters
     ----------
     reps_df:
@@ -455,7 +484,9 @@ def _merge_bakta(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, li
     return reps_df, bakta_df.columns.tolist()
 
 
-def _merge_checkm_v1(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+def _merge_checkm_v1(
+    reps_df: pd.DataFrame, data_dp: Path
+) -> tuple[pd.DataFrame, list[str]]:
     """Load CheckM (v1) stats and merge selected columns into reps_df.
 
     Parameters
@@ -476,11 +507,15 @@ def _merge_checkm_v1(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame
     checkm_v1_df = checkm_v1_df.set_index("Bin Id")
     checkm_v1_cols = ["Strain heterogeneity", "# markers", "# marker sets"]
     checkm_v1_df = checkm_v1_df[checkm_v1_cols]
-    reps_df = pd.merge(reps_df, checkm_v1_df, left_on="Name", right_index=True, how="left")
+    reps_df = pd.merge(
+        reps_df, checkm_v1_df, left_on="Name", right_index=True, how="left"
+    )
     return reps_df, checkm_v1_df.columns.tolist()
 
 
-def _merge_coverm(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, list[str]]:
+def _merge_coverm(
+    reps_df: pd.DataFrame, data_dp: Path
+) -> tuple[pd.DataFrame, list[str]]:
     """Load CoverM stats, compute mean coverage per genome, and merge into reps_df.
 
     Parameters
@@ -499,7 +534,12 @@ def _merge_coverm(reps_df: pd.DataFrame, data_dp: Path) -> tuple[pd.DataFrame, l
     # summary value (mean across samples) for the representative table
     coverm_df = pd.read_csv(data_dp / "coverm.tsv", sep="\t")
     coverm_df["Genome"] = clean_genome_name(coverm_df["Genome"])
-    coverm_df = coverm_df.set_index("Genome").mean(axis=1).rename("coverm_mean_coverage").to_frame()
+    coverm_df = (
+        coverm_df.set_index("Genome")
+        .mean(axis=1)
+        .rename("coverm_mean_coverage")
+        .to_frame()
+    )
     reps_df = pd.merge(reps_df, coverm_df, left_on="Name", right_index=True, how="left")
     return reps_df, coverm_df.columns.tolist()
 
@@ -547,36 +587,41 @@ def _finalize_reps_df(reps_df: pd.DataFrame, merged_cols: list[str]) -> pd.DataF
     """
     # Rename internal/technical column names to the human-friendly names used in
     # notebooks and exported tables (capitalized, tool-specific suffixes in parentheses)
-    reps_df = reps_df.rename(columns={
-        "Name": "MAG",
-        "domain": "Domain",
-        "phylum": "Phylum",
-        "class": "Class",
-        "order": "Order",
-        "family": "Family",
-        "genus": "Genus",
-        "species": "Species",
-        "gtdb_domain": "Domain (GTDB)",
-        "gtdb_phylum": "Phylum (GTDB)",
-        "gtdb_class": "Class (GTDB)",
-        "gtdb_order": "Order (GTDB)",
-        "gtdb_family": "Family (GTDB)",
-        "gtdb_genus": "Genus (GTDB)",
-        "gtdb_species": "Species (GTDB)",
-        "kmetashot_superkingdom": "Domain (kmetashot)",
-        "kmetashot_phylum": "Phylum (kmetashot)",
-        "kmetashot_class": "Class (kmetashot)",
-        "kmetashot_order": "Order (kmetashot)",
-        "kmetashot_family": "Family (kmetashot)",
-        "kmetashot_genus": "Genus (kmetashot)",
-        "kmetashot_species": "Species (kmetashot)",
-    })
+    reps_df = reps_df.rename(
+        columns={
+            "Name": "MAG",
+            "domain": "Domain",
+            "kingdom": "Kingdom",
+            "phylum": "Phylum",
+            "class": "Class",
+            "order": "Order",
+            "family": "Family",
+            "genus": "Genus",
+            "species": "Species",
+            "gtdb_domain": "Domain (GTDB)",
+            "gtdb_phylum": "Phylum (GTDB)",
+            "gtdb_class": "Class (GTDB)",
+            "gtdb_order": "Order (GTDB)",
+            "gtdb_family": "Family (GTDB)",
+            "gtdb_genus": "Genus (GTDB)",
+            "gtdb_species": "Species (GTDB)",
+            "kmetashot_domain": "Domain (kmetashot)",
+            "kmetashot_kingdom": "Kingdom (kmetashot)",
+            "kmetashot_phylum": "Phylum (kmetashot)",
+            "kmetashot_class": "Class (kmetashot)",
+            "kmetashot_order": "Order (kmetashot)",
+            "kmetashot_family": "Family (kmetashot)",
+            "kmetashot_genus": "Genus (kmetashot)",
+            "kmetashot_species": "Species (kmetashot)",
+        }
+    )
 
     # Fixed base columns always come first, followed by whatever was merged in
     # from QUAST/Bakta/CheckM v1/CoverM/KEGG (order defined by merge_fn call order)
     all_cols = [
         "MAG",
         "Domain",
+        "Kingdom",
         "Phylum",
         "Class",
         "Order",
@@ -591,6 +636,7 @@ def _finalize_reps_df(reps_df: pd.DataFrame, merged_cols: list[str]) -> pd.DataF
         "Genus (GTDB)",
         "Species (GTDB)",
         "Domain (kmetashot)",
+        "Kingdom (kmetashot)",
         "Phylum (kmetashot)",
         "Class (kmetashot)",
         "Order (kmetashot)",
@@ -657,7 +703,9 @@ def compute_print_stats(df: pd.DataFrame) -> None:
     print_stats(stats.T)
 
 
-def explore_species_level_clusters(df: pd.DataFrame, contamination_threshold: float = 100) -> None:
+def explore_species_level_clusters(
+    df: pd.DataFrame, contamination_threshold: float = 100
+) -> None:
     """Print cluster summary for an optional contamination threshold.
 
     Parameters
@@ -699,8 +747,8 @@ def explore_species_level_clusters_all(df: pd.DataFrame) -> None:
     """
     explore_species_level_clusters(df, 100)
     # Additional thresholds are disabled but kept here for quick re-enabling if needed
-    #explore_species_level_clusters(df, 5)
-    #explore_species_level_clusters(df, 10)
+    # explore_species_level_clusters(df, 5)
+    # explore_species_level_clusters(df, 10)
 
 
 def compute_taxo_classification_summary(
@@ -733,11 +781,15 @@ def compute_taxo_classification_summary(
 
     summary_df = pd.DataFrame(index=existing_taxonomy_cols)
     summary_df[UNCLASSIFIED_CLUSTERS_COLUMN] = unclassified_mask.sum(axis=0)
-    summary_df["Classified clusters"] = len(df) - summary_df[UNCLASSIFIED_CLUSTERS_COLUMN]
+    summary_df["Classified clusters"] = (
+        len(df) - summary_df[UNCLASSIFIED_CLUSTERS_COLUMN]
+    )
     summary_df["Unclassified clusters %"] = (
         summary_df[UNCLASSIFIED_CLUSTERS_COLUMN] / len(df) * 100
     ).round(2)
-    summary_df["Classified clusters %"] = (100 - summary_df["Unclassified clusters %"]).round(2)
+    summary_df["Classified clusters %"] = (
+        100 - summary_df["Unclassified clusters %"]
+    ).round(2)
 
     return summary_df
 
@@ -761,11 +813,16 @@ def get_level_counts(df: pd.DataFrame, level: str) -> pd.DataFrame:
 
     # Number of representative clusters (species-level groups) per taxon at this rank
     level_counts = level_group.size().sort_values(ascending=False).to_frame("Cluster")
-    level_counts["Cluster %"] = 100 * level_counts["Cluster"] / level_counts["Cluster"].sum()
+    level_counts["Cluster %"] = (
+        100 * level_counts["Cluster"] / level_counts["Cluster"].sum()
+    )
 
     # Total number of individual MAGs (summed cluster membership) per taxon at this rank
-    level_mag_counts = level_group["Cluster members"].sum().sort_values(ascending=False).to_frame(
-        "Total MAG count"
+    level_mag_counts = (
+        level_group["Cluster members"]
+        .sum()
+        .sort_values(ascending=False)
+        .to_frame("Total MAG count")
     )
 
     level_summary = pd.concat([level_counts, level_mag_counts], axis=1)
@@ -829,7 +886,9 @@ def get_relative_abundance(df: pd.DataFrame, coverage_df: pd.DataFrame) -> pd.Da
     cov_taxo_df = cov_taxo_df.drop(columns=["Genome"], errors="ignore")
 
     # Sum coverage within each Family/Genus/Species group (multiple MAGs can share taxonomy)
-    abund_df = cov_taxo_df.groupby(["Family", "Genus", "Species"]).sum(numeric_only=True)
+    abund_df = cov_taxo_df.groupby(["Family", "Genus", "Species"]).sum(
+        numeric_only=True
+    )
     mapped = abund_df.sum(axis=0)
     # "Unmapped" here represents the fraction of reads not covered by mapped MAGs (100 - mapped %)
     unmapped = 100 - mapped
@@ -840,7 +899,9 @@ def get_relative_abundance(df: pd.DataFrame, coverage_df: pd.DataFrame) -> pd.Da
     return abund_df
 
 
-def get_relative_abund_taxo_levels(df: pd.DataFrame, coverage_df: pd.DataFrame) -> pd.DataFrame:
+def get_relative_abund_taxo_levels(
+    df: pd.DataFrame, coverage_df: pd.DataFrame
+) -> pd.DataFrame:
     """Display and return abundance summaries for each taxonomic index level.
 
     Parameters
@@ -861,7 +922,9 @@ def get_relative_abund_taxo_levels(df: pd.DataFrame, coverage_df: pd.DataFrame) 
     for level in relative_abund_df.index.names:
         taxo_level_df = relative_abund_df.groupby(level=level).sum()
         print(f"\nLevel: {level}")
-        notebook_display(taxo_level_df.T.describe().T.sort_values(by="mean", ascending=False))
+        notebook_display(
+            taxo_level_df.T.describe().T.sort_values(by="mean", ascending=False)
+        )
     return relative_abund_df
 
 
@@ -881,7 +944,9 @@ def get_bakta_annot_df(df: pd.DataFrame) -> pd.DataFrame:
     # Select only the Bakta-derived columns (added by _merge_bakta) and drop the prefix
     # for cleaner display in notebooks
     bakta_annot_df = df.filter(regex="^bakta_").copy()
-    bakta_annot_df.columns = bakta_annot_df.columns.str.replace("^bakta_", "", regex=True)
+    bakta_annot_df.columns = bakta_annot_df.columns.str.replace(
+        "^bakta_", "", regex=True
+    )
     return bakta_annot_df
 
 
@@ -927,7 +992,7 @@ def get_kegg_path_df(df: pd.DataFrame) -> pd.DataFrame:
 
 def extract_rank(classification, rank):
     """Extract a GTDB rank from a classification string.
-    
+
     Parameters
     ----------
     classification:
@@ -958,7 +1023,7 @@ def extract_rank(classification, rank):
     for part in str(classification).split(";"):
         part = part.strip()
         if part.startswith(prefix):
-            name = part[len(prefix):].strip()
+            name = part[len(prefix) :].strip()
             return name if name else "unclassified"
 
     # Fallback specifically for domain: some classification strings mention the domain

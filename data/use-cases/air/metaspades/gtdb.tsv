@@ -1,0 +1,553 @@
+user_genome	classification	closest_genome_reference	closest_genome_reference_radius	closest_genome_taxonomy	closest_genome_ani	closest_genome_af	closest_placement_reference	closest_placement_radius	closest_placement_taxonomy	closest_placement_ani	closest_placement_af	pplacer_taxonomy	classification_method	note	other_related_references(genome_id,species_name,radius,ANI,AF)	msa_percent	translation_table	red_value	warnings
+ERR9966616_binette_bin1.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966616_binette_bin19.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966616_binette_bin3.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.0%)
+ERR9966616_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966616_binette_bin6.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.0%)
+ERR9966616_binette_bin77.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966616_binette_bin8.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.1%)
+ERR9966616_binette_bin86.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (5.5%)
+ERR9966618_binette_bin3.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966619_binette_bin10.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.4%)
+ERR9966619_binette_bin12.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966619_binette_bin17.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.8%)
+ERR9966619_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.9%)
+ERR9966620_binette_bin12.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966620_binette_bin2.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.8%)
+ERR9966620_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966620_binette_bin5.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966620_binette_bin8.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966621_binette_bin103.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966621_binette_bin109.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966621_binette_bin126.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966621_binette_bin21.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966621_binette_bin23.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966621_binette_bin5.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.2%)
+ERR9966621_binette_bin8.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966621_binette_bin89.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.1%)
+ERR9966623_binette_bin104.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966623_binette_bin108.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966623_binette_bin11.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966623_binette_bin13.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966623_binette_bin19.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966623_binette_bin21.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.4%)
+ERR9966623_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.5%)
+ERR9966623_binette_bin7.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966623_binette_bin95.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966624_binette_bin17.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.9%)
+ERR9966624_binette_bin2.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966624_binette_bin3.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.2%)
+ERR9966624_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966624_binette_bin5.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.4%)
+ERR9966624_binette_bin6.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966624_binette_bin74.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966624_binette_bin8.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.7%)
+ERR9966624_binette_bin81.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966624_binette_bin83.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.0%)
+ERR9966625_binette_bin11.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.1%)
+ERR9966625_binette_bin111.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.9%)
+ERR9966625_binette_bin118.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966625_binette_bin128.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.2%)
+ERR9966625_binette_bin13.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.5%)
+ERR9966625_binette_bin21.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.5%)
+ERR9966625_binette_bin28.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966625_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966625_binette_bin5.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966625_binette_bin7.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.3%)
+ERR9966626_binette_bin105.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966626_binette_bin13.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966626_binette_bin17.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966626_binette_bin2.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.2%)
+ERR9966626_binette_bin20.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.5%)
+ERR9966627_binette_bin1.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966627_binette_bin10.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.5%)
+ERR9966627_binette_bin11.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966627_binette_bin119.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966627_binette_bin121.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966627_binette_bin133.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966627_binette_bin15.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.0%)
+ERR9966627_binette_bin16.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966627_binette_bin18.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966627_binette_bin19.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966627_binette_bin24.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966627_binette_bin3.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966627_binette_bin30.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966627_binette_bin6.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966627_binette_bin7.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966627_binette_bin8.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.2%)
+ERR9966627_binette_bin9.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.6%)
+ERR9966628_binette_bin10.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966628_binette_bin108.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.6%)
+ERR9966628_binette_bin11.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.6%)
+ERR9966628_binette_bin116.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.4%)
+ERR9966628_binette_bin118.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.0%)
+ERR9966628_binette_bin13.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966628_binette_bin18.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966628_binette_bin23.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966628_binette_bin24.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966628_binette_bin35.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966628_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966628_binette_bin8.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.9%)
+ERR9966628_binette_bin9.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.6%)
+ERR9966629_binette_bin4.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966629_binette_bin5.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966629_binette_bin9.fasta	Unclassified Archaea	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.0%)
+ERR9966616_binette_bin10.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin100.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin101.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin11.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.5%)
+ERR9966616_binette_bin12.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin13.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966616_binette_bin15.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin16.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin17.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin21.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966616_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin44.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin62.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin7.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (7.0%)
+ERR9966616_binette_bin79.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin80.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin81.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966616_binette_bin82.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin83.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966616_binette_bin84.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin85.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin87.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin88.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin9.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin90.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin91.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin92.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin94.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin95.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin96.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin97.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin98.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966616_binette_bin99.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966617_binette_bin1.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (3.8%)
+ERR9966617_binette_bin2.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966617_binette_bin3.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (5.7%)
+ERR9966618_binette_bin2.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966618_binette_bin34.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin39.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin4.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin41.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin42.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin43.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin5.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966618_binette_bin6.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966618_binette_bin7.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966619_binette_bin1.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin100.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin101.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin103.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin104.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin107.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin112.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (4.2%)
+ERR9966619_binette_bin13.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin15.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin16.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin18.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966619_binette_bin2.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin20.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (5.8%)
+ERR9966619_binette_bin21.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin23.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.9%)
+ERR9966619_binette_bin24.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin3.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966619_binette_bin58.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin6.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.5%)
+ERR9966619_binette_bin7.fasta	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium sp002013775	GCA_002013775.1	95.0	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium sp002013775	99.19	0.773	GCA_002013775.1	95.0	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium sp002013775	99.19	0.773	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__	taxonomic classification defined by topology and ANI	topological placement and ANI have congruent species assignments	GCA_002013465.1, s__Mycobacterium sp002013465, 95.0, 96.14, 0.507; GCF_004924335.1, s__Mycobacterium salmoniphilum, 95.0, 94.4, 0.367; GCF_002013375.1, s__Mycobacterium sp002013375, 95.0, 94.21, 0.268; GCA_002013415.1, s__Mycobacterium sp002013415, 95.0, 94.09, 0.298	10.98	11	N/A	N/A
+ERR9966619_binette_bin87.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966619_binette_bin9.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.9%)
+ERR9966619_binette_bin91.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin92.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin93.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin94.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.1%)
+ERR9966619_binette_bin95.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin96.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin98.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966619_binette_bin99.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin1.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin10.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin100.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin101.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.1%)
+ERR9966620_binette_bin13.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin25.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin26.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin3.fasta	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__CAHJXG01;s__	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__CAHJXG01;s__	taxonomic classification fully defined by topology	classification based on placement in class-level tree	N/A	23.89	11	0.96308	N/A
+ERR9966620_binette_bin6.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.1%)
+ERR9966620_binette_bin76.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (3.8%)
+ERR9966620_binette_bin78.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin79.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin81.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin82.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin83.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin86.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin87.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin88.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin89.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin9.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin90.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966620_binette_bin92.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin1.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin10.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.9%)
+ERR9966621_binette_bin100.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin101.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin102.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin104.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin105.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin106.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin107.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.2%)
+ERR9966621_binette_bin108.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin11.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin111.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin112.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin116.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin117.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin12.fasta	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rickettsiales;f__Rickettsiaceae;g__JAZKAD01;s__	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rickettsiales;f__Rickettsiaceae;g__JAZKAD01;s__	taxonomic novelty determined using RED	classification based on placement in class-level tree	N/A	12.47	11	0.86433	N/A
+ERR9966621_binette_bin121.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin125.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966621_binette_bin13.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin14.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin16.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin17.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966621_binette_bin18.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin19.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin20.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966621_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin24.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin33.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin39.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin4.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin42.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin45.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin6.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966621_binette_bin7.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin87.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966621_binette_bin88.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin9.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966621_binette_bin90.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin91.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin92.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966621_binette_bin93.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin95.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin96.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin97.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966621_binette_bin98.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin1.fasta	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas_E;s__	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudomonadaceae;g__Pseudomonas_E;s__	taxonomic classification fully defined by topology	classification based on placement in class-level tree	N/A	16.44	4	0.99269	Genome domain questionable ( 20.0% Bacterial, 18.9% Archaeal)
+ERR9966623_binette_bin10.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (7.3%)
+ERR9966623_binette_bin101.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin102.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin105.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin106.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin107.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin109.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin110.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin111.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin113.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin115.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin116.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin119.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin12.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.1%)
+ERR9966623_binette_bin14.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966623_binette_bin15.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966623_binette_bin16.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.3%)
+ERR9966623_binette_bin17.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966623_binette_bin18.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin2.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.5%)
+ERR9966623_binette_bin3.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin42.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966623_binette_bin45.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin5.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin55.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin6.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin8.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966623_binette_bin9.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin90.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin91.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin92.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966623_binette_bin93.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin94.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966623_binette_bin98.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966623_binette_bin99.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin1.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin10.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin11.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966624_binette_bin12.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966624_binette_bin14.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966624_binette_bin15.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin18.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin19.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin20.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966624_binette_bin30.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin33.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin40.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin42.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin43.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin7.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin75.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin76.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966624_binette_bin77.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin78.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin80.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin82.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin85.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin86.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin88.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin89.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin9.fasta	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__UBA5335;f__UBA5335;g__Macondimonas;s__Macondimonas sp002862435	GCA_002862435.1	95.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__UBA5335;f__UBA5335;g__Macondimonas;s__Macondimonas sp002862435	98.35	0.685	GCA_002862435.1	95.0	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__UBA5335;f__UBA5335;g__Macondimonas;s__Macondimonas sp002862435	98.35	0.685	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__UBA5335;f__UBA5335;g__Macondimonas;s__	taxonomic classification defined by topology and ANI	topological placement and ANI have congruent species assignments	GCA_011620145.1, s__Macondimonas sp011620145, 95.7, 97.15, 0.368	23.79	11	N/A	N/A
+ERR9966624_binette_bin90.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin91.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin93.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin95.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin96.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966624_binette_bin98.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin1.fasta	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__JBBSIT01;s__	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__JBBSIT01;s__	taxonomic novelty determined using RED	classification based on placement in class-level tree	N/A	85.46	11	0.93333	N/A
+ERR9966625_binette_bin10.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (6.4%)
+ERR9966625_binette_bin102.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966625_binette_bin103.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin104.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966625_binette_bin105.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin107.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin108.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin109.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin112.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.1%)
+ERR9966625_binette_bin113.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin114.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin115.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966625_binette_bin116.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin117.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin12.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (3.1%)
+ERR9966625_binette_bin120.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin121.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin122.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin123.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin124.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966625_binette_bin125.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin126.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin129.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin130.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin131.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin132.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin134.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.0%)
+ERR9966625_binette_bin135.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin136.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin137.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin138.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin139.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin14.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966625_binette_bin140.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin141.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin142.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin143.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin144.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin145.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin146.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin147.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin148.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin15.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966625_binette_bin150.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin154.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin156.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin157.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966625_binette_bin16.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin17.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin18.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin19.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966625_binette_bin2.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (9.4%)
+ERR9966625_binette_bin20.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966625_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin23.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin24.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin26.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin27.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin29.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (6.8%)
+ERR9966625_binette_bin30.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966625_binette_bin31.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin32.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin33.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin34.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966625_binette_bin35.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966625_binette_bin36.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin38.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin39.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin40.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin41.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin53.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin6.fasta	d__Bacteria;p__Cyanobacteriota;c__Cyanobacteriia;o__Cyanobacteriales;f__Chroococcidiopsidaceae;g__Aliterella;s__	N/A	N/A	N/A	N/A	N/A	GCA_905479905.1	95.0	d__Bacteria;p__Cyanobacteriota;c__Cyanobacteriia;o__Cyanobacteriales;f__Chroococcidiopsidaceae;g__Aliterella;s__Aliterella sp905479905	95.79	0.363	d__Bacteria;p__Cyanobacteriota;c__Cyanobacteriia;o__Cyanobacteriales;f__Chroococcidiopsidaceae;g__Aliterella;s__	taxonomic classification defined by topology and ANI	classification based on placement in class-level tree	GCA_013698215.1, s__Aliterella sp013698215, 95.0, 96.11, 0.458; GCF_003003885.1, s__Aliterella sp003003885, 95.0, 95.64, 0.556	19.96	11	0.99923	N/A
+ERR9966625_binette_bin66.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin67.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin77.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966625_binette_bin8.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966625_binette_bin9.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (4.4%)
+ERR9966626_binette_bin10.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.1%)
+ERR9966626_binette_bin100.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin103.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin104.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin106.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin107.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin109.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin11.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.4%)
+ERR9966626_binette_bin113.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin115.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin117.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin118.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin119.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin120.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin122.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin123.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin125.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin126.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin129.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin130.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin133.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin135.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin137.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin14.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin15.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin18.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin19.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin23.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin24.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin3.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin4.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin43.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin5.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.3%)
+ERR9966626_binette_bin53.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin6.fasta	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Roseomonas;s__Roseomonas mucosa	GCF_000622225.1	95.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Roseomonas;s__Roseomonas mucosa	99.69	0.828	GCF_000622225.1	95.0	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Roseomonas;s__Roseomonas mucosa	99.69	0.828	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Roseomonas;s__	taxonomic classification defined by topology and ANI	topological placement and ANI have congruent species assignments	GCF_001941945.1, s__Roseomonas sp001941945, 95.0, 94.84, 0.426; GCF_023078375.1, s__Roseomonas gilardii, 95.0, 93.94, 0.307	26.59	11	N/A	N/A
+ERR9966626_binette_bin8.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin9.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966626_binette_bin99.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin117.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin12.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin120.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin122.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin123.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin124.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin126.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin127.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin128.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966627_binette_bin129.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin13.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin131.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin134.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966627_binette_bin135.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin136.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin137.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin138.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin139.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin140.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin141.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin142.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin143.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin144.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin146.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin147.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin149.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin150.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin153.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin154.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin155.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin156.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin157.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin158.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin159.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin160.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin162.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin163.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin164.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin169.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin20.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966627_binette_bin21.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin23.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin26.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin27.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (5.0%)
+ERR9966627_binette_bin28.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin29.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin32.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin4.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin47.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin5.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin63.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966627_binette_bin84.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin100.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin101.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin103.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin104.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin105.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin107.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin112.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966628_binette_bin113.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin117.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin119.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin12.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.9%)
+ERR9966628_binette_bin120.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin121.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin123.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin124.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin125.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin127.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin128.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin15.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin17.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin2.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin21.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin25.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin26.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin27.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin28.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966628_binette_bin29.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin30.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin31.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin32.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.5%)
+ERR9966628_binette_bin33.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.6%)
+ERR9966628_binette_bin34.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin36.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin37.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin38.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin39.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin41.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin5.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin53.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin6.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966628_binette_bin95.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin96.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin97.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966628_binette_bin99.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin1.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin10.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (1.4%)
+ERR9966629_binette_bin11.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin12.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin14.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.7%)
+ERR9966629_binette_bin15.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin16.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin17.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin18.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin19.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (4.8%)
+ERR9966629_binette_bin2.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.4%)
+ERR9966629_binette_bin21.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin22.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin3.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin32.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin54.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin6.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (2.0%)
+ERR9966629_binette_bin78.fasta	Unclassified Bacteria	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	Insufficient number of amino acids in MSA (0.8%)
+ERR9966629_binette_bin79.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin80.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin82.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin83.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin84.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin85.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin86.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin87.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin88.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin90.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin91.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin93.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin94.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin95.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker
+ERR9966629_binette_bin97.fasta	Unclassified	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	N/A	No bacterial or archaeal marker

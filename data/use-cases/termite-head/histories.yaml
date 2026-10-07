@@ -56,3 +56,11 @@ histories:
   datasets:
   - tag: kegg-contig-table
     file: kegg_pathway_completeness.tsv
+#   - tag: eggnog-annotation-table
+#     file: eggnog_annotation.tsv
+#     concat: true
+
+#   - tag: interproscan-table
+#     file: interproscan.tsv
+#     concat: true
+#     allow_error: true

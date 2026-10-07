@@ -1,0 +1,57 @@
+use-case: air
+galaxy-url: https://usegalaxy.eu
+required_tags:
+- publication
+- cloud-use-case
+- metaspades
+exclude_tags:
+- fail
+- rerun
+histories:
+- name: Metagenome-Assembled Genomes (MAGs) generation
+  id: 11ac94870d0bb33a1353dd6fb1722808
+  datasets:
+  - tag: bin-assembly-quality
+    file: quast.tsv
+  - tag: bin-checkm2-quality
+    file: checkm2.tsv
+  - tag: bin-checkm-quality
+    file: checkm.tsv
+  - tag: bin-coverm-sample-coverage
+    file: coverm.tsv
+  - tag: drep-cluster-assignment
+    file: drep.tsv
+- name: MAGs taxonomy annotation
+  id: 11ac94870d0bb33ad5cac9e6674d85c4
+  datasets:
+  - tag: gtdb-tk-summary
+    file: gtdb.tsv
+    concat: true
+  - tag: kmetashot-summary
+    name: kMetaShot on collection
+    file: kmetashot.tsv
+- name: MAG Genome Annotation Parallel
+  id: 11ac94870d0bb33aacd1636dbef2ad50
+  datasets:
+  - tag: bakta_cut_annotation_summary
+    file: bakta.tsv
+  - tag: intregon_finder_merged_output
+    file: intregon.tsv
+  - tag: isescan_merged_output
+    file: isescan.tsv
+  - tag: plasmidfinder_merged_summary
+    file: plasmidfinder.tsv
+
+- name: Functional annotation of sequences
+  id: 11ac94870d0bb33ada60001afe6432f3
+  datasets:
+#   - tag: eggnog-annotation-table
+#     file: eggnog_annotation.tsv
+#     concat: true
+
+#   - tag: interproscan-table
+#     file: interproscan.tsv
+#     concat: true
+
+  - tag: kegg-contig-table
+    file: kegg_pathway_completeness.tsv

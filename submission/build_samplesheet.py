@@ -562,7 +562,6 @@ def main() -> None:
     if prefix:
         print(f"id prefix   : {prefix!r} -> ENA sample alias, assembly name and analysis alias")
 
-
     # 1. + 2. the MAG FASTAs -------------------------------------------------
     mags = {}
     if args.no_download:

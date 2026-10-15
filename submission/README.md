@@ -89,18 +89,18 @@ ENA aliases. `--id-prefix` (or `mags.id_prefix` in `ena_submission.yaml`) brands
 the submission identity so the two sets stay distinguishable in ENA:
 
 ```bash
-python3 submission/build_samplesheet.py data/use-cases/bee-gut \
-    --id-prefix FAIRyMAGs2_ --fasta-dir mags_v2 --out samplesheet_v2.csv
+python3 submission/build_samplesheet.py <use-case-dir> \
+    --id-prefix v2_ --fasta-dir mags_v2 --out samplesheet_v2.csv
 ```
 
 The prefix is prepended to the `id` column, which nf-core/seqsubmit passes
 through as `genome_name`, so it reaches every identifier this side controls:
 
-| ENA record | without prefix | with `--id-prefix FAIRyMAGs2_` |
+| ENA record | without prefix | with `--id-prefix v2_` |
 | --- | --- | --- |
-| sample alias / title | `SRR24759596_binette_bin20` | `FAIRyMAGs2_SRR24759596_binette_bin20` |
-| assembly name (`ASSEMBLYNAME`) | `SRR24759604_binette_bin91` | `FAIRyMAGs2_SRR24759604_binette_bin91` |
-| analysis alias (set by Webin-CLI) | `webin-genome-SRR24759604_binette_bin91` | `webin-genome-FAIRyMAGs2_SRR24759604_binette_bin91` |
+| sample alias / title | `SRR24759596_binette_bin20` | `v2_SRR24759596_binette_bin20` |
+| assembly name (`ASSEMBLYNAME`) | `SRR24759604_binette_bin91` | `v2_SRR24759604_binette_bin91` |
+| analysis alias (set by Webin-CLI) | `webin-genome-SRR24759604_binette_bin91` | `webin-genome-v2_SRR24759604_binette_bin91` |
 
 The `webin-genome-` part is added by ENA's Webin-CLI and cannot be changed. The
 **FASTA file names are left alone** — ENA keeps the assembly name and the FASTA

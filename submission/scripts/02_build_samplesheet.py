@@ -145,7 +145,8 @@ def main() -> None:
             coverm[strip_fasta(row[0])] = dict(zip(header[1:], row[1:]))
 
     rows = []
-    for mid, checkm in sorted(checkm2.items()):
+    # keep the checkm2.tsv row order so re-runs are reproducible
+    for mid, checkm in checkm2.items():
         run = mid.split("_")[0]
         if mid not in coverm:
             sys.exit(f"{mid}: not in coverm.tsv")

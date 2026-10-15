@@ -21,8 +21,8 @@ mags:
   # (webin-genome-<id>) all carry the prefix, the FASTA file names do not.
   # Unset here on purpose - the MAGs of this use case were submitted unprefixed,
   # and setting it changes the ids (a rebuild would no longer reproduce
-  # ena_submission_samplesheet.csv).  Uncomment for the next submission:
-  # id_prefix: fairymags-mags-building-main-v0.7_
+  # ena_submission_samplesheet.csv).  Uncomment for the next submission, e.g.:
+  # id_prefix: v2_
 
 # ENA sample metadata
 metagenome: honeybee metagenome

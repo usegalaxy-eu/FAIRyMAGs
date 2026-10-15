@@ -29,15 +29,31 @@ Usage
     # show what would happen, write nothing
     python3 submission/build_samplesheet.py data/use-cases/bee-gut --dry-run
 
+    # brand a second submission so it is not confused with the first one
+    python3 submission/build_samplesheet.py data/use-cases/bee-gut \
+        --id-prefix FAIRyMAGs2_ --fasta-dir mags_v2
+
     # give a seqsubmit checkout the two-line fix for contamination=0.0
     python3 submission/build_samplesheet.py --patch-seqsubmit /path/to/seqsubmit
 
 Galaxy credentials are read from ``./.env`` (``GALAXY_API=...``), like
 ``bin/download_datasets.py``, so no key is passed on the command line.
 
-The ``fasta`` column holds ``<--fasta-dir>/<id>.fasta.gz`` verbatim, so a
+The ``fasta`` column holds ``<--fasta-dir>/<mag_id>.fasta.gz`` verbatim, so a
 relative ``--fasta-dir`` (the default, ``mags``) keeps samplesheet + FASTAs in
 one self-contained directory you can move to the machine that runs Nextflow.
+
+``--id-prefix`` brands the *submission identity*: the samplesheet ``id`` becomes
+``<prefix><mag_id>``, and because nf-core/seqsubmit passes that value through as
+``genome_name``, it ends up in every ENA identifier you can control - the sample
+alias and title, the assembly name (``ASSEMBLYNAME``), and therefore the
+analysis alias ``webin-genome-<id>`` (the ``webin-genome-`` part is added by
+ENA's Webin-CLI).  It is how two submissions of the same MAGs, made with
+different pipeline versions, are told apart.  The FASTA *file names* are left
+alone: ENA keeps the assembly name and the FASTA file name separate (its own
+example pairs ``ASSEMBLYNAME TODO`` with ``FASTA genome.fasta.gz``), so nothing
+has to be re-downloaded or renamed.  ENA aliases are permanent, so pick the
+prefix once - and remember it is public as the assembly name.
 """
 
 import argparse
@@ -507,6 +523,10 @@ def main() -> None:
     ap.add_argument("--out", default="samplesheet.csv", help="samplesheet to write (default: samplesheet.csv)")
     ap.add_argument("--fasta-dir", default="mags",
                     help="where the MAG FASTAs are/land; written into the sheet verbatim (default: mags)")
+    ap.add_argument("--id-prefix", default="",
+                    help="brand every submitted id with this prefix (e.g. FAIRyMAGs2_); the "
+                         "sample alias, assembly name and ENA analysis alias then carry it. "
+                         "Allowed: A-Za-z0-9_.-  (default: empty, ids are used as they are)")
     ap.add_argument("--history", help="override mags.history from ena_submission.yaml")
     ap.add_argument("--tag", help="override mags.tag from ena_submission.yaml")
     ap.add_argument("--no-download", action="store_true",
@@ -526,10 +546,17 @@ def main() -> None:
     if not args.use_case_dir:
         ap.error("a use case directory is required (e.g. data/use-cases/bee-gut)")
 
+    prefix = args.id_prefix or ""
+    if prefix and not re.fullmatch(r"[A-Za-z0-9_.-]+", prefix):
+        ap.error(f"--id-prefix {prefix!r} is not usable: ENA aliases and assembly names "
+                 f"allow only A-Za-z0-9_.- (no spaces, slashes or commas)")
+
     use_case = load_use_case(args.use_case_dir)
     config = use_case["config"]
     checkm2, coverm = use_case["checkm2"], use_case["coverm"]
     print(f"use case    : {args.use_case_dir} ({len(checkm2)} MAGs in checkm2.tsv)")
+    if prefix:
+        print(f"id prefix   : {prefix!r} -> ENA sample alias, assembly name and analysis alias")
 
     # 1. + 2. the MAG FASTAs -------------------------------------------------
     mags = {}
@@ -583,6 +610,12 @@ def main() -> None:
 
     # 5. write ---------------------------------------------------------------
     missing = [row for row in rows if not os.path.exists(row["fasta"])]
+
+    # brand the submission identity: the sample alias, the assembly name and
+    # the ENA analysis alias (webin-genome-<id>) all come from this column
+    for row in rows:
+        row["id"] = prefix + row["id"]
+
     with open(args.out, "w", newline="") as fh:
         writer = csv.DictWriter(fh, fieldnames=COLUMNS, lineterminator="\n")
         writer.writeheader()
@@ -592,7 +625,10 @@ def main() -> None:
         check = list(csv.DictReader(fh))
     assert len(check) == len(rows), f"row count changed: {len(rows)} -> {len(check)}"
     assert all(row["id"] and row["fasta"] and row["accession"] for row in check)
-    assert all(row["fasta"].endswith(row["id"] + ".fasta.gz") for row in check)
+    assert all(row["id"].startswith(prefix) for row in check)
+    assert all(os.path.basename(row["fasta"]) == row["id"][len(prefix):] + ".fasta.gz"
+               for row in check)
+    assert len({row["id"] for row in check}) == len(check), "ids must be unique"
 
     print(f"wrote       : {args.out} ({len(check)} rows, {len(COLUMNS)} columns)")
     if missing:

@@ -78,7 +78,38 @@ nothing but a retry.
 
 Useful flags: `--no-download` (samplesheet only, no Galaxy),
 `--dry-run` (write nothing), `--fasta-dir` (default `mags`),
-`--history` / `--tag` (override the yaml), `--no-fix` (fail instead of repair).
+`--history` / `--tag` (override the yaml), `--no-fix` (fail instead of repair),
+`--id-prefix` (see below).
+
+### Telling submissions apart with `--id-prefix`
+
+If the MAGs are regenerated later (a new pipeline version, new parameters), the
+resulting ids would be the same — `<run>_<binner>_bin<N>` — and so would their
+ENA aliases. `--id-prefix` brands the submission identity so the two sets stay
+distinguishable in ENA:
+
+```bash
+python3 submission/build_samplesheet.py data/use-cases/bee-gut \
+    --id-prefix FAIRyMAGs2_ --fasta-dir mags_v2 --out samplesheet_v2.csv
+```
+
+The prefix is prepended to the `id` column, which nf-core/seqsubmit passes
+through as `genome_name`, so it reaches every identifier this side controls:
+
+| ENA record | without prefix | with `--id-prefix FAIRyMAGs2_` |
+| --- | --- | --- |
+| sample alias / title | `SRR24759596_binette_bin20` | `FAIRyMAGs2_SRR24759596_binette_bin20` |
+| assembly name (`ASSEMBLYNAME`) | `SRR24759604_binette_bin91` | `FAIRyMAGs2_SRR24759604_binette_bin91` |
+| analysis alias (set by Webin-CLI) | `webin-genome-SRR24759604_binette_bin91` | `webin-genome-FAIRyMAGs2_SRR24759604_binette_bin91` |
+
+The `webin-genome-` part is added by ENA's Webin-CLI and cannot be changed. The
+**FASTA file names are left alone** — ENA keeps the assembly name and the FASTA
+file name separate, so nothing has to be renamed or re-downloaded. Use only
+`A-Za-z0-9_.-`; the assembly name is public once the record is released, and an
+alias can never be edited after registration, so choose the prefix once and
+keep it. For finer provenance (and anything machine-readable), the study's
+`binning_parameters` free text in `ena_submission.yaml` also lands in ENA as a
+sample attribute — that is where the FAIRyMAGs provenance sentence already is.
 
 ## 2. Run the pipeline
 

@@ -31,7 +31,7 @@ Usage
 
     # brand a second submission so it is not confused with the first one
     python3 submission/build_samplesheet.py data/use-cases/bee-gut \
-        --id-prefix FAIRyMAGs2_ --fasta-dir mags_v2
+        --id-prefix v2_ --fasta-dir mags_v2
 
     # give a seqsubmit checkout the two-line fix for contamination=0.0
     python3 submission/build_samplesheet.py --patch-seqsubmit /path/to/seqsubmit
@@ -525,7 +525,7 @@ def main() -> None:
     ap.add_argument("--fasta-dir", default="mags",
                     help="where the MAG FASTAs are/land; written into the sheet verbatim (default: mags)")
     ap.add_argument("--id-prefix", default=None,
-                    help="brand every submitted id with this prefix (e.g. FAIRyMAGs2_); the "
+                    help="brand every submitted id with this prefix (e.g. v2_); the "
                          "sample alias, assembly name and ENA analysis alias then carry it. "
                          "Allowed: A-Za-z0-9_.-  (default: mags.id_prefix from "
                          "ena_submission.yaml, or the ids as they are; --id-prefix '' forces none)")

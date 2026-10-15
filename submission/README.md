@@ -85,8 +85,8 @@ Useful flags: `--no-download` (samplesheet only, no Galaxy),
 
 If the MAGs are regenerated later (a new pipeline version, new parameters), the
 resulting ids would be the same — `<run>_<binner>_bin<N>` — and so would their
-ENA aliases. `--id-prefix` brands the submission identity so the two sets stay
-distinguishable in ENA:
+ENA aliases. `--id-prefix` (or `mags.id_prefix` in `ena_submission.yaml`) brands
+the submission identity so the two sets stay distinguishable in ENA:
 
 ```bash
 python3 submission/build_samplesheet.py data/use-cases/bee-gut \

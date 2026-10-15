@@ -43,7 +43,8 @@ The ``fasta`` column holds ``<--fasta-dir>/<mag_id>.fasta.gz`` verbatim, so a
 relative ``--fasta-dir`` (the default, ``mags``) keeps samplesheet + FASTAs in
 one self-contained directory you can move to the machine that runs Nextflow.
 
-``--id-prefix`` brands the *submission identity*: the samplesheet ``id`` becomes
+``--id-prefix`` (or ``mags.id_prefix`` in ``ena_submission.yaml``, which it
+defaults to) brands the *submission identity*: the samplesheet ``id`` becomes
 ``<prefix><mag_id>``, and because nf-core/seqsubmit passes that value through as
 ``genome_name``, it ends up in every ENA identifier you can control - the sample
 alias and title, the assembly name (``ASSEMBLYNAME``), and therefore the
@@ -523,10 +524,11 @@ def main() -> None:
     ap.add_argument("--out", default="samplesheet.csv", help="samplesheet to write (default: samplesheet.csv)")
     ap.add_argument("--fasta-dir", default="mags",
                     help="where the MAG FASTAs are/land; written into the sheet verbatim (default: mags)")
-    ap.add_argument("--id-prefix", default="",
+    ap.add_argument("--id-prefix", default=None,
                     help="brand every submitted id with this prefix (e.g. FAIRyMAGs2_); the "
                          "sample alias, assembly name and ENA analysis alias then carry it. "
-                         "Allowed: A-Za-z0-9_.-  (default: empty, ids are used as they are)")
+                         "Allowed: A-Za-z0-9_.-  (default: mags.id_prefix from "
+                         "ena_submission.yaml, or the ids as they are; --id-prefix '' forces none)")
     ap.add_argument("--history", help="override mags.history from ena_submission.yaml")
     ap.add_argument("--tag", help="override mags.tag from ena_submission.yaml")
     ap.add_argument("--no-download", action="store_true",
@@ -546,17 +548,20 @@ def main() -> None:
     if not args.use_case_dir:
         ap.error("a use case directory is required (e.g. data/use-cases/bee-gut)")
 
-    prefix = args.id_prefix or ""
-    if prefix and not re.fullmatch(r"[A-Za-z0-9_.-]+", prefix):
-        ap.error(f"--id-prefix {prefix!r} is not usable: ENA aliases and assembly names "
-                 f"allow only A-Za-z0-9_.- (no spaces, slashes or commas)")
-
     use_case = load_use_case(args.use_case_dir)
     config = use_case["config"]
     checkm2, coverm = use_case["checkm2"], use_case["coverm"]
     print(f"use case    : {args.use_case_dir} ({len(checkm2)} MAGs in checkm2.tsv)")
+
+    prefix = args.id_prefix if args.id_prefix is not None else (
+        (config.get("mags") or {}).get("id_prefix") or ""
+    )
+    if prefix and not re.fullmatch(r"[A-Za-z0-9_.-]+", prefix):
+        ap.error(f"id prefix {prefix!r} is not usable: ENA aliases and assembly names "
+                 f"allow only A-Za-z0-9_.- (no spaces, slashes or commas)")
     if prefix:
         print(f"id prefix   : {prefix!r} -> ENA sample alias, assembly name and analysis alias")
+
 
     # 1. + 2. the MAG FASTAs -------------------------------------------------
     mags = {}

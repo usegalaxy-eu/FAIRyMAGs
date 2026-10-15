@@ -1,0 +1,35 @@
+# Everything the ENA submission needs that cannot be derived from the other
+# files of this use case.  Read by submission/build_samplesheet.py.
+#
+# Values are free text and are copied into every row of the samplesheet, so
+# one submission = one use case.
+
+# ENA study the MAGs belong to (they are submitted as third party annotations)
+ena:
+  study: PRJEB128432
+  centre_name: UFR
+
+# Where the MAG FASTA files come from: a history of histories.yaml (matched by
+# name) and the tag of the collection inside it that holds the dereplicated
+# MAG bins.  Dereplicated = the dRep cluster representatives, the set that is
+# submitted.
+mags:
+  history: Metagenome-Assembled Genomes
+  tag: Dereplicated-Bins
+
+# ENA sample metadata
+metagenome: honeybee metagenome
+broad_environment: apiary-biome
+local_environment: pain-cages
+environmental_medium: Honeybee
+
+# provenance of the MAGs (same for every MAG of the use case)
+assembly_software: MEGAHIT_v1.2.9
+binning_software: "MetaBAT2_v2.18.23,MaxBin2_v2.2.7,SemiBin2_v2.1.0,CONCOCT_v1.1.0,COMEBin_v1.0.4,Binette_v1.2.1"
+binning_parameters: >-
+  defaults except: SemiBin2 environment=global; CONCOCT read_length=150;
+  Binette contamination_weight=2; MAG filters min_length=50000 bp,
+  min_completeness=0%, max_contamination=100%; dRep dereplication ANI=0.95;
+  MEGAHIT min_contig_length=200 bp. MAGs generated with the FAIRyMAGs
+  workflows (https://github.com/usegalaxy-eu/FAIRyMAGs) on usegalaxy.eu
+stats_generation_software: CheckM2_v1.1.0

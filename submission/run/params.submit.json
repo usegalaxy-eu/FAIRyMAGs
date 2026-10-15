@@ -1,0 +1,11 @@
+{
+  "input": "samplesheet.csv",
+  "mode": "mags",
+  "outdir": "out",
+  "submission_study": "PRJEB128432",
+  "centre_name": "UFR",
+  "upload_tpa": true,
+  "test_upload": false,
+  "webincli_mode": "submit",
+  "is_private": false
+}

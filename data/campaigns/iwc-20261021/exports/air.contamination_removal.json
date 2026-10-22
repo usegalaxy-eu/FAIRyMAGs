@@ -1,0 +1,15 @@
+{
+  "exports": {
+    "MultiQC HTML Report": "outputs/air/air.contamination_removal/MultiQC HTML Report",
+    "Contamination Filtered Reads from Reference Input": "outputs/air/air.contamination_removal/Contamination Filtered Reads from Reference Input",
+    "Bowtie2 Mapping Statistics from Reference Input": "outputs/air/air.contamination_removal/Bowtie2 Mapping Statistics from Reference Input",
+    "Bowtie2 Mapping Statistics from Local Index": "outputs/air/air.contamination_removal/Bowtie2 Mapping Statistics from Local Index"
+  },
+  "export_problems": {
+    "Contamination Filtered Reads from Local Index": "Insufficient free disk space for output plus 5 GiB reserve"
+  },
+  "missing_required_exports": [
+    "Contamination Filtered Reads from Local Index"
+  ],
+  "collection_complete": false
+}

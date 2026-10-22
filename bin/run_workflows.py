@@ -512,6 +512,9 @@ def api_key_from_env():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("config", help="path to a use-case workflow.yaml")
+    parser.add_argument("--campaign", action="store_true", help="run a persistent, version-pinned campaign")
+    parser.add_argument("--once", action="store_true", help="perform one campaign scheduling cycle")
+    parser.add_argument("--export-only", action="store_true", help="collect campaign outputs without scheduling")
     parser.add_argument("--dry-run", action="store_true", help="resolve and validate without creating histories")
     parser.add_argument("--poll-interval", type=int, help="override polling interval in seconds")
     parser.add_argument(
@@ -520,6 +523,12 @@ def main():
     )
     args = parser.parse_args()
     try:
+        if args.campaign:
+            from workflow_campaign import run_campaign
+
+            run_campaign(args.config, api_key_from_env(), once=args.once, dry_run=args.dry_run,
+                         export_only=args.export_only)
+            return
         run(
             args.config, api_key_from_env(), args.dry_run, args.poll_interval,
             args.max_wait_minutes,

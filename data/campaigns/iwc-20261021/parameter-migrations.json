@@ -1,0 +1,218 @@
+[
+  {
+    "case": "bee-gut",
+    "branch": "single",
+    "removed_manual_read_length": "150",
+    "parameters": {
+      "Choose Assembler": "MEGAHIT",
+      "Minimum length of contigs to output": 200,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use original samples",
+      "Binning strategy": "Single-coverage binning (own/merged reads)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "bee-gut.contamination_removal",
+        "output": "Contamination Filtered Reads from Local Index"
+      }
+    }
+  },
+  {
+    "case": "bee-gut",
+    "branch": "multi",
+    "removed_manual_read_length": "150",
+    "parameters": {
+      "Choose Assembler": "MEGAHIT",
+      "Minimum length of contigs to output": 200,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use original samples",
+      "Binning strategy": "Multi-coverage binning (all samples)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "bee-gut.contamination_removal",
+        "output": "Contamination Filtered Reads from Local Index"
+      }
+    }
+  },
+  {
+    "case": "termite-head",
+    "branch": "grouped",
+    "removed_manual_read_length": "150",
+    "parameters": {
+      "Choose Assembler": "MEGAHIT",
+      "Minimum length of contigs to output": 500,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use grouping",
+      "Binning strategy": "Single-coverage binning (own/merged reads)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true,
+      "Sample grouping column": "group"
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "termite-head.remove_cdom",
+        "output": "Contamination Filtered Reads from Reference Input"
+      },
+      "Metadata": {
+        "src": "hda",
+        "id": "26c75dcccb616ac86b50a9fcbbc32cd4",
+        "history_id": "11ac94870d0bb33aa2437ee428efd50a"
+      }
+    }
+  },
+  {
+    "case": "termite-head",
+    "branch": "individual",
+    "removed_manual_read_length": "150",
+    "parameters": {
+      "Choose Assembler": "MEGAHIT",
+      "Minimum length of contigs to output": 500,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use original samples",
+      "Binning strategy": "Single-coverage binning (own/merged reads)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "termite-head.remove_cdom",
+        "output": "Contamination Filtered Reads from Reference Input"
+      }
+    }
+  },
+  {
+    "case": "macroalgal-epiphytic",
+    "branch": "single",
+    "removed_manual_read_length": "75",
+    "parameters": {
+      "Choose Assembler": "MEGAHIT",
+      "Minimum length of contigs to output": 200,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use original samples",
+      "Binning strategy": "Single-coverage binning (own/merged reads)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "macroalgal-epiphytic.contamination_removal",
+        "output": "Contamination Filtered Reads from Local Index"
+      }
+    }
+  },
+  {
+    "case": "air",
+    "branch": "megahit",
+    "removed_manual_read_length": "150",
+    "parameters": {
+      "Choose Assembler": "MEGAHIT",
+      "Minimum length of contigs to output": 200,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use original samples",
+      "Binning strategy": "Single-coverage binning (own/merged reads)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "air.contamination_removal",
+        "output": "Contamination Filtered Reads from Local Index"
+      }
+    }
+  },
+  {
+    "case": "air",
+    "branch": "metaspades",
+    "removed_manual_read_length": "150",
+    "parameters": {
+      "Choose Assembler": "metaSPAdes",
+      "Minimum length of contigs to output": 200,
+      "Environment for the built-in model (SemiBin)": "global",
+      "Run COMEBin": true,
+      "Minimum MAG completeness percentage": 0,
+      "Contamination weight (Binette)": 2,
+      "CheckM2 Database": "1.0.2",
+      "Minimum MAG length": 50000,
+      "Maximum MAG contamination percentage": 100,
+      "ANI threshold for dereplication": 0.95,
+      "Use grouping?": "Use original samples",
+      "Binning strategy": "Single-coverage binning (own/merged reads)",
+      "Bin refinement tool": "Binette",
+      "Run SemiBin?": true,
+      "Run CONCOCT?": true,
+      "Run MetaBAT2?": true,
+      "Run MaxBin2?": true
+    },
+    "inputs": {
+      "Trimmed reads": {
+        "step": "air.exclude_metaspades_memory_sample",
+        "output": "Filtered reads"
+      }
+    }
+  }
+]

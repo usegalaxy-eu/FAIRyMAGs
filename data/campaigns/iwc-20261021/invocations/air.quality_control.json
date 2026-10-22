@@ -1,0 +1,184 @@
+{
+  "model_class": "WorkflowInvocation",
+  "id": "544df14758e3b787",
+  "create_time": "2026-10-21T18:28:54.721776",
+  "update_time": "2026-10-21T18:29:00.934559",
+  "workflow_id": "c01285bf7b7c489c",
+  "history_id": "11ac94870d0bb33a4ca6becf4290dd3d",
+  "uuid": "4592b98a-cd7d-11f1-8732-b42e99728f38",
+  "state": "scheduled",
+  "landing_uuid": null,
+  "on_complete": null,
+  "steps": [
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33ab48f3ae543b41066",
+      "update_time": "2026-10-21T18:28:59.897466",
+      "job_id": null,
+      "workflow_step_id": "e2160c288e688b4d",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 0,
+      "workflow_step_label": "Raw reads",
+      "workflow_step_uuid": "921113d6-60b5-413d-acb5-65b5515a28e2",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33aeada58c0ff72a29a",
+      "update_time": "2026-10-21T18:28:59.897472",
+      "job_id": null,
+      "workflow_step_id": "13662fbfc7018b16",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 1,
+      "workflow_step_label": "Adapter to remove on forward reads",
+      "workflow_step_uuid": "7f4b4c11-a767-46d0-a3e6-5c9fc8667bcb",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a933ea626d2921194",
+      "update_time": "2026-10-21T18:28:59.897477",
+      "job_id": null,
+      "workflow_step_id": "e1c24e21fc46a970",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 2,
+      "workflow_step_label": "Adapter to remove on reverse reads",
+      "workflow_step_uuid": "00addbca-26cf-4aba-ba30-df34414971c1",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a55f25fd8de41edfd",
+      "update_time": "2026-10-21T18:28:59.897482",
+      "job_id": null,
+      "workflow_step_id": "6a2a22378097f0f0",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 3,
+      "workflow_step_label": "Qualified quality score",
+      "workflow_step_uuid": "04d655d2-96e3-472b-8a84-dedb7993d101",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a40a45f467b8ea529",
+      "update_time": "2026-10-21T18:28:59.897487",
+      "job_id": null,
+      "workflow_step_id": "35d2c0fa2a1f0643",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 4,
+      "workflow_step_label": "Minimal read length",
+      "workflow_step_uuid": "314b6d7d-6b31-420c-bc62-757aa5f18a04",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a1ff0d6d21ddf4902",
+      "update_time": "2026-10-21T18:29:00.908751",
+      "job_id": null,
+      "workflow_step_id": "f705a239c7954154",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 5,
+      "workflow_step_label": "fastp",
+      "workflow_step_uuid": "e69bddb6-7447-4f42-b721-233bbe9c4d71",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": "dee99617559dd201"
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a23c70f399e428e88",
+      "update_time": "2026-10-21T20:16:25.529694",
+      "job_id": "4838ba20a6d8676515698d178608417d",
+      "workflow_step_id": "40232201d748195a",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 6,
+      "workflow_step_label": "MultiQC",
+      "workflow_step_uuid": "cce48d5d-b02d-435e-b466-d4f3eb8b7529",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    }
+  ],
+  "inputs": {
+    "0": {
+      "id": "11c99a3b96609ac7",
+      "workflow_step_id": "e2160c288e688b4d",
+      "label": "Raw reads",
+      "src": "hdca"
+    }
+  },
+  "input_step_parameters": {
+    "Adapter to remove on forward reads": {
+      "parameter_value": null,
+      "label": "Adapter to remove on forward reads",
+      "workflow_step_id": "13662fbfc7018b16"
+    },
+    "Adapter to remove on reverse reads": {
+      "parameter_value": null,
+      "label": "Adapter to remove on reverse reads",
+      "workflow_step_id": "e1c24e21fc46a970"
+    },
+    "Qualified quality score": {
+      "parameter_value": 15,
+      "label": "Qualified quality score",
+      "workflow_step_id": "6a2a22378097f0f0"
+    },
+    "Minimal read length": {
+      "parameter_value": 15,
+      "label": "Minimal read length",
+      "workflow_step_id": "35d2c0fa2a1f0643"
+    }
+  },
+  "outputs": {
+    "MultiQC HTML report": {
+      "id": "26c75dcccb616ac8750cd0edc9feed05",
+      "workflow_step_id": "40232201d748195a",
+      "src": "hda"
+    }
+  },
+  "output_collections": {
+    "fastp JSON report": {
+      "id": "d65274f042789246",
+      "workflow_step_id": "f705a239c7954154",
+      "src": "hdca"
+    },
+    "fastp trimmed reads": {
+      "id": "6d5685ac129724ff",
+      "workflow_step_id": "f705a239c7954154",
+      "src": "hdca"
+    }
+  },
+  "output_values": {},
+  "messages": []
+}

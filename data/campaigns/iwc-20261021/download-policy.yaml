@@ -1,0 +1,14 @@
+# Only datasets explicitly listed in these existing manifests are downloaded.
+# History IDs in those manifests are NOT used: tables come from each new run.
+# Additional Bee/Termite branches use their use-case's identical table list.
+manifests:
+  bee-gut: ../../use-cases/bee-gut/histories.yaml
+  termite-head: ../../use-cases/termite-head/histories.yaml
+  macroalgal-epiphytic: ../../use-cases/macroalgal-epiphytic/histories.yaml
+  air/megahit: ../../use-cases/air/megahit/histories.yaml
+  air/metaspades: ../../use-cases/air/metaspades/histories.yaml
+histories:
+  parent: Metagenome-Assembled Genomes
+  taxonomy: MAGs taxonomy annotation
+  genome: MAG Genome Annotation
+  functional: Functional annotation of sequences

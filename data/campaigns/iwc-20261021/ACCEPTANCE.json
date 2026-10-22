@@ -1,0 +1,347 @@
+{
+  "updated": "2026-10-22T19:16:17.686399+00:00",
+  "stages": {
+    "bee-gut.quality_control": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "bee-gut.contamination_removal": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "bee-gut.mags_single": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.taxonomy_single": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.genome_annotation_single": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.functional_annotation_single": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.mags_multi": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.taxonomy_multi": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.genome_annotation_multi": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "bee-gut.functional_annotation_multi": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.quality_control": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "termite-head.remove_cryptotermes": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "termite-head.remove_cdom": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "termite-head.mags_grouped": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.taxonomy_grouped": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.genome_annotation_grouped": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.functional_annotation_grouped": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.mags_individual": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.taxonomy_individual": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.genome_annotation_individual": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "termite-head.functional_annotation_individual": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "macroalgal-epiphytic.quality_control": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "macroalgal-epiphytic.contamination_removal": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "macroalgal-epiphytic.mags_single": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "macroalgal-epiphytic.taxonomy_single": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "macroalgal-epiphytic.genome_annotation_single": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "macroalgal-epiphytic.functional_annotation_single": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.quality_control": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "air.contamination_removal": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "air.mags_megahit": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.taxonomy_megahit": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.genome_annotation_megahit": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.functional_annotation_megahit": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.exclude_metaspades_memory_sample": {
+      "status": "complete",
+      "required_downloads_complete": true,
+      "missing_required_exports": [],
+      "failed_jobs": []
+    },
+    "air.mags_metaspades": {
+      "status": "running",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "checkm.tsv",
+        "checkm2.tsv",
+        "coverm.tsv",
+        "drep.tsv",
+        "quast.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.taxonomy_metaspades": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "gtdb.tsv",
+        "kmetashot.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.genome_annotation_metaspades": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "bakta.tsv",
+        "intregon.tsv",
+        "isescan.tsv",
+        "plasmidfinder.tsv"
+      ],
+      "failed_jobs": []
+    },
+    "air.functional_annotation_metaspades": {
+      "status": "waiting",
+      "required_downloads_complete": false,
+      "missing_required_exports": [
+        "kegg_pathway_completeness.tsv"
+      ],
+      "failed_jobs": []
+    }
+  },
+  "all_required_downloads_complete": false,
+  "requires_failure_review": false
+}

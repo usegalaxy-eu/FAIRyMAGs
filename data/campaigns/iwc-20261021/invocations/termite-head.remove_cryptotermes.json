@@ -1,0 +1,258 @@
+{
+  "model_class": "WorkflowInvocation",
+  "id": "65deedf8356c1164",
+  "create_time": "2026-10-21T23:54:57.327389",
+  "update_time": "2026-10-21T23:55:35.356010",
+  "workflow_id": "88a181b0ca9ea64a",
+  "history_id": "11ac94870d0bb33a19f26c719dea0ab7",
+  "uuid": "d1c94694-cdaa-11f1-b600-b42e99728f38",
+  "state": "scheduled",
+  "landing_uuid": null,
+  "on_complete": null,
+  "steps": [
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33af8fc173e4fd85f3e",
+      "update_time": "2026-10-21T23:55:07.831230",
+      "job_id": null,
+      "workflow_step_id": "34313cb3aa44293b",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 0,
+      "workflow_step_label": "Choose Reference Genome",
+      "workflow_step_uuid": "99b487c8-00ee-45bd-bdc4-cbd3ec6795b3",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33abe016c8a4e17114d",
+      "update_time": "2026-10-21T23:55:07.831234",
+      "job_id": null,
+      "workflow_step_id": "59900febce725749",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 1,
+      "workflow_step_label": "Short-reads",
+      "workflow_step_uuid": "f0ca536e-1255-4b44-8fad-73adec33ff74",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a4bd83469d010d560",
+      "update_time": "2026-10-21T23:55:07.831237",
+      "job_id": null,
+      "workflow_step_id": "946dc720beb07d99",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 2,
+      "workflow_step_label": "Host/Contaminant Reference Genome",
+      "workflow_step_uuid": "af636432-a9d2-4b0f-ba42-5eaa1cbe750a",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a45e7c6386d8b6601",
+      "update_time": "2026-10-21T23:55:07.831240",
+      "job_id": null,
+      "workflow_step_id": "0aca4a8cc3d6845b",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 3,
+      "workflow_step_label": "Reference genome file",
+      "workflow_step_uuid": "9bfb60e7-6947-4397-b804-0a675a8de33c",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a8aa9ecdf6cb4a547",
+      "update_time": "2026-10-21T23:55:08.081883",
+      "job_id": "4838ba20a6d867658784438a66d7742a",
+      "workflow_step_id": "72ef3ff9eb22d1fa",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 4,
+      "workflow_step_label": null,
+      "workflow_step_uuid": "ec5ec63e-3814-4ea1-80c2-1f026514be8c",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33ad6f418a93f0787e4",
+      "update_time": "2026-10-21T23:55:08.193716",
+      "job_id": "4838ba20a6d86765a2d53d3ee139ce75",
+      "workflow_step_id": "48e54fd3a816c421",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 5,
+      "workflow_step_label": null,
+      "workflow_step_uuid": "6ca71f29-0c73-43b5-9852-519094b0288a",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33ae9ab79e2f11b8ee9",
+      "update_time": "2026-10-21T23:55:10.651976",
+      "job_id": "4838ba20a6d867656e3830585a9c323e",
+      "workflow_step_id": "e948acb85ad2a133",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 6,
+      "workflow_step_label": null,
+      "workflow_step_uuid": "37595bb0-b106-4101-a6a8-d979aee71350",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a0cee7e1da2e6a3df",
+      "update_time": "2026-10-21T23:55:21.982436",
+      "job_id": null,
+      "workflow_step_id": "9884c3a7d515ea83",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 7,
+      "workflow_step_label": "Bowtie2-map reads against a built in reference genome",
+      "workflow_step_uuid": "4f0ed86e-4ab8-4737-a980-41405a6c5295",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": "04a2b6418aee7264"
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33acc29c3a4424b9b84",
+      "update_time": "2026-10-21T23:55:25.951512",
+      "job_id": null,
+      "workflow_step_id": "dc912af78c0eeada",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 8,
+      "workflow_step_label": "Bowtie2-map reads against a reference genome in the history",
+      "workflow_step_uuid": "8e9b9cb7-d3ab-47a0-87df-097406cc901c",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": "dc6b4f13cc523c3f"
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a1790eef398f4f25b",
+      "update_time": "2026-10-21T23:55:35.325727",
+      "job_id": null,
+      "workflow_step_id": "98e4683b53d601c4",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 9,
+      "workflow_step_label": null,
+      "workflow_step_uuid": "3c8028f2-744c-4276-a733-c4f3cb2b4b2b",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": "77d79f39f0d889bf"
+    },
+    {
+      "model_class": "WorkflowInvocationStep",
+      "id": "11ac94870d0bb33a3a9cf2e8092e6405",
+      "update_time": "2026-10-22T03:01:54.106084",
+      "job_id": "4838ba20a6d86765b7d48661d00a7677",
+      "workflow_step_id": "9b3f3bdc0a68e365",
+      "subworkflow_invocation_id": null,
+      "state": "scheduled",
+      "action": null,
+      "order_index": 10,
+      "workflow_step_label": "MultiQC",
+      "workflow_step_uuid": "c982928f-6392-4608-a8c7-88046300a4b1",
+      "outputs": {},
+      "output_collections": {},
+      "jobs": [],
+      "implicit_collection_jobs_id": null
+    }
+  ],
+  "inputs": {
+    "3": {
+      "id": "26c75dcccb616ac864a6ee9952d9cb43",
+      "workflow_step_id": "0aca4a8cc3d6845b",
+      "label": "Reference genome file",
+      "src": "hda"
+    },
+    "1": {
+      "id": "2bd3601395463c96",
+      "workflow_step_id": "59900febce725749",
+      "label": "Short-reads",
+      "src": "hdca"
+    }
+  },
+  "input_step_parameters": {
+    "Choose Reference Genome": {
+      "parameter_value": "Use a reference genome from the history",
+      "label": "Choose Reference Genome",
+      "workflow_step_id": "34313cb3aa44293b"
+    },
+    "Host/Contaminant Reference Genome": {
+      "parameter_value": "apiMel3",
+      "label": "Host/Contaminant Reference Genome",
+      "workflow_step_id": "946dc720beb07d99"
+    }
+  },
+  "outputs": {
+    "MultiQC HTML Report": {
+      "id": "26c75dcccb616ac860f3e6c652f49ae4",
+      "workflow_step_id": "9b3f3bdc0a68e365",
+      "src": "hda"
+    }
+  },
+  "output_collections": {
+    "Contamination Filtered Reads from Reference Input": {
+      "id": "5f819d3a542e607c",
+      "workflow_step_id": "dc912af78c0eeada",
+      "src": "hdca"
+    },
+    "Bowtie2 Mapping Statistics from Reference Input": {
+      "id": "e55e6976751b9812",
+      "workflow_step_id": "dc912af78c0eeada",
+      "src": "hdca"
+    },
+    "Contamination Filtered Reads from Local Index": {
+      "id": "7b0509a355370a3e",
+      "workflow_step_id": "9884c3a7d515ea83",
+      "src": "hdca"
+    },
+    "Bowtie2 Mapping Statistics from Local Index": {
+      "id": "78afe1728cb19aca",
+      "workflow_step_id": "9884c3a7d515ea83",
+      "src": "hdca"
+    }
+  },
+  "output_values": {},
+  "messages": []
+}

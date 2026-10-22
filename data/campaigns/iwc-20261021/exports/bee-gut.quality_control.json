@@ -1,0 +1,13 @@
+{
+  "exports": {
+    "MultiQC HTML report": "outputs/bee-gut/bee-gut.quality_control/MultiQC HTML report",
+    "fastp JSON report": "outputs/bee-gut/bee-gut.quality_control/fastp JSON report"
+  },
+  "export_problems": {
+    "fastp trimmed reads": "Insufficient free disk space for output plus 5 GiB reserve"
+  },
+  "missing_required_exports": [
+    "fastp trimmed reads"
+  ],
+  "collection_complete": false
+}

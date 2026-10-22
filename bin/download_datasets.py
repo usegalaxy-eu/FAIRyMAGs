@@ -19,6 +19,11 @@ them again regardless of what is already there.
 import os
 import sys
 import time
+import hashlib
+import json
+import shutil
+from pathlib import Path
+from urllib.parse import quote
 
 import yaml
 from bioblend.galaxy import GalaxyInstance
@@ -164,6 +169,182 @@ def download_combined(gi, d, hid, concat, allow_error=False):
         bodies.append("".join(lines))
         names.append(el_name)
     return "".join(bodies).encode(), " + ".join(names)
+
+
+def download_campaign_output(session, base, reference, target):
+    """Export one exact invocation output, preserving nested element paths.
+
+    Unlike the legacy tag-based interface, this never guesses among datasets or
+    concatenates unrelated files. A manifest records every leaf and checksum.
+    Failed/skipped/pending leaves prevent acceptance of this required output.
+    """
+    target = Path(target)
+    target.mkdir(parents=True, exist_ok=True)
+    manifest = target / "manifest.json"
+    if manifest.exists():
+        recorded = json.loads(manifest.read_text())
+        if recorded["reference"] != reference:
+            raise RuntimeError("Existing export refers to another dataset")
+        for entry in recorded["files"]:
+            path = target / entry["file"]
+            if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != entry["sha256"]:
+                raise RuntimeError(f"Export checksum mismatch: {path}")
+        return recorded
+
+    def get(path):
+        response = session.get(base + path, timeout=(30, 180))
+        response.raise_for_status()
+        return response.json()
+
+    def leaves(obj, names=()):
+        if "elements" in obj:
+            if obj.get("populated_state", "ok") != "ok":
+                raise RuntimeError("Output collection is not populated")
+            for element in obj["elements"]:
+                yield from leaves(element["object"], names + (element["element_identifier"],))
+        else:
+            yield names, obj
+
+    if reference["src"] == "hdca":
+        obj = get(f"histories/{reference['history_id']}/contents/dataset_collections/{reference['id']}")
+    else:
+        obj = get("datasets/" + reference["id"])
+    records = []
+    for names, dataset in leaves(obj):
+        if dataset.get("state") != "ok" or dataset.get("deleted") or dataset.get("purged"):
+            raise RuntimeError(f"Output leaf {names} is not usable")
+        if dataset.get("extension") == "expression.json":
+            raise RuntimeError(f"Output leaf {names} is a skipped placeholder")
+        # Percent-encode separators and '.' so identifiers cannot escape target.
+        parts = [quote(name, safe="").replace(".", "%2E") for name in names]
+        ext = dataset.get("extension", "dat").replace("/", "_")
+        relative = Path(*parts, "dataset." + ext)
+        path = target / relative
+        path.parent.mkdir(parents=True, exist_ok=True)
+        response = session.get(base + f"datasets/{dataset['id']}/display", stream=True, timeout=(30, 300))
+        response.raise_for_status()
+        expected_size = int(response.headers.get("Content-Length", dataset.get("file_size", 0)) or 0)
+        if shutil.disk_usage(target).free < expected_size + 5 * 1024**3:
+            response.close()
+            raise RuntimeError("Insufficient free disk space for output plus 5 GiB reserve")
+        temporary = path.with_suffix(path.suffix + ".partial")
+        checksum = hashlib.sha256()
+        size = 0
+        with temporary.open("wb") as handle:
+            for chunk in response.iter_content(1024 * 1024):
+                if shutil.disk_usage(target).free < len(chunk) + 5 * 1024**3:
+                    response.close()
+                    raise RuntimeError("Download stopped to preserve 5 GiB free disk space")
+                checksum.update(chunk)
+                size += len(chunk)
+                handle.write(chunk)
+        temporary.replace(path)
+        records.append({"identifiers": list(names), "id": dataset["id"],
+                        "file": str(relative), "sha256": checksum.hexdigest(), "bytes": size})
+    result = {"reference": reference, "files": records}
+    temporary = manifest.with_suffix(".tmp")
+    temporary.write_text(json.dumps(result, indent=2) + "\n")
+    temporary.replace(manifest)
+    return result
+
+
+def download_campaign_table(session, base, history_id, entry, target, max_bytes=1024**3):
+    """Download only an explicitly allowlisted table; fail on ambiguity.
+
+    Collection tables are concatenated only when requested in histories.yaml.
+    Sequence/alignment datatypes are refused even if incorrectly tagged.
+    """
+    def get(path, **kwargs):
+        response = session.get(base + path, timeout=(30, 180), **kwargs)
+        response.raise_for_status()
+        return response.json()
+
+    items, offset = [], 0
+    while True:
+        batch = get(f"histories/{history_id}/contents", params={
+            "details": "all", "limit": 500, "offset": offset,
+        })
+        items.extend(d for d in batch if not d.get("deleted") and not d.get("purged"))
+        if len(batch) < 500:
+            break
+        offset += len(batch)
+    # Some API views call the content type history_content_type, not type.
+    for item in items:
+        if item.get("history_content_type") == "dataset_collection":
+            item["type"] = "collection"
+    candidates = select_matches(items, entry)
+    if len(candidates) != 1:
+        raise RuntimeError(f"Expected one table for tag {entry['tag']!r}; found {len(candidates)}")
+    selected = candidates[0]
+    if selected.get("type") == "collection":
+        if not entry.get("concat"):
+            raise RuntimeError(f"Collection for {entry['tag']} requires explicit concat: true")
+        collection = get(f"histories/{history_id}/contents/dataset_collections/{selected['id']}")
+
+        def leaves(obj):
+            if obj.get("populated_state", "ok") != "ok":
+                raise RuntimeError("Table collection is not populated")
+            for element in obj.get("elements", []):
+                if element["element_type"] == "dataset_collection":
+                    yield from leaves(element["object"])
+                else:
+                    yield element["object"]
+
+        datasets = list(leaves(collection))
+    else:
+        datasets = [get("datasets/" + selected["id"])]
+    allowed = {"tabular", "tsv", "csv", "txt", "text", "gff", "gff3", "bed"}
+    for dataset in datasets:
+        if dataset.get("state") != "ok" or dataset.get("extension") not in allowed or dataset.get("deleted") or dataset.get("purged"):
+            raise RuntimeError(f"Refusing non-ready/non-table dataset {dataset.get('id')} ({dataset.get('extension')})")
+    if not datasets:
+        raise RuntimeError("Selected table collection is empty")
+    if sum(d.get("file_size", 0) or 0 for d in datasets) > max_bytes:
+        raise RuntimeError("Selected table exceeds the 1 GiB per-file safety limit")
+    target = Path(target)
+    target.parent.mkdir(parents=True, exist_ok=True)
+    metadata_path = target.with_suffix(target.suffix + ".provenance.json")
+    if target.exists() and metadata_path.exists():
+        record = json.loads(metadata_path.read_text())
+        digest = hashlib.sha256()
+        with target.open("rb") as handle:
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(chunk)
+        if record["history_id"] == history_id and record["selected_id"] == selected["id"] and record["sha256"] == digest.hexdigest():
+            return record
+        raise RuntimeError("Existing table provenance/checksum mismatch; refusing overwrite")
+    temporary = target.with_suffix(target.suffix + ".partial")
+    size, first_header = 0, None
+    try:
+        with temporary.open("wb") as handle:
+            for dataset in datasets:
+                with session.get(base + f"datasets/{dataset['id']}/display", stream=True, timeout=(30, 300)) as response:
+                    response.raise_for_status()
+                    # Only table files enter this path. Stream by line to remove
+                    # identical repeated headers when concatenation is explicit.
+                    for index, line in enumerate(response.iter_lines()):
+                        if index == 0:
+                            if first_header is None:
+                                first_header = line
+                            elif line == first_header:
+                                continue
+                        content = line + b"\n"
+                        size += len(content)
+                        if size > max_bytes or shutil.disk_usage(target.parent).free < len(content) + 5 * 1024**3:
+                            raise RuntimeError("Table download exceeds size/free-space safety limit")
+                        handle.write(content)
+        digest = hashlib.sha256()
+        with temporary.open("rb") as handle:
+            for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+                digest.update(chunk)
+        temporary.replace(target)
+        record = {"history_id": history_id, "selected_id": selected["id"], "tag": entry["tag"],
+                  "dataset_ids": [d["id"] for d in datasets], "bytes": size, "sha256": digest.hexdigest()}
+        metadata_path.write_text(json.dumps(record, indent=2) + "\n")
+        return record
+    except Exception:
+        temporary.unlink(missing_ok=True)
+        raise
 
 
 def preview_state(gi, d, hid, allow_error):

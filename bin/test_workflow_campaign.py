@@ -2,7 +2,7 @@
 
 import unittest
 from pathlib import Path
-from unittest.mock import Mock
+from unittest.mock import Mock, patch
 
 import yaml
 
@@ -47,7 +47,7 @@ class CampaignTests(unittest.TestCase):
         campaign = Campaign.__new__(Campaign)
         campaign.state = {"runs": {}}
         campaign.save = Mock()
-        campaign.root = Mock()
+        campaign.root = Path("/unused-campaign")
         return campaign
 
     def test_dependency_waits_for_upstream(self):
@@ -55,6 +55,30 @@ class CampaignTests(unittest.TestCase):
         campaign.state["runs"]["up"] = {"status": "running"}
         step = {"inputs": {"Reads": {"step": "up", "output": "Reads"}}}
         self.assertIsNone(campaign.resolve_inputs(step))
+
+    @patch("workflow_campaign.atomic_json")
+    def test_scheduling_progress_is_visible_but_not_complete(self, atomic_json):
+        campaign = self.campaign()
+        campaign.api = Mock(side_effect=[
+            {"state": "ready"},
+            [{"states": {"ok": 12, "error": 2}}, {"states": {"running": 3}}],
+        ])
+        run = {"status": "running", "invocation_id": "i", "history_id": "h"}
+        campaign.refresh({"name": "stage"}, run)
+        self.assertEqual(run["job_states"], {"ok": 12, "error": 2, "running": 3})
+        self.assertEqual(run["status"], "running")
+        self.assertIn("progress_checked", run)
+        self.assertNotIn("completed", run)
+        self.assertEqual(campaign.api.call_count, 2)
+
+    @patch("workflow_campaign.atomic_json")
+    def test_ready_invocation_with_only_finished_jobs_still_waits(self, atomic_json):
+        campaign = self.campaign()
+        campaign.api = Mock(side_effect=[{"state": "ready"}, {"states": {"ok": 12}}])
+        run = {"status": "running", "invocation_id": "i", "history_id": "h"}
+        campaign.refresh({"name": "stage"}, run)
+        self.assertEqual(run["status"], "running")
+        self.assertNotIn("outputs", run)
 
     def test_required_missing_output_blocks(self):
         campaign = self.campaign()

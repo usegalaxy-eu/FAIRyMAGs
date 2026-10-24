@@ -263,10 +263,6 @@ class Campaign:
             run.update(status="blocked", error=str(inv.get("messages", [])))
             self.save()
             return
-        # 'scheduled' means scheduling has finished, NOT that jobs have finished.
-        if inv["state"] not in {"scheduled", "completed"}:
-            self.save()
-            return
         summary = self.api("GET", f"invocations/{run['invocation_id']}/jobs_summary")
         summaries = summary if isinstance(summary, list) else [summary]
         counts = {}
@@ -274,6 +270,12 @@ class Campaign:
             for state, count in entry.get("states", {}).items():
                 counts[state] = counts.get(state, 0) + count
         run["job_states"] = counts
+        run["progress_checked"] = now()
+        # Scheduling invocations already have running/error jobs. Record those
+        # without treating a temporarily terminal job set as stage completion.
+        if inv["state"] not in {"scheduled", "completed"}:
+            self.save()
+            return
         if not counts or any(count for state, count in counts.items() if state not in {"ok", "skipped", "error", "deleted"}):
             self.save()
             return
@@ -314,7 +316,10 @@ class Campaign:
             run = self.state["runs"].get(step["name"], {})
             hid = run.get("history_id")
             link = f"[EU]({self.doc['galaxy_url']}/histories/view?id={hid})" if hid else "—"
-            lines.append(f"| {step['name']} | {run.get('status', 'waiting')} | {link} | {run.get('error', '')[:250]} |")
+            details = run.get("error", "")[:250]
+            if run.get("job_states"):
+                details += " " + ", ".join(f"{state}: {count}" for state, count in sorted(run["job_states"].items()))
+            lines.append(f"| {step['name']} | {run.get('status', 'waiting')} | {link} | {details.strip()} |")
         (self.root / "STATUS.md").write_text("\n".join(lines) + "\n")
 
     def download_entries(self, step):

@@ -10244,9 +10244,9 @@
     "FAIRyMAGs-iwc-20261021",
     "FAIRyMAGs",
     "agentic",
-    "workflow:parent",
-    "workflow-version:1.0",
-    "workflow-commit:af71db6df4d2"
+    "workflow-parent",
+    "workflow-version-1.0",
+    "workflow-commit-af71db6df4d2"
   ],
   "uuid": "028ae0ef-5949-446b-a82c-3734bda87405",
   "version": 0

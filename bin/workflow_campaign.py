@@ -35,6 +35,17 @@ def now():
     return datetime.datetime.now(datetime.timezone.utc).isoformat()
 
 
+def tag(key, value):
+    """Build one Galaxy tag.
+
+    Galaxy splits tags on ``=`` or ``:`` into a name/value pair and reserves ``.``
+    as its hierarchy separator, so ``stage:bee-gut.mags_multi`` cannot be used as a
+    plain label and does not filter reliably in the UI. A ``-`` keeps the
+    key/value shape as one opaque token.
+    """
+    return f"{key}-{value}"
+
+
 class Campaign:
     def __init__(self, config, key):
         self.path = Path(config).resolve()
@@ -120,8 +131,8 @@ class Campaign:
                 continue
             definition = json.loads(path.read_text())
             definition["tags"] = [self.doc["campaign"], "FAIRyMAGs", "agentic",
-                                  f"workflow:{key}", f"workflow-version:{spec['release']}",
-                                  f"workflow-commit:{spec['commit'][:12]}"]
+                                  tag("workflow", key), tag("workflow-version", spec["release"]),
+                                  tag("workflow-commit", spec["commit"][:12])]
             self.state["workflows"][key] = {"status": "importing", **spec}
             self.save()
             result = self.api("POST", "workflows/upload", json={"workflow": definition})
@@ -182,7 +193,8 @@ class Campaign:
             if "step" in ref:
                 upstream = self.state["runs"].get(ref["step"], {})
                 if upstream.get("status") not in {"complete", "complete-with-errors"}:
-                    return None
+                    if upstream.get("status") != "running" or ref["output"] not in upstream.get("ready_outputs", {}):
+                        return None
                 if ref["output"] not in upstream.get("outputs", {}):
                     raise Blocked(f"Upstream output missing: {ref['step']} / {ref['output']}")
                 value = upstream["outputs"][ref["output"]]
@@ -199,12 +211,12 @@ class Campaign:
         if run.get("status") in {"creating", "submitting"}:
             raise Blocked(f"Ambiguous POST for {key}; reconcile existing history/invocation first")
         spec = self.doc["workflows"].get(step.get("workflow"), {})
-        tags = ["FAIRyMAGs", "agentic", self.doc["campaign"], f"use-case:{step['use_case']}",
-                f"stage:{key}", f"workflow:{step.get('workflow', 'filter-air-metaspades')}",
-                f"workflow-version:{spec.get('release', '1')}"]
+        tags = ["FAIRyMAGs", "agentic", self.doc["campaign"], tag("use-case", step["use_case"]),
+                tag("stage", key), tag("workflow", step.get("workflow", "filter-air-metaspades")),
+                tag("workflow-version", spec.get("release", "1"))]
         if spec:
-            tags.append(f"workflow-commit:{spec['commit'][:12]}")
-            tags.append("workflow-name:" + re.sub(r"[^a-z0-9]+", "-", spec["name"].lower()).strip("-"))
+            tags.append(tag("workflow-commit", spec["commit"][:12]))
+            tags.append(tag("workflow-name", re.sub(r"[^a-z0-9]+", "-", spec["name"].lower()).strip("-")))
         if not run.get("history_id"):
             run.update(status="creating", parameters=step.get("parameters", {}), tags=tags)
             self.save()
@@ -263,6 +275,29 @@ class Campaign:
             run.update(status="blocked", error=str(inv.get("messages", [])))
             self.save()
             return
+        outputs = {}
+        for field, src in (("outputs", "hda"), ("output_collections", "hdca")):
+            for key, output in inv.get(field, {}).items():
+                label = output.get("workflow_output", {}).get("label") or key
+                outputs[label] = {"id": output["id"], "src": src}
+        run["outputs"] = outputs
+        # A finished scientific output can feed the next stage while unrelated
+        # reporting jobs remain unfinished. Never equate this with run completion.
+        ready, pending = {}, {}
+        for label in step.get("required_outputs", []):
+            if label not in outputs:
+                pending[label] = "Not yet exposed by invocation"
+                continue
+            try:
+                obj = self.check_data(outputs[label], run["history_id"])
+            except Blocked as exc:
+                pending[label] = str(exc)
+                continue
+            ready[label] = {"checked": now(), "id": outputs[label]["id"]}
+            if outputs[label]["src"] == "hdca":
+                ready[label]["element_count"] = obj.get("element_count")
+        run["ready_outputs"] = ready
+        run["pending_outputs"] = pending
         summary = self.api("GET", f"invocations/{run['invocation_id']}/jobs_summary")
         summaries = summary if isinstance(summary, list) else [summary]
         counts = {}
@@ -290,18 +325,6 @@ class Campaign:
         if any(j["state"] not in {"ok", "skipped", "error", "deleted"} for j in jobs):
             self.save()
             return
-        outputs = {}
-        for label, output in inv.get("outputs", {}).items():
-            outputs[label] = {"id": output["id"], "src": "hda"}
-        for label, output in inv.get("output_collections", {}).items():
-            outputs[label] = {"id": output["id"], "src": "hdca"}
-        # Invocation outputs may be keyed by output UUID; output label metadata
-        # is the authoritative bridge, never a history-name heuristic.
-        for source in (inv.get("outputs", {}), inv.get("output_collections", {})):
-            for key, output in source.items():
-                label = output.get("workflow_output", {}).get("label")
-                if label and key in outputs:
-                    outputs[label] = outputs.pop(key)
         if not outputs:
             raise Blocked("Scheduling finished but invocation has no declared outputs")
         run["outputs"] = outputs
@@ -319,6 +342,8 @@ class Campaign:
             details = run.get("error", "")[:250]
             if run.get("job_states"):
                 details += " " + ", ".join(f"{state}: {count}" for state, count in sorted(run["job_states"].items()))
+            if run.get("ready_outputs"):
+                details += "; outputs ready: " + ", ".join(run["ready_outputs"])
             lines.append(f"| {step['name']} | {run.get('status', 'waiting')} | {link} | {details.strip()} |")
         (self.root / "STATUS.md").write_text("\n".join(lines) + "\n")
 

@@ -2063,9 +2063,9 @@
     "FAIRyMAGs-iwc-20261021",
     "FAIRyMAGs",
     "agentic",
-    "workflow:genome",
-    "workflow-version:0.6",
-    "workflow-commit:29126830551c"
+    "workflow-genome",
+    "workflow-version-0.6",
+    "workflow-commit-29126830551c"
   ],
   "uuid": "dff4d756-a776-422f-bb5a-7d75a1afa7a3",
   "version": 0

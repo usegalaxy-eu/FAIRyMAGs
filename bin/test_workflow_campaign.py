@@ -7,10 +7,23 @@ from unittest.mock import Mock, patch
 import yaml
 
 from download_datasets import download_campaign_table
-from workflow_campaign import Blocked, Campaign
+from workflow_campaign import Blocked, Campaign, tag
 
 
 class CampaignTests(unittest.TestCase):
+    def test_tags_stay_one_opaque_token(self):
+        # Galaxy splits tags on "=" or ":" into a name/value pair and reserves
+        # "." as its hierarchy separator, so key:value tags cannot be used as
+        # plain labels. A dash keeps the key/value shape as one token.
+        tags = [tag("stage", "bee-gut.mags_multi"), tag("workflow-version", "0.6")]
+        self.assertEqual(tags, ["stage-bee-gut.mags_multi", "workflow-version-0.6"])
+        for value in tags:
+            self.assertNotIn(":", value)
+            self.assertNotIn("=", value)
+            self.assertNotIn(",", value)
+            self.assertNotIn(";", value)
+            self.assertNotIn(" ", value)
+
     def test_download_policy_uses_only_manifest_tables(self):
         campaign = self.campaign()
         campaign.root = Path(__file__).resolve().parents[1] / "data/campaigns/iwc-20261021"
@@ -78,7 +91,47 @@ class CampaignTests(unittest.TestCase):
         run = {"status": "running", "invocation_id": "i", "history_id": "h"}
         campaign.refresh({"name": "stage"}, run)
         self.assertEqual(run["status"], "running")
-        self.assertNotIn("outputs", run)
+        self.assertEqual(run["outputs"], {})
+
+    @patch("workflow_campaign.atomic_json")
+    def test_ready_output_releases_dependency_before_jobs_finish(self, atomic_json):
+        campaign = self.campaign()
+        value = {"src": "hdca", "id": "bins"}
+        campaign.api = Mock(side_effect=[
+            {"state": "ready", "output_collections": {
+                "uuid": {"id": "bins", "workflow_output": {"label": "Dereplicated Bins"}}}},
+            {"states": {"ok": 12, "new": 2}},
+        ])
+        campaign.check_data = Mock(return_value={"element_count": 708})
+        run = {"status": "running", "invocation_id": "i", "history_id": "h"}
+        campaign.state["runs"]["up"] = run
+        campaign.refresh({"name": "up", "required_outputs": ["Dereplicated Bins"]}, run)
+        self.assertEqual(run["status"], "running")
+        self.assertNotIn("completed", run)
+        self.assertEqual(run["ready_outputs"]["Dereplicated Bins"]["element_count"], 708)
+        step = {"inputs": {"Genomes": {"step": "up", "output": "Dereplicated Bins"}}}
+        self.assertEqual(campaign.resolve_inputs(step), {"Genomes": value})
+        self.assertEqual(campaign.check_data.call_count, 2)
+
+    @patch("workflow_campaign.atomic_json")
+    def test_pending_output_does_not_release_dependency(self, atomic_json):
+        campaign = self.campaign()
+        campaign.api = Mock(side_effect=[
+            {"state": "scheduled", "output_collections": {"Bins": {"id": "bins"}}},
+            {"states": {"ok": 12, "new": 2}},
+        ])
+        campaign.check_data = Mock(side_effect=Blocked("Pending collection leaf"))
+        run = {"status": "running", "invocation_id": "i", "history_id": "h"}
+        campaign.state["runs"]["up"] = run
+        campaign.refresh({"name": "up", "required_outputs": ["Bins"]}, run)
+        self.assertEqual(run["ready_outputs"], {})
+        self.assertIn("Bins", run["pending_outputs"])
+        self.assertIsNone(campaign.resolve_inputs({"inputs": {"Genomes": {"step": "up", "output": "Bins"}}}))
+
+    def test_failed_upstream_cannot_release_previously_ready_output(self):
+        campaign = self.campaign()
+        campaign.state["runs"]["up"] = {"status": "blocked", "ready_outputs": {"Bins": {}}}
+        self.assertIsNone(campaign.resolve_inputs({"inputs": {"Genomes": {"step": "up", "output": "Bins"}}}))
 
     def test_required_missing_output_blocks(self):
         campaign = self.campaign()

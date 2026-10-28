@@ -604,9 +604,9 @@
     "FAIRyMAGs-iwc-20261021",
     "FAIRyMAGs",
     "agentic",
-    "workflow:host",
-    "workflow-version:0.6",
-    "workflow-commit:29126830551c"
+    "workflow-host",
+    "workflow-version-0.6",
+    "workflow-commit-29126830551c"
   ],
   "uuid": "681217f9-42dc-40d8-ba13-20c5db29b5d5",
   "version": 0

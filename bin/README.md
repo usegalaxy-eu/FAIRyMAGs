@@ -30,14 +30,15 @@ This folder contains the scripts and analysis notebooks used for benchmarking an
 4. Optional: execute notebooks non-interactively
 
    ```bash
-   jupyter nbconvert --to notebook --execute bin/use-case-analysis.ipynb --output executed.ipynb
+   jupyter nbconvert --to notebook --execute --inplace bin/use-case-analysis.ipynb
    ```
 
 ## Notes
 
 - Most scripts and notebooks expect the repository root as the working directory.
-- Input tables are organized under `../data/` in `benchmarking` or `use-cases` (with one subfolder per use case) folders.
-- Summaries and plots are typically stored under `../results/` in `benchmarking` or `use-cases` folders.
+- Input tables are organized under `../data/` in `benchmark` or `use-cases` (with one subfolder per use case) folders.
+- Summaries and plots are typically stored under `../results/` in `benchmark` or `use-cases` folders.
+- Keep one notebook per analysis: re-execute it in place (`--inplace`) instead of saving an `*-executed` copy.
 
 
 ## Benchmarking
@@ -51,10 +52,10 @@ Compares MAG recovery pipelines (for example metaspades individual vs. spades in
 
 | | |
 |---|---|
-| Input | `../data/cdb_clusters_95.tsv`, `../data/checkm2.tsv` |
-| Output | `../results/heatmap_mags_benchmark.png`, `../results/heatmap_mags_benchmark.svg` |
-| Output | `../results/upset_mags_benchmark.png`, `../results/upset_mags_benchmark.svg` |
-| Output | `../results/mags_grouped_bar_with_values.png`, `../results/mags_grouped_bar_with_values.svg` |
+| Input | `../data/benchmark/cdb_clusters_95.tsv`, `../data/benchmark/checkm2.tsv` |
+| Output | `../results/benchmark/heatmap_mags_benchmark.png`, `../results/benchmark/heatmap_mags_benchmark.svg` |
+| Output | `../results/benchmark/upset_mags_benchmark.png`, `../results/benchmark/upset_mags_benchmark.svg` |
+| Output | `../results/benchmark/mags_grouped_bar_with_values.png`, `../results/benchmark/mags_grouped_bar_with_values.svg` |
 
 ## Use cases
 

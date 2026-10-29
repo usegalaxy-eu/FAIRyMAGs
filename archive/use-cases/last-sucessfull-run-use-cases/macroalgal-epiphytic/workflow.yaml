@@ -1,196 +1,99 @@
-{
-  "schema_version": 2,
-  "galaxy_url": "https://usegalaxy.eu",
-  "use_case": "macroalgal-epiphytic",
-  "history_tags": [
-    "FAIRyMAGs",
-    "publication",
-    "macroalgal-use-case"
-  ],
-  "exclude_history_tags": [
-    "fail",
-    "rerun"
-  ],
-  "execution": {
-    "new_history_only": true,
-    "on_failure": "continue",
-    "use_cached_job": true,
-    "poll_interval_seconds": 30
-  },
-  "sources": {
-    "raw_reads": {
-      "history": {
-        "name": "Macroalgal Epiphytic Microbiome: PRJNA915238",
-        "tags": [
-          "FAIRyMAGs",
-          "publication",
-          "macroalgal-use-case",
-          "Input"
-        ]
-      },
-      "content": {
-        "name": "Pair-end data (fasterq-dump) (re-organized)",
-        "type": "collection",
-        "tags": [
-          "PE"
-        ]
-      }
-    }
-  },
-  "steps": [
-    {
-      "name": "quality_control",
-      "workflow": {
-        "name": "Short-read quality control and trimming",
-        "link": "https://usegalaxy.eu/workflows/run?id=e80aa9c8f974e1c8",
-        "tags": [
-          "publication"
-        ]
-      },
-      "output_history": {
-        "name": "Short-read quality control and trimming"
-      },
-      "inputs": {
-        "Raw reads": "source:raw_reads"
-      },
-      "parameters": {
-        "Adapter to remove on forward reads": null,
-        "Adapter to remove on reverse reads": null,
-        "Qualified quality score": "15",
-        "Minimal read length": "15"
-      }
-    },
-    {
-      "name": "mags",
-      "workflow": {
-        "name": "Metagenome-Assembled Genomes (MAGs) generation",
-        "link": "https://usegalaxy.eu/workflows/run?id=d1e5b1146ad6fd1a",
-        "tags": [
-          "publication"
-        ]
-      },
-      "output_history": {
-        "name": "Metagenome-Assembled Genomes (MAGs) generation"
-      },
-      "inputs": {
-        "Trimmed reads": {
-          "step": "quality_control",
-          "content": {
-            "name": "Trimmed reads",
-            "type": "collection",
-            "tags": [
-              "PE",
-              "Reads"
-            ]
-          }
-        }
-      },
-      "parameters": {
-        "Choose Assembler": "MEGAHIT",
-        "Minimum length of contigs to output": "200",
-        "Environment for the built-in model (SemiBin)": "global",
-        "Run COMEBin": true,
-        "Minimum MAG completeness percentage": "0",
-        "Contamination weight (Binette)": "2",
-        "Read length (CONCOCT)": "75",
-        "CheckM2 Database": "1.0.2",
-        "Minimum MAG length": "50000",
-        "Maximum MAG contamination percentage": "100",
-        "ANI threshold for dereplication": "0.95"
-      }
-    },
-    {
-      "name": "taxonomy",
-      "workflow": {
-        "name": "MAGs taxonomy annotation",
-        "link": "https://usegalaxy.eu/workflows/run?id=5cfde61f7465cc81",
-        "tags": [
-          "publication"
-        ]
-      },
-      "output_history": {
-        "name": "MAGs taxonomy annotation"
-      },
-      "inputs": {
-        "Sequence collection": {
-          "step": "mags",
-          "content": {
-            "name": "dereplicated_genomes",
-            "type": "collection",
-            "tags": [
-              "Dereplicated-Bins"
-            ]
-          }
-        }
-      },
-      "parameters": {
-        "GTDB-Tk Database": "full_database_release_226_downloaded_2026-02-25",
-        "MAGs taxonomic classification with kMetaShot (optional)": true,
-        "kMetaShot Database": "2025-05-22",
-        "ass2ref for kMS": "0.0"
-      }
-    },
-    {
-      "name": "genome_annotation",
-      "workflow": {
-        "name": "MAG Genome Annotation Parallel",
-        "link": "https://usegalaxy.eu/workflows/run?id=4d2db479f36df9cc",
-        "tags": [
-          "publication"
-        ]
-      },
-      "output_history": {
-        "name": "MAG Genome Annotation Parallel"
-      },
-      "inputs": {
-        "Bacterial Genomes": {
-          "step": "mags",
-          "content": {
-            "name": "dereplicated_genomes",
-            "type": "collection",
-            "tags": [
-              "Dereplicated-Bins"
-            ]
-          }
-        }
-      },
-      "parameters": {
-        "Plasmid detection database": "plasmidfinder_81c11f4_2023_12_04",
-        "Bacterial genome annotation database": "V5.1_2024-01-19",
-        "AMRFinderPlus database": "amrfinderplus_V3.12_2024-05-02.2",
-        "Run Bakta": true
-      }
-    },
-    {
-      "name": "functional_annotation",
-      "workflow": {
-        "name": "Functional annotation of sequences",
-        "link": "https://usegalaxy.eu/workflows/run?id=efd1cb45f0c4ff98",
-        "tags": [
-          "publication"
-        ]
-      },
-      "output_history": {
-        "name": "Functional annotation of sequences"
-      },
-      "inputs": {
-        "Sequence collection": {
-          "step": "mags",
-          "content": {
-            "name": "dereplicated_genomes",
-            "type": "collection",
-            "tags": [
-              "Dereplicated-Bins"
-            ]
-          }
-        }
-      },
-      "parameters": {
-        "Run eggNOG + completeness calculation": true,
-        "eggNOG mode select": "metagenome",
-        "Run InterProScan": true,
-        "InterProScan mode select": "DNA/RNA"
-      }
-    }
-  ]
-}
+schema_version: 2
+galaxy_url: https://usegalaxy.eu
+use_case: macroalgal-epiphytic
+history_tags: [FAIRyMAGs, publication, macroalgal-use-case]
+exclude_history_tags: [fail, rerun]
+execution:
+  new_history_only: true
+  on_failure: continue
+  use_cached_job: true
+  poll_interval_seconds: 30
+sources:
+  raw_reads:
+    history:
+      name: "Macroalgal Epiphytic Microbiome: PRJNA915238"
+      tags: [FAIRyMAGs, publication, macroalgal-use-case, Input]
+    content:
+      name: Pair-end data (fasterq-dump) (re-organized)
+      type: collection
+      tags: [PE]
+steps:
+  - name: quality_control
+    workflow:
+      name: Short-read quality control and trimming
+      link: https://usegalaxy.eu/workflows/run?id=e80aa9c8f974e1c8
+      tags: [publication]
+    output_history: {name: Short-read quality control and trimming}
+    inputs: {Raw reads: "source:raw_reads"}
+    parameters:
+      Adapter to remove on forward reads: null
+      Adapter to remove on reverse reads: null
+      Qualified quality score: "15"
+      Minimal read length: "15"
+  - name: mags
+    workflow:
+      name: Metagenome-Assembled Genomes (MAGs) generation
+      link: https://usegalaxy.eu/workflows/run?id=d1e5b1146ad6fd1a
+      tags: [publication]
+    output_history: {name: Metagenome-Assembled Genomes (MAGs) generation}
+    inputs:
+      Trimmed reads:
+        step: quality_control
+        content: {name: Trimmed reads, type: collection, tags: [PE, Reads]}
+    parameters:
+      Choose Assembler: MEGAHIT
+      Minimum length of contigs to output: "200"
+      Environment for the built-in model (SemiBin): global
+      Run COMEBin: true
+      Minimum MAG completeness percentage: "0"
+      Contamination weight (Binette): "2"
+      Read length (CONCOCT): "75"
+      CheckM2 Database: 1.0.2
+      Minimum MAG length: "50000"
+      Maximum MAG contamination percentage: "100"
+      ANI threshold for dereplication: "0.95"
+  - name: taxonomy
+    workflow:
+      name: MAGs taxonomy annotation
+      link: https://usegalaxy.eu/workflows/run?id=5cfde61f7465cc81
+      tags: [publication]
+    output_history: {name: MAGs taxonomy annotation}
+    inputs:
+      Sequence collection:
+        step: mags
+        content: {name: dereplicated_genomes, type: collection, tags: [Dereplicated-Bins]}
+    parameters:
+      GTDB-Tk Database: full_database_release_226_downloaded_2026-02-25
+      MAGs taxonomic classification with kMetaShot (optional): true
+      kMetaShot Database: 2025-05-22
+      ass2ref for kMS: "0.0"
+  - name: genome_annotation
+    workflow:
+      name: MAG Genome Annotation Parallel
+      link: https://usegalaxy.eu/workflows/run?id=4d2db479f36df9cc
+      tags: [publication]
+    output_history: {name: MAG Genome Annotation Parallel}
+    inputs:
+      Bacterial Genomes:
+        step: mags
+        content: {name: dereplicated_genomes, type: collection, tags: [Dereplicated-Bins]}
+    parameters:
+      Plasmid detection database: plasmidfinder_81c11f4_2023_12_04
+      Bacterial genome annotation database: V5.1_2024-01-19
+      AMRFinderPlus database: amrfinderplus_V3.12_2024-05-02.2
+      Run Bakta: true
+  - name: functional_annotation
+    workflow:
+      name: Functional annotation of sequences
+      link: https://usegalaxy.eu/workflows/run?id=efd1cb45f0c4ff98
+      tags: [publication]
+    output_history: {name: Functional annotation of sequences}
+    inputs:
+      Sequence collection:
+        step: mags
+        content: {name: dereplicated_genomes, type: collection, tags: [Dereplicated-Bins]}
+    parameters:
+      Run eggNOG + completeness calculation: true
+      eggNOG mode select: metagenome
+      Run InterProScan: true
+      InterProScan mode select: DNA/RNA

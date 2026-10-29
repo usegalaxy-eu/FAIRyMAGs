@@ -28,13 +28,20 @@ Each use case directory holds:
 `macroalgal-epiphytic/` was restored from git history (`7461ef3^`) because that use
 case had already been migrated to the campaign run before this archive was created.
 All restored files were verified byte-identical to the blobs they came from, and the
-`workflow.yaml` of every use case is the manifest captured before the migration in
-`data/campaigns/iwc-20261021/original-manifests/` (byte-identical to the current
-file for air, bee gut and termite head).
+`workflow.yaml` of every use case is the manifest captured before the migration
+(byte-identical to the file that was in `data/use-cases/` for air, bee gut and termite
+head).
+
+The campaign's own state — `campaign.yaml`, `state.json`, invocations, exports, the
+pinned workflow exports and those manifest captures — is deliberately not here: it is
+local runtime data under `data/campaigns/`, untracked since 2026-10-29 and recoverable
+with `git checkout 1a3048a -- data/campaigns`.
 
 Not archived:
 
 * `macroalgal-epiphytic/eggnog_annotation.tsv` — a campaign-only output, 525 MB in a
   single table, above the 100 MB GitHub file limit; download it on demand
-* the campaign's own exports (`data/campaigns/iwc-20261021/{exports,tables,table-exports}`),
-  which document the rerun rather than the publication run
+* the campaign's own exports, which document the rerun rather than the publication run
+* `bee-gut/metadata.tsv`, `bee-gut/expert_evaluation.xlsx` and `bee-gut/ena_submission*` —
+  still inputs for the notebooks and the ENA submission, so they live on in
+  `data/use-cases/bee-gut/single/` rather than only here

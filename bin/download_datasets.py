@@ -197,6 +197,10 @@ def download_combined(gi, d, hid, concat, allow_error=False):
 def download_campaign_output(session, base, reference, target):
     """Export one exact invocation output, preserving nested element paths.
 
+    Campaign-only: the caller is bin/workflow_campaign.py, which is untracked while
+    the fairymags-campaign / fairymags-downloads services still run. Everything in
+    this module above is the manifest path and does not need it.
+
     Unlike the legacy tag-based interface, this never guesses among datasets or
     concatenates unrelated files. A manifest records every leaf and checksum.
     Failed/skipped/pending leaves prevent acceptance of this required output.

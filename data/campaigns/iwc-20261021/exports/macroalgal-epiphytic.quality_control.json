@@ -1,9 +1,0 @@
-{
-  "exports": {
-    "MultiQC HTML report": "outputs/macroalgal-epiphytic/macroalgal-epiphytic.quality_control/MultiQC HTML report",
-    "fastp JSON report": "outputs/macroalgal-epiphytic/macroalgal-epiphytic.quality_control/fastp JSON report",
-    "fastp trimmed reads": "outputs/macroalgal-epiphytic/macroalgal-epiphytic.quality_control/fastp trimmed reads"
-  },
-  "missing_required_exports": [],
-  "collection_complete": true
-}

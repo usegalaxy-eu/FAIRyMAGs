@@ -562,6 +562,9 @@ def api_key_from_env():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("config", help="path to a use-case workflow.yaml")
+    # Campaign mode is local-only: it delegates to bin/workflow_campaign.py, which
+    # is untracked (.gitignore) while the fairymags-campaign and
+    # fairymags-downloads user services still run from this checkout.
     parser.add_argument("--campaign", action="store_true", help="run a persistent, version-pinned campaign")
     parser.add_argument("--once", action="store_true", help="perform one campaign scheduling cycle")
     parser.add_argument("--export-only", action="store_true", help="collect campaign outputs without scheduling")

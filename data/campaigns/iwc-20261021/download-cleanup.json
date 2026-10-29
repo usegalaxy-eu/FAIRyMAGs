@@ -1,5 +1,0 @@
-{
-  "removed_directory": "/home/paul-zierep/git/usegalaxy-eu/FAIRyMAGs/data/campaigns/iwc-20261021/outputs",
-  "bytes": 80878050218,
-  "reason": "Unrequested QC, read and host-removal exports; user requested histories.yaml tables only"
-}

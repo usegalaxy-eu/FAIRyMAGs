@@ -1,0 +1,76 @@
+use-case: bee-gut
+galaxy-url: https://usegalaxy.eu
+required_tags:
+- FAIRyMAGs-iwc-20261021
+- use-case-bee-gut
+exclude_tags:
+- fail
+- rerun
+- superseded
+histories:
+- name: 'Bee Gut Microbiome: PRJNA977416'
+  id: 11ac94870d0bb33a60eb0c886213fc71
+  url: https://usegalaxy.eu/u/paulzierep/h/bee-gut-microbiome-prjna977416
+- name: Short-read quality control and trimming
+  id: 11ac94870d0bb33af030ef315feafee3
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33af030ef315feafee3
+- name: Host or Contamination Removal on Short-Reads
+  id: 11ac94870d0bb33af3d172001747ec6f
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33af3d172001747ec6f
+- name: Metagenome-Assembled Genomes (MAGs) generation
+  id: 11ac94870d0bb33a1eca9c8457bb4afb
+  tags: [stage-bee-gut.mags_single]
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a1eca9c8457bb4afb
+  datasets:
+  - tag: bin-assembly-quality
+    file: quast.tsv
+  # The parent workflow publishes the CheckM2/CheckM reports without tags, so
+  # they are addressed by dataset id instead of a tag.
+  - id: 40160950115d555e595a6b30fce02e54
+    file: checkm2.tsv
+  - id: 40160950115d555e1d93840dbe85fd89
+    file: checkm.tsv
+  - tag: bin-coverM-sample-coverage
+    file: coverm.tsv
+  - tag: dRep-Cluster-Assignment
+    file: drep.tsv
+- name: MAGs taxonomy annotation
+  id: 11ac94870d0bb33a0db6f257ddf43a76
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a0db6f257ddf43a76
+  datasets:
+  - tag: gtdb-tk-summary
+    file: gtdb.tsv
+    concat: true
+  - tag: kmetashot-summary
+    name: Taxonomic Classification
+    file: kmetashot.tsv
+- name: MAG Genome Annotation Parallel
+  id: 11ac94870d0bb33ae1af6ea9733757d1
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33ae1af6ea9733757d1
+  datasets:
+  - tag: bakta_cut_annotation_summary
+    file: bakta.tsv
+  - tag: intregon_finder_merged_output
+    file: intregon.tsv
+  - tag: isescan_merged_output
+    file: isescan.tsv
+  - tag: plasmidfinder_merged_summary
+    file: plasmidfinder.tsv
+- name: Functional annotation of sequences
+  id: 11ac94870d0bb33adc802449a1c3e0ed
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33adc802449a1c3e0ed
+  datasets:
+  - tag: kegg-contig-table
+    file: kegg_pathway_completeness.tsv
+#   - tag: Reads
+#     name: eggNOG-mapper annotation abundance table
+#     file: eggnog_annotation.tsv
+#     550 MB / 454k rows, too large to publish; download on demand
+
+#   - tag: interproscan-table
+#     file: interproscan.tsv
+#     concat: true
+#     allow_error: true
+
+# metadata.tsv is not downloaded here: the campaign reuses the same input
+# history, but the curated sample table is kept once in ../metadata.tsv.

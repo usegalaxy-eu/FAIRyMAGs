@@ -6,7 +6,7 @@ from unittest.mock import Mock, patch
 
 import yaml
 
-from download_datasets import download_campaign_table
+from download_datasets import download_campaign_table, select_matches
 from workflow_campaign import Blocked, Campaign, tag
 
 
@@ -55,6 +55,27 @@ class CampaignTests(unittest.TestCase):
         with self.assertRaisesRegex(RuntimeError, "found 2"):
             download_campaign_table(session, "https://example/api/", "h", {"tag": "wanted"}, "/unused.tsv")
         self.assertEqual(session.get.call_count, 1)
+
+    def test_id_selector_picks_untagged_output(self):
+        # CheckM2/CheckM reports are published untagged by the parent workflow,
+        # so the manifest addresses them by dataset id instead of by tag.
+        items = [
+            {"id": "checkm2-quality", "tags": []},
+            {"id": "checkm-results", "tags": ["Reads"]},
+        ]
+        self.assertEqual(
+            [d["id"] for d in select_matches(items, {"id": "checkm2-quality"})],
+            ["checkm2-quality"],
+        )
+        self.assertEqual(
+            [d["id"] for d in select_matches(items, {"id": "checkm2-quality", "tag": "Reads"})],
+            ["checkm2-quality"],
+        )
+
+    def test_entry_without_tag_or_id_matches_nothing(self):
+        items = [{"id": "a", "tags": ["Reads"]}]
+        self.assertEqual(select_matches(items, {"file": "x.tsv"}), [])
+        self.assertEqual(select_matches(items, {}), [])
 
     def campaign(self):
         campaign = Campaign.__new__(Campaign)

@@ -2,8 +2,9 @@
 """Download use-case datasets from Galaxy based on the tags in histories.yaml.
 
 For each history entry that has a `datasets` list, fetch the datasets in that
-history, match each entry by its `tag`, and save the resulting file next to
-the config file (data/<use-case>-use-case/<file>). Warns for any tag with no
+history, match each entry by its `tag` (or by the exact `id` of an output the
+producing workflow leaves untagged), and save the resulting file next to the
+config file (data/<use-case>-use-case/<file>). Warns for any entry with no
 matching dataset.
 
 Usage:
@@ -60,8 +61,25 @@ def get_datasets(gi, hid, max_retries=5, backoff=5.0):
     return items
 
 
+def entry_label(entry):
+    """Describe an entry's selector, for log and error messages."""
+    if entry.get("tag"):
+        label = f"tag {entry['tag']!r}"
+    elif entry.get("id"):
+        label = f"id {entry['id']!r}"
+    else:
+        label = "entry without tag or id"
+    if entry.get("name"):
+        label += f" named like {entry['name']!r}"
+    return label
+
+
 def select_matches(items, entry):
     """Return the datasets an entry refers to, in preference order.
+
+    An entry is selected either by `tag` or, when the producing workflow does
+    not tag the output, by the exact `id` of the dataset or collection. `id`
+    takes precedence when both are present.
 
     Optional keys on an entry:
       concat:  when true, prefer a collection over individual datasets. Tags
@@ -71,11 +89,16 @@ def select_matches(items, entry):
       name:    case-insensitive substring that must appear in the dataset
                name, used to pick among several datasets sharing one tag.
     """
-    tag = entry["tag"].lower()
-    matches = [
-        d for d in items
-        if any(t.replace("name:", "").lower() == tag for t in (d.get("tags") or []))
-    ]
+    if entry.get("id"):
+        matches = [d for d in items if d.get("id") == entry["id"]]
+    elif entry.get("tag"):
+        tag = entry["tag"].lower()
+        matches = [
+            d for d in items
+            if any(t.replace("name:", "").lower() == tag for t in (d.get("tags") or []))
+        ]
+    else:
+        matches = []
     name_filter = entry.get("name")
     if name_filter:
         wanted = name_filter.lower()
@@ -274,11 +297,11 @@ def download_campaign_table(session, base, history_id, entry, target, max_bytes=
             item["type"] = "collection"
     candidates = select_matches(items, entry)
     if len(candidates) != 1:
-        raise RuntimeError(f"Expected one table for tag {entry['tag']!r}; found {len(candidates)}")
+        raise RuntimeError(f"Expected one table for {entry_label(entry)}; found {len(candidates)}")
     selected = candidates[0]
     if selected.get("type") == "collection":
         if not entry.get("concat"):
-            raise RuntimeError(f"Collection for {entry['tag']} requires explicit concat: true")
+            raise RuntimeError(f"Collection for {entry_label(entry)} requires explicit concat: true")
         collection = get(f"histories/{history_id}/contents/dataset_collections/{selected['id']}")
 
         def leaves(obj):
@@ -338,7 +361,8 @@ def download_campaign_table(session, base, history_id, entry, target, max_bytes=
             for chunk in iter(lambda: handle.read(1024 * 1024), b""):
                 digest.update(chunk)
         temporary.replace(target)
-        record = {"history_id": history_id, "selected_id": selected["id"], "tag": entry["tag"],
+        record = {"history_id": history_id, "selected_id": selected["id"], "tag": entry.get("tag"),
+                  "dataset_id": entry.get("id"),
                   "dataset_ids": [d["id"] for d in datasets], "bytes": size, "sha256": digest.hexdigest()}
         metadata_path.write_text(json.dumps(record, indent=2) + "\n")
         return record
@@ -402,7 +426,7 @@ def main():
 
             matches = select_matches(items, entry)
             if not matches:
-                print(f"  WARNING: no dataset with tag '{entry['tag']}' found -> skipped ({entry['file']})")
+                print(f"  WARNING: no dataset with {entry_label(entry)} found -> skipped ({entry['file']})")
                 continue
 
             if DRY_RUN:
@@ -448,11 +472,11 @@ def main():
 
             if content is None:
                 if not skipped:
-                    print(f"  WARNING: no non-empty dataset with tag "
-                          f"'{entry['tag']}' found -> skipped ({entry['file']})")
+                    print(f"  WARNING: no non-empty dataset with {entry_label(entry)} "
+                          f"found -> skipped ({entry['file']})")
                 continue
             if len(matches) > 1:
-                print(f"  WARNING: multiple datasets with tag '{entry['tag']}'; using first non-empty")
+                print(f"  WARNING: multiple datasets for {entry_label(entry)}; using first non-empty")
 
             with open(target, "wb") as fh:
                 fh.write(content)

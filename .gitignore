@@ -212,3 +212,7 @@ __marimo__/
 mags/
 samplesheet.csv
 mag_map.json
+
+# Campaign exports that exceed the 100 MB GitHub file limit: download on demand
+data/use-cases/macroalgal-epiphytic/eggnog_annotation.tsv
+data/use-cases/macroalgal-epiphytic/eggnog_annotation.tsv.provenance.json

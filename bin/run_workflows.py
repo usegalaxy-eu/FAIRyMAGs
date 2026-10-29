@@ -20,6 +20,8 @@ from bioblend.galaxy import GalaxyInstance
 
 
 TERMINAL_INVOCATION_STATES = {"cancelled", "completed", "failed", "ready"}
+# Galaxy publishes a skipped conditional branch's outputs as null placeholders.
+PLACEHOLDER_EXTENSION = "expression.json"
 PENDING_DATASET_STATES = {
     "new", "upload", "queued", "running", "setting_metadata", "deferred", "paused",
 }
@@ -213,6 +215,48 @@ def resolve_or_wait(gi, history_id, selector, interval, max_seconds):
         return resolve_content(gi, history_id, selector)
 
 
+def leaf_datasets(collection):
+    for element in collection.get("elements") or []:
+        obj = element.get("object") or {}
+        if element.get("element_type") == "dataset_collection" or obj.get("elements") is not None:
+            yield from leaf_datasets(obj)
+        else:
+            yield obj
+
+
+def is_placeholder_dataset(item):
+    """A skipped step writes a 4-byte expression.json dataset with a null body."""
+    extension = item.get("file_ext") or item.get("extension")
+    return extension == PLACEHOLDER_EXTENSION
+
+
+def is_placeholder_content(gi, item):
+    """True when every dataset behind an output is a skipped-branch placeholder."""
+    if item.get("type") != "collection":
+        return is_placeholder_dataset(item)
+    collection = gi.dataset_collections.show_dataset_collection(item["id"])
+    leaves = list(leaf_datasets(collection))
+    return bool(leaves) and all(is_placeholder_dataset(leaf) for leaf in leaves)
+
+
+def drop_placeholder_copies(gi, history_id, selector, candidates):
+    """Ignore skipped-branch outputs when several copies share one name.
+
+    A workflow that offers two branches for the same input still publishes both
+    output collections: the branch that did not run keeps the same name but holds
+    only placeholder datasets. Name, type and tags cannot separate the two, so the
+    placeholders are dropped instead of reporting a false ambiguity.
+    """
+    real = [item for item in candidates if not is_placeholder_content(gi, item)]
+    if real and len(real) != len(candidates):
+        print(
+            f"  content {selector['name']!r} in history {history_id}: ignoring "
+            f"{len(candidates) - len(real)} skipped-branch placeholder copy/copies",
+            flush=True,
+        )
+    return real or candidates
+
+
 def resolve_content(gi, history_id, selector):
     """Resolve one dataset or collection by name, type and tags.
 
@@ -230,8 +274,14 @@ def resolve_content(gi, history_id, selector):
             continue
         named.append(item)
     usable = [item for item in named if not unusable(item)]
+    if len(usable) > 1:
+        usable = drop_placeholder_copies(gi, history_id, selector, usable)
     if len(usable) == 1:
         item = usable[0]
+        if is_placeholder_content(gi, item):
+            raise RuntimeError(
+                f"content {selector['name']!r} in history {history_id} is a skipped-branch placeholder"
+            )
         src = "hdca" if item.get("type") == "collection" else "hda"
         return {"id": item["id"], "src": src}
     if len(usable) > 1:

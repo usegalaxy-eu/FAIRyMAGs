@@ -21,16 +21,16 @@ nf-core/seqsubmit (``--mode mags``).  Everything that is not data is read from
 
 Usage
 -----
-    python3 submission/build_samplesheet.py data/use-cases/bee-gut
+    python3 submission/build_samplesheet.py data/use-cases/bee-gut/single
 
     # samplesheet only: no Galaxy, no downloads (FASTAs must already exist)
-    python3 submission/build_samplesheet.py data/use-cases/bee-gut --no-download
+    python3 submission/build_samplesheet.py data/use-cases/bee-gut/single --no-download
 
     # show what would happen, write nothing
-    python3 submission/build_samplesheet.py data/use-cases/bee-gut --dry-run
+    python3 submission/build_samplesheet.py data/use-cases/bee-gut/single --dry-run
 
     # brand a second submission so it is not confused with the first one
-    python3 submission/build_samplesheet.py data/use-cases/bee-gut \
+    python3 submission/build_samplesheet.py data/use-cases/bee-gut/single \
         --id-prefix v2_ --fasta-dir mags_v2
 
     # give a seqsubmit checkout the two-line fix for contamination=0.0
@@ -520,7 +520,7 @@ def main() -> None:
     ap = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter
     )
-    ap.add_argument("use_case_dir", nargs="?", help="e.g. data/use-cases/bee-gut")
+    ap.add_argument("use_case_dir", nargs="?", help="e.g. data/use-cases/bee-gut/single")
     ap.add_argument("--out", default="samplesheet.csv", help="samplesheet to write (default: samplesheet.csv)")
     ap.add_argument("--fasta-dir", default="mags",
                     help="where the MAG FASTAs are/land; written into the sheet verbatim (default: mags)")
@@ -546,7 +546,7 @@ def main() -> None:
     if args.revert_seqsubmit:
         return patch_seqsubmit(args.revert_seqsubmit, revert=True)
     if not args.use_case_dir:
-        ap.error("a use case directory is required (e.g. data/use-cases/bee-gut)")
+        ap.error("a use case directory is required (e.g. data/use-cases/bee-gut/single)")
 
     use_case = load_use_case(args.use_case_dir)
     config = use_case["config"]

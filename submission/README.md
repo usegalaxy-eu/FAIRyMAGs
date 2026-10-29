@@ -45,7 +45,7 @@ data/use-cases/<use-case>/
 └── mags/                           # MAG FASTAs, one .fasta.gz per MAG (gitignored)
 ```
 
-`data/use-cases/bee-gut/ena_submission_samplesheet.csv` is a copy of that
+`data/use-cases/bee-gut/single/ena_submission_samplesheet.csv` is a copy of that
 `samplesheet.csv`, committed for provenance. Its `fasta` column points at absolute
 paths on the submission host and the FASTAs are not in the repo, so it is not
 directly re-runnable.
@@ -316,4 +316,4 @@ environmental_medium: Honeybee
 738 samplesheet rows; one lineage (`SRR24759607_binette_bin44`, genus
 *Providencia*) was auto-repaired; 2 single-contig MAGs were dropped by
 `FASTA_VALIDATION`, so **736 ENA samples** were registered. The result is
-committed as `data/use-cases/bee-gut/ena_submission_samplesheet.csv`.
+committed as `data/use-cases/bee-gut/single/ena_submission_samplesheet.csv`.

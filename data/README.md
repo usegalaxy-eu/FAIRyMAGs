@@ -19,13 +19,13 @@ labels shown in the Galaxy workflow form.
 Validate a pipeline without creating histories:
 
 ```bash
-python3 bin/run_workflows.py data/use-cases/bee-gut/workflow.yaml --dry-run
+python3 bin/run_workflows.py data/use-cases/bee-gut/single/workflow.yaml --dry-run
 ```
 
 Run the complete pipeline and poll every invocation until its outputs finish:
 
 ```bash
-python3 bin/run_workflows.py data/use-cases/bee-gut/workflow.yaml
+python3 bin/run_workflows.py data/use-cases/bee-gut/single/workflow.yaml
 ```
 
 Each step reuses an existing history that already carries the name and tags the
@@ -77,8 +77,8 @@ matching.
    every run); pass `--overwrite` to download them again:
 
    ```
-   python3 bin/download_datasets.py data/use-cases/bee-gut/histories.yaml        # skip existing files
-   python3 bin/download_datasets.py --overwrite data/use-cases/bee-gut/histories.yaml   # re-download everything
+   python3 bin/download_datasets.py data/use-cases/bee-gut/single/histories.yaml        # skip existing files
+   python3 bin/download_datasets.py --overwrite data/use-cases/bee-gut/single/histories.yaml   # re-download everything
    ```
 
 A collection that still has pending elements is reported and skipped, so an
@@ -101,8 +101,8 @@ would write bakta.tsv from collection hid=8296 'bakta_annotation_tabular' (551/5
 ### Bee gut microbiome use case
 
 ```bash
-python3 bin/lookup_history_ids.py data/use-cases/bee-gut/histories.yaml
-python3 bin/download_datasets.py data/use-cases/bee-gut/histories.yaml
+python3 bin/lookup_history_ids.py data/use-cases/bee-gut/single/histories.yaml
+python3 bin/download_datasets.py data/use-cases/bee-gut/single/histories.yaml
 ```
 
 ### Marine (macroalgal) use case

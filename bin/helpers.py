@@ -162,6 +162,7 @@ def load_dfs(uc_name) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     reps_df = _finalize_reps_df(reps_df, merged_cols)
 
     reps_fp = result_dp / "reps.tsv"
+    result_dp.mkdir(parents=True, exist_ok=True)
     reps_df.to_csv(reps_fp, sep="\t", index=False)
 
     return metadata_df, reps_df, coverage_df

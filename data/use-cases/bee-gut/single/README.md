@@ -1,7 +1,5 @@
 # Bee gut microbiome use case — single-coverage binning
 
-Histories of the `FAIRyMAGs-iwc-20261021` campaign run (single-coverage
-binning, `Use original samples`):
 * Input: https://usegalaxy.eu/u/paulzierep/h/bee-gut-microbiome-prjna977416
 * Quality control of raw data: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33af030ef315feafee3
 * Host and contaminant read removal: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33af3d172001747ec6f
@@ -10,18 +8,12 @@ binning, `Use original samples`):
 * Genome annotation: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33ae1af6ea9733757d1
 * Functional annotation: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33adc802449a1c3e0ed
 
-The tables in this directory are downloaded from these histories with
-`bin/download_datasets.py`; the same histories are listed with their names,
-ids and links in `histories.yaml`, and the workflow links and parameters are in
-`workflow.yaml`.
+The tables are downloaded from these histories with `bin/download_datasets.py`
+(`histories.yaml` lists them with their tags and links, `workflow.yaml` the workflow
+links and parameters). `metadata.tsv` (the curated sample table), 
+`expert_evaluation.xlsx` and the ENA submission files (`ena_submission.yaml`,
+`ena_submission_samplesheet.csv`) are inputs rather than pipeline outputs, so they are
+kept here too.
 
-Open items in this run: the genome annotation history still has failed
-ToolDistillator parser jobs (the published `bakta`, `intregon`, `isescan` and
-`plasmidfinder` tables are complete), and the functional annotation history has
-failed InterProScan jobs (the published `kegg_pathway_completeness` table is
-complete). Neither failure changes a downloaded table.
-
-`metadata.tsv` is not duplicated here: the campaign reuses the same input history,
-so the curated sample table is shared with `../metadata.tsv`. The pre-campaign
-publication tables are kept in `archive/data-publication/bee-gut/`, and the ENA
-submission of the MAGs is documented in `../README.md`.
+The pre-campaign publication tables are archived in
+`archive/use-cases/last-sucessfull-run-use-cases/bee-gut/`.

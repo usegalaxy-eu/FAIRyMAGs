@@ -73,4 +73,4 @@ histories:
 #     allow_error: true
 
 # metadata.tsv is not downloaded here: the campaign reuses the same input
-# history, but the curated sample table is kept once in ../metadata.tsv.
+# history, so the curated sample table is copied into this directory instead.

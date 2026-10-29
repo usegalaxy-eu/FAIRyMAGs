@@ -3,8 +3,9 @@
 
 Reads a histories YAML file (data/<use-case>-use-case/histories.yaml by
 default), narrows the user's histories to those matching `required_tags` (all
-present) and excluding `exclude_tags`, matches each entry by its `name`
-substring, and writes the resolved history id back into the `id` field.
+present) and excluding `exclude_tags` and superseded runs, matches each entry by
+its `name` substring (optionally narrowed by the entry's own `tags`), and writes
+the resolved history id back into the `id` field.
 
 Usage:
     python3 bin/lookup_history_ids.py data/bee-use-case/histories.yaml
@@ -30,6 +31,12 @@ def _norm(tag):
     return t.lower()
 
 
+def _is_superseded(tag):
+    """A superseded run is renamed and re-tagged with a `*-superseded` marker."""
+    t = _norm(tag)
+    return t == "superseded" or t.endswith("-superseded")
+
+
 def load(config_path):
     with open(config_path) as fh:
         return yaml.safe_load(fh)
@@ -43,6 +50,7 @@ def tagged_histories(gi, doc):
         h for h in histories
         if required <= {_norm(x) for x in h.get("tags", [])}
         and not {_norm(x) for x in h.get("tags", [])} & exclude
+        and not any(_is_superseded(x) for x in h.get("tags", []))
     ]
 
 
@@ -51,7 +59,15 @@ def lookup_ids(gi, doc):
     warnings = []
     for entry in doc["histories"]:
         kw = (entry.get("name") or "").lower()
-        matches = [h for h in candidates if kw in (h.get("name") or "").lower()]
+        # Several runs of one workflow share a name (for example single- and
+        # multi-coverage binning). An optional per-entry `tags` list narrows the
+        # match to the run that carries them.
+        need = {_norm(t) for t in entry.get("tags", [])}
+        matches = [
+            h for h in candidates
+            if kw in (h.get("name") or "").lower()
+            and need <= {_norm(x) for x in h.get("tags", [])}
+        ]
         if len(matches) == 1:
             entry["id"] = matches[0]["id"]
         elif len(matches) > 1:

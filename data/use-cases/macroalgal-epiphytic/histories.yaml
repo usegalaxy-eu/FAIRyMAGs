@@ -10,16 +10,20 @@ exclude_tags:
 histories:
 - name: 'Macroalgal Epiphytic Microbiome: PRJNA915238'
   id: 11ac94870d0bb33add7d1de4be2eb7e3
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33add7d1de4be2eb7e3
   datasets:
   - tag: metadata
     file: metadata.tsv
     concat: true
 - name: Short-read quality control and trimming
   id: 11ac94870d0bb33a8b671aa8a5b0334c
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a8b671aa8a5b0334c
 - name: Host or Contamination Removal on Short-Reads
   id: 11ac94870d0bb33a4018b9a22c883698
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a4018b9a22c883698
 - name: Metagenome-Assembled Genomes (MAGs) generation
   id: 11ac94870d0bb33a38819f6b7b32f266
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a38819f6b7b32f266
   datasets:
   - tag: bin-assembly-quality
     file: quast.tsv
@@ -35,6 +39,7 @@ histories:
     file: drep.tsv
 - name: MAGs taxonomy annotation
   id: 11ac94870d0bb33ac8af01b3eedff85e
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33ac8af01b3eedff85e
   datasets:
   - tag: gtdb-tk-summary
     file: gtdb.tsv
@@ -44,6 +49,7 @@ histories:
     file: kmetashot.tsv
 - name: MAG Genome Annotation Parallel
   id: 11ac94870d0bb33a304c999346be936e
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a304c999346be936e
   datasets:
   - tag: bakta_cut_annotation_summary
     file: bakta.tsv
@@ -55,6 +61,7 @@ histories:
     file: plasmidfinder.tsv
 - name: Functional annotation of sequences
   id: 11ac94870d0bb33a0335ae170ca31dc0
+  url: https://usegalaxy.eu/histories/view?id=11ac94870d0bb33a0335ae170ca31dc0
   datasets:
   - tag: kegg-contig-table
     file: kegg_pathway_completeness.tsv

@@ -2,7 +2,7 @@
 # History IDs in those manifests are NOT used: tables come from each new run.
 # Additional Bee/Termite branches use their use-case's identical table list.
 manifests:
-  bee-gut: ../../use-cases/bee-gut/histories.yaml
+  bee-gut: ../../use-cases/bee-gut/single/histories.yaml
   termite-head: ../../use-cases/termite-head/histories.yaml
   macroalgal-epiphytic: ../../use-cases/macroalgal-epiphytic/histories.yaml
   air/megahit: ../../use-cases/air/megahit/histories.yaml

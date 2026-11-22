@@ -1,0 +1,147 @@
+schema_version: 2
+galaxy_url: https://usegalaxy.eu
+use_case: bee-gut
+history_tags: [FAIRyMAGs, FAIRyMAGs-iwc-20261021, agentic, use-case-bee-gut]
+exclude_history_tags: [fail, rerun]
+execution:
+  new_history_only: true
+  on_failure: continue
+  use_cached_job: true
+  poll_interval_seconds: 30
+sources:
+  raw_reads:
+    history:
+      name: "Bee Gut Microbiome: PRJNA977416"
+      tags: [FAIRyMAGs, publication, bee-use-case, Input]
+    content:
+      name: Pair-end data (fasterq-dump) (re-organized)
+      type: collection
+      tags: [PE]
+steps:
+  - name: quality_control
+    workflow:
+      name: Short-read quality control and trimming
+      link: https://usegalaxy.eu/workflows/run?id=e45a11f71bd61cce
+      tags: [workflow-qc, workflow-version-0.6, workflow-commit-29126830551c]
+    tags: [workflow-name-short-read-quality-control-and-trimming, stage-bee-gut.quality_control]
+    output_history:
+      name: "FAIRyMAGs-iwc-20261021 | bee-gut | bee-gut.quality_control | Short-read quality control and trimming v0.6"
+    inputs:
+      Raw reads: source:raw_reads
+    parameters:
+      Adapter to remove on forward reads: null
+      Adapter to remove on reverse reads: null
+      Qualified quality score: "15"
+      Minimal read length: "15"
+  - name: contamination_removal
+    workflow:
+      name: Host or Contamination Removal on Short-Reads
+      link: https://usegalaxy.eu/workflows/run?id=0e645651a43dba6e
+      tags: [workflow-host, workflow-version-0.6, workflow-commit-29126830551c]
+    tags: [workflow-name-host-or-contamination-removal-on-short-reads, stage-bee-gut.contamination_removal]
+    output_history:
+      name: "FAIRyMAGs-iwc-20261021 | bee-gut | bee-gut.contamination_removal | Host or Contamination Removal on Short-Reads v0.6"
+    inputs:
+      Short-reads:
+        step: quality_control
+        content:
+          name: Trimmed reads
+          type: collection
+          tags: [PE, Reads]
+    parameters:
+      Choose Reference Genome: Use a built-in genome index
+      Host/Contaminant Reference Genome: apiMel3
+  - name: mags
+    workflow:
+      name: Metagenome-Assembled Genomes (MAGs) generation
+      link: https://usegalaxy.eu/workflows/run?id=024ffe287b269223
+      tags: [workflow-parent, workflow-version-1.0, workflow-commit-af71db6df4d2]
+    tags: [workflow-name-metagenome-assembled-genomes-mags-generation, stage-bee-gut.mags_single]
+    output_history:
+      name: "FAIRyMAGs-iwc-20261021 | bee-gut | bee-gut.mags_single | Metagenome-Assembled Genomes (MAGs) generation v1.0"
+    inputs:
+      Trimmed reads:
+        step: contamination_removal
+        content:
+          name: Reads without host or contaminant reads
+          type: collection
+          tags: [PE, Reads]
+    parameters:
+      Choose Assembler: MEGAHIT
+      Minimum length of contigs to output: "200"
+      Environment for the built-in model (SemiBin): global
+      Run COMEBin: true
+      Minimum MAG completeness percentage: "0"
+      Contamination weight (Binette): "2"
+      CheckM2 Database: 1.0.2
+      Minimum MAG length: "50000"
+      Maximum MAG contamination percentage: "100"
+      ANI threshold for dereplication: "0.95"
+      Use grouping?: Use original samples
+      Binning strategy: Single-coverage binning (own/merged reads)
+      Bin refinement tool: Binette
+      Run SemiBin?: true
+      Run CONCOCT?: true
+      Run MetaBAT2?: true
+      Run MaxBin2?: true
+  - name: taxonomy
+    workflow:
+      name: MAGs taxonomy annotation
+      link: https://usegalaxy.eu/workflows/run?id=517360d0ea913d2b
+      tags: [workflow-taxonomy, workflow-version-0.6, workflow-commit-29126830551c]
+    tags: [workflow-name-mags-taxonomy-annotation, stage-bee-gut.taxonomy_single]
+    output_history:
+      name: "FAIRyMAGs-iwc-20261021 | bee-gut | bee-gut.taxonomy_single | MAGs taxonomy annotation v0.6"
+    inputs:
+      Sequence collection:
+        step: mags
+        content:
+          name: dereplicated_genomes
+          type: collection
+          tags: [Dereplicated-Bins]
+    parameters:
+      GTDB-Tk Database: full_database_release_226_downloaded_2026-02-25
+      MAGs taxonomic classification with kMetaShot (optional): true
+      kMetaShot Database: 2025-05-22
+      ass2ref for kMS: "0.0"
+  - name: genome_annotation
+    workflow:
+      name: MAG Genome Annotation Parallel
+      link: https://usegalaxy.eu/workflows/run?id=aa0d904669abf38f
+      tags: [workflow-genome, workflow-version-0.6, workflow-commit-29126830551c]
+    tags: [workflow-name-mag-genome-annotation-parallel, stage-bee-gut.genome_annotation_single]
+    output_history:
+      name: "FAIRyMAGs-iwc-20261021 | bee-gut | bee-gut.genome_annotation_single | MAG Genome Annotation Parallel v0.6"
+    inputs:
+      Bacterial Genomes:
+        step: mags
+        content:
+          name: dereplicated_genomes
+          type: collection
+          tags: [Dereplicated-Bins]
+    parameters:
+      Plasmid detection database: plasmidfinder_81c11f4_2023_12_04
+      Bacterial genome annotation database: V5.1_2024-01-19
+      AMRFinderPlus database: amrfinderplus_V3.12_2024-05-02.2
+      Run Bakta: true
+  - name: functional_annotation
+    workflow:
+      name: Functional annotation of sequences
+      link: https://usegalaxy.eu/workflows/run?id=cb396cbf199cdd46
+      tags: [workflow-functional, workflow-version-0.5, workflow-commit-29126830551c]
+    tags: [workflow-name-functional-annotation-of-sequences, stage-bee-gut.functional_annotation_single]
+    output_history:
+      name: "FAIRyMAGs-iwc-20261021 | bee-gut | bee-gut.functional_annotation_single | Functional annotation of sequences v0.5"
+    inputs:
+      Sequence collection:
+        step: mags
+        content:
+          name: dereplicated_genomes
+          type: collection
+          tags: [Dereplicated-Bins]
+    parameters:
+      Run eggNOG + completeness calculation: true
+      eggNOG mode select: metagenome
+      Run InterProScan: true
+      InterProScan mode select: DNA/RNA
+      Generate eggNOG annotation abundance tables: true

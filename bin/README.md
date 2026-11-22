@@ -56,6 +56,7 @@ Compares MAG recovery pipelines (for example metaspades individual vs. spades in
 | Output | `../results/benchmark/heatmap_mags_benchmark.png`, `../results/benchmark/heatmap_mags_benchmark.svg` |
 | Output | `../results/benchmark/upset_mags_benchmark.png`, `../results/benchmark/upset_mags_benchmark.svg` |
 | Output | `../results/benchmark/mags_grouped_bar_with_values.png`, `../results/benchmark/mags_grouped_bar_with_values.svg` |
+| Output | `../results/benchmark/benchmark_figure.png`, `../results/benchmark/benchmark_figure.svg` (manuscript figure: heatmap + UpSet at 17 cm width) |
 
 ## Use cases
 

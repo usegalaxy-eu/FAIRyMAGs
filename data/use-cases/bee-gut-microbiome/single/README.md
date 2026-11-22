@@ -16,4 +16,4 @@ links and parameters). `metadata.tsv` (the curated sample table),
 kept here too.
 
 The pre-campaign publication tables are archived in
-`archive/use-cases/last-sucessfull-run-use-cases/bee-gut/`.
+`archive/use-cases/last-sucessfull-run-use-cases/bee-gut-microbiome/`.

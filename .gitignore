@@ -214,8 +214,8 @@ samplesheet.csv
 mag_map.json
 
 # Campaign exports that exceed the 100 MB GitHub file limit: download on demand
-data/use-cases/macroalgal-epiphytic/eggnog_annotation.tsv
-data/use-cases/macroalgal-epiphytic/eggnog_annotation.tsv.provenance.json
+data/use-cases/macroalgal-epiphytic-microbiome/eggnog_annotation.tsv
+data/use-cases/macroalgal-epiphytic-microbiome/eggnog_annotation.tsv.provenance.json
 
 # FAIRyMAGs IWC campaign: local runtime state and its scheduler. Kept on disk
 # because the fairymags-campaign / fairymags-downloads user services still run
@@ -226,3 +226,6 @@ data/campaigns/
 bin/workflow_campaign.py
 bin/prepare_campaign.py
 bin/test_workflow_campaign.py
+bin/job_triage.py
+bin/retag_histories.py
+bin/test_fixtures/

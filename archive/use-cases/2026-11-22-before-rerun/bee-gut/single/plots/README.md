@@ -12,3 +12,17 @@ gives their number.
 It is a preview. The manuscript version will be drawn from the rerun tables with
 `bin/make_use_case_plots.sh bee-gut-microbiome/single` once taxonomy and
 annotation of that run are finished.
+
+The panels of the overview figure are also here as single plots, drawn in the same
+style with `bin/make_use_case_plots.sh`:
+
+| Panel | File |
+|---|---|
+| A abundance | `heatmap_overview_phylum.png` |
+| B quality | `comp_conta_overview_checkm2.png` |
+| C taxonomy | `sankey_plot_overview.png` (unclassified MAGs left out) |
+| D function | `drep_cluster_functional_core_overview_top20.png` |
+
+The other files are the classic versions of the same plots
+(`heatmap_with_bars_phylum.png`, `comp_conta_marginals_checkm2.png`,
+`sankey_plot_*.html`, `drep_cluster_*_top30*.png`, `pathway_module_heatmap_*.png`).

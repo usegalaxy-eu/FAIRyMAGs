@@ -5,6 +5,9 @@
 of the run **before** the 2026-11-22 rerun campaign (the tables one folder up).
 Metadata panels: infection by *Nosema ceranae*, chronic neonicotinoid exposure and
 probiotic treatment; samples labelled by condition and replicate.
+Panel C leaves out the 521 MAGs that are unclassified at phylum level
+(`--flow_drop_unclassified`, MAGs-visualization PR #28); the note below the panel
+gives their number.
 
 It is a preview. The manuscript version will be drawn from the rerun tables with
 `bin/make_use_case_plots.sh bee-gut-microbiome/single` once taxonomy and
